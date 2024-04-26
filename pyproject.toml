@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "awesome-archiving-graph"
+version = "0.1.0"
+description = ""
+authors = ["Natanael Arndt <n.arndt@dnb.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pypandoc = "^1.13"
+panflute = "^2.3.1"
+click = "^8.1.7"
+rdflib = "^7.0.0"
+ruff = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
