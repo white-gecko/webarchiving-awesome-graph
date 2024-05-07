@@ -7,14 +7,38 @@ from rdflib import URIRef
 from graph_generation import GraphGeneration
 
 
-def action_lists(elem, doc):
-    if isinstance(elem, panflute.BulletList):
-        doc.lists.append(elem)
+def action(elem, doc):
+    print("#walk")
+    print(elem)
 
 
-def action_links(elem, doc):
-    if isinstance(elem, panflute.Link):
-        doc.links.append(elem)
+def action_list_items(elem, doc):
+    if isinstance(elem, panflute.ListItem):
+        item = {}
+        for i in elem.content:
+            action_walk_list_item(i, doc=item)
+        pattern = [panflute.Space(), panflute.Str("-"), panflute.Space()]
+        if "description" in item:
+            print("#description")
+            print(item["description"])
+            for p in pattern:
+                print(pattern, p)
+                if p == item["description"][0]:
+                    print("#match")
+                    item["description"].pop(0)
+        print("item")
+        print(item)
+        doc.append(item)
+
+
+def action_walk_list_item(elem, doc):
+    if "url" not in doc and isinstance(elem, panflute.Link):
+        doc["title"] = panflute.stringify(elem)
+        doc["url"] = elem.url
+    else:
+        if "description" not in doc:
+            doc["description"] = []
+        doc["description"].append(elem)
 
 
 def action_headers(elem, doc):
@@ -43,29 +67,31 @@ def cli(file, base_iri):
     panflute.dump(doc, doc_json_s)
     doc_json = json.loads(doc_json_s.getvalue())
     print(json.dumps(doc_json, indent=4))
+
+    # doc.walk(action, doc=doc)
+
     panflute.debug(doc)
     gg = GraphGeneration()
     doc.parent_id = None
     doc.current_header = None
     doc.headers = {}
     doc.lists = []
-    doc.links = []
     doc = panflute.run_filter(action_headers, doc=doc)
-    # doc.walk(action_headers, doc=doc)
+    doc.walk(action_headers, doc=doc)
 
-    print(json.dumps(doc.headers, indent=4))
+    #    print(json.dumps(doc.headers, indent=4))
 
-    print("List of URLs:")
-    for image in doc.links:
-        print(image.url)
     for header_id, header_obj in doc.headers.items():
-        print(header_id)
-        print(header_obj)
-        panflute.debug(header_obj["elem"])
-        panflute.debug(header_obj["list"]) if "list" in header_obj else None
-        print(header_obj["elem"].level)
-        print(header_obj["elem"].identifier)
         print(panflute.stringify(header_obj["elem"]))
+        print(header_id)
+        panflute.debug(header_obj["elem"])
+        if "list" in header_obj:
+            bullet_list = header_obj["list"]
+            extracted = []
+            bullet_list = bullet_list.walk(action_list_items, doc=extracted)
+            print("complete list")
+            print(extracted)
+            # panflute.debug(bullet_list)
 
 
 if __name__ == "__main__":
