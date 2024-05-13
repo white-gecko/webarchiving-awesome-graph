@@ -10,3 +10,7 @@ class GraphGeneration:
     def category(self, elem):
         print(header.identifier)
         self.graph.add()
+
+    def entry(self, elem, category = None):
+        print(header.identifier)
+        self.graph.add()
