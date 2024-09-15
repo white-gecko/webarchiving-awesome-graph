@@ -11,7 +11,8 @@ def cli(file, base_iri):
     parser = ListParser(file, base_iri)
     parser.parse()
     print("===========")
-    parser.get_concepts()
+    # parser.get_concepts()
+    parser.get_projects()
     # graph_generation = GraphGeneration()
     # graph = graph_generation(parser)
 
