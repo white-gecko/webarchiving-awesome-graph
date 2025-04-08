@@ -77,6 +77,7 @@ def concept_taxonomy(file_path, base_iri):
         }}
         """)
 
+
 def concept_description(file_path, base_iri):
     """This query extracts the concept's descriptions from the document."""
     return prefixes + undent(f"""
@@ -123,6 +124,7 @@ def concept_description(file_path, base_iri):
             }}
         }}
         """)
+
 
 def awesome_items(file_path):
     """Get the actual awesome items from the list."""

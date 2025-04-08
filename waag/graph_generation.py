@@ -11,6 +11,6 @@ class GraphGeneration:
         print(header.identifier)
         self.graph.add()
 
-    def entry(self, elem, category = None):
+    def entry(self, elem, category=None):
         print(header.identifier)
         self.graph.add()

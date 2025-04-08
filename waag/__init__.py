@@ -3,6 +3,7 @@ import click
 from list_parser import ListParser
 from graph_generation import GraphGeneration
 
+
 @click.command()
 @click.option("--file", help="The location of the awesome list (Markdown).")
 @click.option("--base-iri", "--iri", help="The base IRI of the document.")
