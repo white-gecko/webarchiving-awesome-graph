@@ -4,16 +4,17 @@ version = "0.1.0"
 description = ""
 authors = ["Natanael Arndt <n.arndt@dnb.de>"]
 readme = "README.md"
+packages = [
+    { include = "waag" },
+]
+
 
 [tool.poetry.dependencies]
-python = "^3.12"
-pypandoc = "^1.13"
-panflute = "^2.3.1"
+python = "^3.11,<3.13"
 click = "^8.1.7"
 rdflib = "^7.0.0"
 ruff = "^0.4.1"
-pysparql-anything = {git = "https://github.com/white-gecko/PySPARQL-Anything.git", rev = "feature/dependencies"}
-undent = "^0.2"
+pysparql-anything = "^0.9.0.3"
 
 
 [build-system]
