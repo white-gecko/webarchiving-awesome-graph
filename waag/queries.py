@@ -1,4 +1,3 @@
-from undent import undent
 from textwrap import dedent
 
 prefixes = dedent("""
@@ -77,10 +76,9 @@ def concept_taxonomy(file_path, base_iri):
         }}
         """)
 
-
 def concept_description(file_path, base_iri):
     """This query extracts the concept's descriptions from the document."""
-    return prefixes + undent(f"""
+    return prefixes + dedent(f"""
         construct {{
             ?concept_iri a skos:Concept ;
                 rdfs:label ?label ;
@@ -125,11 +123,10 @@ def concept_description(file_path, base_iri):
         }}
         """)
 
-
 def awesome_items(file_path):
     """Get the actual awesome items from the list."""
 
-    return prefixes + undent(f"""
+    return prefixes + dedent(f"""
         construct {{
             ?destination a sioc:Item ;
                 rdfs:label ?label ;

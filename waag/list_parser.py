@@ -1,6 +1,6 @@
 import pysparql_anything as sa
 from pathlib import Path
-import queries
+from . import queries
 
 
 class AwesomeEntry:
