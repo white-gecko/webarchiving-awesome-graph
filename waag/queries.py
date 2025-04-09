@@ -38,13 +38,11 @@ def concept_taxonomy(file_path, base_iri):
                 skos:broader ?concept_iri .
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
-                ?root ?li_contents ?contents .
-                ?contents a xyz:Heading ;
-                    xyz:level 2 ;
-                    rdf:_1 "Contents" .
-                ?root ?li_contents_list ?contents_list .
-                ?contents_list a xyz:BulletList ;
-                    ?li_concept ?concept_node .
+                ?root ?li_contents [ a xyz:Heading ;
+                        xyz:level 2 ;
+                        rdf:_1 "Contents" ] ;
+                    ?li_contents_list [ a xyz:BulletList ;
+                        ?li_concept ?concept_node ] .
 
                 filter(fx:next(?li_contents) = ?li_contents_list) .
 
@@ -90,22 +88,20 @@ def concept_description(file_path, base_iri):
                 dct:description ?sub_description .
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
-                ?root ?li_contents ?contents .
-                ?contents a xyz:Heading ;
-                    xyz:level 2 ;
-                    rdf:_1 "Contents" .
-                ?root ?li_contents_list ?contents_list .
-                ?contents_list a xyz:BulletList ;
-                    ?li_concept [
-                        rdf:_2?/fx:anySlot?/rdf:_1 [ a xyz:Paragraph ;
-                            rdf:_1 [ a xyz:Link ;
-                                xyz:destination ?destination ;
-                                rdf:_1 ?label
-                            ]
-                        ]
-                    ] .
+                ?root ?li_contents [ a xyz:Heading ;
+                        xyz:level 2 ;
+                        rdf:_1 "Contents" ] ;
+                    ?li_contents_list [ a xyz:BulletList ;
+                        ?li_concept ?concept_node ] .
 
                 filter(fx:next(?li_contents) = ?li_contents_list) .
+
+                ?concept_node rdf:_2?/fx:anySlot?/rdf:_1 [ a xyz:Paragraph ;
+                    rdf:_1 [ a xyz:Link ;
+                        xyz:destination ?destination ;
+                        rdf:_1 ?label
+                    ]
+                ] .
 
                 ?root ?concept_membership [ a xyz:Heading ;
                     rdf:_1 ?label
@@ -125,7 +121,7 @@ def concept_description(file_path, base_iri):
         """)
 
 
-def awesome_items(file_path):
+def awesome_items(file_path, base_iri):
     """Get the actual awesome items from the list."""
 
     return prefixes + dedent(f"""
@@ -136,7 +132,8 @@ def awesome_items(file_path):
 
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
-                ?sibling_projects_list a xyz:BulletList ;
+
+                ?projects_list a xyz:BulletList ;
                     fx:anySlot [ a xyz:ListItem ;
                         rdf:_1 ?project_paragraph ;
                     ] .
@@ -153,7 +150,15 @@ def awesome_items(file_path):
                     bind(substr(?description_with_dash, 4) as ?description)
                 }}
 
-                bind(iri(?destination) as ?destination_iri)
+
+                bind(
+                    iri(
+                        concat(
+                            if(substr(?destination, 1, 1) = "#", "{base_iri}", ""),
+                            ?destination
+                        )
+                    ) as ?destination_iri
+                )
 
             }}
         }}

@@ -56,13 +56,11 @@ class ListParser:
             self.awesome_concepts = (
                 self.get_concept_taxonomy() + self.get_concept_descriptions()
             )
-        print(self.awesome_concepts.serialize(format="turtle"))
         return self.awesome_concepts
 
     def get_projects(self):
         if not self.awesome_items:
             self.awesome_items = self.engine.construct(
-                query=queries.awesome_items(self.file_path.resolve())
+                query=queries.awesome_items(self.file_path.resolve(), self.base_iri)
             )
-        print(self.awesome_items.serialize(format="turtle"))
         return self.awesome_items
