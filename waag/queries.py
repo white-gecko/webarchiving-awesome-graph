@@ -136,11 +136,16 @@ def awesome_items(file_path, base_iri):
 
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
-                ?root ?li_contents [ a xyz:Heading ;
-                        rdf:_1 ?category_label ] ;
-                    ?li_contents_list ?projects_list .
+                ?root ?li_heading [ a xyz:Heading ;
+                        rdf:_1 ?category_label ] .
+                optional {{
+                    ?root ?li_paragraph [ a xyz:Paragraph ;
+                            rdf:_1 ?paragraph_text ] .
+                    filter(fx:next(?li_heading) = ?li_paragraph)
+                }}
+                ?root ?li_projects_list ?projects_list .
 
-                filter(fx:next(?li_contents) = ?li_contents_list)
+                filter(fx:next(if(bound(?li_paragraph), ?li_paragraph, ?li_heading)) = ?li_projects_list)
                 filter(?category_label != "Contents")
 
                 ?projects_list a xyz:BulletList ;
