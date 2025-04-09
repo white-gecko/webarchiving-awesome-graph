@@ -1,7 +1,7 @@
 import click
 
-from list_parser import ListParser
-from graph_generation import GraphGeneration
+from .list_parser import ListParser
+from .graph_generation import GraphGeneration
 
 
 @click.command()
