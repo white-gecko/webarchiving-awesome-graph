@@ -83,9 +83,6 @@ def concept_description(file_path, base_iri):
             ?concept_iri a skos:Concept ;
                 rdfs:label ?label ;
                 dct:description ?description .
-
-            ?sub_concept_iri a skos:Concept ;
-                rdfs:label ?sub_label .
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
                 ?root ?li_contents [ a xyz:Heading ;
