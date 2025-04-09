@@ -195,3 +195,19 @@ def merge_blank_categories():
             filter(!isBlank(?category_iri))
         }}
         """)
+
+def identify_tools(base_iri):
+    """Make all tools doap projects."""
+
+    return prefixes + dedent(f"""
+        insert {{
+            ?project_iri a doap:Project .
+        }} where {{
+            {{
+                bind(<{base_iri}#tools--software> as ?projects)
+            }} union {{
+                <{base_iri}#tools--software> skos:narrower ?projects .
+            }}
+            ?project_iri doap:category ?projects
+        }}
+        """)
