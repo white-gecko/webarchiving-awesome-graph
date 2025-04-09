@@ -20,7 +20,7 @@ tasks:
   run:
     desc: Execute the command
     cmds:
-      - poetry run python -m waag.cli --file {{.AWESOME_FILE}} --iri {{.BASE_IRI}}
+      - poetry run python -m waag.cli --awesome-file {{.AWESOME_FILE}} --iri {{.BASE_IRI}}
 
   test:
     desc: Run tests
