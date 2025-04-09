@@ -1,5 +1,9 @@
 version: '3'
 
+vars:
+  AWESOME_FILE: ../awesome-web-archiving/README.md
+  BASE_IRI: http://awesome.org/iipc/
+
 tasks:
   default:
     desc: List all tasks
@@ -16,7 +20,7 @@ tasks:
   run:
     desc: Execute the command
     cmds:
-      - poetry run python -m waag --help
+      - poetry run python -m waag.cli --file {{.AWESOME_FILE}} --iri {{.BASE_IRI}}
 
   test:
     desc: Run tests
