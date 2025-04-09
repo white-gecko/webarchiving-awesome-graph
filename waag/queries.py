@@ -179,22 +179,23 @@ def awesome_items(file_path, base_iri):
 def merge_blank_categories():
     """Assign the named node categories to the projects."""
 
-    return prefixes + dedent(f"""
-        delete {{
+    return prefixes + dedent("""
+        delete {
             ?project_iri doap:category ?blank_category .
             ?blank_category a skos:Concept ;
                 rdfs:label ?category_label .
-        }} insert {{
+        } insert {
             ?project_iri doap:category ?category_iri .
-        }} where {{
+        } where {
             ?project_iri doap:category ?blank_category .
             ?blank_category a skos:Concept ;
                     rdfs:label ?category_label .
             ?category_iri a skos:Concept ;
                 rdfs:label ?category_label .
             filter(!isBlank(?category_iri))
-        }}
+        }
         """)
+
 
 def identify_tools(base_iri):
     """Make all tools doap projects."""
