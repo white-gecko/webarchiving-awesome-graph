@@ -10,12 +10,10 @@ tasks:
     cmds:
       - task -a
 
-  format:
-    desc: Format the code
-    aliases: ["ruff"]
+  install:
+    desc: Install the dependencies with poetry
     cmds:
-      - poetry run ruff format
-      - poetry run ruff check --fix
+      - poetry install
 
   run:
     desc: Execute the command
@@ -26,3 +24,10 @@ tasks:
     desc: Run tests
     cmds:
       - poetry run pytest
+
+  format:
+    desc: Format the code
+    aliases: ["ruff"]
+    cmds:
+      - poetry run ruff format
+      - poetry run ruff check --fix
