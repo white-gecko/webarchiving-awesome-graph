@@ -18,10 +18,19 @@ class ListParser:
         self.base_iri = base_iri
         self.engine = sa.SparqlAnything()
 
+        self.any_graph = None
+        self.awesome_concepts = None
+        self.awesome_concept_taxonomy = None
+        self.awesome_concept_descriptions = None
+        self.awesome_items = None
+
     def parse(self):
-        graph = self.engine.construct(query=queries.spo(self.file_path.resolve()))
-        self.any_graph = graph
-        print(graph.serialize(format="turtle"))
+        if not self.any_graph:
+            self.any_graph = self.engine.construct(
+                query=queries.spo(self.file_path.resolve())
+            )
+        print(self.any_graph.serialize(format="turtle"))
+        return self.any_graph
 
     def get_awesome_graph(self):
         pass
@@ -51,8 +60,9 @@ class ListParser:
         return self.awesome_concepts
 
     def get_projects(self):
-        self.awesome_items = self.engine.construct(
-            query=queries.awesome_items(self.file_path.resolve())
-        )
+        if not self.awesome_items:
+            self.awesome_items = self.engine.construct(
+                query=queries.awesome_items(self.file_path.resolve())
+            )
         print(self.awesome_items.serialize(format="turtle"))
         return self.awesome_items
