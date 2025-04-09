@@ -19,6 +19,7 @@ class ListParser:
         self.engine = sa.SparqlAnything()
 
         self.any_graph = None
+        self.everything = None
         self.awesome_concepts = None
         self.awesome_concept_taxonomy = None
         self.awesome_concept_descriptions = None
@@ -29,11 +30,14 @@ class ListParser:
             self.any_graph = self.engine.construct(
                 query=queries.spo(self.file_path.resolve())
             )
-        print(self.any_graph.serialize(format="turtle"))
         return self.any_graph
 
     def get_awesome_graph(self):
-        pass
+        if not self.everything:
+            self.everything = (
+                self.get_concepts() + self.get_projects()
+            )
+        return self.everything
 
     def get_concept_taxonomy(self):
         if not self.awesome_concept_taxonomy:
