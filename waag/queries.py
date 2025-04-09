@@ -76,6 +76,7 @@ def concept_taxonomy(file_path, base_iri):
         }}
         """)
 
+
 def concept_description(file_path, base_iri):
     """This query extracts the concept's descriptions from the document."""
     return prefixes + dedent(f"""
@@ -123,12 +124,13 @@ def concept_description(file_path, base_iri):
         }}
         """)
 
+
 def awesome_items(file_path):
     """Get the actual awesome items from the list."""
 
     return prefixes + dedent(f"""
         construct {{
-            ?destination a sioc:Item ;
+            ?destination_iri a sioc:Item ;
                 rdfs:label ?label ;
                 dct:description ?description .
 
@@ -151,6 +153,7 @@ def awesome_items(file_path):
                     bind(substr(?description_with_dash, 4) as ?description)
                 }}
 
+                bind(iri(?destination) as ?destination_iri)
 
             }}
         }}
