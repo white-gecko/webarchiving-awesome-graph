@@ -31,3 +31,8 @@ tasks:
     cmds:
       - poetry run ruff format
       - poetry run ruff check --fix
+
+  build:
+    desc: Build the README
+    cmds:
+      - kisumu build -g graphs/awesome.ttl -t templates/README.md.jinja -o README.md

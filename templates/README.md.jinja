@@ -1,0 +1,34 @@
+# The Web Archive Awesome Graph (WAAG)
+
+{%- set category_query = "select ?iri ?title ?description {
+?iri a skos:Concept ;
+  rdfs:label ?title .
+optional { ?iri dct:description ?description }
+}" -%}
+
+{%- set item_query = "select ?iri ?title ?description ?class {
+?iri doap:category ?resourceIri ;
+  rdfs:label ?title .
+optional { ?iri dct:description ?description }
+optional {
+  ?iri a ?class .
+  values ?class { doap:Project }
+}
+}" %}
+
+## Contents
+{% for category in graph | query(category_query) -%}
+- [{{category.title}}]()
+{% endfor %}
+
+{%- for category in graph | query(category_query) %}
+## {{category.title}}
+
+{% if category.description -%}
+{{ category.description | wordwrap(80) }}
+{% endif -%}
+
+{% for item in category.iri | query(item_query) -%}
+- [{{item.title}}]({{item.iri}}) {% if item.description %}- {{item.description}}{% endif %} {% if item.class %}💽{% endif %}
+{% endfor -%}
+{% endfor %}
