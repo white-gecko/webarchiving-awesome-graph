@@ -37,6 +37,7 @@ class ListParser:
             self.everything = (
                 self.get_concepts() + self.get_projects()
             )
+            self.everything.update(queries.merge_blank_categories())
         return self.everything
 
     def get_concept_taxonomy(self):

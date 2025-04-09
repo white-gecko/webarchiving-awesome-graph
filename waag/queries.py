@@ -9,6 +9,7 @@ prefixes = dedent("""
     prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     prefix xsd: <http://www.w3.org/2001/XMLSchema#>
     prefix sioc: <http://rdfs.org/sioc/ns#>
+    prefix doap: <http://usefulinc.com/ns/doap#>
     """)
 
 
@@ -128,10 +129,19 @@ def awesome_items(file_path, base_iri):
         construct {{
             ?destination_iri a sioc:Item ;
                 rdfs:label ?label ;
-                dct:description ?description .
+                dct:description ?description ;
+                doap:category [ a skos:Concept ;
+                    rdfs:label ?category_label
+                ] .
 
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
+                ?root ?li_contents [ a xyz:Heading ;
+                        rdf:_1 ?category_label ] ;
+                    ?li_contents_list ?projects_list .
+
+                filter(fx:next(?li_contents) = ?li_contents_list)
+                filter(?category_label != "Contents")
 
                 ?projects_list a xyz:BulletList ;
                     fx:anySlot [ a xyz:ListItem ;
@@ -161,5 +171,26 @@ def awesome_items(file_path, base_iri):
                 )
 
             }}
+        }}
+        """)
+
+
+def merge_blank_categories():
+    """Assign the named node categories to the projects."""
+
+    return prefixes + dedent(f"""
+        delete {{
+            ?project_iri doap:category ?blank_category .
+            ?blank_category a skos:Concept ;
+                rdfs:label ?category_label .
+        }} insert {{
+            ?project_iri doap:category ?category_iri .
+        }} where {{
+            ?project_iri doap:category ?blank_category .
+            ?blank_category a skos:Concept ;
+                    rdfs:label ?category_label .
+            ?category_iri a skos:Concept ;
+                rdfs:label ?category_label .
+            filter(!isBlank(?category_iri))
         }}
         """)
