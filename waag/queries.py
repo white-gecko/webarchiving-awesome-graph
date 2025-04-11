@@ -128,7 +128,9 @@ def awesome_items(file_path, base_iri):
                 dct:description ?description ;
                 doap:category [ a skos:Concept ;
                     rdfs:label ?category_label
-                ] .
+                ], ?stability .
+            ?stability a skos:Concept ;
+                rdfs:label ?stability_label .
 
         }} where {{
             service <x-sparql-anything:file://{file_path}> {{
@@ -161,6 +163,12 @@ def awesome_items(file_path, base_iri):
                     bind(substr(?description_with_dash, 4) as ?description)
                 }}
 
+                optional {{
+                    ?project_paragraph fx:anySlot [ a xyz:Emphasis ;
+                        rdf:_1 ?stability_str ]  .
+                    bind(substr(?stability_str, 1, -1) as ?stability_label)
+                    bind(iri("{base_iri}", ?stability_label) as ?stability)
+                }}
 
                 bind(
                     iri(
@@ -212,3 +220,13 @@ def identify_tools(base_iri):
             ?project_iri doap:category ?projects
         }}
         """)
+
+
+def list_projects():
+    """Select all projects."""
+
+    return prefixes + dedent("""
+        select ?project {
+            ?project a doap:Project .
+        }
+    """)

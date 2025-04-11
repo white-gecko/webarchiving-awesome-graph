@@ -2,16 +2,7 @@ import click
 import sys
 from pathlib import Path
 
-from .list_parser import ListParser
-
-
-def call_and_write(callable, path):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    graph = callable()
-    with open(path, mode="wb") as file:
-        print(f"Write out to: {path}", end="...")
-        graph.serialize(destination=file, format="turtle")
-        print("done")
+from .graph_generation import GraphGeneration
 
 
 @click.command()
@@ -31,14 +22,11 @@ def cli(awesome_file, base_iri, graph_output, output_dir):
     if graph_output == "-":
         graph_output = sys.stdout
 
-    parser = ListParser(awesome_file, base_iri)
-
-    call_and_write(parser.parse, Path(output_dir) / "any.ttl")
-    call_and_write(parser.get_concepts, Path(output_dir) / "concepts.ttl")
-    call_and_write(parser.get_projects, Path(output_dir) / "projects.ttl")
-    call_and_write(parser.get_awesome_graph, Path(output_dir) / "awesome.ttl")
-    # graph_generation = GraphGeneration()
-    # graph = graph_generation(parser)
+    graph_generation = GraphGeneration(base_iri=base_iri)
+    graph_generation.init_from_dir(Path(output_dir))
+    graph_generation.init_from_readme(awesome_file)
+    graph_generation.fetch_doap()
+    graph_generation.store_to_dir(awesome_file, Path(output_dir))
 
 
 if __name__ == "__main__":

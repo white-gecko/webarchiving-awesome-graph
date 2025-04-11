@@ -3,15 +3,6 @@ from pathlib import Path
 from . import queries
 
 
-class AwesomeEntry:
-    def __init__(self):
-        self.url
-        self.title
-        self.description
-        self.comment
-        self.attributes = {}
-
-
 class ListParser:
     def __init__(self, file, base_iri):
         self.file_path = Path(file)
@@ -32,7 +23,7 @@ class ListParser:
             )
         return self.any_graph
 
-    def get_awesome_graph(self):
+    def get_readme_graph(self):
         if not self.everything:
             self.everything = self.get_concepts() + self.get_projects()
             self.everything.update(queries.merge_blank_categories())
