@@ -3,32 +3,70 @@
 {%- set category_query = "select ?iri ?title ?description {
 ?iri a skos:Concept ;
   rdfs:label ?title .
+optional {
+  {
+    ?iri skos:broader ?parent
+  } union {
+    ?parent skos:narrower ?iri
+  }
+}
+filter (!bound(?parent))
 optional { ?iri dct:description ?description }
 }" -%}
 
-{%- set item_query = "select ?iri ?title ?description ?class {
+{%- set sub_category_query = "select distinct ?iri ?title ?description {
+?iri a skos:Concept ;
+  rdfs:label ?title .
+  {
+    ?iri skos:broader ?resourceIri
+  } union {
+    ?resourceIri skos:narrower ?iri
+  }
+optional { ?iri dct:description ?description }
+}" -%}
+
+{%- set item_query = "
+prefix siodc: <https://siodc.example.org/#>
+select ?iri ?title ?description ?class ?stars ?watchers ?moved {
 ?iri doap:category ?resourceIri ;
   rdfs:label ?title .
 optional { ?iri dct:description ?description }
+optional { ?iri siodc:num_stars ?stars }
+optional { ?iri siodc:num_watchers ?watchers }
+optional { ?iri rdfs:seeAlso ?moved }
 optional {
   ?iri a ?class .
   values ?class { doap:Project }
 }
-}" %}
+}" -%}
 
-## Contents
-{% for category in graph | query(category_query) -%}
-- [{{category.title}}]()
-{% endfor %}
+{%- macro category(category_row, level) -%}
+{{ "#"*level }} {{category_row.title}}
 
-{%- for category in graph | query(category_query) %}
-## {{category.title}}
-
-{% if category.description -%}
-{{ category.description | wordwrap(80) }}
+{% if category_row.description -%}
+{{ category_row.description | wordwrap(80) }}
 {% endif -%}
 
-{% for item in category.iri | query(item_query) -%}
-- [{{item.title}}]({{item.iri}}) {% if item.description %}- {{item.description}}{% endif %} {% if item.class %}💽{% endif %}
+{% for item in category_row.iri | query(item_query) -%}
+- [{{item.title}}]({{item.iri}}) {% if item.description %}- {{item.description}}{% endif %}
+  {%- if item.class %} 💽{% endif %}
+  {%- if item.stars %} ⭐ {{ item.stars }}{% endif %}
+  {%- if item.watchers %} 👀 {{ item.watchers }}{% endif %}
+  {%- if item.moved %} ➡️ moved to {{ item.moved }}{% endif %}
 {% endfor -%}
-{% endfor %}
+{%- endmacro %}
+
+## Contents
+{% for category in graph | query(category_query) %}
+- [{{category.title}}]()
+{%- for sub_category in category.iri | query(sub_category_query) %}
+  - [{{sub_category.title}}]()
+{%- endfor %}
+{%- endfor %}
+
+{% for category_row in graph | query(category_query) %}
+{{ category(category_row, level=2) }}
+{% for sub_category_row in category_row.iri | query(sub_category_query) %}
+{{ category(sub_category_row, level=3) }}
+{%- endfor %}
+{%- endfor %}
