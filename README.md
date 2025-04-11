@@ -1,4 +1,6 @@
-# The Web Archive Awesome Graph (WAAG)## Contents
+# The Web Archive Awesome Graph (WAAG)
+
+## Contents
 
 - [Training/Documentation]()
 - [Resources for Web Publishers]()
