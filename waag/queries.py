@@ -166,8 +166,8 @@ def awesome_items(file_path, base_iri):
                 optional {{
                     ?project_paragraph fx:anySlot [ a xyz:Emphasis ;
                         rdf:_1 ?stability_str ]  .
-                    bind(substr(?stability_str, 1, -1) as ?stability_label)
-                    bind(iri("{base_iri}", ?stability_label) as ?stability)
+                    bind(substr(?stability_str, 2, strlen(?stability_str) - 2) as ?stability_label)
+                    bind(iri("{base_iri}", replace(?stability_label, " ", "_")) as ?stability)
                 }}
 
                 bind(
@@ -200,6 +200,7 @@ def merge_blank_categories():
                     rdfs:label ?category_label .
             ?category_iri a skos:Concept ;
                 rdfs:label ?category_label .
+            filter(isBlank(?blank_category))
             filter(!isBlank(?category_iri))
         }
         """)
