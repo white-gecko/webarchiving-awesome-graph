@@ -1,5 +1,7 @@
 version: '3'
 
+dotenv: ['custom.env', 'default.env']
+
 vars:
   AWESOME_FILE: ../awesome-web-archiving/README.md
   BASE_IRI: http://awesome.org/iipc/
