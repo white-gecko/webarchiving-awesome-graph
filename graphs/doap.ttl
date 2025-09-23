@@ -5,20 +5,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/chfoo/wpull> rdfs:seeAlso <https://github.com/ArchiveTeam/wpull> .
-
-<https://github.com/docnow/twarc> rdfs:seeAlso <https://github.com/DocNow/twarc> .
-
-<https://github.com/dosyago/DiskerNet> rdfs:seeAlso <https://github.com/DO-SAY-GO/dn> .
-
-<https://github.com/lupoDharkael/flameshot> rdfs:seeAlso <https://github.com/flameshot-org/flameshot> .
-
-<https://github.com/machawk1/mink> rdfs:seeAlso <https://github.com/machawk1/Mink> .
-
-<https://github.com/pirate/ArchiveBox> rdfs:seeAlso <https://github.com/ArchiveBox/ArchiveBox> .
-
-<https://github.com/promyloph/crocoite> rdfs:seeAlso <https://github.com/PromyLOPh/crocoite> .
-
 <https://api.github.com/licenses/lgpl-3.0> rdfs:label "GNU Lesser General Public License v3.0" .
 
 <https://api.github.com/licenses/mpl-2.0> rdfs:label "Mozilla Public License 2.0" .
@@ -805,6 +791,20 @@
 
 <https://api.github.com/licenses/cc0-1.0> rdfs:label "Creative Commons Zero v1.0 Universal" .
 
+<https://github.com/ArchiveBox/ArchiveBox> a doap:Project ;
+    dcterms:date "2025-09-23T08:08:48+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ArchiveBox/ArchiveBox/issues> ;
+    doap:created "2017-05-05T08:50:14+00:00"^^xsd:dateTime ;
+    doap:description "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
+    doap:developer <https://github.com/ArchiveBox> ;
+    doap:homepage <https://archivebox.io> ;
+    doap:license <https://api.github.com/licenses/mit> ;
+    doap:repository <https://github.com/ArchiveBox/ArchiveBox.git>,
+        <https://github.com/ArchiveBox/ArchiveBox.svn> ;
+    doap:shortdesc "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
+    ns1:num_stars 25001 ;
+    ns1:num_watchers 178 .
+
 <https://github.com/ArchiveTeam/grab-site> a doap:Project ;
     dcterms:date "2025-09-22T18:28:52+00:00"^^xsd:dateTime ;
     doap:bug-database <https://github.com/ArchiveTeam/grab-site/issues> ;
@@ -816,6 +816,19 @@
     doap:shortdesc "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns" ;
     ns1:num_stars 1524 ;
     ns1:num_watchers 42 .
+
+<https://github.com/ArchiveTeam/wpull> a doap:Project ;
+    dcterms:date "2025-09-05T19:40:55+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ArchiveTeam/wpull/issues> ;
+    doap:created "2013-12-07T13:03:15+00:00"^^xsd:dateTime ;
+    doap:description "Wget-compatible web downloader and crawler." ;
+    doap:developer <https://github.com/ArchiveTeam> ;
+    doap:license <https://api.github.com/licenses/gpl-3.0> ;
+    doap:repository <https://github.com/ArchiveTeam/wpull.git>,
+        <https://github.com/ArchiveTeam/wpull.svn> ;
+    doap:shortdesc "Wget-compatible web downloader and crawler." ;
+    ns1:num_stars 593 ;
+    ns1:num_watchers 22 .
 
 <https://github.com/CGamesPlay/chronicler> a doap:Project ;
     dcterms:date "2025-06-23T21:08:07+00:00"^^xsd:dateTime ;
@@ -829,6 +842,33 @@
     doap:shortdesc "Offline-first web browser" ;
     ns1:num_stars 89 ;
     ns1:num_watchers 5 .
+
+<https://github.com/DO-SAY-GO/dn> a doap:Project ;
+    dcterms:date "2025-09-23T13:56:35+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/DO-SAY-GO/dn/issues> ;
+    doap:created "2019-12-20T09:47:32+00:00"^^xsd:dateTime ;
+    doap:description " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
+    doap:developer <https://github.com/DO-SAY-GO> ;
+    doap:homepage <https://dosaygo.com/downloadnet> ;
+    doap:repository <https://github.com/DO-SAY-GO/dn.git>,
+        <https://github.com/DO-SAY-GO/dn.svn> ;
+    doap:shortdesc " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
+    ns1:num_stars 3853 ;
+    ns1:num_watchers 41 .
+
+<https://github.com/DocNow/twarc> a doap:Project ;
+    dcterms:date "2025-09-23T05:07:53+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/DocNow/twarc/issues> ;
+    doap:created "2013-01-14T14:35:40+00:00"^^xsd:dateTime ;
+    doap:description "A command line tool (and Python library) for archiving Twitter JSON" ;
+    doap:developer <https://github.com/DocNow> ;
+    doap:homepage <https://twarc-project.readthedocs.io> ;
+    doap:license <https://api.github.com/licenses/mit> ;
+    doap:repository <https://github.com/DocNow/twarc.git>,
+        <https://github.com/DocNow/twarc.svn> ;
+    doap:shortdesc "A command line tool (and Python library) for archiving Twitter JSON" ;
+    ns1:num_stars 1386 ;
+    ns1:num_watchers 33 .
 
 <https://github.com/Guillaume-Levrier/PANDORAE> a doap:Project ;
     dcterms:date "2025-06-10T19:41:56+00:00"^^xsd:dateTime ;
@@ -870,6 +910,20 @@
     doap:shortdesc "Parse And Create Web ARChive  (WARC) files with node.js" ;
     ns1:num_stars 101 ;
     ns1:num_watchers 7 .
+
+<https://github.com/PromyLOPh/crocoite> a doap:Project ;
+    dcterms:date "2025-07-12T04:02:35+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/PromyLOPh/crocoite/issues> ;
+    doap:created "2017-11-17T18:56:11+00:00"^^xsd:dateTime ;
+    doap:description "Web archiving using Google Chrome" ;
+    doap:developer <https://github.com/PromyLOPh> ;
+    doap:homepage <https://6xq.net/crocoite/> ;
+    doap:license <https://api.github.com/licenses/mit> ;
+    doap:repository <https://github.com/PromyLOPh/crocoite.git>,
+        <https://github.com/PromyLOPh/crocoite.svn> ;
+    doap:shortdesc "Web archiving using Google Chrome" ;
+    ns1:num_stars 47 ;
+    ns1:num_watchers 6 .
 
 <https://github.com/WebMemex/freeze-dry> a doap:Project ;
     dcterms:date "2025-09-16T21:45:49+00:00"^^xsd:dateTime ;
@@ -1070,8 +1124,22 @@
     ns1:num_stars 12 ;
     ns1:num_watchers 4 .
 
+<https://github.com/flameshot-org/flameshot> a doap:Project ;
+    dcterms:date "2025-09-23T14:48:36+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
+    doap:created "2017-05-10T19:44:51+00:00"^^xsd:dateTime ;
+    doap:description "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
+    doap:developer <https://github.com/flameshot-org> ;
+    doap:homepage <https://flameshot.org> ;
+    doap:license <https://api.github.com/licenses/gpl-3.0> ;
+    doap:repository <https://github.com/flameshot-org/flameshot.git>,
+        <https://github.com/flameshot-org/flameshot.svn> ;
+    doap:shortdesc "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
+    ns1:num_stars 27849 ;
+    ns1:num_watchers 210 .
+
 <https://github.com/gildas-lormeau/SingleFile> a doap:Project ;
-    dcterms:date "2025-09-23T14:07:28+00:00"^^xsd:dateTime ;
+    dcterms:date "2025-09-23T14:55:52+00:00"^^xsd:dateTime ;
     doap:bug-database <https://github.com/gildas-lormeau/SingleFile/issues> ;
     doap:created "2010-09-12T23:50:21+00:00"^^xsd:dateTime ;
     doap:description "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
@@ -1081,7 +1149,7 @@
     doap:repository <https://github.com/gildas-lormeau/SingleFile.git>,
         <https://github.com/gildas-lormeau/SingleFile.svn> ;
     doap:shortdesc "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
-    ns1:num_stars 19163 ;
+    ns1:num_stars 19164 ;
     ns1:num_watchers 131 .
 
 <https://github.com/go-shiori/obelisk> a doap:Project ;
@@ -1295,6 +1363,19 @@
     doap:shortdesc "Extract web archive data using Wayback Machine and Common Crawl" ;
     ns1:num_stars 161 ;
     ns1:num_watchers 3 .
+
+<https://github.com/machawk1/Mink> a doap:Project ;
+    dcterms:date "2025-06-24T16:55:44+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/machawk1/Mink/issues> ;
+    doap:created "2014-01-17T18:25:53+00:00"^^xsd:dateTime ;
+    doap:description "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
+    doap:developer <https://github.com/machawk1> ;
+    doap:license <https://api.github.com/licenses/mit> ;
+    doap:repository <https://github.com/machawk1/Mink.git>,
+        <https://github.com/machawk1/Mink.svn> ;
+    doap:shortdesc "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
+    ns1:num_stars 54 ;
+    ns1:num_watchers 4 .
 
 <https://github.com/machawk1/wail> a doap:Project ;
     dcterms:date "2025-09-20T15:47:45+00:00"^^xsd:dateTime ;
@@ -1605,103 +1686,8 @@
 
 <https://api.github.com/licenses/agpl-3.0> rdfs:label "GNU Affero General Public License v3.0" .
 
-<https://github.com/ArchiveBox/ArchiveBox> a doap:Project ;
-    dcterms:date "2025-09-23T08:08:48+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/ArchiveBox/ArchiveBox/issues> ;
-    doap:created "2017-05-05T08:50:14+00:00"^^xsd:dateTime ;
-    doap:description "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
-    doap:developer <https://github.com/ArchiveBox> ;
-    doap:homepage <https://archivebox.io> ;
-    doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/ArchiveBox/ArchiveBox.git>,
-        <https://github.com/ArchiveBox/ArchiveBox.svn> ;
-    doap:shortdesc "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
-    ns1:num_stars 25001 ;
-    ns1:num_watchers 178 .
-
-<https://github.com/ArchiveTeam/wpull> a doap:Project ;
-    dcterms:date "2025-09-05T19:40:55+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/ArchiveTeam/wpull/issues> ;
-    doap:created "2013-12-07T13:03:15+00:00"^^xsd:dateTime ;
-    doap:description "Wget-compatible web downloader and crawler." ;
-    doap:developer <https://github.com/ArchiveTeam> ;
-    doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/ArchiveTeam/wpull.git>,
-        <https://github.com/ArchiveTeam/wpull.svn> ;
-    doap:shortdesc "Wget-compatible web downloader and crawler." ;
-    ns1:num_stars 593 ;
-    ns1:num_watchers 22 .
-
-<https://github.com/DO-SAY-GO/dn> a doap:Project ;
-    dcterms:date "2025-09-23T13:56:35+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/DO-SAY-GO/dn/issues> ;
-    doap:created "2019-12-20T09:47:32+00:00"^^xsd:dateTime ;
-    doap:description " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
-    doap:developer <https://github.com/DO-SAY-GO> ;
-    doap:homepage <https://dosaygo.com/downloadnet> ;
-    doap:repository <https://github.com/DO-SAY-GO/dn.git>,
-        <https://github.com/DO-SAY-GO/dn.svn> ;
-    doap:shortdesc " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
-    ns1:num_stars 3853 ;
-    ns1:num_watchers 41 .
-
-<https://github.com/DocNow/twarc> a doap:Project ;
-    dcterms:date "2025-09-23T05:07:53+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/DocNow/twarc/issues> ;
-    doap:created "2013-01-14T14:35:40+00:00"^^xsd:dateTime ;
-    doap:description "A command line tool (and Python library) for archiving Twitter JSON" ;
-    doap:developer <https://github.com/DocNow> ;
-    doap:homepage <https://twarc-project.readthedocs.io> ;
-    doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/DocNow/twarc.git>,
-        <https://github.com/DocNow/twarc.svn> ;
-    doap:shortdesc "A command line tool (and Python library) for archiving Twitter JSON" ;
-    ns1:num_stars 1386 ;
-    ns1:num_watchers 33 .
-
-<https://github.com/PromyLOPh/crocoite> a doap:Project ;
-    dcterms:date "2025-07-12T04:02:35+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/PromyLOPh/crocoite/issues> ;
-    doap:created "2017-11-17T18:56:11+00:00"^^xsd:dateTime ;
-    doap:description "Web archiving using Google Chrome" ;
-    doap:developer <https://github.com/PromyLOPh> ;
-    doap:homepage <https://6xq.net/crocoite/> ;
-    doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/PromyLOPh/crocoite.git>,
-        <https://github.com/PromyLOPh/crocoite.svn> ;
-    doap:shortdesc "Web archiving using Google Chrome" ;
-    ns1:num_stars 47 ;
-    ns1:num_watchers 6 .
-
 <https://github.com/archivesunleashed> a foaf:Agent,
         foaf:Organization .
-
-<https://github.com/flameshot-org/flameshot> a doap:Project ;
-    dcterms:date "2025-09-23T14:48:36+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
-    doap:created "2017-05-10T19:44:51+00:00"^^xsd:dateTime ;
-    doap:description "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
-    doap:developer <https://github.com/flameshot-org> ;
-    doap:homepage <https://flameshot.org> ;
-    doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/flameshot-org/flameshot.git>,
-        <https://github.com/flameshot-org/flameshot.svn> ;
-    doap:shortdesc "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
-    ns1:num_stars 27849 ;
-    ns1:num_watchers 210 .
-
-<https://github.com/machawk1/Mink> a doap:Project ;
-    dcterms:date "2025-06-24T16:55:44+00:00"^^xsd:dateTime ;
-    doap:bug-database <https://github.com/machawk1/Mink/issues> ;
-    doap:created "2014-01-17T18:25:53+00:00"^^xsd:dateTime ;
-    doap:description "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
-    doap:developer <https://github.com/machawk1> ;
-    doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/machawk1/Mink.git>,
-        <https://github.com/machawk1/Mink.svn> ;
-    doap:shortdesc "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
-    ns1:num_stars 54 ;
-    ns1:num_watchers 4 .
 
 <https://github.com/webrecorder> a foaf:Agent,
         foaf:Organization .
