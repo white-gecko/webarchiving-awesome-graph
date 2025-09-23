@@ -5,263 +5,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<git://github.com/ArchiveBox/ArchiveBox.git> a doap:GitRepository ;
-    doap:repository <git@github.com:ArchiveBox/ArchiveBox.git>,
-        <https://github.com/ArchiveBox/ArchiveBox.git> .
-
-<git://github.com/ArchiveTeam/grab-site.git> a doap:GitRepository ;
-    doap:repository <git@github.com:ArchiveTeam/grab-site.git>,
-        <https://github.com/ArchiveTeam/grab-site.git> .
-
-<git://github.com/ArchiveTeam/wpull.git> a doap:GitRepository ;
-    doap:repository <git@github.com:ArchiveTeam/wpull.git>,
-        <https://github.com/ArchiveTeam/wpull.git> .
-
-<git://github.com/CGamesPlay/chronicler.git> a doap:GitRepository ;
-    doap:repository <git@github.com:CGamesPlay/chronicler.git>,
-        <https://github.com/CGamesPlay/chronicler.git> .
-
-<git://github.com/DocNow/twarc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:DocNow/twarc.git>,
-        <https://github.com/DocNow/twarc.git> .
-
-<git://github.com/Guillaume-Levrier/PANDORAE.git> a doap:GitRepository ;
-    doap:repository <git@github.com:Guillaume-Levrier/PANDORAE.git>,
-        <https://github.com/Guillaume-Levrier/PANDORAE.git> .
-
-<git://github.com/N0taN3rd/Squidwarc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:N0taN3rd/Squidwarc.git>,
-        <https://github.com/N0taN3rd/Squidwarc.git> .
-
-<git://github.com/N0taN3rd/node-warc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:N0taN3rd/node-warc.git>,
-        <https://github.com/N0taN3rd/node-warc.git> .
-
-<git://github.com/PromyLOPh/crocoite.git> a doap:GitRepository ;
-    doap:repository <git@github.com:PromyLOPh/crocoite.git>,
-        <https://github.com/PromyLOPh/crocoite.git> .
-
-<git://github.com/WebMemex/freeze-dry.git> a doap:GitRepository ;
-    doap:repository <git@github.com:WebMemex/freeze-dry.git>,
-        <https://github.com/WebMemex/freeze-dry.git> .
-
-<git://github.com/Y2Z/monolith.git> a doap:GitRepository ;
-    doap:repository <git@github.com:Y2Z/monolith.git>,
-        <https://github.com/Y2Z/monolith.git> .
-
-<git://github.com/akamhy/waybackpy.git> a doap:GitRepository ;
-    doap:repository <git@github.com:akamhy/waybackpy.git>,
-        <https://github.com/akamhy/waybackpy.git> .
-
-<git://github.com/alard/wget-lua.git> a doap:GitRepository ;
-    doap:repository <git@github.com:alard/wget-lua.git>,
-        <https://github.com/alard/wget-lua.git> .
-
-<git://github.com/archivesunleashed/aut.git> a doap:GitRepository ;
-    doap:repository <git@github.com:archivesunleashed/aut.git>,
-        <https://github.com/archivesunleashed/aut.git> .
-
-<git://github.com/archivesunleashed/notebooks.git> a doap:GitRepository ;
-    doap:repository <git@github.com:archivesunleashed/notebooks.git>,
-        <https://github.com/archivesunleashed/notebooks.git> .
-
-<git://github.com/archivesunleashed/twut.git> a doap:GitRepository ;
-    doap:repository <git@github.com:archivesunleashed/twut.git>,
-        <https://github.com/archivesunleashed/twut.git> .
-
-<git://github.com/bellingcat/auto-archiver.git> a doap:GitRepository ;
-    doap:repository <git@github.com:bellingcat/auto-archiver.git>,
-        <https://github.com/bellingcat/auto-archiver.git> .
-
-<git://github.com/chatnoir-eu/chatnoir-resiliparse.git> a doap:GitRepository ;
-    doap:repository <git@github.com:chatnoir-eu/chatnoir-resiliparse.git>,
-        <https://github.com/chatnoir-eu/chatnoir-resiliparse.git> .
-
-<git://github.com/chfoo/warcat-rs.git> a doap:GitRepository ;
-    doap:repository <git@github.com:chfoo/warcat-rs.git>,
-        <https://github.com/chfoo/warcat-rs.git> .
-
-<git://github.com/chfoo/warcat.git> a doap:GitRepository ;
-    doap:repository <git@github.com:chfoo/warcat.git>,
-        <https://github.com/chfoo/warcat.git> .
-
-<git://github.com/commoncrawl/cc-notebooks.git> a doap:GitRepository ;
-    doap:repository <git@github.com:commoncrawl/cc-notebooks.git>,
-        <https://github.com/commoncrawl/cc-notebooks.git> .
-
-<git://github.com/dosyago/dn.git> a doap:GitRepository ;
-    doap:repository <git@github.com:dosyago/dn.git>,
-        <https://github.com/dosyago/dn.git> .
-
-<git://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git> a doap:GitRepository ;
-    doap:repository <git@github.com:edgi-govdata-archiving/awesome-website-change-monitoring.git>,
-        <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git> .
-
-<git://github.com/emmadickson/unwarcit.git> a doap:GitRepository ;
-    doap:repository <git@github.com:emmadickson/unwarcit.git>,
-        <https://github.com/emmadickson/unwarcit.git> .
-
-<git://github.com/flameshot-org/flameshot.git> a doap:GitRepository ;
-    doap:repository <git@github.com:flameshot-org/flameshot.git>,
-        <https://github.com/flameshot-org/flameshot.git> .
-
-<git://github.com/gildas-lormeau/SingleFile.git> a doap:GitRepository ;
-    doap:repository <git@github.com:gildas-lormeau/SingleFile.git>,
-        <https://github.com/gildas-lormeau/SingleFile.git> .
-
-<git://github.com/go-shiori/obelisk.git> a doap:GitRepository ;
-    doap:repository <git@github.com:go-shiori/obelisk.git>,
-        <https://github.com/go-shiori/obelisk.git> .
-
-<git://github.com/harvard-lil/scoop.git> a doap:GitRepository ;
-    doap:repository <git@github.com:harvard-lil/scoop.git>,
-        <https://github.com/harvard-lil/scoop.git> .
-
-<git://github.com/helgeho/ArchiveSpark.git> a doap:GitRepository ;
-    doap:repository <git@github.com:helgeho/ArchiveSpark.git>,
-        <https://github.com/helgeho/ArchiveSpark.git> .
-
-<git://github.com/helgeho/HadoopConcatGz.git> a doap:GitRepository ;
-    doap:repository <git@github.com:helgeho/HadoopConcatGz.git>,
-        <https://github.com/helgeho/HadoopConcatGz.git> .
-
-<git://github.com/helgeho/Web2Warc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:helgeho/Web2Warc.git>,
-        <https://github.com/helgeho/Web2Warc.git> .
-
-<git://github.com/iipc/jwarc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:iipc/jwarc.git>,
-        <https://github.com/iipc/jwarc.git> .
-
-<git://github.com/iipc/openwayback.git> a doap:GitRepository ;
-    doap:repository <git@github.com:iipc/openwayback.git>,
-        <https://github.com/iipc/openwayback.git> .
-
-<git://github.com/iipc/warc2html.git> a doap:GitRepository ;
-    doap:repository <git@github.com:iipc/warc2html.git>,
-        <https://github.com/iipc/warc2html.git> .
-
-<git://github.com/internetarchive/Sparkling.git> a doap:GitRepository ;
-    doap:repository <git@github.com:internetarchive/Sparkling.git>,
-        <https://github.com/internetarchive/Sparkling.git> .
-
-<git://github.com/internetarchive/arch.git> a doap:GitRepository ;
-    doap:repository <git@github.com:internetarchive/arch.git>,
-        <https://github.com/internetarchive/arch.git> .
-
-<git://github.com/internetarchive/brozzler.git> a doap:GitRepository ;
-    doap:repository <git@github.com:internetarchive/brozzler.git>,
-        <https://github.com/internetarchive/brozzler.git> .
-
-<git://github.com/internetarchive/warcprox.git> a doap:GitRepository ;
-    doap:repository <git@github.com:internetarchive/warcprox.git>,
-        <https://github.com/internetarchive/warcprox.git> .
-
-<git://github.com/internetarchive/warctools.git> a doap:GitRepository ;
-    doap:repository <git@github.com:internetarchive/warctools.git>,
-        <https://github.com/internetarchive/warctools.git> .
-
-<git://github.com/jordansissel/xdotool.git> a doap:GitRepository ;
-    doap:repository <git@github.com:jordansissel/xdotool.git>,
-        <https://github.com/jordansissel/xdotool.git> .
-
-<git://github.com/justinlittman/fbarc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:justinlittman/fbarc.git>,
-        <https://github.com/justinlittman/fbarc.git> .
-
-<git://github.com/karust/gogetcrawl.git> a doap:GitRepository ;
-    doap:repository <git@github.com:karust/gogetcrawl.git>,
-        <https://github.com/karust/gogetcrawl.git> .
-
-<git://github.com/machawk1/Mink.git> a doap:GitRepository ;
-    doap:repository <git@github.com:machawk1/Mink.git>,
-        <https://github.com/machawk1/Mink.git> .
-
-<git://github.com/machawk1/wail.git> a doap:GitRepository ;
-    doap:repository <git@github.com:machawk1/wail.git>,
-        <https://github.com/machawk1/wail.git> .
-
-<git://github.com/medialab/hyphe.git> a doap:GitRepository ;
-    doap:repository <git@github.com:medialab/hyphe.git>,
-        <https://github.com/medialab/hyphe.git> .
-
-<git://github.com/netarchivesuite/jwat-tools.git> a doap:GitRepository ;
-    doap:repository <git@github.com:netarchivesuite/jwat-tools.git>,
-        <https://github.com/netarchivesuite/jwat-tools.git> .
-
-<git://github.com/netarchivesuite/jwat.git> a doap:GitRepository ;
-    doap:repository <git@github.com:netarchivesuite/jwat.git>,
-        <https://github.com/netarchivesuite/jwat.git> .
-
-<git://github.com/nlnwa/gowarcserver.git> a doap:GitRepository ;
-    doap:repository <git@github.com:nlnwa/gowarcserver.git>,
-        <https://github.com/nlnwa/gowarcserver.git> .
-
-<git://github.com/oduwsdl/archivenow.git> a doap:GitRepository ;
-    doap:repository <git@github.com:oduwsdl/archivenow.git>,
-        <https://github.com/oduwsdl/archivenow.git> .
-
-<git://github.com/oduwsdl/ipwb.git> a doap:GitRepository ;
-    doap:repository <git@github.com:oduwsdl/ipwb.git>,
-        <https://github.com/oduwsdl/ipwb.git> .
-
-<git://github.com/peterk/warcworker.git> a doap:GitRepository ;
-    doap:repository <git@github.com:peterk/warcworker.git>,
-        <https://github.com/peterk/warcworker.git> .
-
-<git://github.com/recrm/ArchiveTools.git> a doap:GitRepository ;
-    doap:repository <git@github.com:recrm/ArchiveTools.git>,
-        <https://github.com/recrm/ArchiveTools.git> .
-
-<git://github.com/richardlehane/webarchive.git> a doap:GitRepository ;
-    doap:repository <git@github.com:richardlehane/webarchive.git>,
-        <https://github.com/richardlehane/webarchive.git> .
-
-<git://github.com/steffenfritz/html2warc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:steffenfritz/html2warc.git>,
-        <https://github.com/steffenfritz/html2warc.git> .
-
-<git://github.com/turicas/crau.git> a doap:GitRepository ;
-    doap:repository <git@github.com:turicas/crau.git>,
-        <https://github.com/turicas/crau.git> .
-
-<git://github.com/ukwa/webarchive-discovery.git> a doap:GitRepository ;
-    doap:repository <git@github.com:ukwa/webarchive-discovery.git>,
-        <https://github.com/ukwa/webarchive-discovery.git> .
-
-<git://github.com/wabarc/cairn.git> a doap:GitRepository ;
-    doap:repository <git@github.com:wabarc/cairn.git>,
-        <https://github.com/wabarc/cairn.git> .
-
-<git://github.com/wabarc/playback.git> a doap:GitRepository ;
-    doap:repository <git@github.com:wabarc/playback.git>,
-        <https://github.com/wabarc/playback.git> .
-
-<git://github.com/wabarc/wayback.git> a doap:GitRepository ;
-    doap:repository <git@github.com:wabarc/wayback.git>,
-        <https://github.com/wabarc/wayback.git> .
-
-<git://github.com/webrecorder/browsertrix-crawler.git> a doap:GitRepository ;
-    doap:repository <git@github.com:webrecorder/browsertrix-crawler.git>,
-        <https://github.com/webrecorder/browsertrix-crawler.git> .
-
-<git://github.com/webrecorder/har2warc.git> a doap:GitRepository ;
-    doap:repository <git@github.com:webrecorder/har2warc.git>,
-        <https://github.com/webrecorder/har2warc.git> .
-
-<git://github.com/webrecorder/pywb.git> a doap:GitRepository ;
-    doap:repository <git@github.com:webrecorder/pywb.git>,
-        <https://github.com/webrecorder/pywb.git> .
-
-<git://github.com/webrecorder/warcio.git> a doap:GitRepository ;
-    doap:repository <git@github.com:webrecorder/warcio.git>,
-        <https://github.com/webrecorder/warcio.git> .
-
 <https://github.com/chfoo/wpull> rdfs:seeAlso <https://github.com/ArchiveTeam/wpull> .
 
 <https://github.com/docnow/twarc> rdfs:seeAlso <https://github.com/DocNow/twarc> .
 
-<https://github.com/dosyago/DiskerNet> rdfs:seeAlso <https://github.com/dosyago/dn> .
+<https://github.com/dosyago/DiskerNet> rdfs:seeAlso <https://github.com/DO-SAY-GO/dn> .
 
 <https://github.com/lupoDharkael/flameshot> rdfs:seeAlso <https://github.com/flameshot-org/flameshot> .
 
@@ -280,960 +28,1680 @@
 <https://github.com/ArchiveBox> a foaf:Agent,
         foaf:Organization .
 
-<https://github.com/ArchiveTeam/grab-site> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-04T12:02:39+00:00"^^xsd:dateTime ;
-    doap:created "2015-02-05T05:01:19+00:00"^^xsd:dateTime ;
-    doap:description "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns" ;
-    doap:developer <https://github.com/ArchiveTeam> ;
-    doap:repository <https://github.com/ArchiveTeam/grab-site>,
-        <https://github.com/ArchiveTeam/grab-site.git> ;
-    ns1:issue_tracker <https://github.com/ArchiveTeam/grab-site/issues> ;
-    ns1:num_stars 1470 ;
-    ns1:num_watchers 41 .
+<https://github.com/ArchiveBox/ArchiveBox.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/ArchiveBox/ArchiveBox> ;
+    doap:location <https://github.com/ArchiveBox/ArchiveBox> .
+
+<https://github.com/ArchiveTeam/grab-site.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/ArchiveTeam/grab-site> ;
+    doap:location <https://github.com/ArchiveTeam/grab-site> .
+
+<https://github.com/ArchiveTeam/wpull.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/ArchiveTeam/wpull> ;
+    doap:location <https://github.com/ArchiveTeam/wpull> .
 
 <https://github.com/CGamesPlay> a <http://rdfs.org/sioc/ns#User>,
         foaf:Agent .
 
-<https://github.com/CGamesPlay/chronicler> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-30T10:13:23+00:00"^^xsd:dateTime ;
-    doap:created "2018-12-27T04:01:42+00:00"^^xsd:dateTime ;
-    doap:description "Offline-first web browser" ;
-    doap:developer <https://github.com/CGamesPlay> ;
-    doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/CGamesPlay/chronicler>,
-        <https://github.com/CGamesPlay/chronicler.git> ;
-    ns1:issue_tracker <https://github.com/CGamesPlay/chronicler/issues> ;
-    ns1:num_stars 87 ;
-    ns1:num_watchers 5 .
+<https://github.com/CGamesPlay/chronicler.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/CGamesPlay/chronicler> ;
+    doap:location <https://github.com/CGamesPlay/chronicler> .
+
+<https://github.com/DO-SAY-GO> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/DO-SAY-GO/dn.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/DO-SAY-GO/dn> ;
+    doap:location <https://github.com/DO-SAY-GO/dn> .
 
 <https://github.com/DocNow> a foaf:Agent,
         foaf:Organization .
 
+<https://github.com/DocNow/twarc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/DocNow/twarc> ;
+    doap:location <https://github.com/DocNow/twarc> .
+
 <https://github.com/Guillaume-Levrier> a <http://rdfs.org/sioc/ns#User>,
         foaf:Agent .
 
-<https://github.com/Guillaume-Levrier/PANDORAE> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-23T16:15:49+00:00"^^xsd:dateTime ;
+<https://github.com/Guillaume-Levrier/PANDORAE.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/Guillaume-Levrier/PANDORAE> ;
+    doap:location <https://github.com/Guillaume-Levrier/PANDORAE> .
+
+<https://github.com/N0taN3rd/Squidwarc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/N0taN3rd/Squidwarc> ;
+    doap:location <https://github.com/N0taN3rd/Squidwarc> .
+
+<https://github.com/N0taN3rd/node-warc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/N0taN3rd/node-warc> ;
+    doap:location <https://github.com/N0taN3rd/node-warc> .
+
+<https://github.com/PromyLOPh> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/PromyLOPh/crocoite.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/PromyLOPh/crocoite> ;
+    doap:location <https://github.com/PromyLOPh/crocoite> .
+
+<https://github.com/WebMemex> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/WebMemex/freeze-dry.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/WebMemex/freeze-dry> ;
+    doap:location <https://github.com/WebMemex/freeze-dry> .
+
+<https://github.com/Y2Z> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/Y2Z/monolith.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/Y2Z/monolith> ;
+    doap:location <https://github.com/Y2Z/monolith> .
+
+<https://github.com/akamhy> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/akamhy/waybackpy.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/akamhy/waybackpy> ;
+    doap:location <https://github.com/akamhy/waybackpy> .
+
+<https://github.com/alard> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/alard/wget-lua.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/alard/wget-lua> ;
+    doap:location <https://github.com/alard/wget-lua> .
+
+<https://github.com/archivesunleashed/aut.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/archivesunleashed/aut> ;
+    doap:location <https://github.com/archivesunleashed/aut> .
+
+<https://github.com/archivesunleashed/notebooks.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/archivesunleashed/notebooks> ;
+    doap:location <https://github.com/archivesunleashed/notebooks> .
+
+<https://github.com/archivesunleashed/twut.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/archivesunleashed/twut> ;
+    doap:location <https://github.com/archivesunleashed/twut> .
+
+<https://github.com/archivesunleashed/warclight.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/archivesunleashed/warclight> ;
+    doap:location <https://github.com/archivesunleashed/warclight> .
+
+<https://github.com/bellingcat> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/bellingcat/auto-archiver.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/bellingcat/auto-archiver> ;
+    doap:location <https://github.com/bellingcat/auto-archiver> .
+
+<https://github.com/chatnoir-eu> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/chatnoir-eu/chatnoir-resiliparse.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/chatnoir-eu/chatnoir-resiliparse> ;
+    doap:location <https://github.com/chatnoir-eu/chatnoir-resiliparse> .
+
+<https://github.com/chfoo/warcat-rs.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/chfoo/warcat-rs> ;
+    doap:location <https://github.com/chfoo/warcat-rs> .
+
+<https://github.com/chfoo/warcat.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/chfoo/warcat> ;
+    doap:location <https://github.com/chfoo/warcat> .
+
+<https://github.com/commoncrawl> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/commoncrawl/cc-notebooks.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/commoncrawl/cc-notebooks> ;
+    doap:location <https://github.com/commoncrawl/cc-notebooks> .
+
+<https://github.com/edgi-govdata-archiving> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> ;
+    doap:location <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> .
+
+<https://github.com/emmadickson> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/emmadickson/unwarcit.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/emmadickson/unwarcit> ;
+    doap:location <https://github.com/emmadickson/unwarcit> .
+
+<https://github.com/flameshot-org> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/flameshot-org/flameshot.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/flameshot-org/flameshot> ;
+    doap:location <https://github.com/flameshot-org/flameshot> .
+
+<https://github.com/gildas-lormeau> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/gildas-lormeau/SingleFile.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/gildas-lormeau/SingleFile> ;
+    doap:location <https://github.com/gildas-lormeau/SingleFile> .
+
+<https://github.com/go-shiori> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/go-shiori/obelisk.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/go-shiori/obelisk> ;
+    doap:location <https://github.com/go-shiori/obelisk> .
+
+<https://github.com/harvard-lil> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/harvard-lil/scoop.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/harvard-lil/scoop> ;
+    doap:location <https://github.com/harvard-lil/scoop> .
+
+<https://github.com/helgeho/ArchiveSpark.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/helgeho/ArchiveSpark> ;
+    doap:location <https://github.com/helgeho/ArchiveSpark> .
+
+<https://github.com/helgeho/HadoopConcatGz.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/helgeho/HadoopConcatGz> ;
+    doap:location <https://github.com/helgeho/HadoopConcatGz> .
+
+<https://github.com/helgeho/Web2Warc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/helgeho/Web2Warc> ;
+    doap:location <https://github.com/helgeho/Web2Warc> .
+
+<https://github.com/iipc/jwarc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/iipc/jwarc> ;
+    doap:location <https://github.com/iipc/jwarc> .
+
+<https://github.com/iipc/openwayback.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/iipc/openwayback> ;
+    doap:location <https://github.com/iipc/openwayback> .
+
+<https://github.com/iipc/warc2html.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/iipc/warc2html> ;
+    doap:location <https://github.com/iipc/warc2html> .
+
+<https://github.com/internetarchive/Sparkling.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/internetarchive/Sparkling> ;
+    doap:location <https://github.com/internetarchive/Sparkling> .
+
+<https://github.com/internetarchive/arch.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/internetarchive/arch> ;
+    doap:location <https://github.com/internetarchive/arch> .
+
+<https://github.com/internetarchive/brozzler.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/internetarchive/brozzler> ;
+    doap:location <https://github.com/internetarchive/brozzler> .
+
+<https://github.com/internetarchive/warcprox.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/internetarchive/warcprox> ;
+    doap:location <https://github.com/internetarchive/warcprox> .
+
+<https://github.com/internetarchive/warctools.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/internetarchive/warctools> ;
+    doap:location <https://github.com/internetarchive/warctools> .
+
+<https://github.com/jordansissel> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/jordansissel/xdotool.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/jordansissel/xdotool> ;
+    doap:location <https://github.com/jordansissel/xdotool> .
+
+<https://github.com/justinlittman> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/justinlittman/fbarc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/justinlittman/fbarc> ;
+    doap:location <https://github.com/justinlittman/fbarc> .
+
+<https://github.com/karust> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/karust/gogetcrawl.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/karust/gogetcrawl> ;
+    doap:location <https://github.com/karust/gogetcrawl> .
+
+<https://github.com/machawk1/Mink.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/machawk1/Mink> ;
+    doap:location <https://github.com/machawk1/Mink> .
+
+<https://github.com/machawk1/wail.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/machawk1/wail> ;
+    doap:location <https://github.com/machawk1/wail> .
+
+<https://github.com/medialab> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/medialab/hyphe.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/medialab/hyphe> ;
+    doap:location <https://github.com/medialab/hyphe> .
+
+<https://github.com/netarchivesuite/jwat-tools.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/netarchivesuite/jwat-tools> ;
+    doap:location <https://github.com/netarchivesuite/jwat-tools> .
+
+<https://github.com/netarchivesuite/jwat.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/netarchivesuite/jwat> ;
+    doap:location <https://github.com/netarchivesuite/jwat> .
+
+<https://github.com/netarchivesuite/solrwayback.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/netarchivesuite/solrwayback> ;
+    doap:location <https://github.com/netarchivesuite/solrwayback> .
+
+<https://github.com/nlnwa> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/nlnwa/gowarcserver.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/nlnwa/gowarcserver> ;
+    doap:location <https://github.com/nlnwa/gowarcserver> .
+
+<https://github.com/oduwsdl/archivenow.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/oduwsdl/archivenow> ;
+    doap:location <https://github.com/oduwsdl/archivenow> .
+
+<https://github.com/oduwsdl/ipwb.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/oduwsdl/ipwb> ;
+    doap:location <https://github.com/oduwsdl/ipwb> .
+
+<https://github.com/peterk> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/peterk/warcworker.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/peterk/warcworker> ;
+    doap:location <https://github.com/peterk/warcworker> .
+
+<https://github.com/recrm> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/recrm/ArchiveTools.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/recrm/ArchiveTools> ;
+    doap:location <https://github.com/recrm/ArchiveTools> .
+
+<https://github.com/richardlehane> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/richardlehane/webarchive.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/richardlehane/webarchive> ;
+    doap:location <https://github.com/richardlehane/webarchive> .
+
+<https://github.com/steffenfritz> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/steffenfritz/html2warc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/steffenfritz/html2warc> ;
+    doap:location <https://github.com/steffenfritz/html2warc> .
+
+<https://github.com/turicas> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/turicas/crau.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/turicas/crau> ;
+    doap:location <https://github.com/turicas/crau> .
+
+<https://github.com/ukwa/shine.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/ukwa/shine> ;
+    doap:location <https://github.com/ukwa/shine> .
+
+<https://github.com/ukwa/webarchive-discovery.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/ukwa/webarchive-discovery> ;
+    doap:location <https://github.com/ukwa/webarchive-discovery> .
+
+<https://github.com/wabarc/cairn.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/wabarc/cairn> ;
+    doap:location <https://github.com/wabarc/cairn> .
+
+<https://github.com/wabarc/playback.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/wabarc/playback> ;
+    doap:location <https://github.com/wabarc/playback> .
+
+<https://github.com/wabarc/wayback.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/wabarc/wayback> ;
+    doap:location <https://github.com/wabarc/wayback> .
+
+<https://github.com/webis-de> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/webis-de/wasp.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/webis-de/wasp> ;
+    doap:location <https://github.com/webis-de/wasp> .
+
+<https://github.com/webrecorder/browsertrix-crawler.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/webrecorder/browsertrix-crawler> ;
+    doap:location <https://github.com/webrecorder/browsertrix-crawler> .
+
+<https://github.com/webrecorder/har2warc.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/webrecorder/har2warc> ;
+    doap:location <https://github.com/webrecorder/har2warc> .
+
+<https://github.com/webrecorder/pywb.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/webrecorder/pywb> ;
+    doap:location <https://github.com/webrecorder/pywb> .
+
+<https://github.com/webrecorder/warcio.svn> a doap:SVNRepository ;
+    doap:browse <https://github.com/webrecorder/warcio> ;
+    doap:location <https://github.com/webrecorder/warcio> .
+
+<https://github.com/ArchiveBox/ArchiveBox.git> a doap:GitRepository ;
+    doap:browse <https://github.com/ArchiveBox/ArchiveBox> ;
+    doap:location <git://github.com/ArchiveBox/ArchiveBox.git>,
+        <git@github.com:ArchiveBox/ArchiveBox.git>,
+        <https://github.com/ArchiveBox/ArchiveBox.git> .
+
+<https://github.com/ArchiveTeam> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/ArchiveTeam/grab-site.git> a doap:GitRepository ;
+    doap:browse <https://github.com/ArchiveTeam/grab-site> ;
+    doap:location <git://github.com/ArchiveTeam/grab-site.git>,
+        <git@github.com:ArchiveTeam/grab-site.git>,
+        <https://github.com/ArchiveTeam/grab-site.git> .
+
+<https://github.com/ArchiveTeam/wpull.git> a doap:GitRepository ;
+    doap:browse <https://github.com/ArchiveTeam/wpull> ;
+    doap:location <git://github.com/ArchiveTeam/wpull.git>,
+        <git@github.com:ArchiveTeam/wpull.git>,
+        <https://github.com/ArchiveTeam/wpull.git> .
+
+<https://github.com/CGamesPlay/chronicler.git> a doap:GitRepository ;
+    doap:browse <https://github.com/CGamesPlay/chronicler> ;
+    doap:location <git://github.com/CGamesPlay/chronicler.git>,
+        <git@github.com:CGamesPlay/chronicler.git>,
+        <https://github.com/CGamesPlay/chronicler.git> .
+
+<https://github.com/DO-SAY-GO/dn.git> a doap:GitRepository ;
+    doap:browse <https://github.com/DO-SAY-GO/dn> ;
+    doap:location <git://github.com/DO-SAY-GO/dn.git>,
+        <git@github.com:DO-SAY-GO/dn.git>,
+        <https://github.com/DO-SAY-GO/dn.git> .
+
+<https://github.com/DocNow/twarc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/DocNow/twarc> ;
+    doap:location <git://github.com/DocNow/twarc.git>,
+        <git@github.com:DocNow/twarc.git>,
+        <https://github.com/DocNow/twarc.git> .
+
+<https://github.com/Guillaume-Levrier/PANDORAE.git> a doap:GitRepository ;
+    doap:browse <https://github.com/Guillaume-Levrier/PANDORAE> ;
+    doap:location <git://github.com/Guillaume-Levrier/PANDORAE.git>,
+        <git@github.com:Guillaume-Levrier/PANDORAE.git>,
+        <https://github.com/Guillaume-Levrier/PANDORAE.git> .
+
+<https://github.com/N0taN3rd> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/N0taN3rd/Squidwarc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/N0taN3rd/Squidwarc> ;
+    doap:location <git://github.com/N0taN3rd/Squidwarc.git>,
+        <git@github.com:N0taN3rd/Squidwarc.git>,
+        <https://github.com/N0taN3rd/Squidwarc.git> .
+
+<https://github.com/N0taN3rd/node-warc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/N0taN3rd/node-warc> ;
+    doap:location <git://github.com/N0taN3rd/node-warc.git>,
+        <git@github.com:N0taN3rd/node-warc.git>,
+        <https://github.com/N0taN3rd/node-warc.git> .
+
+<https://github.com/PromyLOPh/crocoite.git> a doap:GitRepository ;
+    doap:browse <https://github.com/PromyLOPh/crocoite> ;
+    doap:location <git://github.com/PromyLOPh/crocoite.git>,
+        <git@github.com:PromyLOPh/crocoite.git>,
+        <https://github.com/PromyLOPh/crocoite.git> .
+
+<https://github.com/WebMemex/freeze-dry.git> a doap:GitRepository ;
+    doap:browse <https://github.com/WebMemex/freeze-dry> ;
+    doap:location <git://github.com/WebMemex/freeze-dry.git>,
+        <git@github.com:WebMemex/freeze-dry.git>,
+        <https://github.com/WebMemex/freeze-dry.git> .
+
+<https://github.com/Y2Z/monolith.git> a doap:GitRepository ;
+    doap:browse <https://github.com/Y2Z/monolith> ;
+    doap:location <git://github.com/Y2Z/monolith.git>,
+        <git@github.com:Y2Z/monolith.git>,
+        <https://github.com/Y2Z/monolith.git> .
+
+<https://github.com/akamhy/waybackpy.git> a doap:GitRepository ;
+    doap:browse <https://github.com/akamhy/waybackpy> ;
+    doap:location <git://github.com/akamhy/waybackpy.git>,
+        <git@github.com:akamhy/waybackpy.git>,
+        <https://github.com/akamhy/waybackpy.git> .
+
+<https://github.com/alard/wget-lua.git> a doap:GitRepository ;
+    doap:browse <https://github.com/alard/wget-lua> ;
+    doap:location <git://github.com/alard/wget-lua.git>,
+        <git@github.com:alard/wget-lua.git>,
+        <https://github.com/alard/wget-lua.git> .
+
+<https://github.com/archivesunleashed/aut.git> a doap:GitRepository ;
+    doap:browse <https://github.com/archivesunleashed/aut> ;
+    doap:location <git://github.com/archivesunleashed/aut.git>,
+        <git@github.com:archivesunleashed/aut.git>,
+        <https://github.com/archivesunleashed/aut.git> .
+
+<https://github.com/archivesunleashed/notebooks.git> a doap:GitRepository ;
+    doap:browse <https://github.com/archivesunleashed/notebooks> ;
+    doap:location <git://github.com/archivesunleashed/notebooks.git>,
+        <git@github.com:archivesunleashed/notebooks.git>,
+        <https://github.com/archivesunleashed/notebooks.git> .
+
+<https://github.com/archivesunleashed/twut.git> a doap:GitRepository ;
+    doap:browse <https://github.com/archivesunleashed/twut> ;
+    doap:location <git://github.com/archivesunleashed/twut.git>,
+        <git@github.com:archivesunleashed/twut.git>,
+        <https://github.com/archivesunleashed/twut.git> .
+
+<https://github.com/archivesunleashed/warclight.git> a doap:GitRepository ;
+    doap:browse <https://github.com/archivesunleashed/warclight> ;
+    doap:location <git://github.com/archivesunleashed/warclight.git>,
+        <git@github.com:archivesunleashed/warclight.git>,
+        <https://github.com/archivesunleashed/warclight.git> .
+
+<https://github.com/bellingcat/auto-archiver.git> a doap:GitRepository ;
+    doap:browse <https://github.com/bellingcat/auto-archiver> ;
+    doap:location <git://github.com/bellingcat/auto-archiver.git>,
+        <git@github.com:bellingcat/auto-archiver.git>,
+        <https://github.com/bellingcat/auto-archiver.git> .
+
+<https://github.com/chatnoir-eu/chatnoir-resiliparse.git> a doap:GitRepository ;
+    doap:browse <https://github.com/chatnoir-eu/chatnoir-resiliparse> ;
+    doap:location <git://github.com/chatnoir-eu/chatnoir-resiliparse.git>,
+        <git@github.com:chatnoir-eu/chatnoir-resiliparse.git>,
+        <https://github.com/chatnoir-eu/chatnoir-resiliparse.git> .
+
+<https://github.com/chfoo> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/chfoo/warcat-rs.git> a doap:GitRepository ;
+    doap:browse <https://github.com/chfoo/warcat-rs> ;
+    doap:location <git://github.com/chfoo/warcat-rs.git>,
+        <git@github.com:chfoo/warcat-rs.git>,
+        <https://github.com/chfoo/warcat-rs.git> .
+
+<https://github.com/chfoo/warcat.git> a doap:GitRepository ;
+    doap:browse <https://github.com/chfoo/warcat> ;
+    doap:location <git://github.com/chfoo/warcat.git>,
+        <git@github.com:chfoo/warcat.git>,
+        <https://github.com/chfoo/warcat.git> .
+
+<https://github.com/commoncrawl/cc-notebooks.git> a doap:GitRepository ;
+    doap:browse <https://github.com/commoncrawl/cc-notebooks> ;
+    doap:location <git://github.com/commoncrawl/cc-notebooks.git>,
+        <git@github.com:commoncrawl/cc-notebooks.git>,
+        <https://github.com/commoncrawl/cc-notebooks.git> .
+
+<https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git> a doap:GitRepository ;
+    doap:browse <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> ;
+    doap:location <git://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git>,
+        <git@github.com:edgi-govdata-archiving/awesome-website-change-monitoring.git>,
+        <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git> .
+
+<https://github.com/emmadickson/unwarcit.git> a doap:GitRepository ;
+    doap:browse <https://github.com/emmadickson/unwarcit> ;
+    doap:location <git://github.com/emmadickson/unwarcit.git>,
+        <git@github.com:emmadickson/unwarcit.git>,
+        <https://github.com/emmadickson/unwarcit.git> .
+
+<https://github.com/flameshot-org/flameshot.git> a doap:GitRepository ;
+    doap:browse <https://github.com/flameshot-org/flameshot> ;
+    doap:location <git://github.com/flameshot-org/flameshot.git>,
+        <git@github.com:flameshot-org/flameshot.git>,
+        <https://github.com/flameshot-org/flameshot.git> .
+
+<https://github.com/gildas-lormeau/SingleFile.git> a doap:GitRepository ;
+    doap:browse <https://github.com/gildas-lormeau/SingleFile> ;
+    doap:location <git://github.com/gildas-lormeau/SingleFile.git>,
+        <git@github.com:gildas-lormeau/SingleFile.git>,
+        <https://github.com/gildas-lormeau/SingleFile.git> .
+
+<https://github.com/go-shiori/obelisk.git> a doap:GitRepository ;
+    doap:browse <https://github.com/go-shiori/obelisk> ;
+    doap:location <git://github.com/go-shiori/obelisk.git>,
+        <git@github.com:go-shiori/obelisk.git>,
+        <https://github.com/go-shiori/obelisk.git> .
+
+<https://github.com/harvard-lil/scoop.git> a doap:GitRepository ;
+    doap:browse <https://github.com/harvard-lil/scoop> ;
+    doap:location <git://github.com/harvard-lil/scoop.git>,
+        <git@github.com:harvard-lil/scoop.git>,
+        <https://github.com/harvard-lil/scoop.git> .
+
+<https://github.com/helgeho/ArchiveSpark.git> a doap:GitRepository ;
+    doap:browse <https://github.com/helgeho/ArchiveSpark> ;
+    doap:location <git://github.com/helgeho/ArchiveSpark.git>,
+        <git@github.com:helgeho/ArchiveSpark.git>,
+        <https://github.com/helgeho/ArchiveSpark.git> .
+
+<https://github.com/helgeho/HadoopConcatGz.git> a doap:GitRepository ;
+    doap:browse <https://github.com/helgeho/HadoopConcatGz> ;
+    doap:location <git://github.com/helgeho/HadoopConcatGz.git>,
+        <git@github.com:helgeho/HadoopConcatGz.git>,
+        <https://github.com/helgeho/HadoopConcatGz.git> .
+
+<https://github.com/helgeho/Web2Warc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/helgeho/Web2Warc> ;
+    doap:location <git://github.com/helgeho/Web2Warc.git>,
+        <git@github.com:helgeho/Web2Warc.git>,
+        <https://github.com/helgeho/Web2Warc.git> .
+
+<https://github.com/iipc/jwarc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/iipc/jwarc> ;
+    doap:location <git://github.com/iipc/jwarc.git>,
+        <git@github.com:iipc/jwarc.git>,
+        <https://github.com/iipc/jwarc.git> .
+
+<https://github.com/iipc/openwayback.git> a doap:GitRepository ;
+    doap:browse <https://github.com/iipc/openwayback> ;
+    doap:location <git://github.com/iipc/openwayback.git>,
+        <git@github.com:iipc/openwayback.git>,
+        <https://github.com/iipc/openwayback.git> .
+
+<https://github.com/iipc/warc2html.git> a doap:GitRepository ;
+    doap:browse <https://github.com/iipc/warc2html> ;
+    doap:location <git://github.com/iipc/warc2html.git>,
+        <git@github.com:iipc/warc2html.git>,
+        <https://github.com/iipc/warc2html.git> .
+
+<https://github.com/internetarchive/Sparkling.git> a doap:GitRepository ;
+    doap:browse <https://github.com/internetarchive/Sparkling> ;
+    doap:location <git://github.com/internetarchive/Sparkling.git>,
+        <git@github.com:internetarchive/Sparkling.git>,
+        <https://github.com/internetarchive/Sparkling.git> .
+
+<https://github.com/internetarchive/arch.git> a doap:GitRepository ;
+    doap:browse <https://github.com/internetarchive/arch> ;
+    doap:location <git://github.com/internetarchive/arch.git>,
+        <git@github.com:internetarchive/arch.git>,
+        <https://github.com/internetarchive/arch.git> .
+
+<https://github.com/internetarchive/brozzler.git> a doap:GitRepository ;
+    doap:browse <https://github.com/internetarchive/brozzler> ;
+    doap:location <git://github.com/internetarchive/brozzler.git>,
+        <git@github.com:internetarchive/brozzler.git>,
+        <https://github.com/internetarchive/brozzler.git> .
+
+<https://github.com/internetarchive/warcprox.git> a doap:GitRepository ;
+    doap:browse <https://github.com/internetarchive/warcprox> ;
+    doap:location <git://github.com/internetarchive/warcprox.git>,
+        <git@github.com:internetarchive/warcprox.git>,
+        <https://github.com/internetarchive/warcprox.git> .
+
+<https://github.com/internetarchive/warctools.git> a doap:GitRepository ;
+    doap:browse <https://github.com/internetarchive/warctools> ;
+    doap:location <git://github.com/internetarchive/warctools.git>,
+        <git@github.com:internetarchive/warctools.git>,
+        <https://github.com/internetarchive/warctools.git> .
+
+<https://github.com/jordansissel/xdotool.git> a doap:GitRepository ;
+    doap:browse <https://github.com/jordansissel/xdotool> ;
+    doap:location <git://github.com/jordansissel/xdotool.git>,
+        <git@github.com:jordansissel/xdotool.git>,
+        <https://github.com/jordansissel/xdotool.git> .
+
+<https://github.com/justinlittman/fbarc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/justinlittman/fbarc> ;
+    doap:location <git://github.com/justinlittman/fbarc.git>,
+        <git@github.com:justinlittman/fbarc.git>,
+        <https://github.com/justinlittman/fbarc.git> .
+
+<https://github.com/karust/gogetcrawl.git> a doap:GitRepository ;
+    doap:browse <https://github.com/karust/gogetcrawl> ;
+    doap:location <git://github.com/karust/gogetcrawl.git>,
+        <git@github.com:karust/gogetcrawl.git>,
+        <https://github.com/karust/gogetcrawl.git> .
+
+<https://github.com/machawk1> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/machawk1/Mink.git> a doap:GitRepository ;
+    doap:browse <https://github.com/machawk1/Mink> ;
+    doap:location <git://github.com/machawk1/Mink.git>,
+        <git@github.com:machawk1/Mink.git>,
+        <https://github.com/machawk1/Mink.git> .
+
+<https://github.com/machawk1/wail.git> a doap:GitRepository ;
+    doap:browse <https://github.com/machawk1/wail> ;
+    doap:location <git://github.com/machawk1/wail.git>,
+        <git@github.com:machawk1/wail.git>,
+        <https://github.com/machawk1/wail.git> .
+
+<https://github.com/medialab/hyphe.git> a doap:GitRepository ;
+    doap:browse <https://github.com/medialab/hyphe> ;
+    doap:location <git://github.com/medialab/hyphe.git>,
+        <git@github.com:medialab/hyphe.git>,
+        <https://github.com/medialab/hyphe.git> .
+
+<https://github.com/netarchivesuite/jwat-tools.git> a doap:GitRepository ;
+    doap:browse <https://github.com/netarchivesuite/jwat-tools> ;
+    doap:location <git://github.com/netarchivesuite/jwat-tools.git>,
+        <git@github.com:netarchivesuite/jwat-tools.git>,
+        <https://github.com/netarchivesuite/jwat-tools.git> .
+
+<https://github.com/netarchivesuite/jwat.git> a doap:GitRepository ;
+    doap:browse <https://github.com/netarchivesuite/jwat> ;
+    doap:location <git://github.com/netarchivesuite/jwat.git>,
+        <git@github.com:netarchivesuite/jwat.git>,
+        <https://github.com/netarchivesuite/jwat.git> .
+
+<https://github.com/netarchivesuite/solrwayback.git> a doap:GitRepository ;
+    doap:browse <https://github.com/netarchivesuite/solrwayback> ;
+    doap:location <git://github.com/netarchivesuite/solrwayback.git>,
+        <git@github.com:netarchivesuite/solrwayback.git>,
+        <https://github.com/netarchivesuite/solrwayback.git> .
+
+<https://github.com/nlnwa/gowarcserver.git> a doap:GitRepository ;
+    doap:browse <https://github.com/nlnwa/gowarcserver> ;
+    doap:location <git://github.com/nlnwa/gowarcserver.git>,
+        <git@github.com:nlnwa/gowarcserver.git>,
+        <https://github.com/nlnwa/gowarcserver.git> .
+
+<https://github.com/oduwsdl> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/oduwsdl/archivenow.git> a doap:GitRepository ;
+    doap:browse <https://github.com/oduwsdl/archivenow> ;
+    doap:location <git://github.com/oduwsdl/archivenow.git>,
+        <git@github.com:oduwsdl/archivenow.git>,
+        <https://github.com/oduwsdl/archivenow.git> .
+
+<https://github.com/oduwsdl/ipwb.git> a doap:GitRepository ;
+    doap:browse <https://github.com/oduwsdl/ipwb> ;
+    doap:location <git://github.com/oduwsdl/ipwb.git>,
+        <git@github.com:oduwsdl/ipwb.git>,
+        <https://github.com/oduwsdl/ipwb.git> .
+
+<https://github.com/peterk/warcworker.git> a doap:GitRepository ;
+    doap:browse <https://github.com/peterk/warcworker> ;
+    doap:location <git://github.com/peterk/warcworker.git>,
+        <git@github.com:peterk/warcworker.git>,
+        <https://github.com/peterk/warcworker.git> .
+
+<https://github.com/recrm/ArchiveTools.git> a doap:GitRepository ;
+    doap:browse <https://github.com/recrm/ArchiveTools> ;
+    doap:location <git://github.com/recrm/ArchiveTools.git>,
+        <git@github.com:recrm/ArchiveTools.git>,
+        <https://github.com/recrm/ArchiveTools.git> .
+
+<https://github.com/richardlehane/webarchive.git> a doap:GitRepository ;
+    doap:browse <https://github.com/richardlehane/webarchive> ;
+    doap:location <git://github.com/richardlehane/webarchive.git>,
+        <git@github.com:richardlehane/webarchive.git>,
+        <https://github.com/richardlehane/webarchive.git> .
+
+<https://github.com/steffenfritz/html2warc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/steffenfritz/html2warc> ;
+    doap:location <git://github.com/steffenfritz/html2warc.git>,
+        <git@github.com:steffenfritz/html2warc.git>,
+        <https://github.com/steffenfritz/html2warc.git> .
+
+<https://github.com/turicas/crau.git> a doap:GitRepository ;
+    doap:browse <https://github.com/turicas/crau> ;
+    doap:location <git://github.com/turicas/crau.git>,
+        <git@github.com:turicas/crau.git>,
+        <https://github.com/turicas/crau.git> .
+
+<https://github.com/ukwa> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/ukwa/shine.git> a doap:GitRepository ;
+    doap:browse <https://github.com/ukwa/shine> ;
+    doap:location <git://github.com/ukwa/shine.git>,
+        <git@github.com:ukwa/shine.git>,
+        <https://github.com/ukwa/shine.git> .
+
+<https://github.com/ukwa/webarchive-discovery.git> a doap:GitRepository ;
+    doap:browse <https://github.com/ukwa/webarchive-discovery> ;
+    doap:location <git://github.com/ukwa/webarchive-discovery.git>,
+        <git@github.com:ukwa/webarchive-discovery.git>,
+        <https://github.com/ukwa/webarchive-discovery.git> .
+
+<https://github.com/wabarc/cairn.git> a doap:GitRepository ;
+    doap:browse <https://github.com/wabarc/cairn> ;
+    doap:location <git://github.com/wabarc/cairn.git>,
+        <git@github.com:wabarc/cairn.git>,
+        <https://github.com/wabarc/cairn.git> .
+
+<https://github.com/wabarc/playback.git> a doap:GitRepository ;
+    doap:browse <https://github.com/wabarc/playback> ;
+    doap:location <git://github.com/wabarc/playback.git>,
+        <git@github.com:wabarc/playback.git>,
+        <https://github.com/wabarc/playback.git> .
+
+<https://github.com/wabarc/wayback.git> a doap:GitRepository ;
+    doap:browse <https://github.com/wabarc/wayback> ;
+    doap:location <git://github.com/wabarc/wayback.git>,
+        <git@github.com:wabarc/wayback.git>,
+        <https://github.com/wabarc/wayback.git> .
+
+<https://github.com/webis-de/wasp.git> a doap:GitRepository ;
+    doap:browse <https://github.com/webis-de/wasp> ;
+    doap:location <git://github.com/webis-de/wasp.git>,
+        <git@github.com:webis-de/wasp.git>,
+        <https://github.com/webis-de/wasp.git> .
+
+<https://github.com/webrecorder/browsertrix-crawler.git> a doap:GitRepository ;
+    doap:browse <https://github.com/webrecorder/browsertrix-crawler> ;
+    doap:location <git://github.com/webrecorder/browsertrix-crawler.git>,
+        <git@github.com:webrecorder/browsertrix-crawler.git>,
+        <https://github.com/webrecorder/browsertrix-crawler.git> .
+
+<https://github.com/webrecorder/har2warc.git> a doap:GitRepository ;
+    doap:browse <https://github.com/webrecorder/har2warc> ;
+    doap:location <git://github.com/webrecorder/har2warc.git>,
+        <git@github.com:webrecorder/har2warc.git>,
+        <https://github.com/webrecorder/har2warc.git> .
+
+<https://github.com/webrecorder/pywb.git> a doap:GitRepository ;
+    doap:browse <https://github.com/webrecorder/pywb> ;
+    doap:location <git://github.com/webrecorder/pywb.git>,
+        <git@github.com:webrecorder/pywb.git>,
+        <https://github.com/webrecorder/pywb.git> .
+
+<https://github.com/webrecorder/warcio.git> a doap:GitRepository ;
+    doap:browse <https://github.com/webrecorder/warcio> ;
+    doap:location <git://github.com/webrecorder/warcio.git>,
+        <git@github.com:webrecorder/warcio.git>,
+        <https://github.com/webrecorder/warcio.git> .
+
+<https://api.github.com/licenses/cc0-1.0> rdfs:label "Creative Commons Zero v1.0 Universal" .
+
+<https://github.com/ArchiveTeam/grab-site> a doap:Project ;
+    dcterms:date "2025-09-22T18:28:52+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ArchiveTeam/grab-site/issues> ;
+    doap:created "2015-02-05T05:01:19+00:00"^^xsd:dateTime ;
+    doap:description "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns" ;
+    doap:developer <https://github.com/ArchiveTeam> ;
+    doap:repository <https://github.com/ArchiveTeam/grab-site.git>,
+        <https://github.com/ArchiveTeam/grab-site.svn> ;
+    doap:shortdesc "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns" ;
+    ns1:num_stars 1524 ;
+    ns1:num_watchers 42 .
+
+<https://github.com/CGamesPlay/chronicler> a doap:Project ;
+    dcterms:date "2025-06-23T21:08:07+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/CGamesPlay/chronicler/issues> ;
+    doap:created "2018-12-27T04:01:42+00:00"^^xsd:dateTime ;
+    doap:description "Offline-first web browser" ;
+    doap:developer <https://github.com/CGamesPlay> ;
+    doap:license <https://api.github.com/licenses/mit> ;
+    doap:repository <https://github.com/CGamesPlay/chronicler.git>,
+        <https://github.com/CGamesPlay/chronicler.svn> ;
+    doap:shortdesc "Offline-first web browser" ;
+    ns1:num_stars 89 ;
+    ns1:num_watchers 5 .
+
+<https://github.com/Guillaume-Levrier/PANDORAE> a doap:Project ;
+    dcterms:date "2025-06-10T19:41:56+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/Guillaume-Levrier/PANDORAE/issues> ;
     doap:created "2018-12-10T09:34:27+00:00"^^xsd:dateTime ;
     doap:description "A data retrieval & exploration protocol designed to investigate science and policy processes" ;
     doap:developer <https://github.com/Guillaume-Levrier> ;
     doap:homepage <https://guillaume-levrier.github.io/PANDORAE/> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/Guillaume-Levrier/PANDORAE>,
-        <https://github.com/Guillaume-Levrier/PANDORAE.git> ;
-    ns1:issue_tracker <https://github.com/Guillaume-Levrier/PANDORAE/issues> ;
-    ns1:num_stars 12 ;
+    doap:repository <https://github.com/Guillaume-Levrier/PANDORAE.git>,
+        <https://github.com/Guillaume-Levrier/PANDORAE.svn> ;
+    doap:shortdesc "A data retrieval & exploration protocol designed to investigate science and policy processes" ;
+    ns1:num_stars 14 ;
     ns1:num_watchers 2 .
 
-<https://github.com/N0taN3rd/Squidwarc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-22T11:07:51+00:00"^^xsd:dateTime ;
+<https://github.com/N0taN3rd/Squidwarc> a doap:Project ;
+    dcterms:date "2025-07-29T19:20:13+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/N0taN3rd/Squidwarc/issues> ;
     doap:created "2017-07-20T06:57:07+00:00"^^xsd:dateTime ;
     doap:description "Squidwarc is a high fidelity, user scriptable, archival crawler that uses Chrome or Chromium with or without a head" ;
     doap:developer <https://github.com/N0taN3rd> ;
     doap:homepage <https://n0tan3rd.github.io/Squidwarc/> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/N0taN3rd/Squidwarc>,
-        <https://github.com/N0taN3rd/Squidwarc.git> ;
-    ns1:issue_tracker <https://github.com/N0taN3rd/Squidwarc/issues> ;
-    ns1:num_stars 170 ;
+    doap:repository <https://github.com/N0taN3rd/Squidwarc.git>,
+        <https://github.com/N0taN3rd/Squidwarc.svn> ;
+    doap:shortdesc "Squidwarc is a high fidelity, user scriptable, archival crawler that uses Chrome or Chromium with or without a head" ;
+    ns1:num_stars 171 ;
     ns1:num_watchers 9 .
 
-<https://github.com/N0taN3rd/node-warc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-22T11:07:52+00:00"^^xsd:dateTime ;
+<https://github.com/N0taN3rd/node-warc> a doap:Project ;
+    dcterms:date "2025-08-30T22:24:33+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/N0taN3rd/node-warc/issues> ;
     doap:created "2017-05-21T06:00:43+00:00"^^xsd:dateTime ;
     doap:description "Parse And Create Web ARChive  (WARC) files with node.js" ;
     doap:developer <https://github.com/N0taN3rd> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/N0taN3rd/node-warc>,
-        <https://github.com/N0taN3rd/node-warc.git> ;
-    ns1:issue_tracker <https://github.com/N0taN3rd/node-warc/issues> ;
-    ns1:num_stars 97 ;
-    ns1:num_watchers 8 .
+    doap:repository <https://github.com/N0taN3rd/node-warc.git>,
+        <https://github.com/N0taN3rd/node-warc.svn> ;
+    doap:shortdesc "Parse And Create Web ARChive  (WARC) files with node.js" ;
+    ns1:num_stars 101 ;
+    ns1:num_watchers 7 .
 
-<https://github.com/PromyLOPh> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/WebMemex> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/WebMemex/freeze-dry> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-02-17T13:00:03+00:00"^^xsd:dateTime ;
+<https://github.com/WebMemex/freeze-dry> a doap:Project ;
+    dcterms:date "2025-09-16T21:45:49+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/WebMemex/freeze-dry/issues> ;
     doap:created "2017-07-13T23:31:40+00:00"^^xsd:dateTime ;
     doap:description "Snapshots a web page to get it as a static, self-contained HTML document." ;
     doap:developer <https://github.com/WebMemex> ;
     doap:homepage <https://freezedry.webmemex.org> ;
     doap:license <https://api.github.com/licenses/unlicense> ;
-    doap:repository <https://github.com/WebMemex/freeze-dry>,
-        <https://github.com/WebMemex/freeze-dry.git> ;
-    ns1:issue_tracker <https://github.com/WebMemex/freeze-dry/issues> ;
-    ns1:num_stars 294 ;
+    doap:repository <https://github.com/WebMemex/freeze-dry.git>,
+        <https://github.com/WebMemex/freeze-dry.svn> ;
+    doap:shortdesc "Snapshots a web page to get it as a static, self-contained HTML document." ;
+    ns1:num_stars 295 ;
     ns1:num_watchers 10 .
 
-<https://github.com/Y2Z> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/Y2Z/monolith> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-11T11:49:25+00:00"^^xsd:dateTime ;
+<https://github.com/Y2Z/monolith> a doap:Project ;
+    dcterms:date "2025-09-22T18:46:36+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/Y2Z/monolith/issues> ;
     doap:created "2017-02-20T07:47:35+00:00"^^xsd:dateTime ;
     doap:description "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
     doap:developer <https://github.com/Y2Z> ;
     doap:homepage <https://crates.io/crates/monolith> ;
     doap:license <https://api.github.com/licenses/cc0-1.0> ;
-    doap:repository <https://github.com/Y2Z/monolith>,
-        <https://github.com/Y2Z/monolith.git> ;
-    ns1:issue_tracker <https://github.com/Y2Z/monolith/issues> ;
-    ns1:num_stars 13387 ;
-    ns1:num_watchers 63 .
+    doap:repository <https://github.com/Y2Z/monolith.git>,
+        <https://github.com/Y2Z/monolith.svn> ;
+    doap:shortdesc "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
+    ns1:num_stars 14238 ;
+    ns1:num_watchers 67 .
 
-<https://github.com/akamhy> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/akamhy/waybackpy> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-05T15:52:50+00:00"^^xsd:dateTime ;
+<https://github.com/akamhy/waybackpy> a doap:Project ;
+    dcterms:date "2025-09-16T12:44:05+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/akamhy/waybackpy/issues> ;
     doap:created "2020-05-02T09:19:45+00:00"^^xsd:dateTime ;
     doap:description "Wayback Machine API interface & a command-line tool" ;
     doap:developer <https://github.com/akamhy> ;
     doap:homepage <https://pypi.org/project/waybackpy/> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/akamhy/waybackpy>,
-        <https://github.com/akamhy/waybackpy.git> ;
-    ns1:issue_tracker <https://github.com/akamhy/waybackpy/issues> ;
-    ns1:num_stars 519 ;
+    doap:repository <https://github.com/akamhy/waybackpy.git>,
+        <https://github.com/akamhy/waybackpy.svn> ;
+    doap:shortdesc "Wayback Machine API interface & a command-line tool" ;
+    ns1:num_stars 549 ;
     ns1:num_watchers 10 .
 
-<https://github.com/alard> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/alard/wget-lua> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/alard/wget-lua> a doap:Project ;
     dcterms:date "2025-04-02T14:39:23+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/alard/wget-lua/issues> ;
     doap:created "2012-08-21T20:39:22+00:00"^^xsd:dateTime ;
     doap:description "Wget with Lua extension" ;
     doap:developer <https://github.com/alard> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/alard/wget-lua>,
-        <https://github.com/alard/wget-lua.git> ;
-    ns1:issue_tracker <https://github.com/alard/wget-lua/issues> ;
+    doap:repository <https://github.com/alard/wget-lua.git>,
+        <https://github.com/alard/wget-lua.svn> ;
+    doap:shortdesc "Wget with Lua extension" ;
     ns1:num_stars 24 ;
     ns1:num_watchers 3 .
 
-<https://github.com/archivesunleashed/aut> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-25T22:00:10+00:00"^^xsd:dateTime ;
+<https://github.com/archivesunleashed/aut> a doap:Project ;
+    dcterms:date "2025-09-22T12:12:52+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/archivesunleashed/aut/issues> ;
     doap:created "2017-07-06T10:13:44+00:00"^^xsd:dateTime ;
     doap:description "The Archives Unleashed Toolkit is an open-source toolkit for analyzing web archives." ;
     doap:developer <https://github.com/archivesunleashed> ;
     doap:homepage <https://aut.docs.archivesunleashed.org/> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/archivesunleashed/aut>,
-        <https://github.com/archivesunleashed/aut.git> ;
-    ns1:issue_tracker <https://github.com/archivesunleashed/aut/issues> ;
-    ns1:num_stars 143 ;
+    doap:repository <https://github.com/archivesunleashed/aut.git>,
+        <https://github.com/archivesunleashed/aut.svn> ;
+    doap:shortdesc "The Archives Unleashed Toolkit is an open-source toolkit for analyzing web archives." ;
+    ns1:num_stars 148 ;
     ns1:num_watchers 14 .
 
-<https://github.com/archivesunleashed/notebooks> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/archivesunleashed/notebooks> a doap:Project ;
     dcterms:date "2025-03-25T22:00:33+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/archivesunleashed/notebooks/issues> ;
     doap:created "2019-11-06T03:09:30+00:00"^^xsd:dateTime ;
     doap:description "Various examples of notebooks for working with web archives with the Archives Unleashed Toolkit, and derivatives generated by the Archives Unleashed Toolkit." ;
     doap:developer <https://github.com/archivesunleashed> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/archivesunleashed/notebooks>,
-        <https://github.com/archivesunleashed/notebooks.git> ;
-    ns1:issue_tracker <https://github.com/archivesunleashed/notebooks/issues> ;
+    doap:repository <https://github.com/archivesunleashed/notebooks.git>,
+        <https://github.com/archivesunleashed/notebooks.svn> ;
+    doap:shortdesc "Various examples of notebooks for working with web archives with the Archives Unleashed Toolkit, and derivatives generated by the Archives Unleashed Toolkit." ;
     ns1:num_stars 26 ;
     ns1:num_watchers 5 .
 
-<https://github.com/archivesunleashed/twut> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/archivesunleashed/twut> a doap:Project ;
     dcterms:date "2024-12-11T21:12:03+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/archivesunleashed/twut/issues> ;
     doap:created "2019-11-29T14:52:12+00:00"^^xsd:dateTime ;
     doap:description "An open-source toolkit for analyzing line-oriented JSON Twitter archives with Apache Spark." ;
     doap:developer <https://github.com/archivesunleashed> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/archivesunleashed/twut>,
-        <https://github.com/archivesunleashed/twut.git> ;
-    ns1:issue_tracker <https://github.com/archivesunleashed/twut/issues> ;
+    doap:repository <https://github.com/archivesunleashed/twut.git>,
+        <https://github.com/archivesunleashed/twut.svn> ;
+    doap:shortdesc "An open-source toolkit for analyzing line-oriented JSON Twitter archives with Apache Spark." ;
     ns1:num_stars 9 ;
     ns1:num_watchers 3 .
 
-<https://github.com/bellingcat> a foaf:Agent,
-        foaf:Organization .
+<https://github.com/archivesunleashed/warclight> a doap:Project ;
+    dcterms:date "2024-12-16T22:46:34+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/archivesunleashed/warclight/issues> ;
+    doap:created "2017-08-03T17:45:46+00:00"^^xsd:dateTime ;
+    doap:description "A Rails engine supporting the discovery of web archives." ;
+    doap:developer <https://github.com/archivesunleashed> ;
+    doap:homepage <https://archivesunleashed.org/warclight/> ;
+    doap:repository <https://github.com/archivesunleashed/warclight.git>,
+        <https://github.com/archivesunleashed/warclight.svn> ;
+    doap:shortdesc "A Rails engine supporting the discovery of web archives." ;
+    ns1:num_stars 50 ;
+    ns1:num_watchers 4 .
 
-<https://github.com/bellingcat/auto-archiver> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T11:34:42+00:00"^^xsd:dateTime ;
+<https://github.com/bellingcat/auto-archiver> a doap:Project ;
+    dcterms:date "2025-09-21T14:50:16+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/bellingcat/auto-archiver/issues> ;
     doap:created "2021-01-15T10:30:03+00:00"^^xsd:dateTime ;
     doap:description "Automatically archive links to videos, images, and social media content from Google Sheets (and more)." ;
     doap:developer <https://github.com/bellingcat> ;
     doap:homepage <https://pypi.org/project/auto-archiver/> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/bellingcat/auto-archiver>,
-        <https://github.com/bellingcat/auto-archiver.git> ;
-    ns1:issue_tracker <https://github.com/bellingcat/auto-archiver/issues> ;
-    ns1:num_stars 687 ;
-    ns1:num_watchers 23 .
+    doap:repository <https://github.com/bellingcat/auto-archiver.git>,
+        <https://github.com/bellingcat/auto-archiver.svn> ;
+    doap:shortdesc "Automatically archive links to videos, images, and social media content from Google Sheets (and more)." ;
+    ns1:num_stars 942 ;
+    ns1:num_watchers 26 .
 
-<https://github.com/chatnoir-eu> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/chatnoir-eu/chatnoir-resiliparse> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-02T09:16:01+00:00"^^xsd:dateTime ;
+<https://github.com/chatnoir-eu/chatnoir-resiliparse> a doap:Project ;
+    dcterms:date "2025-08-29T10:55:43+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/chatnoir-eu/chatnoir-resiliparse/issues> ;
     doap:created "2021-06-22T09:03:44+00:00"^^xsd:dateTime ;
     doap:description "A robust web archive analytics toolkit" ;
     doap:developer <https://github.com/chatnoir-eu> ;
     doap:homepage <https://resiliparse.chatnoir.eu> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/chatnoir-eu/chatnoir-resiliparse>,
-        <https://github.com/chatnoir-eu/chatnoir-resiliparse.git> ;
-    ns1:issue_tracker <https://github.com/chatnoir-eu/chatnoir-resiliparse/issues> ;
-    ns1:num_stars 102 ;
+    doap:repository <https://github.com/chatnoir-eu/chatnoir-resiliparse.git>,
+        <https://github.com/chatnoir-eu/chatnoir-resiliparse.svn> ;
+    doap:shortdesc "A robust web archive analytics toolkit" ;
+    ns1:num_stars 116 ;
     ns1:num_watchers 8 .
 
-<https://github.com/chfoo/warcat> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-07T22:15:00+00:00"^^xsd:dateTime ;
+<https://github.com/chfoo/warcat> a doap:Project ;
+    dcterms:date "2025-09-02T06:54:41+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/chfoo/warcat/issues> ;
     doap:created "2013-04-09T16:23:47+00:00"^^xsd:dateTime ;
     doap:description "Tool and library for handling Web ARChive (WARC) files." ;
     doap:developer <https://github.com/chfoo> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/chfoo/warcat>,
-        <https://github.com/chfoo/warcat.git> ;
-    ns1:issue_tracker <https://github.com/chfoo/warcat/issues> ;
-    ns1:num_stars 156 ;
+    doap:repository <https://github.com/chfoo/warcat.git>,
+        <https://github.com/chfoo/warcat.svn> ;
+    doap:shortdesc "Tool and library for handling Web ARChive (WARC) files." ;
+    ns1:num_stars 164 ;
     ns1:num_watchers 10 .
 
-<https://github.com/chfoo/warcat-rs> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-03T21:34:48+00:00"^^xsd:dateTime ;
+<https://github.com/chfoo/warcat-rs> a doap:Project ;
+    dcterms:date "2025-08-04T15:36:59+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/chfoo/warcat-rs/issues> ;
     doap:created "2024-09-15T15:24:13+00:00"^^xsd:dateTime ;
     doap:description "Command-line tool and Rust library for handling Web ARChive (WARC) files" ;
     doap:developer <https://github.com/chfoo> ;
     doap:license <https://api.github.com/licenses/mpl-2.0> ;
-    doap:repository <https://github.com/chfoo/warcat-rs>,
-        <https://github.com/chfoo/warcat-rs.git> ;
-    ns1:issue_tracker <https://github.com/chfoo/warcat-rs/issues> ;
-    ns1:num_stars 15 ;
+    doap:repository <https://github.com/chfoo/warcat-rs.git>,
+        <https://github.com/chfoo/warcat-rs.svn> ;
+    doap:shortdesc "Command-line tool and Rust library for handling Web ARChive (WARC) files" ;
+    ns1:num_stars 25 ;
     ns1:num_watchers 1 .
 
-<https://github.com/commoncrawl> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/commoncrawl/cc-notebooks> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-08T19:53:33+00:00"^^xsd:dateTime ;
+<https://github.com/commoncrawl/cc-notebooks> a doap:Project ;
+    dcterms:date "2025-09-17T00:23:46+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/commoncrawl/cc-notebooks/issues> ;
     doap:created "2019-07-19T11:38:10+00:00"^^xsd:dateTime ;
     doap:description "Various Jupyter notebooks about Common Crawl data" ;
     doap:developer <https://github.com/commoncrawl> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/commoncrawl/cc-notebooks>,
-        <https://github.com/commoncrawl/cc-notebooks.git> ;
-    ns1:issue_tracker <https://github.com/commoncrawl/cc-notebooks/issues> ;
-    ns1:num_stars 52 ;
-    ns1:num_watchers 17 .
+    doap:repository <https://github.com/commoncrawl/cc-notebooks.git>,
+        <https://github.com/commoncrawl/cc-notebooks.svn> ;
+    doap:shortdesc "Various Jupyter notebooks about Common Crawl data" ;
+    ns1:num_stars 58 ;
+    ns1:num_watchers 18 .
 
-<https://github.com/dosyago> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/edgi-govdata-archiving> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-01T22:14:17+00:00"^^xsd:dateTime ;
+<https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> a doap:Project ;
+    dcterms:date "2025-09-10T14:45:09+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring/issues> ;
     doap:created "2017-05-24T05:33:41+00:00"^^xsd:dateTime ;
     doap:description "A curated list of awesome tools for website diffing and change monitoring." ;
     doap:developer <https://github.com/edgi-govdata-archiving> ;
     doap:license <https://api.github.com/licenses/cc0-1.0> ;
-    doap:repository <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring>,
-        <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git> ;
-    ns1:issue_tracker <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring/issues> ;
-    ns1:num_stars 505 ;
+    doap:repository <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.git>,
+        <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring.svn> ;
+    doap:shortdesc "A curated list of awesome tools for website diffing and change monitoring." ;
+    ns1:num_stars 511 ;
     ns1:num_watchers 30 .
 
-<https://github.com/emmadickson> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/emmadickson/unwarcit> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2024-12-07T10:38:30+00:00"^^xsd:dateTime ;
+<https://github.com/emmadickson/unwarcit> a doap:Project ;
+    dcterms:date "2025-08-26T09:08:54+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/emmadickson/unwarcit/issues> ;
     doap:created "2021-12-11T19:19:28+00:00"^^xsd:dateTime ;
-    doap:description "None" ;
     doap:developer <https://github.com/emmadickson> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/emmadickson/unwarcit>,
-        <https://github.com/emmadickson/unwarcit.git> ;
-    ns1:issue_tracker <https://github.com/emmadickson/unwarcit/issues> ;
-    ns1:num_stars 10 ;
+    doap:repository <https://github.com/emmadickson/unwarcit.git>,
+        <https://github.com/emmadickson/unwarcit.svn> ;
+    ns1:num_stars 12 ;
     ns1:num_watchers 4 .
 
-<https://github.com/flameshot-org> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/gildas-lormeau> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/gildas-lormeau/SingleFile> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-11T11:10:37+00:00"^^xsd:dateTime ;
+<https://github.com/gildas-lormeau/SingleFile> a doap:Project ;
+    dcterms:date "2025-09-23T14:07:28+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/gildas-lormeau/SingleFile/issues> ;
     doap:created "2010-09-12T23:50:21+00:00"^^xsd:dateTime ;
     doap:description "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
     doap:developer <https://github.com/gildas-lormeau> ;
     doap:homepage <https://getsinglefile.com> ;
     doap:license <https://api.github.com/licenses/agpl-3.0> ;
-    doap:repository <https://github.com/gildas-lormeau/SingleFile>,
-        <https://github.com/gildas-lormeau/SingleFile.git> ;
-    ns1:issue_tracker <https://github.com/gildas-lormeau/SingleFile/issues> ;
-    ns1:num_stars 17305 ;
-    ns1:num_watchers 127 .
+    doap:repository <https://github.com/gildas-lormeau/SingleFile.git>,
+        <https://github.com/gildas-lormeau/SingleFile.svn> ;
+    doap:shortdesc "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
+    ns1:num_stars 19163 ;
+    ns1:num_watchers 131 .
 
-<https://github.com/go-shiori> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/go-shiori/obelisk> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-07T22:06:02+00:00"^^xsd:dateTime ;
+<https://github.com/go-shiori/obelisk> a doap:Project ;
+    dcterms:date "2025-09-09T19:21:24+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/go-shiori/obelisk/issues> ;
     doap:created "2020-03-29T00:53:06+00:00"^^xsd:dateTime ;
     doap:description "Go package and CLI tool for saving web page as single HTML file" ;
     doap:developer <https://github.com/go-shiori> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/go-shiori/obelisk>,
-        <https://github.com/go-shiori/obelisk.git> ;
-    ns1:issue_tracker <https://github.com/go-shiori/obelisk/issues> ;
-    ns1:num_stars 278 ;
+    doap:repository <https://github.com/go-shiori/obelisk.git>,
+        <https://github.com/go-shiori/obelisk.svn> ;
+    doap:shortdesc "Go package and CLI tool for saving web page as single HTML file" ;
+    ns1:num_stars 293 ;
     ns1:num_watchers 9 .
 
-<https://github.com/harvard-lil> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/harvard-lil/scoop> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-01T13:39:54+00:00"^^xsd:dateTime ;
+<https://github.com/harvard-lil/scoop> a doap:Project ;
+    dcterms:date "2025-09-15T12:20:01+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/harvard-lil/scoop/issues> ;
     doap:created "2022-09-20T18:50:14+00:00"^^xsd:dateTime ;
     doap:description "🍨 High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web." ;
     doap:developer <https://github.com/harvard-lil> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/harvard-lil/scoop>,
-        <https://github.com/harvard-lil/scoop.git> ;
-    ns1:issue_tracker <https://github.com/harvard-lil/scoop/issues> ;
-    ns1:num_stars 156 ;
-    ns1:num_watchers 7 .
+    doap:repository <https://github.com/harvard-lil/scoop.git>,
+        <https://github.com/harvard-lil/scoop.svn> ;
+    doap:shortdesc "🍨 High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web." ;
+    ns1:num_stars 171 ;
+    ns1:num_watchers 6 .
 
-<https://github.com/helgeho/ArchiveSpark> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T10:08:31+00:00"^^xsd:dateTime ;
+<https://github.com/helgeho> a <http://rdfs.org/sioc/ns#User>,
+        foaf:Agent .
+
+<https://github.com/helgeho/ArchiveSpark> a doap:Project ;
+    dcterms:date "2025-07-30T16:53:17+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/helgeho/ArchiveSpark/issues> ;
     doap:created "2015-08-06T19:42:53+00:00"^^xsd:dateTime ;
     doap:description "An Apache Spark framework for easy data processing, extraction as well as derivation for web archives and archival collections, developed at Internet Archive." ;
     doap:developer <https://github.com/helgeho> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/helgeho/ArchiveSpark>,
-        <https://github.com/helgeho/ArchiveSpark.git> ;
-    ns1:issue_tracker <https://github.com/helgeho/ArchiveSpark/issues> ;
-    ns1:num_stars 148 ;
+    doap:repository <https://github.com/helgeho/ArchiveSpark.git>,
+        <https://github.com/helgeho/ArchiveSpark.svn> ;
+    doap:shortdesc "An Apache Spark framework for easy data processing, extraction as well as derivation for web archives and archival collections, developed at Internet Archive." ;
+    ns1:num_stars 152 ;
     ns1:num_watchers 15 .
 
-<https://github.com/helgeho/HadoopConcatGz> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/helgeho/HadoopConcatGz> a doap:Project ;
     dcterms:date "2024-07-30T16:14:07+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/helgeho/HadoopConcatGz/issues> ;
     doap:created "2016-08-08T13:36:13+00:00"^^xsd:dateTime ;
     doap:description "A Splitable Hadoop InputFormat for Concatenated GZIP Files and *.(w)arc.gz" ;
     doap:developer <https://github.com/helgeho> ;
-    doap:repository <https://github.com/helgeho/HadoopConcatGz>,
-        <https://github.com/helgeho/HadoopConcatGz.git> ;
-    ns1:issue_tracker <https://github.com/helgeho/HadoopConcatGz/issues> ;
+    doap:repository <https://github.com/helgeho/HadoopConcatGz.git>,
+        <https://github.com/helgeho/HadoopConcatGz.svn> ;
+    doap:shortdesc "A Splitable Hadoop InputFormat for Concatenated GZIP Files and *.(w)arc.gz" ;
     ns1:num_stars 9 ;
     ns1:num_watchers 2 .
 
-<https://github.com/helgeho/Web2Warc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-22T11:04:02+00:00"^^xsd:dateTime ;
+<https://github.com/helgeho/Web2Warc> a doap:Project ;
+    dcterms:date "2025-05-23T03:33:48+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/helgeho/Web2Warc/issues> ;
     doap:created "2016-01-29T10:43:55+00:00"^^xsd:dateTime ;
     doap:description "An easy-to-use and highly customizable crawler that enables you to create your own little Web archives (WARC/CDX)" ;
     doap:developer <https://github.com/helgeho> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/helgeho/Web2Warc>,
-        <https://github.com/helgeho/Web2Warc.git> ;
-    ns1:issue_tracker <https://github.com/helgeho/Web2Warc/issues> ;
-    ns1:num_stars 24 ;
+    doap:repository <https://github.com/helgeho/Web2Warc.git>,
+        <https://github.com/helgeho/Web2Warc.svn> ;
+    doap:shortdesc "An easy-to-use and highly customizable crawler that enables you to create your own little Web archives (WARC/CDX)" ;
+    ns1:num_stars 25 ;
     ns1:num_watchers 3 .
 
-<https://github.com/iipc/jwarc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-22T10:45:21+00:00"^^xsd:dateTime ;
+<https://github.com/iipc> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/iipc/jwarc> a doap:Project ;
+    dcterms:date "2025-09-18T05:00:52+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/iipc/jwarc/issues> ;
     doap:created "2015-09-21T03:07:28+00:00"^^xsd:dateTime ;
     doap:description "Java library for reading and writing WARC files with a typed API" ;
     doap:developer <https://github.com/iipc> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/iipc/jwarc>,
-        <https://github.com/iipc/jwarc.git> ;
-    ns1:issue_tracker <https://github.com/iipc/jwarc/issues> ;
-    ns1:num_stars 48 ;
+    doap:repository <https://github.com/iipc/jwarc.git>,
+        <https://github.com/iipc/jwarc.svn> ;
+    doap:shortdesc "Java library for reading and writing WARC files with a typed API" ;
+    ns1:num_stars 50 ;
     ns1:num_watchers 5 .
 
-<https://github.com/iipc/openwayback> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-26T14:34:28+00:00"^^xsd:dateTime ;
+<https://github.com/iipc/openwayback> a doap:Project ;
+    dcterms:date "2025-08-31T21:59:44+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/iipc/openwayback/issues> ;
     doap:created "2012-04-12T17:53:44+00:00"^^xsd:dateTime ;
     doap:description "The OpenWayback Development" ;
     doap:developer <https://github.com/iipc> ;
     doap:homepage <http://www.netpreserve.org/openwayback> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/iipc/openwayback>,
-        <https://github.com/iipc/openwayback.git> ;
-    ns1:issue_tracker <https://github.com/iipc/openwayback/issues> ;
-    ns1:num_stars 497 ;
+    doap:repository <https://github.com/iipc/openwayback.git>,
+        <https://github.com/iipc/openwayback.svn> ;
+    doap:shortdesc "The OpenWayback Development" ;
+    ns1:num_stars 504 ;
     ns1:num_watchers 63 .
 
-<https://github.com/iipc/warc2html> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-17T11:59:22+00:00"^^xsd:dateTime ;
+<https://github.com/iipc/warc2html> a doap:Project ;
+    dcterms:date "2025-09-18T06:10:24+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/iipc/warc2html/issues> ;
     doap:created "2021-11-08T04:09:05+00:00"^^xsd:dateTime ;
     doap:description "Converts WARC files to static HTML" ;
     doap:developer <https://github.com/iipc> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/iipc/warc2html>,
-        <https://github.com/iipc/warc2html.git> ;
-    ns1:issue_tracker <https://github.com/iipc/warc2html/issues> ;
-    ns1:num_stars 44 ;
+    doap:repository <https://github.com/iipc/warc2html.git>,
+        <https://github.com/iipc/warc2html.svn> ;
+    doap:shortdesc "Converts WARC files to static HTML" ;
+    ns1:num_stars 48 ;
     ns1:num_watchers 10 .
 
-<https://github.com/internetarchive/Sparkling> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T10:07:51+00:00"^^xsd:dateTime ;
+<https://github.com/internetarchive/Sparkling> a doap:Project ;
+    dcterms:date "2025-07-30T16:52:22+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/internetarchive/Sparkling/issues> ;
     doap:created "2022-04-28T14:28:21+00:00"^^xsd:dateTime ;
     doap:description "Internet Archive's Sparkling Data Processing Library" ;
     doap:developer <https://github.com/internetarchive> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/internetarchive/Sparkling>,
-        <https://github.com/internetarchive/Sparkling.git> ;
-    ns1:issue_tracker <https://github.com/internetarchive/Sparkling/issues> ;
+    doap:repository <https://github.com/internetarchive/Sparkling.git>,
+        <https://github.com/internetarchive/Sparkling.svn> ;
+    doap:shortdesc "Internet Archive's Sparkling Data Processing Library" ;
     ns1:num_stars 13 ;
-    ns1:num_watchers 19 .
+    ns1:num_watchers 20 .
 
-<https://github.com/internetarchive/arch> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-04T04:14:18+00:00"^^xsd:dateTime ;
+<https://github.com/internetarchive/arch> a doap:Project ;
+    dcterms:date "2025-09-08T20:15:07+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/internetarchive/arch/issues> ;
     doap:created "2022-04-28T15:18:47+00:00"^^xsd:dateTime ;
     doap:description "Web application for distributed compute analysis of Archive-It web archive collections." ;
     doap:developer <https://github.com/internetarchive> ;
     doap:license <https://api.github.com/licenses/agpl-3.0> ;
-    doap:repository <https://github.com/internetarchive/arch>,
-        <https://github.com/internetarchive/arch.git> ;
-    ns1:issue_tracker <https://github.com/internetarchive/arch/issues> ;
-    ns1:num_stars 17 ;
+    doap:repository <https://github.com/internetarchive/arch.git>,
+        <https://github.com/internetarchive/arch.svn> ;
+    doap:shortdesc "Web application for distributed compute analysis of Archive-It web archive collections." ;
+    ns1:num_stars 20 ;
     ns1:num_watchers 20 .
 
-<https://github.com/internetarchive/brozzler> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-06T17:42:28+00:00"^^xsd:dateTime ;
+<https://github.com/internetarchive/brozzler> a doap:Project ;
+    dcterms:date "2025-09-23T13:14:20+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/internetarchive/brozzler/issues> ;
     doap:created "2015-07-13T23:48:11+00:00"^^xsd:dateTime ;
     doap:description "brozzler - distributed browser-based web crawler" ;
     doap:developer <https://github.com/internetarchive> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/internetarchive/brozzler>,
-        <https://github.com/internetarchive/brozzler.git> ;
-    ns1:issue_tracker <https://github.com/internetarchive/brozzler/issues> ;
-    ns1:num_stars 699 ;
-    ns1:num_watchers 39 .
+    doap:repository <https://github.com/internetarchive/brozzler.git>,
+        <https://github.com/internetarchive/brozzler.svn> ;
+    doap:shortdesc "brozzler - distributed browser-based web crawler" ;
+    ns1:num_stars 743 ;
+    ns1:num_watchers 38 .
 
-<https://github.com/internetarchive/warcprox> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-04T04:14:31+00:00"^^xsd:dateTime ;
+<https://github.com/internetarchive/warcprox> a doap:Project ;
+    dcterms:date "2025-09-13T22:14:43+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/internetarchive/warcprox/issues> ;
     doap:created "2013-10-25T23:27:02+00:00"^^xsd:dateTime ;
     doap:description "WARC writing MITM HTTP/S proxy" ;
     doap:developer <https://github.com/internetarchive> ;
-    doap:repository <https://github.com/internetarchive/warcprox>,
-        <https://github.com/internetarchive/warcprox.git> ;
-    ns1:issue_tracker <https://github.com/internetarchive/warcprox/issues> ;
-    ns1:num_stars 401 ;
-    ns1:num_watchers 38 .
+    doap:repository <https://github.com/internetarchive/warcprox.git>,
+        <https://github.com/internetarchive/warcprox.svn> ;
+    doap:shortdesc "WARC writing MITM HTTP/S proxy" ;
+    ns1:num_stars 420 ;
+    ns1:num_watchers 35 .
 
-<https://github.com/internetarchive/warctools> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-08T18:19:13+00:00"^^xsd:dateTime ;
+<https://github.com/internetarchive/warctools> a doap:Project ;
+    dcterms:date "2025-08-30T21:56:53+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/internetarchive/warctools/issues> ;
     doap:created "2013-03-22T20:52:55+00:00"^^xsd:dateTime ;
     doap:description "Command line tools and libraries for handling and manipulating WARC files (and HTTP contents)" ;
     doap:developer <https://github.com/internetarchive> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/internetarchive/warctools>,
-        <https://github.com/internetarchive/warctools.git> ;
-    ns1:issue_tracker <https://github.com/internetarchive/warctools/issues> ;
-    ns1:num_stars 159 ;
-    ns1:num_watchers 43 .
+    doap:repository <https://github.com/internetarchive/warctools.git>,
+        <https://github.com/internetarchive/warctools.svn> ;
+    doap:shortdesc "Command line tools and libraries for handling and manipulating WARC files (and HTTP contents)" ;
+    ns1:num_stars 164 ;
+    ns1:num_watchers 41 .
 
-<https://github.com/jordansissel> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/jordansissel/xdotool> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-11T11:31:12+00:00"^^xsd:dateTime ;
+<https://github.com/jordansissel/xdotool> a doap:Project ;
+    dcterms:date "2025-09-22T18:53:46+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/jordansissel/xdotool/issues> ;
     doap:created "2011-02-16T02:41:01+00:00"^^xsd:dateTime ;
     doap:description "fake keyboard/mouse input, window management, and more " ;
     doap:developer <https://github.com/jordansissel> ;
-    doap:repository <https://github.com/jordansissel/xdotool>,
-        <https://github.com/jordansissel/xdotool.git> ;
-    ns1:issue_tracker <https://github.com/jordansissel/xdotool/issues> ;
-    ns1:num_stars 3448 ;
-    ns1:num_watchers 62 .
+    doap:repository <https://github.com/jordansissel/xdotool.git>,
+        <https://github.com/jordansissel/xdotool.svn> ;
+    doap:shortdesc "fake keyboard/mouse input, window management, and more " ;
+    ns1:num_stars 3572 ;
+    ns1:num_watchers 64 .
 
-<https://github.com/justinlittman> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/justinlittman/fbarc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2024-05-17T04:57:02+00:00"^^xsd:dateTime ;
+<https://github.com/justinlittman/fbarc> a doap:Project ;
+    dcterms:date "2025-09-02T21:47:36+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/justinlittman/fbarc/issues> ;
     doap:created "2017-02-14T23:45:42+00:00"^^xsd:dateTime ;
     doap:description "A commandline tool and Python library for archiving data from Facebook using the Graph API." ;
     doap:developer <https://github.com/justinlittman> ;
     doap:license <https://api.github.com/licenses/cc0-1.0> ;
-    doap:repository <https://github.com/justinlittman/fbarc>,
-        <https://github.com/justinlittman/fbarc.git> ;
-    ns1:issue_tracker <https://github.com/justinlittman/fbarc/issues> ;
-    ns1:num_stars 77 ;
+    doap:repository <https://github.com/justinlittman/fbarc.git>,
+        <https://github.com/justinlittman/fbarc.svn> ;
+    doap:shortdesc "A commandline tool and Python library for archiving data from Facebook using the Graph API." ;
+    ns1:num_stars 78 ;
     ns1:num_watchers 15 .
 
-<https://github.com/karust> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/karust/gogetcrawl> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-19T08:58:00+00:00"^^xsd:dateTime ;
+<https://github.com/karust/gogetcrawl> a doap:Project ;
+    dcterms:date "2025-09-22T14:25:20+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/karust/gogetcrawl/issues> ;
     doap:created "2019-06-14T19:02:05+00:00"^^xsd:dateTime ;
     doap:description "Extract web archive data using Wayback Machine and Common Crawl" ;
     doap:developer <https://github.com/karust> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/karust/gogetcrawl>,
-        <https://github.com/karust/gogetcrawl.git> ;
-    ns1:issue_tracker <https://github.com/karust/gogetcrawl/issues> ;
-    ns1:num_stars 155 ;
+    doap:repository <https://github.com/karust/gogetcrawl.git>,
+        <https://github.com/karust/gogetcrawl.svn> ;
+    doap:shortdesc "Extract web archive data using Wayback Machine and Common Crawl" ;
+    ns1:num_stars 161 ;
     ns1:num_watchers 3 .
 
-<https://github.com/machawk1/wail> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-07T16:26:42+00:00"^^xsd:dateTime ;
+<https://github.com/machawk1/wail> a doap:Project ;
+    dcterms:date "2025-09-20T15:47:45+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/machawk1/wail/issues> ;
     doap:created "2013-03-20T14:42:40+00:00"^^xsd:dateTime ;
     doap:description ":whale2: Web Archiving Integration Layer: One-Click User Instigated Preservation" ;
     doap:developer <https://github.com/machawk1> ;
     doap:homepage <https://matkelly.com/wail> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/machawk1/wail>,
-        <https://github.com/machawk1/wail.git> ;
-    ns1:issue_tracker <https://github.com/machawk1/wail/issues> ;
-    ns1:num_stars 372 ;
+    doap:repository <https://github.com/machawk1/wail.git>,
+        <https://github.com/machawk1/wail.svn> ;
+    doap:shortdesc ":whale2: Web Archiving Integration Layer: One-Click User Instigated Preservation" ;
+    ns1:num_stars 378 ;
     ns1:num_watchers 13 .
 
-<https://github.com/medialab> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/medialab/hyphe> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-07T16:57:31+00:00"^^xsd:dateTime ;
+<https://github.com/medialab/hyphe> a doap:Project ;
+    dcterms:date "2025-09-16T11:12:34+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/medialab/hyphe/issues> ;
     doap:created "2010-12-23T18:27:34+00:00"^^xsd:dateTime ;
     doap:description "Websites crawler with built-in exploration and control web interface" ;
     doap:developer <https://github.com/medialab> ;
     doap:homepage <http://hyphe.medialab.sciences-po.fr/demo/> ;
     doap:license <https://api.github.com/licenses/agpl-3.0> ;
-    doap:repository <https://github.com/medialab/hyphe>,
-        <https://github.com/medialab/hyphe.git> ;
-    ns1:issue_tracker <https://github.com/medialab/hyphe/issues> ;
-    ns1:num_stars 350 ;
+    doap:repository <https://github.com/medialab/hyphe.git>,
+        <https://github.com/medialab/hyphe.svn> ;
+    doap:shortdesc "Websites crawler with built-in exploration and control web interface" ;
+    ns1:num_stars 359 ;
     ns1:num_watchers 31 .
 
-<https://github.com/netarchivesuite/jwat> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/netarchivesuite> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/netarchivesuite/jwat> a doap:Project ;
     dcterms:date "2023-04-17T20:40:09+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/netarchivesuite/jwat/issues> ;
     doap:created "2018-08-30T17:28:48+00:00"^^xsd:dateTime ;
     doap:description "Java Web Archive Toolkit" ;
     doap:developer <https://github.com/netarchivesuite> ;
-    doap:repository <https://github.com/netarchivesuite/jwat>,
-        <https://github.com/netarchivesuite/jwat.git> ;
-    ns1:issue_tracker <https://github.com/netarchivesuite/jwat/issues> ;
+    doap:repository <https://github.com/netarchivesuite/jwat.git>,
+        <https://github.com/netarchivesuite/jwat.svn> ;
+    doap:shortdesc "Java Web Archive Toolkit" ;
     ns1:num_stars 3 ;
     ns1:num_watchers 7 .
 
-<https://github.com/netarchivesuite/jwat-tools> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/netarchivesuite/jwat-tools> a doap:Project ;
     dcterms:date "2024-05-22T05:55:45+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/netarchivesuite/jwat-tools/issues> ;
     doap:created "2018-08-30T17:54:07+00:00"^^xsd:dateTime ;
     doap:description "JWAT Tools" ;
     doap:developer <https://github.com/netarchivesuite> ;
-    doap:repository <https://github.com/netarchivesuite/jwat-tools>,
-        <https://github.com/netarchivesuite/jwat-tools.git> ;
-    ns1:issue_tracker <https://github.com/netarchivesuite/jwat-tools/issues> ;
+    doap:repository <https://github.com/netarchivesuite/jwat-tools.git>,
+        <https://github.com/netarchivesuite/jwat-tools.svn> ;
+    doap:shortdesc "JWAT Tools" ;
     ns1:num_stars 5 ;
     ns1:num_watchers 6 .
 
-<https://github.com/nlnwa> a foaf:Agent,
-        foaf:Organization .
+<https://github.com/netarchivesuite/solrwayback> a doap:Project ;
+    dcterms:date "2025-09-23T10:46:10+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/netarchivesuite/solrwayback/issues> ;
+    doap:created "2017-02-08T09:33:35+00:00"^^xsd:dateTime ;
+    doap:description "A search interface and wayback machine for the UKWA Solr based warc-indexer framework." ;
+    doap:developer <https://github.com/netarchivesuite> ;
+    doap:license <https://api.github.com/licenses/apache-2.0> ;
+    doap:repository <https://github.com/netarchivesuite/solrwayback.git>,
+        <https://github.com/netarchivesuite/solrwayback.svn> ;
+    doap:shortdesc "A search interface and wayback machine for the UKWA Solr based warc-indexer framework." ;
+    ns1:num_stars 131 ;
+    ns1:num_watchers 22 .
 
-<https://github.com/nlnwa/gowarcserver> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/nlnwa/gowarcserver> a doap:Project ;
     dcterms:date "2025-01-08T13:38:12+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/nlnwa/gowarcserver/issues> ;
     doap:created "2021-01-15T10:42:20+00:00"^^xsd:dateTime ;
-    doap:description "None" ;
     doap:developer <https://github.com/nlnwa> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/nlnwa/gowarcserver>,
-        <https://github.com/nlnwa/gowarcserver.git> ;
-    ns1:issue_tracker <https://github.com/nlnwa/gowarcserver/issues> ;
+    doap:repository <https://github.com/nlnwa/gowarcserver.git>,
+        <https://github.com/nlnwa/gowarcserver.svn> ;
     ns1:num_stars 16 ;
     ns1:num_watchers 6 .
 
-<https://github.com/oduwsdl/archivenow> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-04T05:24:32+00:00"^^xsd:dateTime ;
+<https://github.com/oduwsdl/archivenow> a doap:Project ;
+    dcterms:date "2025-08-20T12:09:15+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/oduwsdl/archivenow/issues> ;
     doap:created "2017-02-09T12:29:08+00:00"^^xsd:dateTime ;
     doap:description "A Tool To Push Web Resources Into Web Archives" ;
     doap:developer <https://github.com/oduwsdl> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/oduwsdl/archivenow>,
-        <https://github.com/oduwsdl/archivenow.git> ;
-    ns1:issue_tracker <https://github.com/oduwsdl/archivenow/issues> ;
-    ns1:num_stars 420 ;
+    doap:repository <https://github.com/oduwsdl/archivenow.git>,
+        <https://github.com/oduwsdl/archivenow.svn> ;
+    doap:shortdesc "A Tool To Push Web Resources Into Web Archives" ;
+    ns1:num_stars 422 ;
     ns1:num_watchers 20 .
 
-<https://github.com/oduwsdl/ipwb> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-30T20:16:52+00:00"^^xsd:dateTime ;
+<https://github.com/oduwsdl/ipwb> a doap:Project ;
+    dcterms:date "2025-09-17T18:30:09+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/oduwsdl/ipwb/issues> ;
     doap:created "2016-03-04T15:01:33+00:00"^^xsd:dateTime ;
     doap:description "InterPlanetary Wayback: A distributed and persistent archive replay system using IPFS" ;
     doap:developer <https://github.com/oduwsdl> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/oduwsdl/ipwb>,
-        <https://github.com/oduwsdl/ipwb.git> ;
-    ns1:issue_tracker <https://github.com/oduwsdl/ipwb/issues> ;
-    ns1:num_stars 625 ;
-    ns1:num_watchers 22 .
+    doap:repository <https://github.com/oduwsdl/ipwb.git>,
+        <https://github.com/oduwsdl/ipwb.svn> ;
+    doap:shortdesc "InterPlanetary Wayback: A distributed and persistent archive replay system using IPFS" ;
+    ns1:num_stars 643 ;
+    ns1:num_watchers 21 .
 
-<https://github.com/peterk> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/peterk/warcworker> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-02-26T19:08:25+00:00"^^xsd:dateTime ;
+<https://github.com/peterk/warcworker> a doap:Project ;
+    dcterms:date "2025-07-04T13:39:00+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/peterk/warcworker/issues> ;
     doap:created "2018-07-21T08:31:18+00:00"^^xsd:dateTime ;
     doap:description "A dockerized, queued high fidelity web archiver based on Squidwarc" ;
     doap:developer <https://github.com/peterk> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/peterk/warcworker>,
-        <https://github.com/peterk/warcworker.git> ;
-    ns1:issue_tracker <https://github.com/peterk/warcworker/issues> ;
-    ns1:num_stars 58 ;
+    doap:repository <https://github.com/peterk/warcworker.git>,
+        <https://github.com/peterk/warcworker.svn> ;
+    doap:shortdesc "A dockerized, queued high fidelity web archiver based on Squidwarc" ;
+    ns1:num_stars 61 ;
     ns1:num_watchers 5 .
 
-<https://github.com/recrm> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/recrm/ArchiveTools> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-10T17:35:20+00:00"^^xsd:dateTime ;
+<https://github.com/recrm/ArchiveTools> a doap:Project ;
+    dcterms:date "2025-08-11T00:25:48+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/recrm/ArchiveTools/issues> ;
     doap:created "2015-01-14T18:53:32+00:00"^^xsd:dateTime ;
     doap:description "A collection of tools for archiving and analysing the internet." ;
     doap:developer <https://github.com/recrm> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/recrm/ArchiveTools>,
-        <https://github.com/recrm/ArchiveTools.git> ;
-    ns1:issue_tracker <https://github.com/recrm/ArchiveTools/issues> ;
-    ns1:num_stars 73 ;
+    doap:repository <https://github.com/recrm/ArchiveTools.git>,
+        <https://github.com/recrm/ArchiveTools.svn> ;
+    doap:shortdesc "A collection of tools for archiving and analysing the internet." ;
+    ns1:num_stars 78 ;
     ns1:num_watchers 5 .
 
-<https://github.com/richardlehane> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/richardlehane/webarchive> a doap:Project,
-        doap:SVNRepository ;
+<https://github.com/richardlehane/webarchive> a doap:Project ;
     dcterms:date "2025-03-22T10:45:19+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/richardlehane/webarchive/issues> ;
     doap:created "2015-09-21T06:38:52+00:00"^^xsd:dateTime ;
     doap:description "golang readers for ARC and WARC webarchive formats" ;
     doap:developer <https://github.com/richardlehane> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/richardlehane/webarchive>,
-        <https://github.com/richardlehane/webarchive.git> ;
-    ns1:issue_tracker <https://github.com/richardlehane/webarchive/issues> ;
+    doap:repository <https://github.com/richardlehane/webarchive.git>,
+        <https://github.com/richardlehane/webarchive.svn> ;
+    doap:shortdesc "golang readers for ARC and WARC webarchive formats" ;
     ns1:num_stars 20 ;
     ns1:num_watchers 7 .
 
-<https://github.com/steffenfritz> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/steffenfritz/html2warc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-02-24T14:38:26+00:00"^^xsd:dateTime ;
+<https://github.com/steffenfritz/html2warc> a doap:Project ;
+    dcterms:date "2025-07-12T19:05:05+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/steffenfritz/html2warc/issues> ;
     doap:created "2015-12-30T14:29:32+00:00"^^xsd:dateTime ;
     doap:description "simple script to convert web resources to a single warc file" ;
     doap:developer <https://github.com/steffenfritz> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/steffenfritz/html2warc>,
-        <https://github.com/steffenfritz/html2warc.git> ;
-    ns1:issue_tracker <https://github.com/steffenfritz/html2warc/issues> ;
-    ns1:num_stars 21 ;
+    doap:repository <https://github.com/steffenfritz/html2warc.git>,
+        <https://github.com/steffenfritz/html2warc.svn> ;
+    doap:shortdesc "simple script to convert web resources to a single warc file" ;
+    ns1:num_stars 22 ;
     ns1:num_watchers 3 .
 
-<https://github.com/turicas> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/turicas/crau> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-02-16T05:53:18+00:00"^^xsd:dateTime ;
+<https://github.com/turicas/crau> a doap:Project ;
+    dcterms:date "2025-08-01T13:42:02+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/turicas/crau/issues> ;
     doap:created "2019-10-26T19:21:34+00:00"^^xsd:dateTime ;
     doap:description "Easy-to-use Web archiver" ;
     doap:developer <https://github.com/turicas> ;
     doap:license <https://api.github.com/licenses/lgpl-3.0> ;
-    doap:repository <https://github.com/turicas/crau>,
-        <https://github.com/turicas/crau.git> ;
-    ns1:issue_tracker <https://github.com/turicas/crau/issues> ;
-    ns1:num_stars 61 ;
+    doap:repository <https://github.com/turicas/crau.git>,
+        <https://github.com/turicas/crau.svn> ;
+    doap:shortdesc "Easy-to-use Web archiver" ;
+    ns1:num_stars 63 ;
     ns1:num_watchers 3 .
 
-<https://github.com/ukwa> a foaf:Agent,
-        foaf:Organization .
+<https://github.com/ukwa/shine> a doap:Project ;
+    dcterms:date "2024-10-07T08:15:26+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ukwa/shine/issues> ;
+    doap:created "2013-07-03T20:18:03+00:00"^^xsd:dateTime ;
+    doap:description "Prototype SOLR-powered web archive exploration UI." ;
+    doap:developer <https://github.com/ukwa> ;
+    doap:homepage <https://github.com/ukwa/shine/wiki> ;
+    doap:license <https://api.github.com/licenses/apache-2.0> ;
+    doap:repository <https://github.com/ukwa/shine.git>,
+        <https://github.com/ukwa/shine.svn> ;
+    doap:shortdesc "Prototype SOLR-powered web archive exploration UI." ;
+    ns1:num_stars 43 ;
+    ns1:num_watchers 17 .
 
-<https://github.com/ukwa/webarchive-discovery> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-10T12:47:04+00:00"^^xsd:dateTime ;
+<https://github.com/ukwa/webarchive-discovery> a doap:Project ;
+    dcterms:date "2025-08-13T11:10:16+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ukwa/webarchive-discovery/issues> ;
     doap:created "2012-12-20T12:17:14+00:00"^^xsd:dateTime ;
-    doap:description "WARC and ARC indexing and discovery tools." ;
+    doap:description "Please note that the warc-indexer tool & code is now supported by NetArchiveSuite. The 'warc-indexer' directory and code that exists in this repo is now only for reference. For support and issues of 'warc-indexer', please communicate with NetArchiveSuite." ;
     doap:developer <https://github.com/ukwa> ;
     doap:homepage <https://github.com/ukwa/webarchive-discovery/wiki> ;
-    doap:repository <https://github.com/ukwa/webarchive-discovery>,
-        <https://github.com/ukwa/webarchive-discovery.git> ;
-    ns1:issue_tracker <https://github.com/ukwa/webarchive-discovery/issues> ;
-    ns1:num_stars 123 ;
-    ns1:num_watchers 23 .
+    doap:repository <https://github.com/ukwa/webarchive-discovery.git>,
+        <https://github.com/ukwa/webarchive-discovery.svn> ;
+    doap:shortdesc "Please note that the warc-indexer tool & code is now supported by NetArchiveSuite. The 'warc-indexer' directory and code that exists in this repo is now only for reference. For support and issues of 'warc-indexer', please communicate with NetArchiveSuite." ;
+    ns1:num_stars 128 ;
+    ns1:num_watchers 24 .
 
-<https://github.com/wabarc/cairn> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-02-15T21:55:52+00:00"^^xsd:dateTime ;
+<https://github.com/wabarc> a foaf:Agent,
+        foaf:Organization .
+
+<https://github.com/wabarc/cairn> a doap:Project ;
+    dcterms:date "2025-08-04T05:50:10+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/wabarc/cairn/issues> ;
     doap:created "2020-10-08T07:18:16+00:00"^^xsd:dateTime ;
     doap:description "NPM package and CLI tool for saving web page as single HTML file" ;
     doap:developer <https://github.com/wabarc> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/wabarc/cairn>,
-        <https://github.com/wabarc/cairn.git> ;
-    ns1:issue_tracker <https://github.com/wabarc/cairn/issues> ;
-    ns1:num_stars 47 ;
-    ns1:num_watchers 4 .
+    doap:repository <https://github.com/wabarc/cairn.git>,
+        <https://github.com/wabarc/cairn.svn> ;
+    doap:shortdesc "NPM package and CLI tool for saving web page as single HTML file" ;
+    ns1:num_stars 49 ;
+    ns1:num_watchers 3 .
 
-<https://github.com/wabarc/playback> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2024-11-27T11:33:15+00:00"^^xsd:dateTime ;
+<https://github.com/wabarc/playback> a doap:Project ;
+    dcterms:date "2025-04-12T03:18:37+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/wabarc/playback/issues> ;
     doap:created "2021-04-08T14:21:46+00:00"^^xsd:dateTime ;
     doap:description "Playback webpages from Wayback Machine" ;
     doap:developer <https://github.com/wabarc> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/wabarc/playback>,
-        <https://github.com/wabarc/playback.git> ;
-    ns1:issue_tracker <https://github.com/wabarc/playback/issues> ;
-    ns1:num_stars 8 ;
+    doap:repository <https://github.com/wabarc/playback.git>,
+        <https://github.com/wabarc/playback.svn> ;
+    doap:shortdesc "Playback webpages from Wayback Machine" ;
+    ns1:num_stars 9 ;
     ns1:num_watchers 3 .
 
-<https://github.com/wabarc/wayback> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T12:28:56+00:00"^^xsd:dateTime ;
+<https://github.com/wabarc/wayback> a doap:Project ;
+    dcterms:date "2025-09-21T14:15:22+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/wabarc/wayback/issues> ;
     doap:created "2020-06-13T10:08:05+00:00"^^xsd:dateTime ;
     doap:description "An archiving tool with an IM-style interface that prioritizes privacy and accessibility, integrated with various archival services including Internet Archive, archive.today, Ghostarchive, IPFS, Telegraph, and file systems." ;
     doap:developer <https://github.com/wabarc> ;
     doap:homepage <https://docs.wabarc.eu.org> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/wabarc/wayback>,
-        <https://github.com/wabarc/wayback.git> ;
-    ns1:issue_tracker <https://github.com/wabarc/wayback/issues> ;
-    ns1:num_stars 1930 ;
+    doap:repository <https://github.com/wabarc/wayback.git>,
+        <https://github.com/wabarc/wayback.svn> ;
+    doap:shortdesc "An archiving tool with an IM-style interface that prioritizes privacy and accessibility, integrated with various archival services including Internet Archive, archive.today, Ghostarchive, IPFS, Telegraph, and file systems." ;
+    ns1:num_stars 2064 ;
     ns1:num_watchers 9 .
 
-<https://github.com/webrecorder/browsertrix-crawler> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-11T09:03:32+00:00"^^xsd:dateTime ;
+<https://github.com/webis-de/wasp> a doap:Project ;
+    dcterms:date "2024-12-07T10:22:33+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/webis-de/wasp/issues> ;
+    doap:created "2018-03-25T18:58:42+00:00"^^xsd:dateTime ;
+    doap:developer <https://github.com/webis-de> ;
+    doap:license <https://api.github.com/licenses/mit> ;
+    doap:repository <https://github.com/webis-de/wasp.git>,
+        <https://github.com/webis-de/wasp.svn> ;
+    ns1:num_stars 27 ;
+    ns1:num_watchers 12 .
+
+<https://github.com/webrecorder/browsertrix-crawler> a doap:Project ;
+    dcterms:date "2025-09-21T09:44:44+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/webrecorder/browsertrix-crawler/issues> ;
     doap:created "2020-11-02T04:37:14+00:00"^^xsd:dateTime ;
     doap:description "Run a high-fidelity browser-based web archiving crawler in a single Docker container" ;
     doap:developer <https://github.com/webrecorder> ;
     doap:homepage <https://crawler.docs.browsertrix.com> ;
     doap:license <https://api.github.com/licenses/agpl-3.0> ;
-    doap:repository <https://github.com/webrecorder/browsertrix-crawler>,
-        <https://github.com/webrecorder/browsertrix-crawler.git> ;
-    ns1:issue_tracker <https://github.com/webrecorder/browsertrix-crawler/issues> ;
-    ns1:num_stars 746 ;
+    doap:repository <https://github.com/webrecorder/browsertrix-crawler.git>,
+        <https://github.com/webrecorder/browsertrix-crawler.svn> ;
+    doap:shortdesc "Run a high-fidelity browser-based web archiving crawler in a single Docker container" ;
+    ns1:num_stars 877 ;
     ns1:num_watchers 23 .
 
-<https://github.com/webrecorder/har2warc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-01-25T16:42:10+00:00"^^xsd:dateTime ;
+<https://github.com/webrecorder/har2warc> a doap:Project ;
+    dcterms:date "2025-09-13T01:38:34+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/webrecorder/har2warc/issues> ;
     doap:created "2017-03-16T00:14:15+00:00"^^xsd:dateTime ;
     doap:description "Convert HTTP Archive (HAR) -> Web Archive (WARC) format" ;
     doap:developer <https://github.com/webrecorder> ;
     doap:homepage <https://pypi.python.org/pypi/har2warc> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/webrecorder/har2warc>,
-        <https://github.com/webrecorder/har2warc.git> ;
-    ns1:issue_tracker <https://github.com/webrecorder/har2warc/issues> ;
-    ns1:num_stars 51 ;
+    doap:repository <https://github.com/webrecorder/har2warc.git>,
+        <https://github.com/webrecorder/har2warc.svn> ;
+    doap:shortdesc "Convert HTTP Archive (HAR) -> Web Archive (WARC) format" ;
+    ns1:num_stars 54 ;
     ns1:num_watchers 6 .
 
-<https://github.com/webrecorder/pywb> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T15:56:03+00:00"^^xsd:dateTime ;
+<https://github.com/webrecorder/pywb> a doap:Project ;
+    dcterms:date "2025-09-18T18:58:42+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/webrecorder/pywb/issues> ;
     doap:created "2013-12-09T03:30:31+00:00"^^xsd:dateTime ;
     doap:description "Core Python Web Archiving Toolkit for replay and recording of web archives" ;
     doap:developer <https://github.com/webrecorder> ;
     doap:homepage <https://pypi.python.org/pypi/pywb> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/webrecorder/pywb>,
-        <https://github.com/webrecorder/pywb.git> ;
-    ns1:issue_tracker <https://github.com/webrecorder/pywb/issues> ;
-    ns1:num_stars 1484 ;
-    ns1:num_watchers 60 .
+    doap:repository <https://github.com/webrecorder/pywb.git>,
+        <https://github.com/webrecorder/pywb.svn> ;
+    doap:shortdesc "Core Python Web Archiving Toolkit for replay and recording of web archives" ;
+    ns1:num_stars 1558 ;
+    ns1:num_watchers 59 .
 
-<https://github.com/webrecorder/warcio> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-03-28T10:42:52+00:00"^^xsd:dateTime ;
+<https://github.com/webrecorder/warcio> a doap:Project ;
+    dcterms:date "2025-09-07T12:49:10+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/webrecorder/warcio/issues> ;
     doap:created "2017-03-06T18:17:11+00:00"^^xsd:dateTime ;
     doap:description "Streaming WARC/ARC library for fast web archive IO" ;
     doap:developer <https://github.com/webrecorder> ;
     doap:homepage <https://pypi.python.org/pypi/warcio> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
-    doap:repository <https://github.com/webrecorder/warcio>,
-        <https://github.com/webrecorder/warcio.git> ;
-    ns1:issue_tracker <https://github.com/webrecorder/warcio/issues> ;
-    ns1:num_stars 408 ;
+    doap:repository <https://github.com/webrecorder/warcio.git>,
+        <https://github.com/webrecorder/warcio.svn> ;
+    doap:shortdesc "Streaming WARC/ARC library for fast web archive IO" ;
+    ns1:num_stars 430 ;
     ns1:num_watchers 21 .
 
-<https://github.com/ArchiveBox/ArchiveBox> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-11T02:29:19+00:00"^^xsd:dateTime ;
+<https://api.github.com/licenses/agpl-3.0> rdfs:label "GNU Affero General Public License v3.0" .
+
+<https://github.com/ArchiveBox/ArchiveBox> a doap:Project ;
+    dcterms:date "2025-09-23T08:08:48+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ArchiveBox/ArchiveBox/issues> ;
     doap:created "2017-05-05T08:50:14+00:00"^^xsd:dateTime ;
     doap:description "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
     doap:developer <https://github.com/ArchiveBox> ;
     doap:homepage <https://archivebox.io> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/ArchiveBox/ArchiveBox>,
-        <https://github.com/ArchiveBox/ArchiveBox.git> ;
-    ns1:issue_tracker <https://github.com/ArchiveBox/ArchiveBox/issues> ;
-    ns1:num_stars 23609 ;
-    ns1:num_watchers 177 .
+    doap:repository <https://github.com/ArchiveBox/ArchiveBox.git>,
+        <https://github.com/ArchiveBox/ArchiveBox.svn> ;
+    doap:shortdesc "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
+    ns1:num_stars 25001 ;
+    ns1:num_watchers 178 .
 
-<https://github.com/ArchiveTeam> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/ArchiveTeam/wpull> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T06:30:53+00:00"^^xsd:dateTime ;
+<https://github.com/ArchiveTeam/wpull> a doap:Project ;
+    dcterms:date "2025-09-05T19:40:55+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/ArchiveTeam/wpull/issues> ;
     doap:created "2013-12-07T13:03:15+00:00"^^xsd:dateTime ;
     doap:description "Wget-compatible web downloader and crawler." ;
     doap:developer <https://github.com/ArchiveTeam> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/ArchiveTeam/wpull>,
-        <https://github.com/ArchiveTeam/wpull.git> ;
-    ns1:issue_tracker <https://github.com/ArchiveTeam/wpull/issues> ;
-    ns1:num_stars 582 ;
+    doap:repository <https://github.com/ArchiveTeam/wpull.git>,
+        <https://github.com/ArchiveTeam/wpull.svn> ;
+    doap:shortdesc "Wget-compatible web downloader and crawler." ;
+    ns1:num_stars 593 ;
     ns1:num_watchers 22 .
 
-<https://github.com/DocNow/twarc> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-07T05:34:32+00:00"^^xsd:dateTime ;
+<https://github.com/DO-SAY-GO/dn> a doap:Project ;
+    dcterms:date "2025-09-23T13:56:35+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/DO-SAY-GO/dn/issues> ;
+    doap:created "2019-12-20T09:47:32+00:00"^^xsd:dateTime ;
+    doap:description " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
+    doap:developer <https://github.com/DO-SAY-GO> ;
+    doap:homepage <https://dosaygo.com/downloadnet> ;
+    doap:repository <https://github.com/DO-SAY-GO/dn.git>,
+        <https://github.com/DO-SAY-GO/dn.svn> ;
+    doap:shortdesc " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
+    ns1:num_stars 3853 ;
+    ns1:num_watchers 41 .
+
+<https://github.com/DocNow/twarc> a doap:Project ;
+    dcterms:date "2025-09-23T05:07:53+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/DocNow/twarc/issues> ;
     doap:created "2013-01-14T14:35:40+00:00"^^xsd:dateTime ;
     doap:description "A command line tool (and Python library) for archiving Twitter JSON" ;
     doap:developer <https://github.com/DocNow> ;
     doap:homepage <https://twarc-project.readthedocs.io> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/DocNow/twarc>,
-        <https://github.com/DocNow/twarc.git> ;
-    ns1:issue_tracker <https://github.com/DocNow/twarc/issues> ;
-    ns1:num_stars 1379 ;
+    doap:repository <https://github.com/DocNow/twarc.git>,
+        <https://github.com/DocNow/twarc.svn> ;
+    doap:shortdesc "A command line tool (and Python library) for archiving Twitter JSON" ;
+    ns1:num_stars 1386 ;
     ns1:num_watchers 33 .
 
-<https://github.com/N0taN3rd> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/PromyLOPh/crocoite> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-01-16T02:36:27+00:00"^^xsd:dateTime ;
+<https://github.com/PromyLOPh/crocoite> a doap:Project ;
+    dcterms:date "2025-07-12T04:02:35+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/PromyLOPh/crocoite/issues> ;
     doap:created "2017-11-17T18:56:11+00:00"^^xsd:dateTime ;
     doap:description "Web archiving using Google Chrome" ;
     doap:developer <https://github.com/PromyLOPh> ;
     doap:homepage <https://6xq.net/crocoite/> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/PromyLOPh/crocoite>,
-        <https://github.com/PromyLOPh/crocoite.git> ;
-    ns1:issue_tracker <https://github.com/PromyLOPh/crocoite/issues> ;
-    ns1:num_stars 44 ;
-    ns1:num_watchers 7 .
+    doap:repository <https://github.com/PromyLOPh/crocoite.git>,
+        <https://github.com/PromyLOPh/crocoite.svn> ;
+    doap:shortdesc "Web archiving using Google Chrome" ;
+    ns1:num_stars 47 ;
+    ns1:num_watchers 6 .
 
-<https://github.com/chfoo> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
+<https://github.com/archivesunleashed> a foaf:Agent,
+        foaf:Organization .
 
-<https://github.com/dosyago/dn> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-08T21:53:10+00:00"^^xsd:dateTime ;
-    doap:created "2019-12-20T09:47:32+00:00"^^xsd:dateTime ;
-    doap:description " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
-    doap:developer <https://github.com/dosyago> ;
-    doap:homepage <https://localhost:22120> ;
-    doap:repository <https://github.com/dosyago/dn>,
-        <https://github.com/dosyago/dn.git> ;
-    ns1:issue_tracker <https://github.com/dosyago/dn/issues> ;
-    ns1:num_stars 3830 ;
-    ns1:num_watchers 42 .
-
-<https://github.com/flameshot-org/flameshot> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-11T11:51:15+00:00"^^xsd:dateTime ;
+<https://github.com/flameshot-org/flameshot> a doap:Project ;
+    dcterms:date "2025-09-23T14:48:36+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
     doap:created "2017-05-10T19:44:51+00:00"^^xsd:dateTime ;
     doap:description "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
     doap:developer <https://github.com/flameshot-org> ;
     doap:homepage <https://flameshot.org> ;
     doap:license <https://api.github.com/licenses/gpl-3.0> ;
-    doap:repository <https://github.com/flameshot-org/flameshot>,
-        <https://github.com/flameshot-org/flameshot.git> ;
-    ns1:issue_tracker <https://github.com/flameshot-org/flameshot/issues> ;
-    ns1:num_stars 25937 ;
-    ns1:num_watchers 207 .
+    doap:repository <https://github.com/flameshot-org/flameshot.git>,
+        <https://github.com/flameshot-org/flameshot.svn> ;
+    doap:shortdesc "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
+    ns1:num_stars 27849 ;
+    ns1:num_watchers 210 .
 
-<https://github.com/machawk1> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/machawk1/Mink> a doap:Project,
-        doap:SVNRepository ;
-    dcterms:date "2025-04-09T00:05:40+00:00"^^xsd:dateTime ;
+<https://github.com/machawk1/Mink> a doap:Project ;
+    dcterms:date "2025-06-24T16:55:44+00:00"^^xsd:dateTime ;
+    doap:bug-database <https://github.com/machawk1/Mink/issues> ;
     doap:created "2014-01-17T18:25:53+00:00"^^xsd:dateTime ;
     doap:description "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
     doap:developer <https://github.com/machawk1> ;
     doap:license <https://api.github.com/licenses/mit> ;
-    doap:repository <https://github.com/machawk1/Mink>,
-        <https://github.com/machawk1/Mink.git> ;
-    ns1:issue_tracker <https://github.com/machawk1/Mink/issues> ;
-    ns1:num_stars 53 ;
+    doap:repository <https://github.com/machawk1/Mink.git>,
+        <https://github.com/machawk1/Mink.svn> ;
+    doap:shortdesc "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
+    ns1:num_stars 54 ;
     ns1:num_watchers 4 .
-
-<https://github.com/netarchivesuite> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/oduwsdl> a foaf:Agent,
-        foaf:Organization .
-
-<https://api.github.com/licenses/cc0-1.0> rdfs:label "Creative Commons Zero v1.0 Universal" .
-
-<https://github.com/archivesunleashed> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/helgeho> a <http://rdfs.org/sioc/ns#User>,
-        foaf:Agent .
-
-<https://github.com/iipc> a foaf:Agent,
-        foaf:Organization .
-
-<https://github.com/wabarc> a foaf:Agent,
-        foaf:Organization .
-
-<https://api.github.com/licenses/agpl-3.0> rdfs:label "GNU Affero General Public License v3.0" .
 
 <https://github.com/webrecorder> a foaf:Agent,
         foaf:Organization .
