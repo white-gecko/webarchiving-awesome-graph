@@ -309,22 +309,18 @@ name = "gitdoap"
 version = "0.1.1"
 description = "A small python library to generate a description of a project (doap) from a git repository."
 optional = false
-python-versions = ">=3.9,<4.0.0"
+python-versions = "<4.0.0,>=3.9"
 groups = ["main"]
-files = []
-develop = true
+files = [
+    {file = "gitdoap-0.1.1-py3-none-any.whl", hash = "sha256:462beeba8fa68e7a4e1094fd82a9bf9427f88287276b24840f6aa065d6e6c40a"},
+    {file = "gitdoap-0.1.1.tar.gz", hash = "sha256:eb8987fb0b1b8b6896aaf4559e5c8189a5082122e5b0382e18ffed54944a4222"},
+]
 
 [package.dependencies]
 loguru = ">=0.7.3,<0.8.0"
 pygithub = ">=2.6.1,<3.0.0"
 rdflib = ">=7.1.4,<8.0.0"
 typer = ">=0.16.0,<0.17.0"
-
-[package.source]
-type = "git"
-url = "https://github.com/white-gecko/gitdoap"
-reference = "HEAD"
-resolved_reference = "193cf846c288163058592f68ac2f0674471fed13"
 
 [[package]]
 name = "idna"
@@ -1040,4 +1036,4 @@ dev = ["black (>=19.3b0) ; python_version >= \"3.6\"", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.13"
-content-hash = "617b6874d0642258e451b029c2dc3f8ee205c17d2138eee6592010436cd5d4ac"
+content-hash = "9711b51322711daefc4c95b1e8d2b814bd633e0f1ee588d0603c295022b92b85"
