@@ -440,6 +440,13 @@
     rdfs:label "Comparison of web archiving software" ;
     doap:category <http://awesome.org/iipc/#tools--software> .
 
+<https://github.com/archivesunleashed/warclight> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Warclight" ;
+    dct:description "A Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. " ;
+    doap:category <http://awesome.org/iipc/#search--discovery>,
+        <http://awesome.org/iipc/In_Development> .
+
 <https://github.com/chfoo/wpull> a sioc:Item,
         doap:Project ;
     rdfs:label "Wpull" ;
@@ -497,6 +504,12 @@
         <http://awesome.org/iipc/Stable> ;
     rdfs:seeAlso <https://github.com/machawk1/Mink> .
 
+<https://github.com/netarchivesuite/solrwayback> a sioc:Item,
+        doap:Project ;
+    rdfs:label "SolrWayback" ;
+    dct:description "A backend Java and frontend VUE JS project with freetext search and a build in playback engine. Require Warc files has been index with the Warc-Indexer. The web application also has a wide range of data visualization tools and data export tools that can be used on the whole webarchive. " ;
+    doap:category <http://awesome.org/iipc/#search--discovery> .
+
 <https://github.com/pirate/ArchiveBox> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveBox" ;
@@ -516,6 +529,20 @@
     doap:category <http://awesome.org/iipc/#acquisition>,
         <http://awesome.org/iipc/In_Development> ;
     rdfs:seeAlso <https://github.com/PromyLOPh/crocoite> .
+
+<https://github.com/ukwa/shine> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Shine" ;
+    dct:description "A prototype web archives exploration UI, developed with researchers as part of the " ;
+    doap:category <http://awesome.org/iipc/#search--discovery>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/webis-de/wasp> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Wasp" ;
+    dct:description "A fully functional prototype of a personal " ;
+    doap:category <http://awesome.org/iipc/#search--discovery>,
+        <http://awesome.org/iipc/In_Development> .
 
 <https://groups.google.com/g/common-crawl> a sioc:Item ;
     rdfs:label "Common Crawl" ;
@@ -1968,10 +1995,6 @@
     rdfs:label "Blogs and Scholarship" ;
     skos:broader <http://awesome.org/iipc/#community-resources> .
 
-<http://awesome.org/iipc/#search--discovery> a skos:Concept ;
-    rdfs:label "Search & Discovery" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
-
 <https://api.github.com/licenses/gpl-3.0> rdfs:label "GNU General Public License v3.0" .
 
 <http://awesome.org/iipc/#analysis> a skos:Concept ;
@@ -1995,6 +2018,10 @@
 
 <http://awesome.org/iipc/#quality-assurance> a skos:Concept ;
     rdfs:label "Quality Assurance" ;
+    skos:broader <http://awesome.org/iipc/#tools--software> .
+
+<http://awesome.org/iipc/#search--discovery> a skos:Concept ;
+    rdfs:label "Search & Discovery" ;
     skos:broader <http://awesome.org/iipc/#tools--software> .
 
 <http://awesome.org/iipc/#warc-io-libraries> a skos:Concept ;
