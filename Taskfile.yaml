@@ -16,6 +16,7 @@ tasks:
     desc: Install the dependencies with poetry
     cmds:
       - poetry install
+      - pipx install kisumu
 
   run:
     desc: Execute the command
