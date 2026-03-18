@@ -8,19 +8,21 @@
   - [Self-hostable, Open Source]()
   - [Hosted, Closed Source]()
 - [Community Resources]()
+  - [Discord]()
   - [Mailing Lists]()
   - [Other Awesome Lists]()
   - [Slack]()
   - [Twitter]()
   - [Blogs and Scholarship]()
+- [Public Data]()
 - [Tools & Software]()
   - [Curation]()
-  - [Utilities]()
   - [Replay]()
+  - [Utilities]()
   - [Analysis]()
-  - [Quality Assurance]()
   - [Search & Discovery]()
   - [WARC I/O Libraries]()
+  - [Quality Assurance]()
   - [Acquisition]()
 - [In Development]()
 - [Stable]()
@@ -63,6 +65,10 @@ their needs.
 
 
 
+### Discord
+
+- [Common Crawl Foundation](https://discord.gg/njaVFh7avF) 
+
 ### Mailing Lists
 
 - [IIPC](http://netpreserve.org/about-us/iipc-mailing-list/) 
@@ -88,6 +94,7 @@ their needs.
 
 - [@NetPreserve](https://twitter.com/NetPreserve) - Official IIPC handle.
 - [@WebSciDL](https://twitter.com/WebSciDL) - ODU Web Science and Digital Libraries Research Group.
+- [@commoncrawl](https://twitter.com/commoncrawl) - Official Common Crawl Foundation handle.
 - [#WebArchiveWednesday](https://twitter.com/hashtag/webarchivewednesday) 
 - [#WebArchiving](https://twitter.com/search?q=%23webarchiving) 
 
@@ -100,6 +107,18 @@ their needs.
 - [Web Archiving Roundtable](https://webarchivingrt.wordpress.com/) - Unofficial blog of the Web Archiving Roundtable of the 
 - [WS-DL Blog](https://ws-dl.blogspot.com/) - Web Science and Digital Libraries Research Group blogs about various Web archiving related topics, scholarly work, and academic trip reports.
 - [The Web as History](https://www.uclpress.co.uk/products/84010) - An open-source book that provides a conceptual overview to web archiving research, as well as several case studies.
+
+## Public Data
+
+This is a list of publicly available WARCs, Wayback Machines, CDX API endpoints,
+other indexes, and so on.
+- [Common Crawl files](https://data.commoncrawl.org/) - WARCs, CDX files, parquet url index, parquet host index, etc.
+- [End of Term Archive](https://eotarchive.org/) - WARCs, CDX files, parquet url index
+- [Webrecorder US GovArchive](https://govarchive.us/) - high-fidelity replay
+- [Common Crawl CDX API](https://index.commoncrawl.org/) 
+- [Internet Archive Wayback](https://web.archive.org/) 
+- [UK Government Web Archive](https://www.nationalarchives.gov.uk/webarchive/) - Wayback
+
 
 ## Tools & Software
 
@@ -115,14 +134,6 @@ groups:
 
 - [Zotero Robust Links Extension](https://robustlinks.mementoweb.org/zotero/) - A  💽
 
-### Utilities
-
-- [cdx-toolkit](https://pypi.org/project/cdx-toolkit/) - Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure.  💽
-- [Go Get Crawl](https://github.com/karust/gogetcrawl) - Extract web archive data using  💽 ⭐ 161 👀 3
-- [gowarcserver](https://github.com/nlnwa/gowarcserver)  💽 ⭐ 16 👀 6
-- [ArchiveTools](https://github.com/recrm/ArchiveTools) - Collection of tools to extract and interact with WARC files (Python). 💽 ⭐ 78 👀 5
-- [har2warc](https://github.com/webrecorder/har2warc) - Convert HTTP Archive (HAR) -> Web Archive (WARC) format (Python). 💽 ⭐ 54 👀 6
-
 ### Replay
 
 - [OpenWayback](https://github.com/iipc/openwayback/) - The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser.  💽
@@ -131,6 +142,16 @@ groups:
 - [warc2html](https://github.com/iipc/warc2html) - Converts WARC files to static HTML suitable for browsing offline or rehosting. 💽 ⭐ 48 👀 10
 - [InterPlanetary Wayback (ipwb)](https://github.com/oduwsdl/ipwb) - Web Archive (WARC) indexing and replay using  💽 ⭐ 643 👀 21
 - [PYWB](https://github.com/webrecorder/pywb) - A Python 3 implementation of web archival replay tools, sometimes also known as 'Wayback Machine'.  💽 ⭐ 1558 👀 59
+
+### Utilities
+
+- [bagnabit2warc](https://github.com/internetarchive/bagnabit2warc) - Convert a  💽
+- [duckdb-web-archive-cdx](https://github.com/midwork-finds-jobs/duckdb-web-archive) - DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL.  💽
+- [cdx-toolkit](https://pypi.org/project/cdx-toolkit/) - Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure.  💽
+- [Go Get Crawl](https://github.com/karust/gogetcrawl) - Extract web archive data using  💽 ⭐ 161 👀 3
+- [gowarcserver](https://github.com/nlnwa/gowarcserver)  💽 ⭐ 16 👀 6
+- [ArchiveTools](https://github.com/recrm/ArchiveTools) - Collection of tools to extract and interact with WARC files (Python). 💽 ⭐ 78 👀 5
+- [har2warc](https://github.com/webrecorder/har2warc) - Convert HTTP Archive (HAR) -> Web Archive (WARC) format (Python). 💽 ⭐ 54 👀 6
 
 ### Analysis
 
@@ -143,21 +164,6 @@ groups:
 - [Common Crawl Jupyter notebooks](https://github.com/commoncrawl/cc-notebooks) - A collection of notebooks using Common Crawl's various datasets.  💽 ⭐ 58 👀 18
 - [ArchiveSpark](https://github.com/helgeho/ArchiveSpark) - An Apache Spark framework (not only) for Web Archives that enables easy data processing, extraction as well as derivation.  💽 ⭐ 152 👀 15
 - [Archives Research Compute Hub](https://github.com/internetarchive/arch) - Web application for distributed compute analysis of Archive-It web archive collections.  💽 ⭐ 20 👀 20
-
-### Quality Assurance
-
-- [Xenu](http://home.snafu.de/tilman/xenulink.html) - Desktop link checker for Windows. 💽
-- [WineBottler](http://winebottler.kronenberg.org/) - For running Xenu and Notepad++ on macOS. 💽
-- [Chrome link gopher](https://chrome.google.com/webstore/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US) - Browser extension: link harvester on a page. 💽
-- [Chrome Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - Browser extension: a link checker with more options. 💽
-- [Chrome link checker](https://chrome.google.com/webstore/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi) - Browser extension: basic link checker. 💽
-- [Chrome Open Multiple URLs](https://chrome.google.com/webstore/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de) - Browser extension: opens multiple URLs and also extracts URLs from text. 💽
-- [Chrome Revolver](https://chrome.google.com/webstore/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda) - Browser extension: switches between browser tabs. 💽
-- [Windows Snipping Tool](https://support.microsoft.com/en-gb/help/13776/windows-use-snipping-tool-to-capture-screenshots) - Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture). 💽
-- [PlayOnLinux](https://www.playonlinux.com/en/) - For running Xenu and Notepad++ on Ubuntu. 💽
-- [PlayOnMac](https://www.playonmac.com/en/) - For running Xenu and Notepad++ on macOS. 💽
-- [FlameShot](https://github.com/flameshot-org/flameshot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 27849 👀 210
-- [xDoTool](https://github.com/jordansissel/xdotool) - Click automation on Ubuntu. 💽 ⭐ 3572 👀 64
 
 ### Search & Discovery
 
@@ -176,6 +182,7 @@ groups:
 
 ### WARC I/O Libraries
 
+- [warc](https://github.com/jedireza/warc) - A Rust library for reading and writing WARC files.  💽
 - [node-warc](https://github.com/N0taN3rd/node-warc) - Parse WARC files or create WARC files using either  💽 ⭐ 101 👀 7
 - [FastWARC](https://github.com/chatnoir-eu/chatnoir-resiliparse) - A high-performance WARC parsing library (Python). 💽 ⭐ 116 👀 8
 - [Warcat](https://github.com/chfoo/warcat) - Tool and library for handling Web ARChive (WARC) files (Python).  💽 ⭐ 164 👀 10
@@ -189,6 +196,26 @@ groups:
 - [Jwat-Tools](https://github.com/netarchivesuite/jwat-tools) - Tools for reading/writing/validating WARC/ARC/GZIP files (Java).  💽 ⭐ 5 👀 6
 - [webarchive](https://github.com/richardlehane/webarchive) - Golang readers for ARC and WARC webarchive formats (Golang). 💽 ⭐ 20 👀 7
 - [warcio](https://github.com/webrecorder/warcio) - Streaming WARC/ARC library for fast web archive IO (Python).  💽 ⭐ 430 👀 21
+
+### Quality Assurance
+
+- [Xenu](http://home.snafu.de/tilman/xenulink.html) - Desktop link checker for Windows. 💽
+- [WineBottler](http://winebottler.kronenberg.org/) - For running Xenu and Notepad++ on macOS. 💽
+- [Chrome link gopher](https://chrome.google.com/webstore/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US) - Browser extension: link harvester on a page. 💽
+- [Chrome Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - Browser extension: a link checker with more options. 💽
+- [Chrome link checker](https://chrome.google.com/webstore/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi) - Browser extension: basic link checker. 💽
+- [Chrome Open Multiple URLs](https://chrome.google.com/webstore/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de) - Browser extension: opens multiple URLs and also extracts URLs from text. 💽
+- [Chrome Revolver](https://chrome.google.com/webstore/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda) - Browser extension: switches between browser tabs. 💽
+- [Chrome link gopher](https://chromewebstore.google.com/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US) - Browser extension: link harvester on a page. 💽
+- [Chrome Check My Links](https://chromewebstore.google.com/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - Browser extension: a link checker with more options. 💽
+- [Chrome link checker](https://chromewebstore.google.com/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi) - Browser extension: basic link checker. 💽
+- [Chrome Open Multiple URLs](https://chromewebstore.google.com/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de) - Browser extension: opens multiple URLs and also extracts URLs from text. 💽
+- [Chrome Revolver](https://chromewebstore.google.com/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda) - Browser extension: switches between browser tabs. 💽
+- [Windows Snipping Tool](https://support.microsoft.com/en-gb/help/13776/windows-use-snipping-tool-to-capture-screenshots) - Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture). 💽
+- [PlayOnLinux](https://www.playonlinux.com/en/) - For running Xenu and Notepad++ on Ubuntu. 💽
+- [PlayOnMac](https://www.playonmac.com/en/) - For running Xenu and Notepad++ on macOS. 💽
+- [FlameShot](https://github.com/flameshot-org/flameshot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 27849 👀 210
+- [xDoTool](https://github.com/jordansissel/xdotool) - Click automation on Ubuntu. 💽 ⭐ 3572 👀 64
 
 ### Acquisition
 
@@ -235,6 +262,7 @@ groups:
 
 ## In Development
 
+- [duckdb-web-archive-cdx](https://github.com/midwork-finds-jobs/duckdb-web-archive) - DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL.  💽
 - [WebMemex](https://github.com/WebMemex) - Browser extension for Firefox and Chrome which lets you archive web pages you visit.  💽
 - [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 25001 👀 178
 - [Chronicler](https://github.com/CGamesPlay/chronicler) - Web browser with record and replay functionality.  💽 ⭐ 89 👀 5
@@ -264,6 +292,7 @@ groups:
 - [Crawl](https://git.autistici.org/ale/crawl) - A simple web crawler in Golang.  💽
 - [OpenWayback](https://github.com/iipc/openwayback/) - The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser.  💽
 - [Heritrix](https://github.com/internetarchive/heritrix3/wiki) - An open source, extensible, web-scale, archival quality web crawler.  💽
+- [warc](https://github.com/jedireza/warc) - A Rust library for reading and writing WARC files.  💽
 - [Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [cdx-toolkit](https://pypi.org/project/cdx-toolkit/) - Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure.  💽
 - [Web Curator Tool](https://webcuratortool.org) - Open-source workflow management for selective web archiving.  💽
