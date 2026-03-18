@@ -194,7 +194,7 @@ def awesome_items(file_path, base_iri):
                 bind(
                     iri(
                         concat(
-                            if(substr(?destination, 1, 1) = "#", "{base_iri}", ""),
+                            if(strStarts(?destination, "#"), "{base_iri}", ""),
                             ?destination
                         )
                     ) as ?destination_iri
