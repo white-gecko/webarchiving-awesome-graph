@@ -58,9 +58,9 @@ optional {
 
 ## Contents
 {% for category in graph | query(category_query) %}
-- [{{category.title}}]()
+- [{{category.title}}](#{{category.title | replace("&", "") | replace(" ", "-") | lower}})
 {%- for sub_category in category.iri | query(sub_category_query) %}
-  - [{{sub_category.title}}]()
+  - [{{sub_category.title}}](#{{sub_category.title | replace("&", "") | replace(" ", "-") | lower}})
 {%- endfor %}
 {%- endfor %}
 
