@@ -122,36 +122,6 @@
     rdfs:label "Common Crawl Foundation Partners" ;
     doap:category <http://awesome.org/iipc/#slack> .
 
-<https://chrome.google.com/webstore/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US> a sioc:Item,
-        doap:Project ;
-    rdfs:label "Chrome link gopher" ;
-    dct:description "Browser extension: link harvester on a page." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
-
-<https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf> a sioc:Item,
-        doap:Project ;
-    rdfs:label "Chrome Check My Links" ;
-    dct:description "Browser extension: a link checker with more options." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
-
-<https://chrome.google.com/webstore/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi> a sioc:Item,
-        doap:Project ;
-    rdfs:label "Chrome link checker" ;
-    dct:description "Browser extension: basic link checker." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
-
-<https://chrome.google.com/webstore/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de> a sioc:Item,
-        doap:Project ;
-    rdfs:label "Chrome Open Multiple URLs" ;
-    dct:description "Browser extension: opens multiple URLs and also extracts URLs from text." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
-
-<https://chrome.google.com/webstore/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda> a sioc:Item,
-        doap:Project ;
-    rdfs:label "Chrome Revolver" ;
-    dct:description "Browser extension: switches between browser tabs." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
-
 <https://chromewebstore.google.com/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome link gopher" ;
@@ -231,10 +201,65 @@
     rdfs:label "Web Archiving Community" ;
     doap:category <http://awesome.org/iipc/#other-awesome-lists> .
 
+<https://github.com/N0taN3rd/node-cdxj> a sioc:Item,
+        doap:Project ;
+    rdfs:label "node-cdxj" ;
+    dct:description "" ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/WikiTeam/wikiteam> a sioc:Item,
+        doap:Project ;
+    rdfs:label "wikiteam" ;
+    dct:description "Tools for downloading and preserving wikis. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/arcalex/warcrefs> a sioc:Item,
+        doap:Project ;
+    rdfs:label "warcrefs" ;
+    dct:description "Web archive deduplication tools. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
 <https://github.com/archivers-space/research/tree/master/web_archiving> a sioc:Item,
         doap:Project ;
     rdfs:label "Comparison of web archiving software" ;
     doap:category <http://awesome.org/iipc/#tools--software> .
+
+<https://github.com/florents-Tselai/warcdb> a sioc:Item,
+        doap:Project ;
+    rdfs:label "warcdb" ;
+    dct:description "A command line utility (Python) for importing WARC files into a SQLite database. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/harvard-lil/warcbench> a sioc:Item,
+        doap:Project ;
+    rdfs:label "warcbench" ;
+    dct:description "A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files." ;
+    doap:category <http://awesome.org/iipc/#utilities> .
+
+<https://github.com/helgeho/WarcPartitioner> a sioc:Item,
+        doap:Project ;
+    rdfs:label "WarcPartitioner" ;
+    dct:description "Partition (W)ARC Files by MIME Type and Year. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/httpreserve/linkstat> a sioc:Item,
+        doap:Project ;
+    rdfs:label "HTTPreserve linkstat" ;
+    dct:description "Command line implementation of " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/httpreserve/tikalinkextract> a sioc:Item,
+        doap:Project ;
+    rdfs:label "tikalinkextract" ;
+    dct:description "Extract hyperlinks as a seed for web archiving from folders of document types that can be parsed by Apache Tika (Golang, Apache Tika Server). " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/In_Development> .
 
 <https://github.com/iipc/openwayback/> a sioc:Item,
         doap:Project ;
@@ -242,6 +267,12 @@
     dct:description "The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser. " ;
     doap:category <http://awesome.org/iipc/#replay>,
         <http://awesome.org/iipc/Stable> .
+
+<https://github.com/ikreymer/webarchive-indexing> a sioc:Item,
+        doap:Project ;
+    rdfs:label "webarchive-indexing" ;
+    dct:description "Tools for bulk indexing of WARC/ARC files on Hadoop, EMR or local file system." ;
+    doap:category <http://awesome.org/iipc/#utilities> .
 
 <https://github.com/internetarchive/bagnabit2warc> a sioc:Item,
         doap:Project ;
@@ -263,6 +294,13 @@
     doap:category <http://awesome.org/iipc/#warc-io-libraries>,
         <http://awesome.org/iipc/Stable> .
 
+<https://github.com/jjjake/internetarchive> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Internet Archive Library" ;
+    dct:description "A command line tool and Python library for interacting directly with " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
 <https://github.com/machawk1/awesome-memento> a sioc:Item ;
     rdfs:label "Awesome Memento" ;
     doap:category <http://awesome.org/iipc/#other-awesome-lists> .
@@ -271,6 +309,60 @@
         doap:Project ;
     rdfs:label "duckdb-web-archive-cdx" ;
     dct:description "DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/In_Development> .
+
+<https://github.com/natliblux/warc-safe> a sioc:Item,
+        doap:Project ;
+    rdfs:label "warc-safe" ;
+    dct:description "Automatic detection of viruses and NSFW content in WARC files." ;
+    doap:category <http://awesome.org/iipc/#utilities> .
+
+<https://github.com/nla/httrack2warc> a sioc:Item,
+        doap:Project ;
+    rdfs:label "httrack2warc" ;
+    dct:description "Convert HTTrack archives to WARC format (Java)." ;
+    doap:category <http://awesome.org/iipc/#utilities> .
+
+<https://github.com/nla/outbackcdx> a sioc:Item,
+        doap:Project ;
+    rdfs:label "OutbackCDX" ;
+    dct:description "RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/oduwsdl/MemGator> a sioc:Item,
+        doap:Project ;
+    rdfs:label "MemGator" ;
+    dct:description "A Memento Aggregator CLI and Server (Golang). " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/oduwsdl/MementoMap> a sioc:Item,
+        doap:Project ;
+    rdfs:label "MementoMap" ;
+    dct:description "A Tool to Summarize Web Archive Holdings (Python). " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/In_Development> .
+
+<https://github.com/sul-dlss/wasapi-downloader> a sioc:Item,
+        doap:Project ;
+    rdfs:label "wasapi-downloader" ;
+    dct:description "Java command line application to download crawls from WASAPI. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://github.com/unt-libraries/py-wasapi-client> a sioc:Item,
+        doap:Project ;
+    rdfs:label "py-wasapi-client" ;
+    dct:description "Command line application to download crawls from WASAPI (Python). " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
+<https://gitlab.com/taricorp/warcdedupe> a sioc:Item,
+        doap:Project ;
+    rdfs:label "warcdedupe" ;
+    dct:description "WARC deduplication tool (and WARC library) written in Rust. " ;
     doap:category <http://awesome.org/iipc/#utilities>,
         <http://awesome.org/iipc/In_Development> .
 
@@ -298,6 +390,13 @@
     doap:category <http://awesome.org/iipc/#acquisition>,
         <http://awesome.org/iipc/Stable> .
 
+<https://httpreserve.info> a sioc:Item,
+        doap:Project ;
+    rdfs:label "httpreserve.info" ;
+    dct:description "Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang). " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
+
 <https://iipc.slack.com/> a sioc:Item ;
     rdfs:label "IIPC Slack" ;
     dct:description "Ask " ;
@@ -310,6 +409,13 @@
 <https://netpreserveblog.wordpress.com/> a sioc:Item ;
     rdfs:label "IIPC Blog" ;
     doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+
+<https://nlnwa.github.io/warchaeology/> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Warchaeology" ;
+    dct:description "Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/Stable> .
 
 <https://nullhandle.org/web-archivability/index.html> a sioc:Item ;
     rdfs:label "Definition of Web Archivability" ;
@@ -346,6 +452,12 @@
     rdfs:label "Windows Snipping Tool" ;
     dct:description "Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture)." ;
     doap:category <http://awesome.org/iipc/#quality-assurance> .
+
+<https://theunarchiver.com/> a sioc:Item,
+        doap:Project ;
+    rdfs:label "The Unarchiver" ;
+    dct:description "Program to extract the contents of many archive formats, inclusive of WARC, to a file system. Free variant of The Archive Browser (macOS only, Proprietary app)." ;
+    doap:category <http://awesome.org/iipc/#utilities> .
 
 <https://twitter.com/NetPreserve> a sioc:Item ;
     rdfs:label "@NetPreserve" ;
@@ -2526,10 +2638,6 @@
     rdfs:label "Blogs and Scholarship" ;
     skos:broader <http://awesome.org/iipc/#community-resources> .
 
-<http://awesome.org/iipc/#utilities> a skos:Concept ;
-    rdfs:label "Utilities" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
-
 <https://api.github.com/licenses/gpl-3.0> rdfs:label "GNU General Public License v3.0" .
 
 <http://awesome.org/iipc/#analysis> a skos:Concept ;
@@ -2548,24 +2656,28 @@
         <http://awesome.org/iipc/#utilities>,
         <http://awesome.org/iipc/#warc-io-libraries> .
 
+<http://awesome.org/iipc/#quality-assurance> a skos:Concept ;
+    rdfs:label "Quality Assurance" ;
+    skos:broader <http://awesome.org/iipc/#tools--software> .
+
 <http://awesome.org/iipc/#search--discovery> a skos:Concept ;
     rdfs:label "Search & Discovery" ;
     skos:broader <http://awesome.org/iipc/#tools--software> .
-
-<http://awesome.org/iipc/In_Development> a skos:Concept ;
-    rdfs:label "In Development" .
 
 <http://awesome.org/iipc/#warc-io-libraries> a skos:Concept ;
     rdfs:label "WARC I/O Libraries" ;
     skos:broader <http://awesome.org/iipc/#tools--software> .
 
+<http://awesome.org/iipc/In_Development> a skos:Concept ;
+    rdfs:label "In Development" .
+
 <https://api.github.com/licenses/apache-2.0> rdfs:label "Apache License 2.0" .
 
-<http://awesome.org/iipc/#quality-assurance> a skos:Concept ;
-    rdfs:label "Quality Assurance" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
-
 <https://api.github.com/licenses/mit> rdfs:label "MIT License" .
+
+<http://awesome.org/iipc/#utilities> a skos:Concept ;
+    rdfs:label "Utilities" ;
+    skos:broader <http://awesome.org/iipc/#tools--software> .
 
 <http://awesome.org/iipc/#acquisition> a skos:Concept ;
     rdfs:label "Acquisition" ;
