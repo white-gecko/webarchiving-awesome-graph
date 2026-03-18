@@ -7,565 +7,565 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://awesome.org/iipc/#trainingdocumentation> a skos:Concept ;
+<http://awesome.org/iipc/trainingdocumentation> a skos:Concept ;
     rdfs:label "Training/Documentation" .
 
 <http://coptr.digipres.org/Category:Web_Crawl> a sioc:Item ;
     rdfs:label "The Web Crawl section of COPTR" ;
-    doap:category <http://awesome.org/iipc/#other-awesome-lists> .
+    doap:category <http://awesome.org/iipc/other-awesome-lists> .
 
 <http://home.snafu.de/tilman/xenulink.html> a sioc:Item,
         doap:Project ;
     rdfs:label "Xenu" ;
     dct:description "Desktop link checker for Windows." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <http://matkelly.com/warcreate/> a sioc:Item,
         doap:Project ;
     rdfs:label "WARCreate" ;
     dct:description "A " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <http://mementoweb.github.io/SiteStory/> a sioc:Item,
         doap:Project ;
     rdfs:label "SiteStory" ;
     dct:description "A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <http://netpreserve.org/about-us/iipc-mailing-list/> a sioc:Item ;
     rdfs:label "IIPC" ;
-    doap:category <http://awesome.org/iipc/#mailing-lists> .
+    doap:category <http://awesome.org/iipc/mailing-lists> .
 
 <http://stormcrawler.net/> a sioc:Item,
         doap:Project ;
     rdfs:label "StormCrawler" ;
     dct:description "A collection of resources for building low-latency, scalable web crawlers on Apache Storm. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <http://tempas.L3S.de/v1> a sioc:Item,
         doap:Project ;
     rdfs:label "Tempas v1" ;
     dct:description "Temporal web archive search based on " ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> .
 
 <http://tempas.L3S.de/v2> a sioc:Item,
         doap:Project ;
     rdfs:label "Tempas v2" ;
     dct:description "Temporal web archive search based on links and anchor texts extracted from the German web from 1996 to 2013 (results are not limited to German pages, e.g., " ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> .
 
 <http://webdatacommons.org/> a sioc:Item,
         doap:Project ;
     rdfs:label "Web Data Commons" ;
     dct:description "Structured data extracted from Common Crawl. " ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> .
 
 <http://winebottler.kronenberg.org/> a sioc:Item,
         doap:Project ;
     rdfs:label "WineBottler" ;
     dct:description "For running Xenu and Notepad++ on macOS." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <http://www.archiveteam.org/index.php?title=The_WARC_Ecosystem> a sioc:Item ;
     rdfs:label "The WARC Ecosystem" ;
-    doap:category <http://awesome.org/iipc/#other-awesome-lists> .
+    doap:category <http://awesome.org/iipc/other-awesome-lists> .
 
 <http://www.gnu.org/software/wget/> a sioc:Item,
         doap:Project ;
     rdfs:label "Wget" ;
     dct:description "An open source file retrieval utility that of " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <http://www.httrack.com/> a sioc:Item,
         doap:Project ;
     rdfs:label "HTTrack" ;
     dct:description "An open source website copying utility. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <https://archive-it.org/> a sioc:Item ;
     rdfs:label "Archive-It" ;
     dct:description "From the Internet Archive." ;
-    doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+    doap:category <http://awesome.org/iipc/hosted-closed-source> .
 
 <https://archivers.slack.com> a sioc:Item ;
     rdfs:label "Archivers Slack" ;
     dct:description "" ;
-    doap:category <http://awesome.org/iipc/#slack> .
+    doap:category <http://awesome.org/iipc/slack> .
 
 <https://archivesunleashed.slack.com/> a sioc:Item ;
     rdfs:label "Archives Unleashed Slack" ;
     dct:description "" ;
-    doap:category <http://awesome.org/iipc/#slack> .
+    doap:category <http://awesome.org/iipc/slack> .
 
 <https://arkiwera.se/wp/websites/> a sioc:Item ;
     rdfs:label "Arkiwera" ;
-    doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+    doap:category <http://awesome.org/iipc/hosted-closed-source> .
 
 <https://blog.dshr.org/> a sioc:Item ;
     rdfs:label "DSHR's Blog" ;
     dct:description "David Rosenthal regularly reviews and summarizes work done in the Digital Preservation field." ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
 <https://blogs.bl.uk/webarchive/> a sioc:Item ;
     rdfs:label "UK Web Archive Blog" ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
 <https://ccfpartners.slack.com/> a sioc:Item ;
     rdfs:label "Common Crawl Foundation Partners" ;
-    doap:category <http://awesome.org/iipc/#slack> .
+    doap:category <http://awesome.org/iipc/slack> .
 
 <https://chromewebstore.google.com/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome link gopher" ;
     dct:description "Browser extension: link harvester on a page." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://chromewebstore.google.com/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome Check My Links" ;
     dct:description "Browser extension: a link checker with more options." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://chromewebstore.google.com/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome link checker" ;
     dct:description "Browser extension: basic link checker." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://chromewebstore.google.com/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome Open Multiple URLs" ;
     dct:description "Browser extension: opens multiple URLs and also extracts URLs from text." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://chromewebstore.google.com/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome Revolver" ;
     dct:description "Browser extension: switches between browser tabs." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://commoncrawl.org/blog> a sioc:Item ;
     rdfs:label "Common Crawl Foundation Blog" ;
     dct:description "" ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
 <https://commoncrawl.org/category/web-graph/> a sioc:Item,
         doap:Project ;
     rdfs:label "Common Crawl Web Graph" ;
     dct:description "A host or domain-level graph of the web, with ranking information. " ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> .
 
 <https://commoncrawl.org/tag/columnar-index/> a sioc:Item,
         doap:Project ;
     rdfs:label "Common Crawl Columnar Index" ;
     dct:description "SQL-queryable index, with CDX info plus language classification. " ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> .
 
 <https://conifer.rhizome.org/> a sioc:Item ;
     rdfs:label "Conifer" ;
     dct:description "From " ;
-    doap:category <http://awesome.org/iipc/#self-hostable-open-source> .
+    doap:category <http://awesome.org/iipc/self-hostable-open-source> .
 
 <https://data.commoncrawl.org/> a sioc:Item ;
     rdfs:label "Common Crawl files" ;
     dct:description "WARCs, CDX files, parquet url index, parquet host index, etc." ;
-    doap:category <http://awesome.org/iipc/#public-data> .
+    doap:category <http://awesome.org/iipc/public-data> .
 
 <https://discord.gg/njaVFh7avF> a sioc:Item ;
     rdfs:label "Common Crawl Foundation" ;
-    doap:category <http://awesome.org/iipc/#discord> .
+    doap:category <http://awesome.org/iipc/discord> .
 
 <https://eotarchive.org/> a sioc:Item ;
     rdfs:label "End of Term Archive" ;
     dct:description "WARCs, CDX files, parquet url index" ;
-    doap:category <http://awesome.org/iipc/#public-data> .
+    doap:category <http://awesome.org/iipc/public-data> .
 
 <https://git.autistici.org/ale/crawl> a sioc:Item,
         doap:Project ;
     rdfs:label "Crawl" ;
     dct:description "A simple web crawler in Golang. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <https://github.com/ArchiveBox/ArchiveBox/wiki/Web-Archiving-Community> a sioc:Item ;
     rdfs:label "Web Archiving Community" ;
-    doap:category <http://awesome.org/iipc/#other-awesome-lists> .
+    doap:category <http://awesome.org/iipc/other-awesome-lists> .
 
 <https://github.com/N0taN3rd/node-cdxj> a sioc:Item,
         doap:Project ;
     rdfs:label "node-cdxj" ;
     dct:description "" ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/WikiTeam/wikiteam> a sioc:Item,
         doap:Project ;
     rdfs:label "wikiteam" ;
     dct:description "Tools for downloading and preserving wikis. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/arcalex/warcrefs> a sioc:Item,
         doap:Project ;
     rdfs:label "warcrefs" ;
     dct:description "Web archive deduplication tools. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/archivers-space/research/tree/master/web_archiving> a sioc:Item,
         doap:Project ;
     rdfs:label "Comparison of web archiving software" ;
-    doap:category <http://awesome.org/iipc/#tools--software> .
+    doap:category <http://awesome.org/iipc/tools--software> .
 
 <https://github.com/florents-Tselai/warcdb> a sioc:Item,
         doap:Project ;
     rdfs:label "warcdb" ;
     dct:description "A command line utility (Python) for importing WARC files into a SQLite database. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/harvard-lil/warcbench> a sioc:Item,
         doap:Project ;
     rdfs:label "warcbench" ;
     dct:description "A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files." ;
-    doap:category <http://awesome.org/iipc/#utilities> .
+    doap:category <http://awesome.org/iipc/utilities> .
 
 <https://github.com/helgeho/WarcPartitioner> a sioc:Item,
         doap:Project ;
     rdfs:label "WarcPartitioner" ;
     dct:description "Partition (W)ARC Files by MIME Type and Year. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/httpreserve/linkstat> a sioc:Item,
         doap:Project ;
     rdfs:label "HTTPreserve linkstat" ;
     dct:description "Command line implementation of " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/httpreserve/tikalinkextract> a sioc:Item,
         doap:Project ;
     rdfs:label "tikalinkextract" ;
     dct:description "Extract hyperlinks as a seed for web archiving from folders of document types that can be parsed by Apache Tika (Golang, Apache Tika Server). " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/In_Development> .
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/iipc/openwayback/> a sioc:Item,
         doap:Project ;
     rdfs:label "OpenWayback" ;
     dct:description "The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser. " ;
-    doap:category <http://awesome.org/iipc/#replay>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/replay> .
 
 <https://github.com/ikreymer/webarchive-indexing> a sioc:Item,
         doap:Project ;
     rdfs:label "webarchive-indexing" ;
     dct:description "Tools for bulk indexing of WARC/ARC files on Hadoop, EMR or local file system." ;
-    doap:category <http://awesome.org/iipc/#utilities> .
+    doap:category <http://awesome.org/iipc/utilities> .
 
 <https://github.com/internetarchive/bagnabit2warc> a sioc:Item,
         doap:Project ;
     rdfs:label "bagnabit2warc" ;
     dct:description "Convert a " ;
-    doap:category <http://awesome.org/iipc/#utilities> .
+    doap:category <http://awesome.org/iipc/utilities> .
 
 <https://github.com/internetarchive/heritrix3/wiki> a sioc:Item,
         doap:Project ;
     rdfs:label "Heritrix" ;
     dct:description "An open source, extensible, web-scale, archival quality web crawler. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <https://github.com/jedireza/warc> a sioc:Item,
         doap:Project ;
     rdfs:label "warc" ;
     dct:description "A Rust library for reading and writing WARC files. " ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> .
 
 <https://github.com/jjjake/internetarchive> a sioc:Item,
         doap:Project ;
     rdfs:label "Internet Archive Library" ;
     dct:description "A command line tool and Python library for interacting directly with " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/machawk1/awesome-memento> a sioc:Item ;
     rdfs:label "Awesome Memento" ;
-    doap:category <http://awesome.org/iipc/#other-awesome-lists> .
+    doap:category <http://awesome.org/iipc/other-awesome-lists> .
 
 <https://github.com/midwork-finds-jobs/duckdb-web-archive> a sioc:Item,
         doap:Project ;
     rdfs:label "duckdb-web-archive-cdx" ;
     dct:description "DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/In_Development> .
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/natliblux/warc-safe> a sioc:Item,
         doap:Project ;
     rdfs:label "warc-safe" ;
     dct:description "Automatic detection of viruses and NSFW content in WARC files." ;
-    doap:category <http://awesome.org/iipc/#utilities> .
+    doap:category <http://awesome.org/iipc/utilities> .
 
 <https://github.com/nla/httrack2warc> a sioc:Item,
         doap:Project ;
     rdfs:label "httrack2warc" ;
     dct:description "Convert HTTrack archives to WARC format (Java)." ;
-    doap:category <http://awesome.org/iipc/#utilities> .
+    doap:category <http://awesome.org/iipc/utilities> .
 
 <https://github.com/nla/outbackcdx> a sioc:Item,
         doap:Project ;
     rdfs:label "OutbackCDX" ;
     dct:description "RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/oduwsdl/MemGator> a sioc:Item,
         doap:Project ;
     rdfs:label "MemGator" ;
     dct:description "A Memento Aggregator CLI and Server (Golang). " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/oduwsdl/MementoMap> a sioc:Item,
         doap:Project ;
     rdfs:label "MementoMap" ;
     dct:description "A Tool to Summarize Web Archive Holdings (Python). " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/In_Development> .
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/sul-dlss/wasapi-downloader> a sioc:Item,
         doap:Project ;
     rdfs:label "wasapi-downloader" ;
     dct:description "Java command line application to download crawls from WASAPI. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://github.com/unt-libraries/py-wasapi-client> a sioc:Item,
         doap:Project ;
     rdfs:label "py-wasapi-client" ;
     dct:description "Command line application to download crawls from WASAPI (Python). " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://gitlab.com/taricorp/warcdedupe> a sioc:Item,
         doap:Project ;
     rdfs:label "warcdedupe" ;
     dct:description "WARC deduplication tool (and WARC library) written in Rust. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/In_Development> .
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://govarchive.us/> a sioc:Item ;
     rdfs:label "Webrecorder US GovArchive" ;
     dct:description "high-fidelity replay" ;
-    doap:category <http://awesome.org/iipc/#public-data> .
+    doap:category <http://awesome.org/iipc/public-data> .
 
 <https://groups.google.com/g/common-crawl> a sioc:Item ;
     rdfs:label "Common Crawl" ;
-    doap:category <http://awesome.org/iipc/#mailing-lists> .
+    doap:category <http://awesome.org/iipc/mailing-lists> .
 
 <https://groups.google.com/g/openwayback-dev> a sioc:Item ;
     rdfs:label "OpenWayback" ;
-    doap:category <http://awesome.org/iipc/#mailing-lists> .
+    doap:category <http://awesome.org/iipc/mailing-lists> .
 
 <https://groups.google.com/g/wasapi-community> a sioc:Item ;
     rdfs:label "WASAPI" ;
-    doap:category <http://awesome.org/iipc/#mailing-lists> .
+    doap:category <http://awesome.org/iipc/mailing-lists> .
 
 <https://gwu-libraries.github.io/sfm-ui/> a sioc:Item,
         doap:Project ;
     rdfs:label "Social Feed Manager" ;
     dct:description "Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <https://httpreserve.info> a sioc:Item,
         doap:Project ;
     rdfs:label "httpreserve.info" ;
     dct:description "Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang). " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://iipc.slack.com/> a sioc:Item ;
     rdfs:label "IIPC Slack" ;
     dct:description "Ask " ;
-    doap:category <http://awesome.org/iipc/#slack> .
+    doap:category <http://awesome.org/iipc/slack> .
 
 <https://index.commoncrawl.org/> a sioc:Item ;
     rdfs:label "Common Crawl CDX API" ;
-    doap:category <http://awesome.org/iipc/#public-data> .
+    doap:category <http://awesome.org/iipc/public-data> .
 
 <https://netpreserveblog.wordpress.com/> a sioc:Item ;
     rdfs:label "IIPC Blog" ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
 <https://nlnwa.github.io/warchaeology/> a sioc:Item,
         doap:Project ;
     rdfs:label "Warchaeology" ;
     dct:description "Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://nullhandle.org/web-archivability/index.html> a sioc:Item ;
     rdfs:label "Definition of Web Archivability" ;
     dct:description "This describes the ease with which web content can be preserved. (" ;
-    doap:category <http://awesome.org/iipc/#resources-for-web-publishers> .
+    doap:category <http://awesome.org/iipc/resources-for-web-publishers> .
 
 <https://oduwsdl.github.io/Reconstructive/> a sioc:Item,
         doap:Project ;
     rdfs:label "Reconstructive" ;
     dct:description "Reconstructive is a ServiceWorker module for client-side reconstruction of composite mementos by rerouting resource requests to corresponding archived copies (JavaScript)." ;
-    doap:category <http://awesome.org/iipc/#replay> .
+    doap:category <http://awesome.org/iipc/replay> .
 
 <https://pypi.org/project/cdx-toolkit/> a sioc:Item,
         doap:Project ;
     rdfs:label "cdx-toolkit" ;
     dct:description "Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure. " ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> .
 
 <https://robustlinks.mementoweb.org/zotero/> a sioc:Item,
         doap:Project ;
     rdfs:label "Zotero Robust Links Extension" ;
     dct:description "A " ;
-    doap:category <http://awesome.org/iipc/#curation> .
+    doap:category <http://awesome.org/iipc/curation> .
 
 <https://securitytrails.com/> a sioc:Item,
         doap:Project ;
     rdfs:label "SecurityTrails" ;
     dct:description "Web based archive for WHOIS and DNS records. REST API available free of charge." ;
-    doap:category <http://awesome.org/iipc/#search--discovery> .
+    doap:category <http://awesome.org/iipc/search--discovery> .
 
 <https://support.microsoft.com/en-gb/help/13776/windows-use-snipping-tool-to-capture-screenshots> a sioc:Item,
         doap:Project ;
     rdfs:label "Windows Snipping Tool" ;
     dct:description "Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture)." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://theunarchiver.com/> a sioc:Item,
         doap:Project ;
     rdfs:label "The Unarchiver" ;
     dct:description "Program to extract the contents of many archive formats, inclusive of WARC, to a file system. Free variant of The Archive Browser (macOS only, Proprietary app)." ;
-    doap:category <http://awesome.org/iipc/#utilities> .
+    doap:category <http://awesome.org/iipc/utilities> .
 
 <https://twitter.com/NetPreserve> a sioc:Item ;
     rdfs:label "@NetPreserve" ;
     dct:description "Official IIPC handle." ;
-    doap:category <http://awesome.org/iipc/#twitter> .
+    doap:category <http://awesome.org/iipc/twitter> .
 
 <https://twitter.com/WebSciDL> a sioc:Item ;
     rdfs:label "@WebSciDL" ;
     dct:description "ODU Web Science and Digital Libraries Research Group." ;
-    doap:category <http://awesome.org/iipc/#twitter> .
+    doap:category <http://awesome.org/iipc/twitter> .
 
 <https://twitter.com/commoncrawl> a sioc:Item ;
     rdfs:label "@commoncrawl" ;
     dct:description "Official Common Crawl Foundation handle." ;
-    doap:category <http://awesome.org/iipc/#twitter> .
+    doap:category <http://awesome.org/iipc/twitter> .
 
 <https://twitter.com/hashtag/webarchivewednesday> a sioc:Item ;
     rdfs:label "#WebArchiveWednesday" ;
-    doap:category <http://awesome.org/iipc/#twitter> .
+    doap:category <http://awesome.org/iipc/twitter> .
 
 <https://twitter.com/search?q=%23webarchiving> a sioc:Item ;
     rdfs:label "#WebArchiving" ;
-    doap:category <http://awesome.org/iipc/#twitter> .
+    doap:category <http://awesome.org/iipc/twitter> .
 
 <https://web.archive.org/> a sioc:Item ;
     rdfs:label "Internet Archive Wayback" ;
-    doap:category <http://awesome.org/iipc/#public-data> .
+    doap:category <http://awesome.org/iipc/public-data> .
 
 <https://webarchivingrt.wordpress.com/> a sioc:Item ;
     rdfs:label "Web Archiving Roundtable" ;
     dct:description "Unofficial blog of the Web Archiving Roundtable of the " ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
 <https://webcuratortool.org> a sioc:Item,
         doap:Project ;
     rdfs:label "Web Curator Tool" ;
     dct:description "Open-source workflow management for selective web archiving. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> .
 
 <https://webrecorder.net/archivewebpage/> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveWeb.Page" ;
     dct:description "A plugin for Chrome and other Chromium based browsers that lets you interactively archive web pages, replay them, and export them as WARC & WACZ files. Also available as an Electron based desktop application." ;
-    doap:category <http://awesome.org/iipc/#acquisition> .
+    doap:category <http://awesome.org/iipc/acquisition> .
 
 <https://webrecorder.net/browsertrix/> a sioc:Item ;
     rdfs:label "Browsertrix" ;
     dct:description "From " ;
-    doap:category <http://awesome.org/iipc/#self-hostable-open-source> .
+    doap:category <http://awesome.org/iipc/self-hostable-open-source> .
 
 <https://webrecorder.net/replaywebpage/> a sioc:Item,
         doap:Project ;
     rdfs:label "ReplayWeb.page" ;
     dct:description "A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application. " ;
-    doap:category <http://awesome.org/iipc/#replay>,
-        <http://awesome.org/iipc/Stable> .
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/replay> .
 
 <https://ws-dl.blogspot.com/> a sioc:Item ;
     rdfs:label "WS-DL Blog" ;
     dct:description "Web Science and Digital Libraries Research Group blogs about various Web archiving related topics, scholarly work, and academic trip reports." ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
 <https://www.community-archive.org/> a sioc:Item,
         doap:Project ;
     rdfs:label "Community Archive" ;
     dct:description "Open Twitter Database and API with tools and resources for building on archived Twitter data." ;
-    doap:category <http://awesome.org/iipc/#acquisition> .
+    doap:category <http://awesome.org/iipc/acquisition> .
 
 <https://www.hanzo.co/chronicle> a sioc:Item ;
     rdfs:label "Hanzo" ;
-    doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+    doap:category <http://awesome.org/iipc/hosted-closed-source> .
 
 <https://www.mirrorweb.com/solutions/capabilities/website-archiving> a sioc:Item ;
     rdfs:label "MirrorWeb" ;
-    doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+    doap:category <http://awesome.org/iipc/hosted-closed-source> .
 
 <https://www.nationalarchives.gov.uk/webarchive/> a sioc:Item ;
     rdfs:label "UK Government Web Archive" ;
     dct:description "Wayback" ;
-    doap:category <http://awesome.org/iipc/#public-data> .
+    doap:category <http://awesome.org/iipc/public-data> .
 
 <https://www.pagefreezer.com/> a sioc:Item ;
     rdfs:label "PageFreezer" ;
-    doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+    doap:category <http://awesome.org/iipc/hosted-closed-source> .
 
 <https://www.playonlinux.com/en/> a sioc:Item,
         doap:Project ;
     rdfs:label "PlayOnLinux" ;
     dct:description "For running Xenu and Notepad++ on Ubuntu." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://www.playonmac.com/en/> a sioc:Item,
         doap:Project ;
     rdfs:label "PlayOnMac" ;
     dct:description "For running Xenu and Notepad++ on macOS." ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> .
+    doap:category <http://awesome.org/iipc/quality-assurance> .
 
 <https://www.smarsh.com/platform/compliance-management/web-archive> a sioc:Item ;
     rdfs:label "Smarsh" ;
-    doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+    doap:category <http://awesome.org/iipc/hosted-closed-source> .
 
 <https://www.uclpress.co.uk/products/84010> a sioc:Item ;
     rdfs:label "The Web as History" ;
     dct:description "An open-source book that provides a conceptual overview to web archiving research, as well as several case studies." ;
-    doap:category <http://awesome.org/iipc/#blogs-and-scholarship> .
+    doap:category <http://awesome.org/iipc/blogs-and-scholarship> .
 
-<http://awesome.org/iipc/#resources-for-web-publishers> a skos:Concept ;
+<http://awesome.org/iipc/resources-for-web-publishers> a skos:Concept ;
     rdfs:label "Resources for Web Publishers" ;
     dct:description "These resources can help when working with individuals or organisations who publish on the web, and who want to make sure their site can be archived." .
 
@@ -639,8 +639,8 @@
         foaf:Organization ;
     rdfs:label "WebMemex" ;
     dct:description "Browser extension for Firefox and Chrome which lets you archive web pages you visit. " ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> .
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> .
 
 <https://github.com/WebMemex/freeze-dry.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/WebMemex/freeze-dry> ;
@@ -939,19 +939,19 @@
     doap:browse <https://github.com/webrecorder/warcio> ;
     doap:location <https://github.com/webrecorder/warcio> .
 
-<http://awesome.org/iipc/#curation> a skos:Concept ;
+<http://awesome.org/iipc/curation> a skos:Concept ;
     rdfs:label "Curation" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
-<http://awesome.org/iipc/#discord> a skos:Concept ;
+<http://awesome.org/iipc/discord> a skos:Concept ;
     rdfs:label "Discord" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
+    skos:broader <http://awesome.org/iipc/community-resources> .
 
-<http://awesome.org/iipc/#web-archiving-service-providers> a skos:Concept ;
+<http://awesome.org/iipc/web-archiving-service-providers> a skos:Concept ;
     rdfs:label "Web Archiving Service Providers" ;
     dct:description "The intention is that we only list services that allow web archives to be exported in standard formats (WARC or WACZ). But this is not an endorsement of these services, and readers should check and evaluate these options based on their needs." ;
-    skos:narrower <http://awesome.org/iipc/#hosted-closed-source>,
-        <http://awesome.org/iipc/#self-hostable-open-source> .
+    skos:narrower <http://awesome.org/iipc/hosted-closed-source>,
+        <http://awesome.org/iipc/self-hostable-open-source> .
 
 <https://github.com/ArchiveBox/ArchiveBox.git> a doap:GitRepository ;
     doap:browse <https://github.com/ArchiveBox/ArchiveBox> ;
@@ -1373,9 +1373,9 @@
         <git@github.com:webrecorder/warcio.git>,
         <https://github.com/webrecorder/warcio.git> .
 
-<http://awesome.org/iipc/#self-hostable-open-source> a skos:Concept ;
+<http://awesome.org/iipc/self-hostable-open-source> a skos:Concept ;
     rdfs:label "Self-hostable, Open Source" ;
-    skos:broader <http://awesome.org/iipc/#web-archiving-service-providers> .
+    skos:broader <http://awesome.org/iipc/web-archiving-service-providers> .
 
 <https://api.github.com/licenses/cc0-1.0> rdfs:label "Creative Commons Zero v1.0 Universal" .
 
@@ -1385,8 +1385,8 @@
     dct:date "2025-09-23T08:08:48+00:00"^^xsd:dateTime ;
     dct:description "A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly " ;
     doap:bug-database <https://github.com/ArchiveBox/ArchiveBox/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-05-05T08:50:14+00:00"^^xsd:dateTime ;
     doap:description "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
     doap:developer <https://github.com/ArchiveBox> ;
@@ -1404,8 +1404,8 @@
     dct:date "2025-09-22T18:28:52+00:00"^^xsd:dateTime ;
     dct:description "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns. " ;
     doap:bug-database <https://github.com/ArchiveTeam/grab-site/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2015-02-05T05:01:19+00:00"^^xsd:dateTime ;
     doap:description "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns" ;
     doap:developer <https://github.com/ArchiveTeam> ;
@@ -1421,8 +1421,8 @@
     dct:date "2025-09-05T19:40:55+00:00"^^xsd:dateTime ;
     dct:description "A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. " ;
     doap:bug-database <https://github.com/ArchiveTeam/wpull/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2013-12-07T13:03:15+00:00"^^xsd:dateTime ;
     doap:description "Wget-compatible web downloader and crawler." ;
     doap:developer <https://github.com/ArchiveTeam> ;
@@ -1439,8 +1439,8 @@
     dct:date "2025-06-23T21:08:07+00:00"^^xsd:dateTime ;
     dct:description "Web browser with record and replay functionality. " ;
     doap:bug-database <https://github.com/CGamesPlay/chronicler/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2018-12-27T04:01:42+00:00"^^xsd:dateTime ;
     doap:description "Offline-first web browser" ;
     doap:developer <https://github.com/CGamesPlay> ;
@@ -1457,8 +1457,8 @@
     dct:date "2025-09-23T13:56:35+00:00"^^xsd:dateTime ;
     dct:description "A non-WARC-based tool which hooks into the Chrome browser and archives everything you browse making it available for offline replay. " ;
     doap:bug-database <https://github.com/DO-SAY-GO/dn/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2019-12-20T09:47:32+00:00"^^xsd:dateTime ;
     doap:description " 💾 dn - offline full-text search and archiving for your Chromium-based browser. " ;
     doap:developer <https://github.com/DO-SAY-GO> ;
@@ -1475,8 +1475,8 @@
     dct:date "2025-09-23T05:07:53+00:00"^^xsd:dateTime ;
     dct:description "A command line tool and Python library for archiving Twitter JSON data. " ;
     doap:bug-database <https://github.com/DocNow/twarc/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2013-01-14T14:35:40+00:00"^^xsd:dateTime ;
     doap:description "A command line tool (and Python library) for archiving Twitter JSON" ;
     doap:developer <https://github.com/DocNow> ;
@@ -1494,8 +1494,8 @@
     dct:date "2025-06-10T19:41:56+00:00"^^xsd:dateTime ;
     dct:description "A desktop research software to be plugged on a Solr endpoint to query, retrieve, normalize and visually explore web archives. " ;
     doap:bug-database <https://github.com/Guillaume-Levrier/PANDORAE/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2018-12-10T09:34:27+00:00"^^xsd:dateTime ;
     doap:description "A data retrieval & exploration protocol designed to investigate science and policy processes" ;
     doap:developer <https://github.com/Guillaume-Levrier> ;
@@ -1513,8 +1513,8 @@
     dct:date "2025-07-29T19:20:13+00:00"^^xsd:dateTime ;
     dct:description "An " ;
     doap:bug-database <https://github.com/N0taN3rd/Squidwarc/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-07-20T06:57:07+00:00"^^xsd:dateTime ;
     doap:description "Squidwarc is a high fidelity, user scriptable, archival crawler that uses Chrome or Chromium with or without a head" ;
     doap:developer <https://github.com/N0taN3rd> ;
@@ -1532,8 +1532,8 @@
     dct:date "2025-08-30T22:24:33+00:00"^^xsd:dateTime ;
     dct:description "Parse WARC files or create WARC files using either " ;
     doap:bug-database <https://github.com/N0taN3rd/node-warc/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2017-05-21T06:00:43+00:00"^^xsd:dateTime ;
     doap:description "Parse And Create Web ARChive  (WARC) files with node.js" ;
     doap:developer <https://github.com/N0taN3rd> ;
@@ -1550,8 +1550,8 @@
     dct:date "2025-07-12T04:02:35+00:00"^^xsd:dateTime ;
     dct:description "Crawl websites using headless Google Chrome/Chromium and save resources, static DOM snapshot and page screenshots to WARC files. " ;
     doap:bug-database <https://github.com/PromyLOPh/crocoite/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-11-17T18:56:11+00:00"^^xsd:dateTime ;
     doap:description "Web archiving using Google Chrome" ;
     doap:developer <https://github.com/PromyLOPh> ;
@@ -1569,8 +1569,8 @@
     dct:date "2025-09-16T21:45:49+00:00"^^xsd:dateTime ;
     dct:description "JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions. " ;
     doap:bug-database <https://github.com/WebMemex/freeze-dry/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-07-13T23:31:40+00:00"^^xsd:dateTime ;
     doap:description "Snapshots a web page to get it as a static, self-contained HTML document." ;
     doap:developer <https://github.com/WebMemex> ;
@@ -1588,8 +1588,8 @@
     dct:date "2025-09-22T18:46:36+00:00"^^xsd:dateTime ;
     dct:description "CLI tool to save a web page as a single HTML file. " ;
     doap:bug-database <https://github.com/Y2Z/monolith/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-02-20T07:47:35+00:00"^^xsd:dateTime ;
     doap:description "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
     doap:developer <https://github.com/Y2Z> ;
@@ -1607,8 +1607,8 @@
     dct:date "2025-09-16T12:44:05+00:00"^^xsd:dateTime ;
     dct:description " Wayback Machine Save, CDX and availability API interface in Python and a command-line tool  " ;
     doap:bug-database <https://github.com/akamhy/waybackpy/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2020-05-02T09:19:45+00:00"^^xsd:dateTime ;
     doap:description "Wayback Machine API interface & a command-line tool" ;
     doap:developer <https://github.com/akamhy> ;
@@ -1626,8 +1626,8 @@
     dct:date "2025-04-02T14:39:23+00:00"^^xsd:dateTime ;
     dct:description "Wget with Lua extension. " ;
     doap:bug-database <https://github.com/alard/wget-lua/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2012-08-21T20:39:22+00:00"^^xsd:dateTime ;
     doap:description "Wget with Lua extension" ;
     doap:developer <https://github.com/alard> ;
@@ -1644,8 +1644,8 @@
     dct:date "2025-09-22T12:12:52+00:00"^^xsd:dateTime ;
     dct:description "Archives Unleashed Toolkit (AUT) is an open-source platform for analyzing web archives with Apache Spark. " ;
     doap:bug-database <https://github.com/archivesunleashed/aut/issues> ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> ;
     doap:created "2017-07-06T10:13:44+00:00"^^xsd:dateTime ;
     doap:description "The Archives Unleashed Toolkit is an open-source toolkit for analyzing web archives." ;
     doap:developer <https://github.com/archivesunleashed> ;
@@ -1663,8 +1663,8 @@
     dct:date "2025-03-25T22:00:33+00:00"^^xsd:dateTime ;
     dct:description "Notebooks for working with web archives with the Archives Unleashed Toolkit, and derivatives generated by the Archives Unleashed Toolkit. " ;
     doap:bug-database <https://github.com/archivesunleashed/notebooks/issues> ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> ;
     doap:created "2019-11-06T03:09:30+00:00"^^xsd:dateTime ;
     doap:description "Various examples of notebooks for working with web archives with the Archives Unleashed Toolkit, and derivatives generated by the Archives Unleashed Toolkit." ;
     doap:developer <https://github.com/archivesunleashed> ;
@@ -1681,8 +1681,8 @@
     dct:date "2024-12-11T21:12:03+00:00"^^xsd:dateTime ;
     dct:description "An open-source toolkit for analyzing line-oriented JSON Twitter archives with Apache Spark. " ;
     doap:bug-database <https://github.com/archivesunleashed/twut/issues> ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/analysis> ;
     doap:created "2019-11-29T14:52:12+00:00"^^xsd:dateTime ;
     doap:description "An open-source toolkit for analyzing line-oriented JSON Twitter archives with Apache Spark." ;
     doap:developer <https://github.com/archivesunleashed> ;
@@ -1699,8 +1699,8 @@
     dct:date "2024-12-16T22:46:34+00:00"^^xsd:dateTime ;
     dct:description "A Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. " ;
     doap:bug-database <https://github.com/archivesunleashed/warclight/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2017-08-03T17:45:46+00:00"^^xsd:dateTime ;
     doap:description "A Rails engine supporting the discovery of web archives." ;
     doap:developer <https://github.com/archivesunleashed> ;
@@ -1717,7 +1717,7 @@
     dct:date "2025-09-21T14:50:16+00:00"^^xsd:dateTime ;
     dct:description "Python script to automatically archive social media posts, videos, and images from a Google Sheets document. Read the " ;
     doap:bug-database <https://github.com/bellingcat/auto-archiver/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition> ;
+    doap:category <http://awesome.org/iipc/acquisition> ;
     doap:created "2021-01-15T10:30:03+00:00"^^xsd:dateTime ;
     doap:description "Automatically archive links to videos, images, and social media content from Google Sheets (and more)." ;
     doap:developer <https://github.com/bellingcat> ;
@@ -1735,7 +1735,7 @@
     dct:date "2025-08-29T10:55:43+00:00"^^xsd:dateTime ;
     dct:description "A high-performance WARC parsing library (Python)." ;
     doap:bug-database <https://github.com/chatnoir-eu/chatnoir-resiliparse/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries> ;
+    doap:category <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2021-06-22T09:03:44+00:00"^^xsd:dateTime ;
     doap:description "A robust web archive analytics toolkit" ;
     doap:developer <https://github.com/chatnoir-eu> ;
@@ -1753,8 +1753,8 @@
     dct:date "2025-09-02T06:54:41+00:00"^^xsd:dateTime ;
     dct:description "Tool and library for handling Web ARChive (WARC) files (Python). " ;
     doap:bug-database <https://github.com/chfoo/warcat/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2013-04-09T16:23:47+00:00"^^xsd:dateTime ;
     doap:description "Tool and library for handling Web ARChive (WARC) files." ;
     doap:developer <https://github.com/chfoo> ;
@@ -1771,8 +1771,8 @@
     dct:date "2025-08-04T15:36:59+00:00"^^xsd:dateTime ;
     dct:description "Command-line tool and Rust library for handling Web ARChive (WARC) files. " ;
     doap:bug-database <https://github.com/chfoo/warcat-rs/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2024-09-15T15:24:13+00:00"^^xsd:dateTime ;
     doap:description "Command-line tool and Rust library for handling Web ARChive (WARC) files" ;
     doap:developer <https://github.com/chfoo> ;
@@ -1789,8 +1789,8 @@
     dct:date "2025-09-17T00:23:46+00:00"^^xsd:dateTime ;
     dct:description "A collection of notebooks using Common Crawl's various datasets. " ;
     doap:bug-database <https://github.com/commoncrawl/cc-notebooks/issues> ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> ;
     doap:created "2019-07-19T11:38:10+00:00"^^xsd:dateTime ;
     doap:description "Various Jupyter notebooks about Common Crawl data" ;
     doap:developer <https://github.com/commoncrawl> ;
@@ -1806,7 +1806,7 @@
     rdfs:label "Awesome Website Change Monitoring" ;
     dct:date "2025-09-10T14:45:09+00:00"^^xsd:dateTime ;
     doap:bug-database <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring/issues> ;
-    doap:category <http://awesome.org/iipc/#tools--software> ;
+    doap:category <http://awesome.org/iipc/tools--software> ;
     doap:created "2017-05-24T05:33:41+00:00"^^xsd:dateTime ;
     doap:description "A curated list of awesome tools for website diffing and change monitoring." ;
     doap:developer <https://github.com/edgi-govdata-archiving> ;
@@ -1823,7 +1823,7 @@
     dct:date "2025-08-26T09:08:54+00:00"^^xsd:dateTime ;
     dct:description "Command line interface to unzip WARC and WACZ files (Python)." ;
     doap:bug-database <https://github.com/emmadickson/unwarcit/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries> ;
+    doap:category <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2021-12-11T19:19:28+00:00"^^xsd:dateTime ;
     doap:developer <https://github.com/emmadickson> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
@@ -1838,7 +1838,7 @@
     dct:date "2025-09-23T14:48:36+00:00"^^xsd:dateTime ;
     dct:description "Screen capture and annotation on Ubuntu." ;
     doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> ;
+    doap:category <http://awesome.org/iipc/quality-assurance> ;
     doap:created "2017-05-10T19:44:51+00:00"^^xsd:dateTime ;
     doap:description "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
     doap:developer <https://github.com/flameshot-org> ;
@@ -1856,8 +1856,8 @@
     dct:date "2025-09-23T14:55:52+00:00"^^xsd:dateTime ;
     dct:description "Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. " ;
     doap:bug-database <https://github.com/gildas-lormeau/SingleFile/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2010-09-12T23:50:21+00:00"^^xsd:dateTime ;
     doap:description "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
     doap:developer <https://github.com/gildas-lormeau> ;
@@ -1875,8 +1875,8 @@
     dct:date "2025-09-09T19:21:24+00:00"^^xsd:dateTime ;
     dct:description "Go package and CLI tool for saving web page as single HTML file. " ;
     doap:bug-database <https://github.com/go-shiori/obelisk/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2020-03-29T00:53:06+00:00"^^xsd:dateTime ;
     doap:description "Go package and CLI tool for saving web page as single HTML file" ;
     doap:developer <https://github.com/go-shiori> ;
@@ -1893,8 +1893,8 @@
     dct:date "2025-09-15T12:20:01+00:00"^^xsd:dateTime ;
     dct:description "High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web. " ;
     doap:bug-database <https://github.com/harvard-lil/scoop/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2022-09-20T18:50:14+00:00"^^xsd:dateTime ;
     doap:description "🍨 High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web." ;
     doap:developer <https://github.com/harvard-lil> ;
@@ -1914,8 +1914,8 @@
     dct:date "2025-07-30T16:53:17+00:00"^^xsd:dateTime ;
     dct:description "An Apache Spark framework (not only) for Web Archives that enables easy data processing, extraction as well as derivation. " ;
     doap:bug-database <https://github.com/helgeho/ArchiveSpark/issues> ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> ;
     doap:created "2015-08-06T19:42:53+00:00"^^xsd:dateTime ;
     doap:description "An Apache Spark framework for easy data processing, extraction as well as derivation for web archives and archival collections, developed at Internet Archive." ;
     doap:developer <https://github.com/helgeho> ;
@@ -1932,8 +1932,8 @@
     dct:date "2024-07-30T16:14:07+00:00"^^xsd:dateTime ;
     dct:description "A Splitable Hadoop InputFormat for Concatenated GZIP Files (and " ;
     doap:bug-database <https://github.com/helgeho/HadoopConcatGz/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2016-08-08T13:36:13+00:00"^^xsd:dateTime ;
     doap:description "A Splitable Hadoop InputFormat for Concatenated GZIP Files and *.(w)arc.gz" ;
     doap:developer <https://github.com/helgeho> ;
@@ -1949,8 +1949,8 @@
     dct:date "2025-05-23T03:33:48+00:00"^^xsd:dateTime ;
     dct:description "An easy-to-use and highly customizable crawler that enables anyone to create their own little Web archives (WARC/CDX). " ;
     doap:bug-database <https://github.com/helgeho/Web2Warc/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2016-01-29T10:43:55+00:00"^^xsd:dateTime ;
     doap:description "An easy-to-use and highly customizable crawler that enables you to create your own little Web archives (WARC/CDX)" ;
     doap:developer <https://github.com/helgeho> ;
@@ -1970,7 +1970,7 @@
     dct:date "2025-09-18T05:00:52+00:00"^^xsd:dateTime ;
     dct:description "Read and write WARC files with a type safe API (Java)." ;
     doap:bug-database <https://github.com/iipc/jwarc/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries> ;
+    doap:category <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2015-09-21T03:07:28+00:00"^^xsd:dateTime ;
     doap:description "Java library for reading and writing WARC files with a typed API" ;
     doap:developer <https://github.com/iipc> ;
@@ -2001,7 +2001,7 @@
     dct:date "2025-09-18T06:10:24+00:00"^^xsd:dateTime ;
     dct:description "Converts WARC files to static HTML suitable for browsing offline or rehosting." ;
     doap:bug-database <https://github.com/iipc/warc2html/issues> ;
-    doap:category <http://awesome.org/iipc/#replay> ;
+    doap:category <http://awesome.org/iipc/replay> ;
     doap:created "2021-11-08T04:09:05+00:00"^^xsd:dateTime ;
     doap:description "Converts WARC files to static HTML" ;
     doap:developer <https://github.com/iipc> ;
@@ -2018,8 +2018,8 @@
     dct:date "2025-07-30T16:52:22+00:00"^^xsd:dateTime ;
     dct:description "Internet Archive's Sparkling Data Processing Library. " ;
     doap:bug-database <https://github.com/internetarchive/Sparkling/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2022-04-28T14:28:21+00:00"^^xsd:dateTime ;
     doap:description "Internet Archive's Sparkling Data Processing Library" ;
     doap:developer <https://github.com/internetarchive> ;
@@ -2036,8 +2036,8 @@
     dct:date "2025-09-08T20:15:07+00:00"^^xsd:dateTime ;
     dct:description "Web application for distributed compute analysis of Archive-It web archive collections. " ;
     doap:bug-database <https://github.com/internetarchive/arch/issues> ;
-    doap:category <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/analysis> ;
     doap:created "2022-04-28T15:18:47+00:00"^^xsd:dateTime ;
     doap:description "Web application for distributed compute analysis of Archive-It web archive collections." ;
     doap:developer <https://github.com/internetarchive> ;
@@ -2054,8 +2054,8 @@
     dct:date "2025-09-23T13:14:20+00:00"^^xsd:dateTime ;
     dct:description "A distributed web crawler (爬虫) that uses a real browser (Chrome or Chromium) to fetch pages and embedded urls and to extract links. " ;
     doap:bug-database <https://github.com/internetarchive/brozzler/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2015-07-13T23:48:11+00:00"^^xsd:dateTime ;
     doap:description "brozzler - distributed browser-based web crawler" ;
     doap:developer <https://github.com/internetarchive> ;
@@ -2072,8 +2072,8 @@
     dct:date "2025-09-13T22:14:43+00:00"^^xsd:dateTime ;
     dct:description "WARC-writing MITM HTTP/S proxy. " ;
     doap:bug-database <https://github.com/internetarchive/warcprox/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2013-10-25T23:27:02+00:00"^^xsd:dateTime ;
     doap:description "WARC writing MITM HTTP/S proxy" ;
     doap:developer <https://github.com/internetarchive> ;
@@ -2089,7 +2089,7 @@
     dct:date "2025-08-30T21:56:53+00:00"^^xsd:dateTime ;
     dct:description "Library to work with ARC and WARC files (Python)." ;
     doap:bug-database <https://github.com/internetarchive/warctools/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries> ;
+    doap:category <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2013-03-22T20:52:55+00:00"^^xsd:dateTime ;
     doap:description "Command line tools and libraries for handling and manipulating WARC files (and HTTP contents)" ;
     doap:developer <https://github.com/internetarchive> ;
@@ -2106,7 +2106,7 @@
     dct:date "2025-09-22T18:53:46+00:00"^^xsd:dateTime ;
     dct:description "Click automation on Ubuntu." ;
     doap:bug-database <https://github.com/jordansissel/xdotool/issues> ;
-    doap:category <http://awesome.org/iipc/#quality-assurance> ;
+    doap:category <http://awesome.org/iipc/quality-assurance> ;
     doap:created "2011-02-16T02:41:01+00:00"^^xsd:dateTime ;
     doap:description "fake keyboard/mouse input, window management, and more " ;
     doap:developer <https://github.com/jordansissel> ;
@@ -2122,8 +2122,8 @@
     dct:date "2025-09-02T21:47:36+00:00"^^xsd:dateTime ;
     dct:description "A commandline tool and Python library for archiving data from " ;
     doap:bug-database <https://github.com/justinlittman/fbarc/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-02-14T23:45:42+00:00"^^xsd:dateTime ;
     doap:description "A commandline tool and Python library for archiving data from Facebook using the Graph API." ;
     doap:developer <https://github.com/justinlittman> ;
@@ -2140,8 +2140,8 @@
     dct:date "2025-09-22T14:25:20+00:00"^^xsd:dateTime ;
     dct:description "Extract web archive data using " ;
     doap:bug-database <https://github.com/karust/gogetcrawl/issues> ;
-    doap:category <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/utilities> ;
     doap:created "2019-06-14T19:02:05+00:00"^^xsd:dateTime ;
     doap:description "Extract web archive data using Wayback Machine and Common Crawl" ;
     doap:developer <https://github.com/karust> ;
@@ -2158,8 +2158,8 @@
     dct:date "2025-06-24T16:55:44+00:00"^^xsd:dateTime ;
     dct:description "A " ;
     doap:bug-database <https://github.com/machawk1/Mink/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2014-01-17T18:25:53+00:00"^^xsd:dateTime ;
     doap:description "Chrome extension that uses Memento to indicate that a page a user is viewing on the live web has an archived copy and to give the user access to the copy" ;
     doap:developer <https://github.com/machawk1> ;
@@ -2176,8 +2176,8 @@
     dct:date "2025-09-20T15:47:45+00:00"^^xsd:dateTime ;
     dct:description "A graphical user interface (GUI) atop multiple web archiving tools intended to be used as an easy way for anyone to preserve and replay web pages; " ;
     doap:bug-database <https://github.com/machawk1/wail/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2013-03-20T14:42:40+00:00"^^xsd:dateTime ;
     doap:description ":whale2: Web Archiving Integration Layer: One-Click User Instigated Preservation" ;
     doap:developer <https://github.com/machawk1> ;
@@ -2195,8 +2195,8 @@
     dct:date "2025-09-16T11:12:34+00:00"^^xsd:dateTime ;
     dct:description "A webcrawler built for research uses with a graphical user interface in order to build web corpuses made of lists of web actors and maps of links between them. " ;
     doap:bug-database <https://github.com/medialab/hyphe/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2010-12-23T18:27:34+00:00"^^xsd:dateTime ;
     doap:description "Websites crawler with built-in exploration and control web interface" ;
     doap:developer <https://github.com/medialab> ;
@@ -2217,8 +2217,8 @@
     dct:date "2023-04-17T20:40:09+00:00"^^xsd:dateTime ;
     dct:description "Libraries for reading/writing/validating WARC/ARC/GZIP files (Java). " ;
     doap:bug-database <https://github.com/netarchivesuite/jwat/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2018-08-30T17:28:48+00:00"^^xsd:dateTime ;
     doap:description "Java Web Archive Toolkit" ;
     doap:developer <https://github.com/netarchivesuite> ;
@@ -2234,8 +2234,8 @@
     dct:date "2024-05-22T05:55:45+00:00"^^xsd:dateTime ;
     dct:description "Tools for reading/writing/validating WARC/ARC/GZIP files (Java). " ;
     doap:bug-database <https://github.com/netarchivesuite/jwat-tools/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2018-08-30T17:54:07+00:00"^^xsd:dateTime ;
     doap:description "JWAT Tools" ;
     doap:developer <https://github.com/netarchivesuite> ;
@@ -2251,7 +2251,7 @@
     dct:date "2025-09-23T10:46:10+00:00"^^xsd:dateTime ;
     dct:description "A backend Java and frontend VUE JS project with freetext search and a build in playback engine. Require Warc files has been index with the Warc-Indexer. The web application also has a wide range of data visualization tools and data export tools that can be used on the whole webarchive. " ;
     doap:bug-database <https://github.com/netarchivesuite/solrwayback/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery> ;
+    doap:category <http://awesome.org/iipc/search--discovery> ;
     doap:created "2017-02-08T09:33:35+00:00"^^xsd:dateTime ;
     doap:description "A search interface and wayback machine for the UKWA Solr based warc-indexer framework." ;
     doap:developer <https://github.com/netarchivesuite> ;
@@ -2268,7 +2268,7 @@
     dct:date "2025-01-08T13:38:12+00:00"^^xsd:dateTime ;
     dct:description "" ;
     doap:bug-database <https://github.com/nlnwa/gowarcserver/issues> ;
-    doap:category <http://awesome.org/iipc/#utilities> ;
+    doap:category <http://awesome.org/iipc/utilities> ;
     doap:created "2021-01-15T10:42:20+00:00"^^xsd:dateTime ;
     doap:developer <https://github.com/nlnwa> ;
     doap:license <https://api.github.com/licenses/apache-2.0> ;
@@ -2283,8 +2283,8 @@
     dct:date "2025-08-20T12:09:15+00:00"^^xsd:dateTime ;
     dct:description "A " ;
     doap:bug-database <https://github.com/oduwsdl/archivenow/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2017-02-09T12:29:08+00:00"^^xsd:dateTime ;
     doap:description "A Tool To Push Web Resources Into Web Archives" ;
     doap:developer <https://github.com/oduwsdl> ;
@@ -2301,7 +2301,7 @@
     dct:date "2025-09-17T18:30:09+00:00"^^xsd:dateTime ;
     dct:description "Web Archive (WARC) indexing and replay using " ;
     doap:bug-database <https://github.com/oduwsdl/ipwb/issues> ;
-    doap:category <http://awesome.org/iipc/#replay> ;
+    doap:category <http://awesome.org/iipc/replay> ;
     doap:created "2016-03-04T15:01:33+00:00"^^xsd:dateTime ;
     doap:description "InterPlanetary Wayback: A distributed and persistent archive replay system using IPFS" ;
     doap:developer <https://github.com/oduwsdl> ;
@@ -2318,8 +2318,8 @@
     dct:date "2025-07-04T13:39:00+00:00"^^xsd:dateTime ;
     dct:description "An open source, dockerized, queued, high fidelity web archiver based on Squidwarc with a simple web GUI. " ;
     doap:bug-database <https://github.com/peterk/warcworker/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2018-07-21T08:31:18+00:00"^^xsd:dateTime ;
     doap:description "A dockerized, queued high fidelity web archiver based on Squidwarc" ;
     doap:developer <https://github.com/peterk> ;
@@ -2336,7 +2336,7 @@
     dct:date "2025-08-11T00:25:48+00:00"^^xsd:dateTime ;
     dct:description "Collection of tools to extract and interact with WARC files (Python)." ;
     doap:bug-database <https://github.com/recrm/ArchiveTools/issues> ;
-    doap:category <http://awesome.org/iipc/#utilities> ;
+    doap:category <http://awesome.org/iipc/utilities> ;
     doap:created "2015-01-14T18:53:32+00:00"^^xsd:dateTime ;
     doap:description "A collection of tools for archiving and analysing the internet." ;
     doap:developer <https://github.com/recrm> ;
@@ -2353,7 +2353,7 @@
     dct:date "2025-03-22T10:45:19+00:00"^^xsd:dateTime ;
     dct:description "Golang readers for ARC and WARC webarchive formats (Golang)." ;
     doap:bug-database <https://github.com/richardlehane/webarchive/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries> ;
+    doap:category <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2015-09-21T06:38:52+00:00"^^xsd:dateTime ;
     doap:description "golang readers for ARC and WARC webarchive formats" ;
     doap:developer <https://github.com/richardlehane> ;
@@ -2370,8 +2370,8 @@
     dct:date "2025-07-12T19:05:05+00:00"^^xsd:dateTime ;
     dct:description "A simple script to convert offline data into a single WARC file. " ;
     doap:bug-database <https://github.com/steffenfritz/html2warc/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2015-12-30T14:29:32+00:00"^^xsd:dateTime ;
     doap:description "simple script to convert web resources to a single warc file" ;
     doap:developer <https://github.com/steffenfritz> ;
@@ -2388,8 +2388,8 @@
     dct:date "2025-08-01T13:42:02+00:00"^^xsd:dateTime ;
     dct:description "crau is the way (most) Brazilians pronounce crawl, it's the easiest command-line tool for archiving the Web and playing archives: you just need a list of URLs. " ;
     doap:bug-database <https://github.com/turicas/crau/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2019-10-26T19:21:34+00:00"^^xsd:dateTime ;
     doap:description "Easy-to-use Web archiver" ;
     doap:developer <https://github.com/turicas> ;
@@ -2406,8 +2406,8 @@
     dct:date "2024-10-07T08:15:26+00:00"^^xsd:dateTime ;
     dct:description "A prototype web archives exploration UI, developed with researchers as part of the " ;
     doap:bug-database <https://github.com/ukwa/shine/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2013-07-03T20:18:03+00:00"^^xsd:dateTime ;
     doap:description "Prototype SOLR-powered web archive exploration UI." ;
     doap:developer <https://github.com/ukwa> ;
@@ -2425,8 +2425,8 @@
     dct:date "2025-08-13T11:10:16+00:00"^^xsd:dateTime ;
     dct:description "WARC and ARC full-text indexing and discovery tools, with a number of associated tools capable of using the index shown below. " ;
     doap:bug-database <https://github.com/ukwa/webarchive-discovery/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2012-12-20T12:17:14+00:00"^^xsd:dateTime ;
     doap:description "Please note that the warc-indexer tool & code is now supported by NetArchiveSuite. The 'warc-indexer' directory and code that exists in this repo is now only for reference. For support and issues of 'warc-indexer', please communicate with NetArchiveSuite." ;
     doap:developer <https://github.com/ukwa> ;
@@ -2446,8 +2446,8 @@
     dct:date "2025-08-04T05:50:10+00:00"^^xsd:dateTime ;
     dct:description "A npm package and CLI tool for saving webpages. " ;
     doap:bug-database <https://github.com/wabarc/cairn/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2020-10-08T07:18:16+00:00"^^xsd:dateTime ;
     doap:description "NPM package and CLI tool for saving web page as single HTML file" ;
     doap:developer <https://github.com/wabarc> ;
@@ -2464,8 +2464,8 @@
     dct:date "2025-04-12T03:18:37+00:00"^^xsd:dateTime ;
     dct:description "A toolkit for searching archived webpages from " ;
     doap:bug-database <https://github.com/wabarc/playback/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2021-04-08T14:21:46+00:00"^^xsd:dateTime ;
     doap:description "Playback webpages from Wayback Machine" ;
     doap:developer <https://github.com/wabarc> ;
@@ -2482,8 +2482,8 @@
     dct:date "2025-09-21T14:15:22+00:00"^^xsd:dateTime ;
     dct:description "A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond. " ;
     doap:bug-database <https://github.com/wabarc/wayback/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2020-06-13T10:08:05+00:00"^^xsd:dateTime ;
     doap:description "An archiving tool with an IM-style interface that prioritizes privacy and accessibility, integrated with various archival services including Internet Archive, archive.today, Ghostarchive, IPFS, Telegraph, and file systems." ;
     doap:developer <https://github.com/wabarc> ;
@@ -2501,8 +2501,8 @@
     dct:date "2024-12-07T10:22:33+00:00"^^xsd:dateTime ;
     dct:description "A fully functional prototype of a personal " ;
     doap:bug-database <https://github.com/webis-de/wasp/issues> ;
-    doap:category <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/In_Development> ;
+    doap:category <http://awesome.org/iipc/In_Development>,
+        <http://awesome.org/iipc/search--discovery> ;
     doap:created "2018-03-25T18:58:42+00:00"^^xsd:dateTime ;
     doap:developer <https://github.com/webis-de> ;
     doap:license <https://api.github.com/licenses/mit> ;
@@ -2517,8 +2517,8 @@
     dct:date "2025-09-21T09:44:44+00:00"^^xsd:dateTime ;
     dct:description "A Chromium based high-fidelity crawling system, designed to run a complex, customizable browser-based crawl in a single Docker container. " ;
     doap:bug-database <https://github.com/webrecorder/browsertrix-crawler/issues> ;
-    doap:category <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/acquisition> ;
     doap:created "2020-11-02T04:37:14+00:00"^^xsd:dateTime ;
     doap:description "Run a high-fidelity browser-based web archiving crawler in a single Docker container" ;
     doap:developer <https://github.com/webrecorder> ;
@@ -2536,7 +2536,7 @@
     dct:date "2025-09-13T01:38:34+00:00"^^xsd:dateTime ;
     dct:description "Convert HTTP Archive (HAR) -> Web Archive (WARC) format (Python)." ;
     doap:bug-database <https://github.com/webrecorder/har2warc/issues> ;
-    doap:category <http://awesome.org/iipc/#utilities> ;
+    doap:category <http://awesome.org/iipc/utilities> ;
     doap:created "2017-03-16T00:14:15+00:00"^^xsd:dateTime ;
     doap:description "Convert HTTP Archive (HAR) -> Web Archive (WARC) format" ;
     doap:developer <https://github.com/webrecorder> ;
@@ -2554,8 +2554,8 @@
     dct:date "2025-09-18T18:58:42+00:00"^^xsd:dateTime ;
     dct:description "A Python 3 implementation of web archival replay tools, sometimes also known as 'Wayback Machine'. " ;
     doap:bug-database <https://github.com/webrecorder/pywb/issues> ;
-    doap:category <http://awesome.org/iipc/#replay>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/replay> ;
     doap:created "2013-12-09T03:30:31+00:00"^^xsd:dateTime ;
     doap:description "Core Python Web Archiving Toolkit for replay and recording of web archives" ;
     doap:developer <https://github.com/webrecorder> ;
@@ -2573,8 +2573,8 @@
     dct:date "2025-09-07T12:49:10+00:00"^^xsd:dateTime ;
     dct:description "Streaming WARC/ARC library for fast web archive IO (Python). " ;
     doap:bug-database <https://github.com/webrecorder/warcio/issues> ;
-    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
-        <http://awesome.org/iipc/Stable> ;
+    doap:category <http://awesome.org/iipc/Stable>,
+        <http://awesome.org/iipc/warc-io-libraries> ;
     doap:created "2017-03-06T18:17:11+00:00"^^xsd:dateTime ;
     doap:description "Streaming WARC/ARC library for fast web archive IO" ;
     doap:developer <https://github.com/webrecorder> ;
@@ -2594,79 +2594,79 @@
 <https://github.com/webrecorder> a foaf:Agent,
         foaf:Organization .
 
-<http://awesome.org/iipc/#mailing-lists> a skos:Concept ;
+<http://awesome.org/iipc/mailing-lists> a skos:Concept ;
     rdfs:label "Mailing Lists" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
+    skos:broader <http://awesome.org/iipc/community-resources> .
 
-<http://awesome.org/iipc/#other-awesome-lists> a skos:Concept ;
+<http://awesome.org/iipc/other-awesome-lists> a skos:Concept ;
     rdfs:label "Other Awesome Lists" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
+    skos:broader <http://awesome.org/iipc/community-resources> .
 
-<http://awesome.org/iipc/#slack> a skos:Concept ;
+<http://awesome.org/iipc/slack> a skos:Concept ;
     rdfs:label "Slack" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
+    skos:broader <http://awesome.org/iipc/community-resources> .
 
 <https://github.com/internetarchive> a foaf:Agent,
         foaf:Organization .
 
-<http://awesome.org/iipc/#community-resources> a skos:Concept ;
+<http://awesome.org/iipc/community-resources> a skos:Concept ;
     rdfs:label "Community Resources" ;
-    skos:narrower <http://awesome.org/iipc/#blogs-and-scholarship>,
-        <http://awesome.org/iipc/#discord>,
-        <http://awesome.org/iipc/#mailing-lists>,
-        <http://awesome.org/iipc/#other-awesome-lists>,
-        <http://awesome.org/iipc/#slack>,
-        <http://awesome.org/iipc/#twitter> .
+    skos:narrower <http://awesome.org/iipc/blogs-and-scholarship>,
+        <http://awesome.org/iipc/discord>,
+        <http://awesome.org/iipc/mailing-lists>,
+        <http://awesome.org/iipc/other-awesome-lists>,
+        <http://awesome.org/iipc/slack>,
+        <http://awesome.org/iipc/twitter> .
 
-<http://awesome.org/iipc/#public-data> a skos:Concept ;
+<http://awesome.org/iipc/public-data> a skos:Concept ;
     rdfs:label "Public Data" ;
     dct:description "This is a list of publicly available WARCs, Wayback Machines, CDX API endpoints, other indexes, and so on." .
 
-<http://awesome.org/iipc/#twitter> a skos:Concept ;
+<http://awesome.org/iipc/twitter> a skos:Concept ;
     rdfs:label "Twitter" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
+    skos:broader <http://awesome.org/iipc/community-resources> .
 
-<http://awesome.org/iipc/#hosted-closed-source> a skos:Concept ;
+<http://awesome.org/iipc/hosted-closed-source> a skos:Concept ;
     rdfs:label "Hosted, Closed Source" ;
-    skos:broader <http://awesome.org/iipc/#web-archiving-service-providers> .
+    skos:broader <http://awesome.org/iipc/web-archiving-service-providers> .
 
-<http://awesome.org/iipc/#replay> a skos:Concept ;
+<http://awesome.org/iipc/replay> a skos:Concept ;
     rdfs:label "Replay" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
-<http://awesome.org/iipc/#blogs-and-scholarship> a skos:Concept ;
+<http://awesome.org/iipc/blogs-and-scholarship> a skos:Concept ;
     rdfs:label "Blogs and Scholarship" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
+    skos:broader <http://awesome.org/iipc/community-resources> .
 
 <https://api.github.com/licenses/gpl-3.0> rdfs:label "GNU General Public License v3.0" .
 
-<http://awesome.org/iipc/#analysis> a skos:Concept ;
+<http://awesome.org/iipc/analysis> a skos:Concept ;
     rdfs:label "Analysis" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
-<http://awesome.org/iipc/#tools--software> a skos:Concept ;
+<http://awesome.org/iipc/tools--software> a skos:Concept ;
     rdfs:label "Tools & Software" ;
     dct:description "This list of tools and software is intended to briefly describe some of the most important and widely-used tools related to web archiving. For more details, we recommend you refer to (and contribute to!) these excellent resources from other groups:" ;
-    skos:narrower <http://awesome.org/iipc/#acquisition>,
-        <http://awesome.org/iipc/#analysis>,
-        <http://awesome.org/iipc/#curation>,
-        <http://awesome.org/iipc/#quality-assurance>,
-        <http://awesome.org/iipc/#replay>,
-        <http://awesome.org/iipc/#search--discovery>,
-        <http://awesome.org/iipc/#utilities>,
-        <http://awesome.org/iipc/#warc-io-libraries> .
+    skos:narrower <http://awesome.org/iipc/acquisition>,
+        <http://awesome.org/iipc/analysis>,
+        <http://awesome.org/iipc/curation>,
+        <http://awesome.org/iipc/quality-assurance>,
+        <http://awesome.org/iipc/replay>,
+        <http://awesome.org/iipc/search--discovery>,
+        <http://awesome.org/iipc/utilities>,
+        <http://awesome.org/iipc/warc-io-libraries> .
 
-<http://awesome.org/iipc/#quality-assurance> a skos:Concept ;
+<http://awesome.org/iipc/quality-assurance> a skos:Concept ;
     rdfs:label "Quality Assurance" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
-<http://awesome.org/iipc/#search--discovery> a skos:Concept ;
+<http://awesome.org/iipc/search--discovery> a skos:Concept ;
     rdfs:label "Search & Discovery" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
-<http://awesome.org/iipc/#warc-io-libraries> a skos:Concept ;
+<http://awesome.org/iipc/warc-io-libraries> a skos:Concept ;
     rdfs:label "WARC I/O Libraries" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
 <http://awesome.org/iipc/In_Development> a skos:Concept ;
     rdfs:label "In Development" .
@@ -2675,13 +2675,13 @@
 
 <https://api.github.com/licenses/mit> rdfs:label "MIT License" .
 
-<http://awesome.org/iipc/#utilities> a skos:Concept ;
+<http://awesome.org/iipc/utilities> a skos:Concept ;
     rdfs:label "Utilities" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
-<http://awesome.org/iipc/#acquisition> a skos:Concept ;
+<http://awesome.org/iipc/acquisition> a skos:Concept ;
     rdfs:label "Acquisition" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+    skos:broader <http://awesome.org/iipc/tools--software> .
 
 <http://awesome.org/iipc/Stable> a skos:Concept ;
     rdfs:label "Stable" .
