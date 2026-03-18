@@ -54,7 +54,14 @@ def concept_taxonomy(file_path, base_iri):
                     ]
                 ] .
 
-                bind(iri(concat("{base_iri}", ?destination)) as ?concept_iri)
+                bind(
+                    iri(
+                        concat(
+                            "{base_iri}",
+                            if(strStarts(?destination, "#"), substr(?destination, 2), ?destination)
+                        )
+                    ) as ?concept_iri
+                )
 
                 optional {{
                     ?concept_node rdf:_2 [ a xyz:BulletList ;
@@ -68,7 +75,14 @@ def concept_taxonomy(file_path, base_iri):
                         ]
                     ] .
 
-                    bind(iri(concat("{base_iri}", ?sub_destination)) as ?sub_concept_iri)
+                    bind(
+                        iri(
+                            concat(
+                                "{base_iri}",
+                                if(strStarts(?sub_destination, "#"), substr(?sub_destination, 2), ?sub_destination)
+                            )
+                        ) as ?sub_concept_iri
+                    )
                 }}
 
             }}
@@ -112,7 +126,14 @@ def concept_description(file_path, base_iri):
                     filter (fx:next(?concept_membership) = ?next_membership)
                 }}
 
-                bind(iri(concat("{base_iri}", ?destination)) as ?concept_iri)
+                bind(
+                    iri(
+                        concat(
+                            "{base_iri}",
+                            if(strStarts(?destination, "#"), substr(?destination, 2), ?destination)
+                        )
+                    ) as ?concept_iri
+                )
             }}
         }}
         """)
@@ -214,9 +235,9 @@ def identify_tools(base_iri):
             ?project_iri a doap:Project .
         }} where {{
             {{
-                bind(<{base_iri}#tools--software> as ?projects)
+                bind(<{base_iri}tools--software> as ?projects)
             }} union {{
-                <{base_iri}#tools--software> skos:narrower ?projects .
+                <{base_iri}tools--software> skos:narrower ?projects .
             }}
             ?project_iri doap:category ?projects
         }}
