@@ -152,6 +152,36 @@
     dct:description "Browser extension: switches between browser tabs." ;
     doap:category <http://awesome.org/iipc/#quality-assurance> .
 
+<https://chromewebstore.google.com/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Chrome link gopher" ;
+    dct:description "Browser extension: link harvester on a page." ;
+    doap:category <http://awesome.org/iipc/#quality-assurance> .
+
+<https://chromewebstore.google.com/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Chrome Check My Links" ;
+    dct:description "Browser extension: a link checker with more options." ;
+    doap:category <http://awesome.org/iipc/#quality-assurance> .
+
+<https://chromewebstore.google.com/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Chrome link checker" ;
+    dct:description "Browser extension: basic link checker." ;
+    doap:category <http://awesome.org/iipc/#quality-assurance> .
+
+<https://chromewebstore.google.com/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Chrome Open Multiple URLs" ;
+    dct:description "Browser extension: opens multiple URLs and also extracts URLs from text." ;
+    doap:category <http://awesome.org/iipc/#quality-assurance> .
+
+<https://chromewebstore.google.com/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda> a sioc:Item,
+        doap:Project ;
+    rdfs:label "Chrome Revolver" ;
+    dct:description "Browser extension: switches between browser tabs." ;
+    doap:category <http://awesome.org/iipc/#quality-assurance> .
+
 <https://commoncrawl.org/blog> a sioc:Item ;
     rdfs:label "Common Crawl Foundation Blog" ;
     dct:description "" ;
@@ -176,6 +206,20 @@
     dct:description "From " ;
     doap:category <http://awesome.org/iipc/#self-hostable-open-source> .
 
+<https://data.commoncrawl.org/> a sioc:Item ;
+    rdfs:label "Common Crawl files" ;
+    dct:description "WARCs, CDX files, parquet url index, parquet host index, etc." ;
+    doap:category <http://awesome.org/iipc/#public-data> .
+
+<https://discord.gg/njaVFh7avF> a sioc:Item ;
+    rdfs:label "Common Crawl Foundation" ;
+    doap:category <http://awesome.org/iipc/#discord> .
+
+<https://eotarchive.org/> a sioc:Item ;
+    rdfs:label "End of Term Archive" ;
+    dct:description "WARCs, CDX files, parquet url index" ;
+    doap:category <http://awesome.org/iipc/#public-data> .
+
 <https://git.autistici.org/ale/crawl> a sioc:Item,
         doap:Project ;
     rdfs:label "Crawl" ;
@@ -199,6 +243,12 @@
     doap:category <http://awesome.org/iipc/#replay>,
         <http://awesome.org/iipc/Stable> .
 
+<https://github.com/internetarchive/bagnabit2warc> a sioc:Item,
+        doap:Project ;
+    rdfs:label "bagnabit2warc" ;
+    dct:description "Convert a " ;
+    doap:category <http://awesome.org/iipc/#utilities> .
+
 <https://github.com/internetarchive/heritrix3/wiki> a sioc:Item,
         doap:Project ;
     rdfs:label "Heritrix" ;
@@ -206,9 +256,28 @@
     doap:category <http://awesome.org/iipc/#acquisition>,
         <http://awesome.org/iipc/Stable> .
 
+<https://github.com/jedireza/warc> a sioc:Item,
+        doap:Project ;
+    rdfs:label "warc" ;
+    dct:description "A Rust library for reading and writing WARC files. " ;
+    doap:category <http://awesome.org/iipc/#warc-io-libraries>,
+        <http://awesome.org/iipc/Stable> .
+
 <https://github.com/machawk1/awesome-memento> a sioc:Item ;
     rdfs:label "Awesome Memento" ;
     doap:category <http://awesome.org/iipc/#other-awesome-lists> .
+
+<https://github.com/midwork-finds-jobs/duckdb-web-archive> a sioc:Item,
+        doap:Project ;
+    rdfs:label "duckdb-web-archive-cdx" ;
+    dct:description "DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL. " ;
+    doap:category <http://awesome.org/iipc/#utilities>,
+        <http://awesome.org/iipc/In_Development> .
+
+<https://govarchive.us/> a sioc:Item ;
+    rdfs:label "Webrecorder US GovArchive" ;
+    dct:description "high-fidelity replay" ;
+    doap:category <http://awesome.org/iipc/#public-data> .
 
 <https://groups.google.com/g/common-crawl> a sioc:Item ;
     rdfs:label "Common Crawl" ;
@@ -233,6 +302,10 @@
     rdfs:label "IIPC Slack" ;
     dct:description "Ask " ;
     doap:category <http://awesome.org/iipc/#slack> .
+
+<https://index.commoncrawl.org/> a sioc:Item ;
+    rdfs:label "Common Crawl CDX API" ;
+    doap:category <http://awesome.org/iipc/#public-data> .
 
 <https://netpreserveblog.wordpress.com/> a sioc:Item ;
     rdfs:label "IIPC Blog" ;
@@ -284,6 +357,11 @@
     dct:description "ODU Web Science and Digital Libraries Research Group." ;
     doap:category <http://awesome.org/iipc/#twitter> .
 
+<https://twitter.com/commoncrawl> a sioc:Item ;
+    rdfs:label "@commoncrawl" ;
+    dct:description "Official Common Crawl Foundation handle." ;
+    doap:category <http://awesome.org/iipc/#twitter> .
+
 <https://twitter.com/hashtag/webarchivewednesday> a sioc:Item ;
     rdfs:label "#WebArchiveWednesday" ;
     doap:category <http://awesome.org/iipc/#twitter> .
@@ -291,6 +369,10 @@
 <https://twitter.com/search?q=%23webarchiving> a sioc:Item ;
     rdfs:label "#WebArchiving" ;
     doap:category <http://awesome.org/iipc/#twitter> .
+
+<https://web.archive.org/> a sioc:Item ;
+    rdfs:label "Internet Archive Wayback" ;
+    doap:category <http://awesome.org/iipc/#public-data> .
 
 <https://webarchivingrt.wordpress.com/> a sioc:Item ;
     rdfs:label "Web Archiving Roundtable" ;
@@ -340,6 +422,11 @@
 <https://www.mirrorweb.com/solutions/capabilities/website-archiving> a sioc:Item ;
     rdfs:label "MirrorWeb" ;
     doap:category <http://awesome.org/iipc/#hosted-closed-source> .
+
+<https://www.nationalarchives.gov.uk/webarchive/> a sioc:Item ;
+    rdfs:label "UK Government Web Archive" ;
+    dct:description "Wayback" ;
+    doap:category <http://awesome.org/iipc/#public-data> .
 
 <https://www.pagefreezer.com/> a sioc:Item ;
     rdfs:label "PageFreezer" ;
@@ -743,6 +830,10 @@
 <http://awesome.org/iipc/#curation> a skos:Concept ;
     rdfs:label "Curation" ;
     skos:broader <http://awesome.org/iipc/#tools--software> .
+
+<http://awesome.org/iipc/#discord> a skos:Concept ;
+    rdfs:label "Discord" ;
+    skos:broader <http://awesome.org/iipc/#community-resources> .
 
 <http://awesome.org/iipc/#web-archiving-service-providers> a skos:Concept ;
     rdfs:label "Web Archiving Service Providers" ;
@@ -2391,14 +2482,6 @@
 <https://github.com/webrecorder> a foaf:Agent,
         foaf:Organization .
 
-<http://awesome.org/iipc/#community-resources> a skos:Concept ;
-    rdfs:label "Community Resources" ;
-    skos:narrower <http://awesome.org/iipc/#blogs-and-scholarship>,
-        <http://awesome.org/iipc/#mailing-lists>,
-        <http://awesome.org/iipc/#other-awesome-lists>,
-        <http://awesome.org/iipc/#slack>,
-        <http://awesome.org/iipc/#twitter> .
-
 <http://awesome.org/iipc/#mailing-lists> a skos:Concept ;
     rdfs:label "Mailing Lists" ;
     skos:broader <http://awesome.org/iipc/#community-resources> .
@@ -2411,16 +2494,25 @@
     rdfs:label "Slack" ;
     skos:broader <http://awesome.org/iipc/#community-resources> .
 
-<http://awesome.org/iipc/#twitter> a skos:Concept ;
-    rdfs:label "Twitter" ;
-    skos:broader <http://awesome.org/iipc/#community-resources> .
-
 <https://github.com/internetarchive> a foaf:Agent,
         foaf:Organization .
 
-<http://awesome.org/iipc/#utilities> a skos:Concept ;
-    rdfs:label "Utilities" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
+<http://awesome.org/iipc/#community-resources> a skos:Concept ;
+    rdfs:label "Community Resources" ;
+    skos:narrower <http://awesome.org/iipc/#blogs-and-scholarship>,
+        <http://awesome.org/iipc/#discord>,
+        <http://awesome.org/iipc/#mailing-lists>,
+        <http://awesome.org/iipc/#other-awesome-lists>,
+        <http://awesome.org/iipc/#slack>,
+        <http://awesome.org/iipc/#twitter> .
+
+<http://awesome.org/iipc/#public-data> a skos:Concept ;
+    rdfs:label "Public Data" ;
+    dct:description "This is a list of publicly available WARCs, Wayback Machines, CDX API endpoints, other indexes, and so on." .
+
+<http://awesome.org/iipc/#twitter> a skos:Concept ;
+    rdfs:label "Twitter" ;
+    skos:broader <http://awesome.org/iipc/#community-resources> .
 
 <http://awesome.org/iipc/#hosted-closed-source> a skos:Concept ;
     rdfs:label "Hosted, Closed Source" ;
@@ -2433,6 +2525,10 @@
 <http://awesome.org/iipc/#blogs-and-scholarship> a skos:Concept ;
     rdfs:label "Blogs and Scholarship" ;
     skos:broader <http://awesome.org/iipc/#community-resources> .
+
+<http://awesome.org/iipc/#utilities> a skos:Concept ;
+    rdfs:label "Utilities" ;
+    skos:broader <http://awesome.org/iipc/#tools--software> .
 
 <https://api.github.com/licenses/gpl-3.0> rdfs:label "GNU General Public License v3.0" .
 
@@ -2452,22 +2548,22 @@
         <http://awesome.org/iipc/#utilities>,
         <http://awesome.org/iipc/#warc-io-libraries> .
 
-<http://awesome.org/iipc/In_Development> a skos:Concept ;
-    rdfs:label "In Development" .
-
-<http://awesome.org/iipc/#quality-assurance> a skos:Concept ;
-    rdfs:label "Quality Assurance" ;
-    skos:broader <http://awesome.org/iipc/#tools--software> .
-
 <http://awesome.org/iipc/#search--discovery> a skos:Concept ;
     rdfs:label "Search & Discovery" ;
     skos:broader <http://awesome.org/iipc/#tools--software> .
+
+<http://awesome.org/iipc/In_Development> a skos:Concept ;
+    rdfs:label "In Development" .
 
 <http://awesome.org/iipc/#warc-io-libraries> a skos:Concept ;
     rdfs:label "WARC I/O Libraries" ;
     skos:broader <http://awesome.org/iipc/#tools--software> .
 
 <https://api.github.com/licenses/apache-2.0> rdfs:label "Apache License 2.0" .
+
+<http://awesome.org/iipc/#quality-assurance> a skos:Concept ;
+    rdfs:label "Quality Assurance" ;
+    skos:broader <http://awesome.org/iipc/#tools--software> .
 
 <https://api.github.com/licenses/mit> rdfs:label "MIT License" .
 
