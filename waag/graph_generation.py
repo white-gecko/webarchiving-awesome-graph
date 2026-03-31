@@ -33,7 +33,8 @@ class GraphGeneration:
         return self.doap_graph
 
     def projects(self) -> list[URIRef]:
-        """Get all projects IRIs"""
+        """Get all projects.
+        Yields a tuple of a project's subject IRI and optionally the respective URL of the project on an online platform (like GitHub)."""
         for row in self.graph.query(queries.list_projects()):
             yield row.project
 

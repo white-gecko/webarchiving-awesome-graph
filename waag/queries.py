@@ -193,11 +193,18 @@ def awesome_items(file_path, base_iri):
 
                 bind(
                     iri(
-                        concat(
-                            if(strStarts(?destination, "#"), "{base_iri}", ""),
+                        if(
+                            strStarts(?destination, "#"),
+                            concat("{base_iri}", substr(?destination, 2)),
                             ?destination
                         )
                     ) as ?destination_iri
+                )
+
+                bind(
+                    iri(
+                        concat("{base_iri}", encode_for_uri(replace(?label, " ", "_")))
+                    ) as ?item_iri
                 )
 
             }}
@@ -206,7 +213,12 @@ def awesome_items(file_path, base_iri):
 
 
 def merge_blank_categories():
-    """Assign the named node categories to the projects."""
+    """Assign the named node categories to the projects based on the label.
+
+    During the item extraction (`awesome_items()`), the projects get blank nodes as categories,
+    while the category IRIs are minted in `concept_taxonomy()`.
+    In this query the blank nodes are merged with the named nodes.
+    """
 
     return prefixes + dedent("""
         delete {
@@ -228,7 +240,11 @@ def merge_blank_categories():
 
 
 def identify_tools(base_iri):
-    """Make all tools doap projects."""
+    """Make all tools doap projects.
+
+    During the item extraction (`awesome_items()`) all items of the awesoe list are treated as doap:Items.
+    In this step all items in the `tools--software` category additinally assigned to the class doap:Project.
+    """
 
     return prefixes + dedent(f"""
         insert {{
