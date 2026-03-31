@@ -19,9 +19,13 @@ tasks:
       - task -a
 
   install:
-    desc: Install the dependencies with poetry
+    desc: Install the project dependencies
     cmds:
       - poetry install
+
+  install:kisumu:
+    desc: Install kisumu to build the README.md
+    cmds:
       - pipx install kisumu
 
   run:

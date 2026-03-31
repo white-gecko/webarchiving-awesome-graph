@@ -16,6 +16,9 @@ jobs:
   pipeline:
     runs-on: ubuntu-latest
     steps:
+    - uses: threeal/pipx-install-action@v2.0.0
+      with:
+        packages: poetry kisumu
     - uses: arduino/setup-task@v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
