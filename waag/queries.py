@@ -182,7 +182,7 @@ def awesome_items(file_path, base_iri):
 
                 optional {{
                     ?project_paragraph rdf:_2 ?description_with_dash .
-                    filter(substr(?description_with_dash, 0, 4) = " - ")
+                    filter(strStarts(?description_with_dash, " - "))
                     bind(substr(?description_with_dash, 4) as ?description)
                 }}
 
