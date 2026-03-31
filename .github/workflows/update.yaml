@@ -9,7 +9,7 @@ on:
 
 env:
   AW_BRANCH: main
-  AW_REPO: "git@github.com:iipc/awesome-web-archiving.git"
+  AW_REPO: "iipc/awesome-web-archiving"
   WAAG_BRANCH: main
 
 jobs:
