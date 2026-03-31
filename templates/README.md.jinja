@@ -1,6 +1,10 @@
 # The Web Archive Awesome Graph (WAAG)
 
-{%- set category_query = "select ?iri ?title ?description {
+{%- set category_query = "
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix dct: <http://purl.org/dc/terms/>
+
+select ?iri ?title ?description {
 ?iri a skos:Concept ;
   rdfs:label ?title .
 optional {
@@ -14,7 +18,12 @@ filter (!bound(?parent))
 optional { ?iri dct:description ?description }
 }" -%}
 
-{%- set sub_category_query = "select distinct ?iri ?title ?description {
+{%- set sub_category_query = "
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix dct: <http://purl.org/dc/terms/>
+
+select distinct ?iri ?title ?description {
 ?iri a skos:Concept ;
   rdfs:label ?title .
   {
@@ -26,7 +35,11 @@ optional { ?iri dct:description ?description }
 }" -%}
 
 {%- set item_query = "
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix doap: <http://usefulinc.com/ns/doap#>
 prefix siodc: <https://siodc.example.org/#>
+
 select ?iri ?title ?description ?class ?stars ?watchers ?moved {
 ?iri doap:category ?resourceIri ;
   rdfs:label ?title .
