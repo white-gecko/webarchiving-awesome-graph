@@ -35,6 +35,6 @@ jobs:
       id: ci_step
       working-directory: waag
       env:
-        AWESOME_FILE: "${{ env.GITHUB_WORKSPACE }}/aw/README.md"
+        AWESOME_FILE: "../aw/README.md"
         GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       run: task ci
