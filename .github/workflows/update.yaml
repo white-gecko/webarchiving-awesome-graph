@@ -1,0 +1,36 @@
+name: Awesome Graph Sync
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 * * * *'
+
+env:
+  AW_BRANCH: main
+  AW_REPO: "git@github.com:iipc/awesome-web-archiving.git"
+  AWESOME_FILE: "${{ env.GITHUB_WORKSPACE }}/aw/README.md"
+  WAAG_BRANCH: main
+  GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: arduino/setup-task@v2
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v6
+      with:
+        ref: ${{ env.WAAG_BRANCH }}
+        path: waag
+    - uses: actions/checkout@v6
+      with:
+        repository: ${{ env.AW_REPO }}
+        ref: ${{ env.AW_BRANCH }}
+        path: aw
+    - name: "⚙️ Run CI Tasks"
+      id: ci_step
+      working-directory: waag
+      run: task ci
