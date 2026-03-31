@@ -8,6 +8,7 @@ prefixes = dedent("""
     prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+    prefix owl: <http://www.w3.org/2002/07/owl#>
     prefix sioc: <http://rdfs.org/sioc/ns#>
     prefix doap: <http://usefulinc.com/ns/doap#>
     """)
@@ -144,7 +145,8 @@ def awesome_items(file_path, base_iri):
 
     return prefixes + dedent(f"""
         construct {{
-            ?destination_iri a sioc:Item ;
+            ?item_iri a sioc:Item ;
+                owl:sameAs ?destination_iri ;
                 rdfs:label ?label ;
                 dct:description ?description ;
                 doap:category [ a skos:Concept ;
@@ -261,10 +263,16 @@ def identify_tools(base_iri):
 
 
 def list_projects():
-    """Select all projects."""
+    """Select all projects and their platform project URLs, i.e., the URL of the respective GitHub project.
+
+    It is assumed, that the GitHub project is linked as owl:sameAs.
+    """
 
     return prefixes + dedent("""
-        select ?project {
+        select ?project ?platform_project {
             ?project a doap:Project .
+            optional {
+                ?project owl:sameAs ?platform_project .
+            }
         }
     """)
