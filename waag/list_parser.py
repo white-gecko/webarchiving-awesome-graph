@@ -5,6 +5,7 @@ from . import queries
 
 class ListParser:
     """The list parser reads an Awesome List in Markdown format with SparqlAnything and runs a set of SPARQL queries to extract a graph from it."""
+
     def __init__(self, file, base_iri):
         self.file_path = Path(file)
         self.base_iri = base_iri

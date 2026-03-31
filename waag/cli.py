@@ -1,5 +1,4 @@
 import click
-import sys
 from pathlib import Path
 
 from .graph_generation import GraphGeneration
