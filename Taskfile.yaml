@@ -64,7 +64,6 @@ tasks:
     desc: The task to be executed by some continuous integration (ci) system
     cmds:
       - task: install
-      - task: clone-awesome-list
       - task: run
       - task: build
       - task: commit-and-push-data
