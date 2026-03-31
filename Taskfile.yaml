@@ -3,8 +3,14 @@ version: '3'
 dotenv: ['custom.env', 'default.env']
 
 vars:
-  AWESOME_FILE: ../awesome-web-archiving/README.md
+  AWESOME_FILE: '{{.AWESOME_FILE| default "../awesome-web-archiving/README.md"}}'
   BASE_IRI: http://awesome.org/iipc/
+  INTEGRATION_GRAPH: graphs/awesome.ttl
+
+  GIT_USER_NAME: Awesome Update Bot 🤖
+  GIT_USER_EMAIL: aub@example.org
+  GIT_COMMIT_MESSAGE: Update Awesome Graph and README
+
 
 tasks:
   default:
@@ -38,4 +44,23 @@ tasks:
   build:
     desc: Build the README
     cmds:
-      - kisumu build -g graphs/awesome.ttl -t templates/README.md.jinja -o README.md
+      - kisumu build -g {{.INTEGRATION_GRAPH}} -t templates/README.md.jinja -o README.md
+
+  commit-and-push-data:
+    desc: Commit and push all changes made to the graphs
+    cmds:
+      - |
+        echo "commit-id-old=$(git rev-parse HEAD)" >> {{.GITHUB_OUTPUT}}
+        git add {{.INTEGRATION_GRAPH}} README.md
+        git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+        echo "commit-id-new=$(git rev-parse HEAD)" >> {{.GITHUB_OUTPUT}}
+        git push || echo ""
+
+  ci:
+    desc: The task to be executed by some continuous integration (ci) system
+    cmds:
+      - task: install
+      - task: clone-awesome-list
+      - task: run
+      - task: build
+      - task: commit-and-push-data
