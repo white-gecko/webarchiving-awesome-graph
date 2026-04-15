@@ -273,7 +273,7 @@ groups:
 - [freeze-dry](http://awesome.org/iipc/freeze-dry) - JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions.  💽 ⭐ 302 👀 10
 - [grab-site](http://awesome.org/iipc/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns.  💽 ⭐ 1564 👀 39
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
-- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14998 👀 66
+- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14999 👀 66
 - [twarc](http://awesome.org/iipc/twarc) - A command line tool and Python library for archiving Twitter JSON data.  💽 ⭐ 1392 👀 33
 
 ## In Development
@@ -357,7 +357,7 @@ groups:
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
 - [httpreserve.info](http://awesome.org/iipc/httpreserve.info) - Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang).  💽
 - [hyphe](http://awesome.org/iipc/hyphe) - A webcrawler built for research uses with a graphical user interface in order to build web corpuses made of lists of web actors and maps of links between them.  💽 ⭐ 377 👀 28
-- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14998 👀 66
+- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14999 👀 66
 - [node-cdxj](http://awesome.org/iipc/node-cdxj)  💽 ⭐ 2 👀 2
 - [node-warc](http://awesome.org/iipc/node-warc) - Parse WARC files or create WARC files using either  💽 ⭐ 104 👀 7
 - [py-wasapi-client](http://awesome.org/iipc/py-wasapi-client) - Command line application to download crawls from WASAPI (Python).  💽 ⭐ 16 👀 4
