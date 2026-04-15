@@ -210,7 +210,7 @@ groups:
 - [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1851 👀 54
 - [MemGator](http://awesome.org/iipc/MemGator) - A Memento Aggregator CLI and Server (Golang).  💽 ⭐ 78 👀 10
 - [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
-- [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 40 👀 19
+- [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 41 👀 19
 - [The Unarchiver](http://awesome.org/iipc/The_Unarchiver) - Program to extract the contents of many archive formats, inclusive of WARC, to a file system. Free variant of The Archive Browser (macOS only, Proprietary app). 💽
 - [WarcPartitioner](http://awesome.org/iipc/WarcPartitioner) - Partition (W)ARC Files by MIME Type and Year.  💽 ⭐ 1 👀 1
 - [Warchaeology](http://awesome.org/iipc/Warchaeology) - Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files.  💽
@@ -322,7 +322,7 @@ groups:
 - [Mink](http://awesome.org/iipc/Mink) - A  💽 ⭐ 58 👀 3
 - [Obelisk](http://awesome.org/iipc/Obelisk) - Go package and CLI tool for saving web page as single HTML file.  💽 ⭐ 311 👀 8
 - [OpenWayback](http://awesome.org/iipc/OpenWayback) - The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser.  💽
-- [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 40 👀 19
+- [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 41 👀 19
 - [PANDORÆ](http://awesome.org/iipc/PANDOR%C3%86) - A desktop research software to be plugged on a Solr endpoint to query, retrieve, normalize and visually explore web archives.  💽 ⭐ 16 👀 1
 - [PYWB](http://awesome.org/iipc/PYWB) - A Python 3 implementation of web archival replay tools, sometimes also known as 'Wayback Machine'.  💽 ⭐ 1643 👀 59
 - [ReplayWeb.page](http://awesome.org/iipc/ReplayWeb.page) - A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application.  💽

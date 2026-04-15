@@ -795,7 +795,7 @@
 <http://awesome.org/iipc/OutbackCDX> a sioc:Item,
         doap:Project ;
     rdfs:label "OutbackCDX" ;
-    dct:date "2026-04-15T05:46:21+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T12:15:02+00:00"^^xsd:dateTime ;
     dct:description "RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and " ;
     doap:bug-database <https://github.com/nla/outbackcdx/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -808,7 +808,7 @@
         <https://github.com/nla/outbackcdx.svn> ;
     doap:shortdesc "Web archive index server based on RocksDB" ;
     owl:sameAs <https://github.com/nla/outbackcdx> ;
-    ns1:num_stars 40 ;
+    ns1:num_stars 41 ;
     ns1:num_watchers 19 .
 
 <http://awesome.org/iipc/PANDOR%C3%86> a sioc:Item,
