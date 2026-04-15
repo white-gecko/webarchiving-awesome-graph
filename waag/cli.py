@@ -1,7 +1,7 @@
 import click
 from pathlib import Path
 
-from .graph_generation import GraphGeneration
+from waag.graph_generation import GraphGeneration
 
 
 @click.command()
