@@ -38,7 +38,6 @@ class GraphGeneration:
         self.doap_graph = None
         self.prefixes = None
 
-
     def fetch_doap(self):
         """Fetch DOAP information for all projects.
 
@@ -140,9 +139,13 @@ class GraphGeneration:
             self.parser = ListParser(readme, self.base_iri)
 
         call_and_write(self.parser.parse, output_dir / "any.ttl", self.prefixes)
-        call_and_write(self.parser.get_readme_graph, output_dir / "readme.ttl", self.prefixes)
+        call_and_write(
+            self.parser.get_readme_graph, output_dir / "readme.ttl", self.prefixes
+        )
         call_and_write(self.fetch_doap, output_dir / "doap.ttl", self.prefixes)
-        call_and_write(self.get_awesome_graph, output_dir / "awesome.ttl", self.prefixes)
+        call_and_write(
+            self.get_awesome_graph, output_dir / "awesome.ttl", self.prefixes
+        )
 
     def rename_resource(self, graph: Graph, resource_from: URIRef, resource_to: URIRef):
         """Rename a resource in a graph by moving all triples from one subject to another.

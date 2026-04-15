@@ -49,11 +49,13 @@ class ListParser:
             Path: Path to a temporary file with filtered content
         """
         # Read the content of the file
-        with open(file_path, 'r') as f:
+        with open(file_path, "r") as f:
             lines = f.readlines()
 
         # Filter out lines containing <!--lint -->
-        filtered_lines = [line for line in lines if not line.strip().startswith('<!--lint')]
+        filtered_lines = [
+            line for line in lines if not line.strip().startswith("<!--lint")
+        ]
 
         # Create a temporary file and write the filtered content
         self.temp_file = NamedTemporaryFile(suffix=".md", mode="w+", delete=False)
