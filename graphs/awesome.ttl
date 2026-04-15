@@ -1737,7 +1737,7 @@
 <http://awesome.org/iipc/monolith> a sioc:Item,
         doap:Project ;
     rdfs:label "monolith" ;
-    dct:date "2026-04-15T13:39:18+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T15:25:47+00:00"^^xsd:dateTime ;
     dct:description "CLI tool to save a web page as a single HTML file. " ;
     doap:bug-database <https://github.com/Y2Z/monolith/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1751,7 +1751,7 @@
         <https://github.com/Y2Z/monolith.svn> ;
     doap:shortdesc "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
     owl:sameAs <https://github.com/Y2Z/monolith> ;
-    ns1:num_stars 14997 ;
+    ns1:num_stars 14996 ;
     ns1:num_watchers 66 .
 
 <http://awesome.org/iipc/node-cdxj> a sioc:Item,
@@ -2105,7 +2105,7 @@
 <http://awesome.org/iipc/xDoTool> a sioc:Item,
         doap:Project ;
     rdfs:label "xDoTool" ;
-    dct:date "2026-04-14T18:36:34+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T15:21:22+00:00"^^xsd:dateTime ;
     dct:description "Click automation on Ubuntu." ;
     doap:bug-database <https://github.com/jordansissel/xdotool/issues> ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
@@ -2117,7 +2117,7 @@
         <https://github.com/jordansissel/xdotool.svn> ;
     doap:shortdesc "fake keyboard/mouse input, window management, and more " ;
     owl:sameAs <https://github.com/jordansissel/xdotool> ;
-    ns1:num_stars 3771 ;
+    ns1:num_stars 3772 ;
     ns1:num_watchers 62 .
 
 <http://awesome.org/iipc/resources-for-web-publishers> a skos:Concept ;
