@@ -4,44 +4,45 @@
 @prefix ns1: <https://siodc.example.org/#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://awesome.org/iipc/%23WebArchiveWednesday> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/%23WebArchiveWednesday> a sioc:Item ;
     rdfs:label "#WebArchiveWednesday" ;
     doap:category <http://awesome.org/iipc/twitter> ;
     owl:sameAs <https://twitter.com/hashtag/webarchivewednesday> .
 
-<http://awesome.org/iipc/%23WebArchiving> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/%23WebArchiving> a sioc:Item ;
     rdfs:label "#WebArchiving" ;
     doap:category <http://awesome.org/iipc/twitter> ;
     owl:sameAs <https://twitter.com/search?q=%23webarchiving> .
 
-<http://awesome.org/iipc/%40NetPreserve> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/%40NetPreserve> a sioc:Item ;
     rdfs:label "@NetPreserve" ;
     dcterms:description "Official IIPC handle." ;
     doap:category <http://awesome.org/iipc/twitter> ;
     owl:sameAs <https://twitter.com/NetPreserve> .
 
-<http://awesome.org/iipc/%40WebSciDL> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/%40WebSciDL> a sioc:Item ;
     rdfs:label "@WebSciDL" ;
     dcterms:description "ODU Web Science and Digital Libraries Research Group." ;
     doap:category <http://awesome.org/iipc/twitter> ;
     owl:sameAs <https://twitter.com/WebSciDL> .
 
-<http://awesome.org/iipc/%40commoncrawl> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/%40commoncrawl> a sioc:Item ;
     rdfs:label "@commoncrawl" ;
     dcterms:description "Official Common Crawl Foundation handle." ;
     doap:category <http://awesome.org/iipc/twitter> ;
     owl:sameAs <https://twitter.com/commoncrawl> .
 
-<http://awesome.org/iipc/Archive-It> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Archive-It> a sioc:Item ;
     rdfs:label "Archive-It" ;
     dcterms:description "From the Internet Archive." ;
     doap:category <http://awesome.org/iipc/hosted-closed-source> ;
     owl:sameAs <https://archive-it.org/> .
 
-<http://awesome.org/iipc/ArchiveBox> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/ArchiveBox> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveBox" ;
     dcterms:date "2026-03-31T08:30:28+00:00"^^xsd:dateTime ;
@@ -61,7 +62,7 @@
     ns1:num_stars 27152 ;
     ns1:num_watchers 182 .
 
-<http://awesome.org/iipc/ArchiveSpark> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/ArchiveSpark> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveSpark" ;
     dcterms:date "2026-03-24T11:09:02+00:00"^^xsd:dateTime ;
@@ -80,7 +81,7 @@
     ns1:num_stars 158 ;
     ns1:num_watchers 15 .
 
-<http://awesome.org/iipc/ArchiveTools> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/ArchiveTools> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveTools" ;
     dcterms:date "2026-02-01T08:46:58+00:00"^^xsd:dateTime ;
@@ -98,20 +99,20 @@
     ns1:num_stars 78 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/ArchiveWeb.Page> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/ArchiveWeb.Page> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveWeb.Page" ;
     dcterms:description "A plugin for Chrome and other Chromium based browsers that lets you interactively archive web pages, replay them, and export them as WARC & WACZ files. Also available as an Electron based desktop application." ;
     doap:category <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://webrecorder.net/archivewebpage/> .
 
-<http://awesome.org/iipc/Archivers_Slack> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Archivers_Slack> a sioc:Item ;
     rdfs:label "Archivers Slack" ;
     dcterms:description "" ;
     doap:category <http://awesome.org/iipc/slack> ;
     owl:sameAs <https://archivers.slack.com> .
 
-<http://awesome.org/iipc/Archives_Research_Compute_Hub> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Archives_Research_Compute_Hub> a sioc:Item,
         doap:Project ;
     rdfs:label "Archives Research Compute Hub" ;
     dcterms:date "2026-03-24T17:07:56+00:00"^^xsd:dateTime ;
@@ -130,7 +131,7 @@
     ns1:num_stars 20 ;
     ns1:num_watchers 18 .
 
-<http://awesome.org/iipc/Archives_Unleashed_Notebooks> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Archives_Unleashed_Notebooks> a sioc:Item,
         doap:Project ;
     rdfs:label "Archives Unleashed Notebooks" ;
     dcterms:date "2025-03-25T22:00:33+00:00"^^xsd:dateTime ;
@@ -149,13 +150,13 @@
     ns1:num_stars 26 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/Archives_Unleashed_Slack> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Archives_Unleashed_Slack> a sioc:Item ;
     rdfs:label "Archives Unleashed Slack" ;
     dcterms:description "" ;
     doap:category <http://awesome.org/iipc/slack> ;
     owl:sameAs <https://archivesunleashed.slack.com/> .
 
-<http://awesome.org/iipc/Archives_Unleashed_Toolkit> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Archives_Unleashed_Toolkit> a sioc:Item,
         doap:Project ;
     rdfs:label "Archives Unleashed Toolkit" ;
     dcterms:date "2026-03-30T03:41:02+00:00"^^xsd:dateTime ;
@@ -175,12 +176,12 @@
     ns1:num_stars 155 ;
     ns1:num_watchers 13 .
 
-<http://awesome.org/iipc/Arkiwera> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Arkiwera> a sioc:Item ;
     rdfs:label "Arkiwera" ;
     doap:category <http://awesome.org/iipc/hosted-closed-source> ;
     owl:sameAs <https://arkiwera.se/wp/websites/> .
 
-<http://awesome.org/iipc/Auto_Archiver> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Auto_Archiver> a sioc:Item,
         doap:Project ;
     rdfs:label "Auto Archiver" ;
     dcterms:date "2026-03-28T15:44:19+00:00"^^xsd:dateTime ;
@@ -199,12 +200,12 @@
     ns1:num_stars 1059 ;
     ns1:num_watchers 22 .
 
-<http://awesome.org/iipc/Awesome_Memento> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Awesome_Memento> a sioc:Item ;
     rdfs:label "Awesome Memento" ;
     doap:category <http://awesome.org/iipc/other-awesome-lists> ;
     owl:sameAs <https://github.com/machawk1/awesome-memento> .
 
-<http://awesome.org/iipc/Awesome_Website_Change_Monitoring> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Awesome_Website_Change_Monitoring> a sioc:Item,
         doap:Project ;
     rdfs:label "Awesome Website Change Monitoring" ;
     dcterms:date "2026-02-23T22:40:24+00:00"^^xsd:dateTime ;
@@ -221,13 +222,13 @@
     ns1:num_stars 513 ;
     ns1:num_watchers 25 .
 
-<http://awesome.org/iipc/Browsertrix> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Browsertrix> a sioc:Item ;
     rdfs:label "Browsertrix" ;
     dcterms:description "From " ;
     doap:category <http://awesome.org/iipc/self-hostable-open-source> ;
     owl:sameAs <https://webrecorder.net/browsertrix/> .
 
-<http://awesome.org/iipc/Browsertrix_Crawler> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Browsertrix_Crawler> a sioc:Item,
         doap:Project ;
     rdfs:label "Browsertrix Crawler" ;
     dcterms:date "2026-03-30T17:21:20+00:00"^^xsd:dateTime ;
@@ -247,7 +248,7 @@
     ns1:num_stars 1009 ;
     ns1:num_watchers 23 .
 
-<http://awesome.org/iipc/Brozzler> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Brozzler> a sioc:Item,
         doap:Project ;
     rdfs:label "Brozzler" ;
     dcterms:date "2026-03-30T09:48:38+00:00"^^xsd:dateTime ;
@@ -266,7 +267,7 @@
     ns1:num_stars 794 ;
     ns1:num_watchers 36 .
 
-<http://awesome.org/iipc/Cairn> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Cairn> a sioc:Item,
         doap:Project ;
     rdfs:label "Cairn" ;
     dcterms:date "2026-03-03T15:12:37+00:00"^^xsd:dateTime ;
@@ -285,42 +286,42 @@
     ns1:num_stars 50 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/Chrome_Check_My_Links> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Chrome_Check_My_Links> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome Check My Links" ;
     dcterms:description "Browser extension: a link checker with more options." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://chromewebstore.google.com/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf> .
 
-<http://awesome.org/iipc/Chrome_Open_Multiple_URLs> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Chrome_Open_Multiple_URLs> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome Open Multiple URLs" ;
     dcterms:description "Browser extension: opens multiple URLs and also extracts URLs from text." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://chromewebstore.google.com/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh?hl=de> .
 
-<http://awesome.org/iipc/Chrome_Revolver> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Chrome_Revolver> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome Revolver" ;
     dcterms:description "Browser extension: switches between browser tabs." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://chromewebstore.google.com/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda> .
 
-<http://awesome.org/iipc/Chrome_link_checker> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Chrome_link_checker> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome link checker" ;
     dcterms:description "Browser extension: basic link checker." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://chromewebstore.google.com/detail/link-checker/aibjbgmpmnidnmagaefhmcjhadpffaoi> .
 
-<http://awesome.org/iipc/Chrome_link_gopher> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Chrome_link_gopher> a sioc:Item,
         doap:Project ;
     rdfs:label "Chrome link gopher" ;
     dcterms:description "Browser extension: link harvester on a page." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://chromewebstore.google.com/detail/bpjdkodgnbfalgghnbeggfbfjpcfamkf/publish-accepted?hl=en-US&gl=US> .
 
-<http://awesome.org/iipc/Chronicler> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Chronicler> a sioc:Item,
         doap:Project ;
     rdfs:label "Chronicler" ;
     dcterms:date "2026-03-12T06:13:14+00:00"^^xsd:dateTime ;
@@ -339,17 +340,17 @@
     ns1:num_stars 92 ;
     ns1:num_watchers 3 .
 
-<http://awesome.org/iipc/Common_Crawl> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Common_Crawl> a sioc:Item ;
     rdfs:label "Common Crawl" ;
     doap:category <http://awesome.org/iipc/mailing-lists> ;
     owl:sameAs <https://groups.google.com/g/common-crawl> .
 
-<http://awesome.org/iipc/Common_Crawl_CDX_API> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Common_Crawl_CDX_API> a sioc:Item ;
     rdfs:label "Common Crawl CDX API" ;
     doap:category <http://awesome.org/iipc/public-data> ;
     owl:sameAs <https://index.commoncrawl.org/> .
 
-<http://awesome.org/iipc/Common_Crawl_Columnar_Index> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Common_Crawl_Columnar_Index> a sioc:Item,
         doap:Project ;
     rdfs:label "Common Crawl Columnar Index" ;
     dcterms:description "SQL-queryable index, with CDX info plus language classification. " ;
@@ -357,23 +358,23 @@
         <http://awesome.org/iipc/analysis> ;
     owl:sameAs <https://commoncrawl.org/tag/columnar-index/> .
 
-<http://awesome.org/iipc/Common_Crawl_Foundation> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Common_Crawl_Foundation> a sioc:Item ;
     rdfs:label "Common Crawl Foundation" ;
     doap:category <http://awesome.org/iipc/discord> ;
     owl:sameAs <https://discord.gg/njaVFh7avF> .
 
-<http://awesome.org/iipc/Common_Crawl_Foundation_Blog> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Common_Crawl_Foundation_Blog> a sioc:Item ;
     rdfs:label "Common Crawl Foundation Blog" ;
     dcterms:description "" ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://commoncrawl.org/blog> .
 
-<http://awesome.org/iipc/Common_Crawl_Foundation_Partners> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Common_Crawl_Foundation_Partners> a sioc:Item ;
     rdfs:label "Common Crawl Foundation Partners" ;
     doap:category <http://awesome.org/iipc/slack> ;
     owl:sameAs <https://ccfpartners.slack.com/> .
 
-<http://awesome.org/iipc/Common_Crawl_Jupyter_notebooks> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Common_Crawl_Jupyter_notebooks> a sioc:Item,
         doap:Project ;
     rdfs:label "Common Crawl Jupyter notebooks" ;
     dcterms:date "2026-02-26T20:52:39+00:00"^^xsd:dateTime ;
@@ -392,7 +393,7 @@
     ns1:num_stars 64 ;
     ns1:num_watchers 16 .
 
-<http://awesome.org/iipc/Common_Crawl_Web_Graph> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Common_Crawl_Web_Graph> a sioc:Item,
         doap:Project ;
     rdfs:label "Common Crawl Web Graph" ;
     dcterms:description "A host or domain-level graph of the web, with ranking information. " ;
@@ -400,32 +401,32 @@
         <http://awesome.org/iipc/analysis> ;
     owl:sameAs <https://commoncrawl.org/category/web-graph/> .
 
-<http://awesome.org/iipc/Common_Crawl_files> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Common_Crawl_files> a sioc:Item ;
     rdfs:label "Common Crawl files" ;
     dcterms:description "WARCs, CDX files, parquet url index, parquet host index, etc." ;
     doap:category <http://awesome.org/iipc/public-data> ;
     owl:sameAs <https://data.commoncrawl.org/> .
 
-<http://awesome.org/iipc/Community_Archive> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Community_Archive> a sioc:Item,
         doap:Project ;
     rdfs:label "Community Archive" ;
     dcterms:description "Open Twitter Database and API with tools and resources for building on archived Twitter data." ;
     doap:category <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://www.community-archive.org/> .
 
-<http://awesome.org/iipc/Comparison_of_web_archiving_software> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Comparison_of_web_archiving_software> a sioc:Item,
         doap:Project ;
     rdfs:label "Comparison of web archiving software" ;
     doap:category <http://awesome.org/iipc/tools--software> ;
     owl:sameAs <https://github.com/archivers-space/research/tree/master/web_archiving> .
 
-<http://awesome.org/iipc/Conifer> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Conifer> a sioc:Item ;
     rdfs:label "Conifer" ;
     dcterms:description "From " ;
     doap:category <http://awesome.org/iipc/self-hostable-open-source> ;
     owl:sameAs <https://conifer.rhizome.org/> .
 
-<http://awesome.org/iipc/Crawl> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Crawl> a sioc:Item,
         doap:Project ;
     rdfs:label "Crawl" ;
     dcterms:description "A simple web crawler in Golang. " ;
@@ -433,19 +434,19 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://git.autistici.org/ale/crawl> .
 
-<http://awesome.org/iipc/DSHR%27s_Blog> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/DSHR%27s_Blog> a sioc:Item ;
     rdfs:label "DSHR's Blog" ;
     dcterms:description "David Rosenthal regularly reviews and summarizes work done in the Digital Preservation field." ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://blog.dshr.org/> .
 
-<http://awesome.org/iipc/Definition_of_Web_Archivability> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Definition_of_Web_Archivability> a sioc:Item ;
     rdfs:label "Definition of Web Archivability" ;
     dcterms:description "This describes the ease with which web content can be preserved. (" ;
     doap:category <http://awesome.org/iipc/resources-for-web-publishers> ;
     owl:sameAs <https://nullhandle.org/web-archivability/index.html> .
 
-<http://awesome.org/iipc/DiskerNet> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/DiskerNet> a sioc:Item,
         doap:Project ;
     rdfs:label "DiskerNet" ;
     dcterms:date "2026-03-30T23:15:50+00:00"^^xsd:dateTime ;
@@ -464,13 +465,13 @@
     ns1:num_stars 3899 ;
     ns1:num_watchers 38 .
 
-<http://awesome.org/iipc/End_of_Term_Archive> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/End_of_Term_Archive> a sioc:Item ;
     rdfs:label "End of Term Archive" ;
     dcterms:description "WARCs, CDX files, parquet url index" ;
     doap:category <http://awesome.org/iipc/public-data> ;
     owl:sameAs <https://eotarchive.org/> .
 
-<http://awesome.org/iipc/F%28b%29arc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/F%28b%29arc> a sioc:Item,
         doap:Project ;
     rdfs:label "F(b)arc" ;
     dcterms:date "2026-03-03T15:16:30+00:00"^^xsd:dateTime ;
@@ -489,7 +490,7 @@
     ns1:num_stars 78 ;
     ns1:num_watchers 15 .
 
-<http://awesome.org/iipc/FastWARC> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/FastWARC> a sioc:Item,
         doap:Project ;
     rdfs:label "FastWARC" ;
     dcterms:date "2026-03-23T22:09:48+00:00"^^xsd:dateTime ;
@@ -508,7 +509,7 @@
     ns1:num_stars 135 ;
     ns1:num_watchers 9 .
 
-<http://awesome.org/iipc/FlameShot> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/FlameShot> a sioc:Item,
         doap:Project ;
     rdfs:label "FlameShot" ;
     dcterms:date "2026-03-31T08:41:54+00:00"^^xsd:dateTime ;
@@ -527,7 +528,7 @@
     ns1:num_stars 29609 ;
     ns1:num_watchers 211 .
 
-<http://awesome.org/iipc/Go_Get_Crawl> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Go_Get_Crawl> a sioc:Item,
         doap:Project ;
     rdfs:label "Go Get Crawl" ;
     dcterms:date "2026-03-18T14:41:39+00:00"^^xsd:dateTime ;
@@ -546,7 +547,7 @@
     ns1:num_stars 175 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/HTTPreserve_linkstat> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/HTTPreserve_linkstat> a sioc:Item,
         doap:Project ;
     rdfs:label "HTTPreserve linkstat" ;
     dcterms:date "2024-12-30T22:24:08+00:00"^^xsd:dateTime ;
@@ -566,7 +567,7 @@
     ns1:num_stars 10 ;
     ns1:num_watchers 1 .
 
-<http://awesome.org/iipc/HTTrack> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/HTTrack> a sioc:Item,
         doap:Project ;
     rdfs:label "HTTrack" ;
     dcterms:description "An open source website copying utility. " ;
@@ -574,7 +575,7 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <http://www.httrack.com/> .
 
-<http://awesome.org/iipc/HadoopConcatGz> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/HadoopConcatGz> a sioc:Item,
         doap:Project ;
     rdfs:label "HadoopConcatGz" ;
     dcterms:date "2024-07-30T16:14:07+00:00"^^xsd:dateTime ;
@@ -592,12 +593,12 @@
     ns1:num_stars 9 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/Hanzo> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Hanzo> a sioc:Item ;
     rdfs:label "Hanzo" ;
     doap:category <http://awesome.org/iipc/hosted-closed-source> ;
     owl:sameAs <https://www.hanzo.co/chronicle> .
 
-<http://awesome.org/iipc/Heritrix> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Heritrix> a sioc:Item,
         doap:Project ;
     rdfs:label "Heritrix" ;
     dcterms:description "An open source, extensible, web-scale, archival quality web crawler. " ;
@@ -605,23 +606,23 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://github.com/internetarchive/heritrix3/wiki> .
 
-<http://awesome.org/iipc/IIPC> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/IIPC> a sioc:Item ;
     rdfs:label "IIPC" ;
     doap:category <http://awesome.org/iipc/mailing-lists> ;
     owl:sameAs <http://netpreserve.org/about-us/iipc-mailing-list/> .
 
-<http://awesome.org/iipc/IIPC_Blog> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/IIPC_Blog> a sioc:Item ;
     rdfs:label "IIPC Blog" ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://netpreserveblog.wordpress.com/> .
 
-<http://awesome.org/iipc/IIPC_Slack> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/IIPC_Slack> a sioc:Item ;
     rdfs:label "IIPC Slack" ;
     dcterms:description "Ask " ;
     doap:category <http://awesome.org/iipc/slack> ;
     owl:sameAs <https://iipc.slack.com/> .
 
-<http://awesome.org/iipc/InterPlanetary_Wayback_%28ipwb%29> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/InterPlanetary_Wayback_%28ipwb%29> a sioc:Item,
         doap:Project ;
     rdfs:label "InterPlanetary Wayback (ipwb)" ;
     dcterms:date "2026-03-27T05:06:27+00:00"^^xsd:dateTime ;
@@ -639,7 +640,7 @@
     ns1:num_stars 652 ;
     ns1:num_watchers 20 .
 
-<http://awesome.org/iipc/Internet_Archive_Library> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Internet_Archive_Library> a sioc:Item,
         doap:Project ;
     rdfs:label "Internet Archive Library" ;
     dcterms:date "2026-03-30T15:34:10+00:00"^^xsd:dateTime ;
@@ -658,12 +659,12 @@
     ns1:num_stars 1846 ;
     ns1:num_watchers 54 .
 
-<http://awesome.org/iipc/Internet_Archive_Wayback> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Internet_Archive_Wayback> a sioc:Item ;
     rdfs:label "Internet Archive Wayback" ;
     doap:category <http://awesome.org/iipc/public-data> ;
     owl:sameAs <https://web.archive.org/> .
 
-<http://awesome.org/iipc/Jwat> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Jwat> a sioc:Item,
         doap:Project ;
     rdfs:label "Jwat" ;
     dcterms:date "2026-01-05T06:12:35+00:00"^^xsd:dateTime ;
@@ -681,7 +682,7 @@
     ns1:num_stars 4 ;
     ns1:num_watchers 6 .
 
-<http://awesome.org/iipc/Jwat-Tools> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Jwat-Tools> a sioc:Item,
         doap:Project ;
     rdfs:label "Jwat-Tools" ;
     dcterms:date "2024-05-22T05:55:45+00:00"^^xsd:dateTime ;
@@ -699,7 +700,7 @@
     ns1:num_stars 5 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/MemGator> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/MemGator> a sioc:Item,
         doap:Project ;
     rdfs:label "MemGator" ;
     dcterms:date "2026-03-08T12:27:42+00:00"^^xsd:dateTime ;
@@ -719,7 +720,7 @@
     ns1:num_stars 78 ;
     ns1:num_watchers 10 .
 
-<http://awesome.org/iipc/MementoMap> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/MementoMap> a sioc:Item,
         doap:Project ;
     rdfs:label "MementoMap" ;
     dcterms:date "2025-04-17T11:23:31+00:00"^^xsd:dateTime ;
@@ -738,7 +739,7 @@
     ns1:num_stars 11 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/Mink> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Mink> a sioc:Item,
         doap:Project ;
     rdfs:label "Mink" ;
     dcterms:date "2026-01-30T09:21:16+00:00"^^xsd:dateTime ;
@@ -757,12 +758,12 @@
     ns1:num_stars 58 ;
     ns1:num_watchers 3 .
 
-<http://awesome.org/iipc/MirrorWeb> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/MirrorWeb> a sioc:Item ;
     rdfs:label "MirrorWeb" ;
     doap:category <http://awesome.org/iipc/hosted-closed-source> ;
     owl:sameAs <https://www.mirrorweb.com/solutions/capabilities/website-archiving> .
 
-<http://awesome.org/iipc/Obelisk> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Obelisk> a sioc:Item,
         doap:Project ;
     rdfs:label "Obelisk" ;
     dcterms:date "2026-03-01T13:57:19+00:00"^^xsd:dateTime ;
@@ -781,7 +782,7 @@
     ns1:num_stars 309 ;
     ns1:num_watchers 8 .
 
-<http://awesome.org/iipc/OpenWayback> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/OpenWayback> a sioc:Item,
         doap:Project ;
     rdfs:label "OpenWayback" ;
     dcterms:description "The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser. " ;
@@ -791,7 +792,7 @@
     owl:sameAs <https://github.com/iipc/openwayback/>,
         <https://groups.google.com/g/openwayback-dev> .
 
-<http://awesome.org/iipc/OutbackCDX> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/OutbackCDX> a sioc:Item,
         doap:Project ;
     rdfs:label "OutbackCDX" ;
     dcterms:date "2026-03-02T02:02:32+00:00"^^xsd:dateTime ;
@@ -810,7 +811,7 @@
     ns1:num_stars 38 ;
     ns1:num_watchers 19 .
 
-<http://awesome.org/iipc/PANDOR%C3%86> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/PANDOR%C3%86> a sioc:Item,
         doap:Project ;
     rdfs:label "PANDORÆ" ;
     dcterms:date "2026-01-12T12:13:47+00:00"^^xsd:dateTime ;
@@ -830,7 +831,7 @@
     ns1:num_stars 16 ;
     ns1:num_watchers 1 .
 
-<http://awesome.org/iipc/PYWB> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/PYWB> a sioc:Item,
         doap:Project ;
     rdfs:label "PYWB" ;
     dcterms:date "2026-03-31T01:05:08+00:00"^^xsd:dateTime ;
@@ -850,33 +851,33 @@
     ns1:num_stars 1639 ;
     ns1:num_watchers 59 .
 
-<http://awesome.org/iipc/PageFreezer> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/PageFreezer> a sioc:Item ;
     rdfs:label "PageFreezer" ;
     doap:category <http://awesome.org/iipc/hosted-closed-source> ;
     owl:sameAs <https://www.pagefreezer.com/> .
 
-<http://awesome.org/iipc/PlayOnLinux> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/PlayOnLinux> a sioc:Item,
         doap:Project ;
     rdfs:label "PlayOnLinux" ;
     dcterms:description "For running Xenu and Notepad++ on Ubuntu." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://www.playonlinux.com/en/> .
 
-<http://awesome.org/iipc/PlayOnMac> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/PlayOnMac> a sioc:Item,
         doap:Project ;
     rdfs:label "PlayOnMac" ;
     dcterms:description "For running Xenu and Notepad++ on macOS." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://www.playonmac.com/en/> .
 
-<http://awesome.org/iipc/Reconstructive> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Reconstructive> a sioc:Item,
         doap:Project ;
     rdfs:label "Reconstructive" ;
     dcterms:description "Reconstructive is a ServiceWorker module for client-side reconstruction of composite mementos by rerouting resource requests to corresponding archived copies (JavaScript)." ;
     doap:category <http://awesome.org/iipc/replay> ;
     owl:sameAs <https://oduwsdl.github.io/Reconstructive/> .
 
-<http://awesome.org/iipc/ReplayWeb.page> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/ReplayWeb.page> a sioc:Item,
         doap:Project ;
     rdfs:label "ReplayWeb.page" ;
     dcterms:description "A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application. " ;
@@ -884,7 +885,7 @@
         <http://awesome.org/iipc/replay> ;
     owl:sameAs <https://webrecorder.net/replaywebpage/> .
 
-<http://awesome.org/iipc/Scoop> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Scoop> a sioc:Item,
         doap:Project ;
     rdfs:label "Scoop" ;
     dcterms:date "2026-03-23T21:06:07+00:00"^^xsd:dateTime ;
@@ -903,14 +904,14 @@
     ns1:num_stars 196 ;
     ns1:num_watchers 7 .
 
-<http://awesome.org/iipc/SecurityTrails> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/SecurityTrails> a sioc:Item,
         doap:Project ;
     rdfs:label "SecurityTrails" ;
     dcterms:description "Web based archive for WHOIS and DNS records. REST API available free of charge." ;
     doap:category <http://awesome.org/iipc/search--discovery> ;
     owl:sameAs <https://securitytrails.com/> .
 
-<http://awesome.org/iipc/Shine> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Shine> a sioc:Item,
         doap:Project ;
     rdfs:label "Shine" ;
     dcterms:date "2025-11-21T17:37:11+00:00"^^xsd:dateTime ;
@@ -930,7 +931,7 @@
     ns1:num_stars 43 ;
     ns1:num_watchers 15 .
 
-<http://awesome.org/iipc/SingleFile> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/SingleFile> a sioc:Item,
         doap:Project ;
     rdfs:label "SingleFile" ;
     dcterms:date "2026-03-31T08:40:04+00:00"^^xsd:dateTime ;
@@ -950,7 +951,7 @@
     ns1:num_stars 20792 ;
     ns1:num_watchers 138 .
 
-<http://awesome.org/iipc/SiteStory> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/SiteStory> a sioc:Item,
         doap:Project ;
     rdfs:label "SiteStory" ;
     dcterms:description "A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server. " ;
@@ -958,12 +959,12 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <http://mementoweb.github.io/SiteStory/> .
 
-<http://awesome.org/iipc/Smarsh> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Smarsh> a sioc:Item ;
     rdfs:label "Smarsh" ;
     doap:category <http://awesome.org/iipc/hosted-closed-source> ;
     owl:sameAs <https://www.smarsh.com/platform/compliance-management/web-archive> .
 
-<http://awesome.org/iipc/Social_Feed_Manager> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Social_Feed_Manager> a sioc:Item,
         doap:Project ;
     rdfs:label "Social Feed Manager" ;
     dcterms:description "Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs. " ;
@@ -971,7 +972,7 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://gwu-libraries.github.io/sfm-ui/> .
 
-<http://awesome.org/iipc/SolrWayback> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/SolrWayback> a sioc:Item,
         doap:Project ;
     rdfs:label "SolrWayback" ;
     dcterms:date "2026-03-23T03:52:47+00:00"^^xsd:dateTime ;
@@ -989,7 +990,7 @@
     ns1:num_stars 137 ;
     ns1:num_watchers 21 .
 
-<http://awesome.org/iipc/Sparkling> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Sparkling> a sioc:Item,
         doap:Project ;
     rdfs:label "Sparkling" ;
     dcterms:date "2026-03-04T01:57:00+00:00"^^xsd:dateTime ;
@@ -1008,7 +1009,7 @@
     ns1:num_stars 16 ;
     ns1:num_watchers 18 .
 
-<http://awesome.org/iipc/Squidwarc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Squidwarc> a sioc:Item,
         doap:Project ;
     rdfs:label "Squidwarc" ;
     dcterms:date "2026-03-08T12:27:04+00:00"^^xsd:dateTime ;
@@ -1028,7 +1029,7 @@
     ns1:num_stars 174 ;
     ns1:num_watchers 9 .
 
-<http://awesome.org/iipc/StormCrawler> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/StormCrawler> a sioc:Item,
         doap:Project ;
     rdfs:label "StormCrawler" ;
     dcterms:description "A collection of resources for building low-latency, scalable web crawlers on Apache Storm. " ;
@@ -1036,7 +1037,7 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <http://stormcrawler.net/> .
 
-<http://awesome.org/iipc/Tempas_v1> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Tempas_v1> a sioc:Item,
         doap:Project ;
     rdfs:label "Tempas v1" ;
     dcterms:description "Temporal web archive search based on " ;
@@ -1044,7 +1045,7 @@
         <http://awesome.org/iipc/search--discovery> ;
     owl:sameAs <http://tempas.L3S.de/v1> .
 
-<http://awesome.org/iipc/Tempas_v2> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Tempas_v2> a sioc:Item,
         doap:Project ;
     rdfs:label "Tempas v2" ;
     dcterms:description "Temporal web archive search based on links and anchor texts extracted from the German web from 1996 to 2013 (results are not limited to German pages, e.g., " ;
@@ -1052,30 +1053,30 @@
         <http://awesome.org/iipc/search--discovery> ;
     owl:sameAs <http://tempas.L3S.de/v2> .
 
-<http://awesome.org/iipc/The_Unarchiver> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/The_Unarchiver> a sioc:Item,
         doap:Project ;
     rdfs:label "The Unarchiver" ;
     dcterms:description "Program to extract the contents of many archive formats, inclusive of WARC, to a file system. Free variant of The Archive Browser (macOS only, Proprietary app)." ;
     doap:category <http://awesome.org/iipc/utilities> ;
     owl:sameAs <https://theunarchiver.com/> .
 
-<http://awesome.org/iipc/The_WARC_Ecosystem> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/The_WARC_Ecosystem> a sioc:Item ;
     rdfs:label "The WARC Ecosystem" ;
     doap:category <http://awesome.org/iipc/other-awesome-lists> ;
     owl:sameAs <http://www.archiveteam.org/index.php?title=The_WARC_Ecosystem> .
 
-<http://awesome.org/iipc/The_Web_Crawl_section_of_COPTR> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/The_Web_Crawl_section_of_COPTR> a sioc:Item ;
     rdfs:label "The Web Crawl section of COPTR" ;
     doap:category <http://awesome.org/iipc/other-awesome-lists> ;
     owl:sameAs <http://coptr.digipres.org/Category:Web_Crawl> .
 
-<http://awesome.org/iipc/The_Web_as_History> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/The_Web_as_History> a sioc:Item ;
     rdfs:label "The Web as History" ;
     dcterms:description "An open-source book that provides a conceptual overview to web archiving research, as well as several case studies." ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://www.uclpress.co.uk/products/84010> .
 
-<http://awesome.org/iipc/Tweet_Archvies_Unleashed_Toolkit> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Tweet_Archvies_Unleashed_Toolkit> a sioc:Item,
         doap:Project ;
     rdfs:label "Tweet Archvies Unleashed Toolkit" ;
     dcterms:date "2025-10-16T23:22:29+00:00"^^xsd:dateTime ;
@@ -1094,18 +1095,18 @@
     ns1:num_stars 10 ;
     ns1:num_watchers 3 .
 
-<http://awesome.org/iipc/UK_Government_Web_Archive> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/UK_Government_Web_Archive> a sioc:Item ;
     rdfs:label "UK Government Web Archive" ;
     dcterms:description "Wayback" ;
     doap:category <http://awesome.org/iipc/public-data> ;
     owl:sameAs <https://www.nationalarchives.gov.uk/webarchive/> .
 
-<http://awesome.org/iipc/UK_Web_Archive_Blog> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/UK_Web_Archive_Blog> a sioc:Item ;
     rdfs:label "UK Web Archive Blog" ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://blogs.bl.uk/webarchive/> .
 
-<http://awesome.org/iipc/Unwarcit> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Unwarcit> a sioc:Item,
         doap:Project ;
     rdfs:label "Unwarcit" ;
     dcterms:date "2026-02-01T21:26:54+00:00"^^xsd:dateTime ;
@@ -1121,7 +1122,7 @@
     ns1:num_stars 13 ;
     ns1:num_watchers 4 .
 
-<http://awesome.org/iipc/WAIL> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/WAIL> a sioc:Item,
         doap:Project ;
     rdfs:label "WAIL" ;
     dcterms:date "2026-03-20T14:17:09+00:00"^^xsd:dateTime ;
@@ -1141,7 +1142,7 @@
     ns1:num_stars 394 ;
     ns1:num_watchers 10 .
 
-<http://awesome.org/iipc/WARCreate> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/WARCreate> a sioc:Item,
         doap:Project ;
     rdfs:label "WARCreate" ;
     dcterms:description "A " ;
@@ -1149,18 +1150,18 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <http://matkelly.com/warcreate/> .
 
-<http://awesome.org/iipc/WASAPI> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/WASAPI> a sioc:Item ;
     rdfs:label "WASAPI" ;
     doap:category <http://awesome.org/iipc/mailing-lists> ;
     owl:sameAs <https://groups.google.com/g/wasapi-community> .
 
-<http://awesome.org/iipc/WS-DL_Blog> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/WS-DL_Blog> a sioc:Item ;
     rdfs:label "WS-DL Blog" ;
     dcterms:description "Web Science and Digital Libraries Research Group blogs about various Web archiving related topics, scholarly work, and academic trip reports." ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://ws-dl.blogspot.com/> .
 
-<http://awesome.org/iipc/WarcPartitioner> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/WarcPartitioner> a sioc:Item,
         doap:Project ;
     rdfs:label "WarcPartitioner" ;
     dcterms:date "2024-07-30T16:14:08+00:00"^^xsd:dateTime ;
@@ -1179,7 +1180,7 @@
     ns1:num_stars 1 ;
     ns1:num_watchers 1 .
 
-<http://awesome.org/iipc/Warcat> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Warcat> a sioc:Item,
         doap:Project ;
     rdfs:label "Warcat" ;
     dcterms:date "2026-02-25T20:18:23+00:00"^^xsd:dateTime ;
@@ -1198,7 +1199,7 @@
     ns1:num_stars 165 ;
     ns1:num_watchers 9 .
 
-<http://awesome.org/iipc/Warcat-rs> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Warcat-rs> a sioc:Item,
         doap:Project ;
     rdfs:label "Warcat-rs" ;
     dcterms:date "2026-03-23T18:41:50+00:00"^^xsd:dateTime ;
@@ -1217,7 +1218,7 @@
     ns1:num_stars 29 ;
     ns1:num_watchers 1 .
 
-<http://awesome.org/iipc/Warchaeology> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Warchaeology> a sioc:Item,
         doap:Project ;
     rdfs:label "Warchaeology" ;
     dcterms:description "Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files. " ;
@@ -1225,7 +1226,7 @@
         <http://awesome.org/iipc/utilities> ;
     owl:sameAs <https://nlnwa.github.io/warchaeology/> .
 
-<http://awesome.org/iipc/Warclight> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Warclight> a sioc:Item,
         doap:Project ;
     rdfs:label "Warclight" ;
     dcterms:date "2024-12-16T22:46:34+00:00"^^xsd:dateTime ;
@@ -1244,7 +1245,7 @@
     ns1:num_stars 50 ;
     ns1:num_watchers 4 .
 
-<http://awesome.org/iipc/Warcprox> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Warcprox> a sioc:Item,
         doap:Project ;
     rdfs:label "Warcprox" ;
     dcterms:date "2026-03-28T05:37:31+00:00"^^xsd:dateTime ;
@@ -1262,7 +1263,7 @@
     ns1:num_stars 447 ;
     ns1:num_watchers 30 .
 
-<http://awesome.org/iipc/Warcworker> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Warcworker> a sioc:Item,
         doap:Project ;
     rdfs:label "Warcworker" ;
     dcterms:date "2026-02-08T08:08:40+00:00"^^xsd:dateTime ;
@@ -1281,7 +1282,7 @@
     ns1:num_stars 62 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/Wasp> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Wasp> a sioc:Item,
         doap:Project ;
     rdfs:label "Wasp" ;
     dcterms:date "2024-12-07T10:22:33+00:00"^^xsd:dateTime ;
@@ -1298,7 +1299,7 @@
     ns1:num_stars 27 ;
     ns1:num_watchers 11 .
 
-<http://awesome.org/iipc/Wayback> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Wayback> a sioc:Item,
         doap:Project ;
     rdfs:label "Wayback" ;
     dcterms:date "2026-03-28T21:20:50+00:00"^^xsd:dateTime ;
@@ -1318,7 +1319,7 @@
     ns1:num_stars 2170 ;
     ns1:num_watchers 7 .
 
-<http://awesome.org/iipc/Waybackpy> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Waybackpy> a sioc:Item,
         doap:Project ;
     rdfs:label "Waybackpy" ;
     dcterms:date "2026-03-23T11:24:49+00:00"^^xsd:dateTime ;
@@ -1338,7 +1339,7 @@
     ns1:num_stars 567 ;
     ns1:num_watchers 8 .
 
-<http://awesome.org/iipc/Web2Warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Web2Warc> a sioc:Item,
         doap:Project ;
     rdfs:label "Web2Warc" ;
     dcterms:date "2025-05-23T03:33:48+00:00"^^xsd:dateTime ;
@@ -1357,7 +1358,7 @@
     ns1:num_stars 25 ;
     ns1:num_watchers 3 .
 
-<http://awesome.org/iipc/WebMemex> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/WebMemex> a sioc:Item,
         doap:Project,
         foaf:Agent,
         foaf:Organization ;
@@ -1367,18 +1368,18 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://github.com/WebMemex> .
 
-<http://awesome.org/iipc/Web_Archiving_Community> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Web_Archiving_Community> a sioc:Item ;
     rdfs:label "Web Archiving Community" ;
     doap:category <http://awesome.org/iipc/other-awesome-lists> ;
     owl:sameAs <https://github.com/ArchiveBox/ArchiveBox/wiki/Web-Archiving-Community> .
 
-<http://awesome.org/iipc/Web_Archiving_Roundtable> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Web_Archiving_Roundtable> a sioc:Item ;
     rdfs:label "Web Archiving Roundtable" ;
     dcterms:description "Unofficial blog of the Web Archiving Roundtable of the " ;
     doap:category <http://awesome.org/iipc/blogs-and-scholarship> ;
     owl:sameAs <https://webarchivingrt.wordpress.com/> .
 
-<http://awesome.org/iipc/Web_Curator_Tool> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Web_Curator_Tool> a sioc:Item,
         doap:Project ;
     rdfs:label "Web Curator Tool" ;
     dcterms:description "Open-source workflow management for selective web archiving. " ;
@@ -1386,7 +1387,7 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <https://webcuratortool.org> .
 
-<http://awesome.org/iipc/Web_Data_Commons> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Web_Data_Commons> a sioc:Item,
         doap:Project ;
     rdfs:label "Web Data Commons" ;
     dcterms:description "Structured data extracted from Common Crawl. " ;
@@ -1394,13 +1395,13 @@
         <http://awesome.org/iipc/analysis> ;
     owl:sameAs <http://webdatacommons.org/> .
 
-<http://awesome.org/iipc/Webrecorder_US_GovArchive> a <http://rdfs.org/sioc/ns#Item> ;
+<http://awesome.org/iipc/Webrecorder_US_GovArchive> a sioc:Item ;
     rdfs:label "Webrecorder US GovArchive" ;
     dcterms:description "high-fidelity replay" ;
     doap:category <http://awesome.org/iipc/public-data> ;
     owl:sameAs <https://govarchive.us/> .
 
-<http://awesome.org/iipc/Wget> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Wget> a sioc:Item,
         doap:Project ;
     rdfs:label "Wget" ;
     dcterms:description "An open source file retrieval utility that of " ;
@@ -1408,7 +1409,7 @@
         <http://awesome.org/iipc/acquisition> ;
     owl:sameAs <http://www.gnu.org/software/wget/> .
 
-<http://awesome.org/iipc/Wget-lua> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Wget-lua> a sioc:Item,
         doap:Project ;
     rdfs:label "Wget-lua" ;
     dcterms:date "2025-04-02T14:39:23+00:00"^^xsd:dateTime ;
@@ -1427,21 +1428,21 @@
     ns1:num_stars 24 ;
     ns1:num_watchers 3 .
 
-<http://awesome.org/iipc/Windows_Snipping_Tool> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Windows_Snipping_Tool> a sioc:Item,
         doap:Project ;
     rdfs:label "Windows Snipping Tool" ;
     dcterms:description "Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture)." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <https://support.microsoft.com/en-gb/help/13776/windows-use-snipping-tool-to-capture-screenshots> .
 
-<http://awesome.org/iipc/WineBottler> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/WineBottler> a sioc:Item,
         doap:Project ;
     rdfs:label "WineBottler" ;
     dcterms:description "For running Xenu and Notepad++ on macOS." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <http://winebottler.kronenberg.org/> .
 
-<http://awesome.org/iipc/Wpull> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Wpull> a sioc:Item,
         doap:Project ;
     rdfs:label "Wpull" ;
     dcterms:date "2026-03-24T17:41:52+00:00"^^xsd:dateTime ;
@@ -1460,21 +1461,21 @@
     ns1:num_stars 604 ;
     ns1:num_watchers 21 .
 
-<http://awesome.org/iipc/Xenu> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Xenu> a sioc:Item,
         doap:Project ;
     rdfs:label "Xenu" ;
     dcterms:description "Desktop link checker for Windows." ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
     owl:sameAs <http://home.snafu.de/tilman/xenulink.html> .
 
-<http://awesome.org/iipc/Zotero_Robust_Links_Extension> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/Zotero_Robust_Links_Extension> a sioc:Item,
         doap:Project ;
     rdfs:label "Zotero Robust Links Extension" ;
     dcterms:description "A " ;
     doap:category <http://awesome.org/iipc/curation> ;
     owl:sameAs <https://robustlinks.mementoweb.org/zotero/> .
 
-<http://awesome.org/iipc/archivenow> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/archivenow> a sioc:Item,
         doap:Project ;
     rdfs:label "archivenow" ;
     dcterms:date "2026-03-02T04:01:42+00:00"^^xsd:dateTime ;
@@ -1493,7 +1494,7 @@
     ns1:num_stars 432 ;
     ns1:num_watchers 19 .
 
-<http://awesome.org/iipc/bagnabit2warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/bagnabit2warc> a sioc:Item,
         doap:Project ;
     rdfs:label "bagnabit2warc" ;
     dcterms:date "2026-03-09T20:12:00+00:00"^^xsd:dateTime ;
@@ -1511,7 +1512,7 @@
     ns1:num_stars 0 ;
     ns1:num_watchers 0 .
 
-<http://awesome.org/iipc/cdx-toolkit> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/cdx-toolkit> a sioc:Item,
         doap:Project ;
     rdfs:label "cdx-toolkit" ;
     dcterms:description "Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure. " ;
@@ -1519,7 +1520,7 @@
         <http://awesome.org/iipc/utilities> ;
     owl:sameAs <https://pypi.org/project/cdx-toolkit/> .
 
-<http://awesome.org/iipc/crau> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/crau> a sioc:Item,
         doap:Project ;
     rdfs:label "crau" ;
     dcterms:date "2025-12-05T14:53:25+00:00"^^xsd:dateTime ;
@@ -1538,7 +1539,7 @@
     ns1:num_stars 64 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/crocoite> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/crocoite> a sioc:Item,
         doap:Project ;
     rdfs:label "crocoite" ;
     dcterms:date "2026-03-29T08:40:46+00:00"^^xsd:dateTime ;
@@ -1558,7 +1559,7 @@
     ns1:num_stars 45 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/duckdb-web-archive-cdx> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/duckdb-web-archive-cdx> a sioc:Item,
         doap:Project ;
     rdfs:label "duckdb-web-archive-cdx" ;
     dcterms:date "2026-03-26T02:45:29+00:00"^^xsd:dateTime ;
@@ -1577,7 +1578,7 @@
     ns1:num_stars 17 ;
     ns1:num_watchers 0 .
 
-<http://awesome.org/iipc/freeze-dry> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/freeze-dry> a sioc:Item,
         doap:Project ;
     rdfs:label "freeze-dry" ;
     dcterms:date "2026-03-13T16:36:46+00:00"^^xsd:dateTime ;
@@ -1597,7 +1598,7 @@
     ns1:num_stars 301 ;
     ns1:num_watchers 10 .
 
-<http://awesome.org/iipc/gowarcserver> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/gowarcserver> a sioc:Item,
         doap:Project ;
     rdfs:label "gowarcserver" ;
     dcterms:date "2026-01-30T03:34:56+00:00"^^xsd:dateTime ;
@@ -1613,7 +1614,7 @@
     ns1:num_stars 17 ;
     ns1:num_watchers 5 .
 
-<http://awesome.org/iipc/grab-site> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/grab-site> a sioc:Item,
         doap:Project ;
     rdfs:label "grab-site" ;
     dcterms:date "2026-03-29T18:17:56+00:00"^^xsd:dateTime ;
@@ -1631,7 +1632,7 @@
     ns1:num_stars 1558 ;
     ns1:num_watchers 39 .
 
-<http://awesome.org/iipc/har2warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/har2warc> a sioc:Item,
         doap:Project ;
     rdfs:label "har2warc" ;
     dcterms:date "2026-02-14T03:01:25+00:00"^^xsd:dateTime ;
@@ -1650,7 +1651,7 @@
     ns1:num_stars 56 ;
     ns1:num_watchers 6 .
 
-<http://awesome.org/iipc/html2warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/html2warc> a sioc:Item,
         doap:Project ;
     rdfs:label "html2warc" ;
     dcterms:date "2026-03-03T15:17:34+00:00"^^xsd:dateTime ;
@@ -1669,7 +1670,7 @@
     ns1:num_stars 23 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/httpreserve.info> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/httpreserve.info> a sioc:Item,
         doap:Project ;
     rdfs:label "httpreserve.info" ;
     dcterms:description "Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang). " ;
@@ -1677,7 +1678,7 @@
         <http://awesome.org/iipc/utilities> ;
     owl:sameAs <https://httpreserve.info> .
 
-<http://awesome.org/iipc/httrack2warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/httrack2warc> a sioc:Item,
         doap:Project ;
     rdfs:label "httrack2warc" ;
     dcterms:date "2026-02-23T23:40:48+00:00"^^xsd:dateTime ;
@@ -1695,7 +1696,7 @@
     ns1:num_stars 34 ;
     ns1:num_watchers 18 .
 
-<http://awesome.org/iipc/hyphe> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/hyphe> a sioc:Item,
         doap:Project ;
     rdfs:label "hyphe" ;
     dcterms:date "2026-03-31T09:46:00+00:00"^^xsd:dateTime ;
@@ -1715,7 +1716,7 @@
     ns1:num_stars 376 ;
     ns1:num_watchers 28 .
 
-<http://awesome.org/iipc/jwarc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/jwarc> a sioc:Item,
         doap:Project ;
     rdfs:label "jwarc" ;
     dcterms:date "2026-03-03T15:10:08+00:00"^^xsd:dateTime ;
@@ -1733,7 +1734,7 @@
     ns1:num_stars 55 ;
     ns1:num_watchers 4 .
 
-<http://awesome.org/iipc/monolith> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/monolith> a sioc:Item,
         doap:Project ;
     rdfs:label "monolith" ;
     dcterms:date "2026-03-31T04:09:36+00:00"^^xsd:dateTime ;
@@ -1753,7 +1754,7 @@
     ns1:num_stars 14932 ;
     ns1:num_watchers 66 .
 
-<http://awesome.org/iipc/node-cdxj> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/node-cdxj> a sioc:Item,
         doap:Project ;
     rdfs:label "node-cdxj" ;
     dcterms:date "2026-03-03T15:38:16+00:00"^^xsd:dateTime ;
@@ -1772,7 +1773,7 @@
     ns1:num_stars 2 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/node-warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/node-warc> a sioc:Item,
         doap:Project ;
     rdfs:label "node-warc" ;
     dcterms:date "2026-02-23T09:28:46+00:00"^^xsd:dateTime ;
@@ -1791,7 +1792,7 @@
     ns1:num_stars 104 ;
     ns1:num_watchers 7 .
 
-<http://awesome.org/iipc/playback> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/playback> a sioc:Item,
         doap:Project ;
     rdfs:label "playback" ;
     dcterms:date "2026-01-25T15:46:19+00:00"^^xsd:dateTime ;
@@ -1810,7 +1811,7 @@
     ns1:num_stars 13 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/py-wasapi-client> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/py-wasapi-client> a sioc:Item,
         doap:Project ;
     rdfs:label "py-wasapi-client" ;
     dcterms:date "2025-01-28T17:53:33+00:00"^^xsd:dateTime ;
@@ -1829,7 +1830,7 @@
     ns1:num_stars 16 ;
     ns1:num_watchers 4 .
 
-<http://awesome.org/iipc/tikalinkextract> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/tikalinkextract> a sioc:Item,
         doap:Project ;
     rdfs:label "tikalinkextract" ;
     dcterms:date "2026-01-12T12:21:03+00:00"^^xsd:dateTime ;
@@ -1850,7 +1851,7 @@
 <http://awesome.org/iipc/trainingdocumentation> a skos:Concept ;
     rdfs:label "Training/Documentation" .
 
-<http://awesome.org/iipc/twarc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/twarc> a sioc:Item,
         doap:Project ;
     rdfs:label "twarc" ;
     dcterms:date "2026-03-29T15:52:10+00:00"^^xsd:dateTime ;
@@ -1870,7 +1871,7 @@
     ns1:num_stars 1393 ;
     ns1:num_watchers 33 .
 
-<http://awesome.org/iipc/warc> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warc> a sioc:Item,
         doap:Project ;
     rdfs:label "warc" ;
     dcterms:date "2026-01-26T21:53:43+00:00"^^xsd:dateTime ;
@@ -1890,7 +1891,7 @@
     ns1:num_stars 59 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/warc-safe> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warc-safe> a sioc:Item,
         doap:Project ;
     rdfs:label "warc-safe" ;
     dcterms:date "2026-03-03T15:43:22+00:00"^^xsd:dateTime ;
@@ -1908,7 +1909,7 @@
     ns1:num_stars 18 ;
     ns1:num_watchers 4 .
 
-<http://awesome.org/iipc/warc2html> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warc2html> a sioc:Item,
         doap:Project ;
     rdfs:label "warc2html" ;
     dcterms:date "2026-01-30T21:55:21+00:00"^^xsd:dateTime ;
@@ -1926,7 +1927,7 @@
     ns1:num_stars 51 ;
     ns1:num_watchers 9 .
 
-<http://awesome.org/iipc/warcbench> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warcbench> a sioc:Item,
         doap:Project ;
     rdfs:label "warcbench" ;
     dcterms:date "2026-03-24T17:26:15+00:00"^^xsd:dateTime ;
@@ -1944,7 +1945,7 @@
     ns1:num_stars 9 ;
     ns1:num_watchers 2 .
 
-<http://awesome.org/iipc/warcdb> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warcdb> a sioc:Item,
         doap:Project ;
     rdfs:label "warcdb" ;
     dcterms:description "A command line utility (Python) for importing WARC files into a SQLite database. " ;
@@ -1953,7 +1954,7 @@
     rdfs:seeAlso <https://github.com/Florents-Tselai/WarcDB> ;
     owl:sameAs <https://github.com/florents-Tselai/warcdb> .
 
-<http://awesome.org/iipc/warcdedupe> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warcdedupe> a sioc:Item,
         doap:Project ;
     rdfs:label "warcdedupe" ;
     dcterms:description "WARC deduplication tool (and WARC library) written in Rust. " ;
@@ -1961,7 +1962,7 @@
         <http://awesome.org/iipc/utilities> ;
     owl:sameAs <https://gitlab.com/taricorp/warcdedupe> .
 
-<http://awesome.org/iipc/warcio> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warcio> a sioc:Item,
         doap:Project ;
     rdfs:label "warcio" ;
     dcterms:date "2026-03-30T20:48:13+00:00"^^xsd:dateTime ;
@@ -1981,7 +1982,7 @@
     ns1:num_stars 452 ;
     ns1:num_watchers 21 .
 
-<http://awesome.org/iipc/warcrefs> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warcrefs> a sioc:Item,
         doap:Project ;
     rdfs:label "warcrefs" ;
     dcterms:date "2026-03-20T13:14:10+00:00"^^xsd:dateTime ;
@@ -1999,7 +2000,7 @@
     ns1:num_stars 10 ;
     ns1:num_watchers 4 .
 
-<http://awesome.org/iipc/warctools> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/warctools> a sioc:Item,
         doap:Project ;
     rdfs:label "warctools" ;
     dcterms:date "2026-02-25T20:12:26+00:00"^^xsd:dateTime ;
@@ -2017,7 +2018,7 @@
     ns1:num_stars 171 ;
     ns1:num_watchers 38 .
 
-<http://awesome.org/iipc/wasapi-downloader> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/wasapi-downloader> a sioc:Item,
         doap:Project ;
     rdfs:label "wasapi-downloader" ;
     dcterms:description "Java command line application to download crawls from WASAPI. " ;
@@ -2026,7 +2027,7 @@
     rdfs:seeAlso <https://github.com/sul-dlss-deprecated/wasapi-downloader> ;
     owl:sameAs <https://github.com/sul-dlss/wasapi-downloader> .
 
-<http://awesome.org/iipc/webarchive> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/webarchive> a sioc:Item,
         doap:Project ;
     rdfs:label "webarchive" ;
     dcterms:date "2025-03-22T10:45:19+00:00"^^xsd:dateTime ;
@@ -2044,7 +2045,7 @@
     ns1:num_stars 20 ;
     ns1:num_watchers 6 .
 
-<http://awesome.org/iipc/webarchive-discovery> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/webarchive-discovery> a sioc:Item,
         doap:Project ;
     rdfs:label "webarchive-discovery" ;
     dcterms:date "2026-01-01T23:16:58+00:00"^^xsd:dateTime ;
@@ -2063,7 +2064,7 @@
     ns1:num_stars 132 ;
     ns1:num_watchers 21 .
 
-<http://awesome.org/iipc/webarchive-indexing> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/webarchive-indexing> a sioc:Item,
         doap:Project ;
     rdfs:label "webarchive-indexing" ;
     dcterms:date "2025-12-19T10:49:07+00:00"^^xsd:dateTime ;
@@ -2081,7 +2082,7 @@
     ns1:num_stars 47 ;
     ns1:num_watchers 8 .
 
-<http://awesome.org/iipc/wikiteam> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/wikiteam> a sioc:Item,
         doap:Project ;
     rdfs:label "wikiteam" ;
     dcterms:date "2026-03-23T19:59:50+00:00"^^xsd:dateTime ;
@@ -2101,7 +2102,7 @@
     ns1:num_stars 826 ;
     ns1:num_watchers 37 .
 
-<http://awesome.org/iipc/xDoTool> a <http://rdfs.org/sioc/ns#Item>,
+<http://awesome.org/iipc/xDoTool> a sioc:Item,
         doap:Project ;
     rdfs:label "xDoTool" ;
     dcterms:date "2026-03-30T22:10:32+00:00"^^xsd:dateTime ;
@@ -2144,7 +2145,7 @@
     doap:browse <https://github.com/ArchiveTeam/wpull> ;
     doap:location <https://github.com/ArchiveTeam/wpull> .
 
-<https://github.com/CGamesPlay> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/CGamesPlay> a sioc:User,
         foaf:Agent .
 
 <https://github.com/CGamesPlay/chronicler.svn> a doap:SVNRepository ;
@@ -2165,14 +2166,14 @@
     doap:browse <https://github.com/DocNow/twarc> ;
     doap:location <https://github.com/DocNow/twarc> .
 
-<https://github.com/Florents-Tselai> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/Florents-Tselai> a sioc:User,
         foaf:Agent .
 
 <https://github.com/Florents-Tselai/WarcDB.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/Florents-Tselai/WarcDB> ;
     doap:location <https://github.com/Florents-Tselai/WarcDB> .
 
-<https://github.com/Guillaume-Levrier> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/Guillaume-Levrier> a sioc:User,
         foaf:Agent .
 
 <https://github.com/Guillaume-Levrier/PANDORAE.svn> a doap:SVNRepository ;
@@ -2191,7 +2192,7 @@
     doap:browse <https://github.com/N0taN3rd/node-warc> ;
     doap:location <https://github.com/N0taN3rd/node-warc> .
 
-<https://github.com/PromyLOPh> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/PromyLOPh> a sioc:User,
         foaf:Agent .
 
 <https://github.com/PromyLOPh/crocoite.svn> a doap:SVNRepository ;
@@ -2213,14 +2214,14 @@
     doap:browse <https://github.com/Y2Z/monolith> ;
     doap:location <https://github.com/Y2Z/monolith> .
 
-<https://github.com/akamhy> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/akamhy> a sioc:User,
         foaf:Agent .
 
 <https://github.com/akamhy/waybackpy.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/akamhy/waybackpy> ;
     doap:location <https://github.com/akamhy/waybackpy> .
 
-<https://github.com/alard> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/alard> a sioc:User,
         foaf:Agent .
 
 <https://github.com/alard/wget-lua.svn> a doap:SVNRepository ;
@@ -2286,7 +2287,7 @@
     doap:browse <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> ;
     doap:location <https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring> .
 
-<https://github.com/emmadickson> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/emmadickson> a sioc:User,
         foaf:Agent .
 
 <https://github.com/emmadickson/unwarcit.svn> a doap:SVNRepository ;
@@ -2300,7 +2301,7 @@
     doap:browse <https://github.com/flameshot-org/flameshot> ;
     doap:location <https://github.com/flameshot-org/flameshot> .
 
-<https://github.com/gildas-lormeau> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/gildas-lormeau> a sioc:User,
         foaf:Agent .
 
 <https://github.com/gildas-lormeau/SingleFile.svn> a doap:SVNRepository ;
@@ -2358,7 +2359,7 @@
     doap:browse <https://github.com/iipc/warc2html> ;
     doap:location <https://github.com/iipc/warc2html> .
 
-<https://github.com/ikreymer> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/ikreymer> a sioc:User,
         foaf:Agent .
 
 <https://github.com/ikreymer/webarchive-indexing.svn> a doap:SVNRepository ;
@@ -2389,35 +2390,35 @@
     doap:browse <https://github.com/internetarchive/warctools> ;
     doap:location <https://github.com/internetarchive/warctools> .
 
-<https://github.com/jedireza> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/jedireza> a sioc:User,
         foaf:Agent .
 
 <https://github.com/jedireza/warc.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/jedireza/warc> ;
     doap:location <https://github.com/jedireza/warc> .
 
-<https://github.com/jjjake> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/jjjake> a sioc:User,
         foaf:Agent .
 
 <https://github.com/jjjake/internetarchive.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/jjjake/internetarchive> ;
     doap:location <https://github.com/jjjake/internetarchive> .
 
-<https://github.com/jordansissel> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/jordansissel> a sioc:User,
         foaf:Agent .
 
 <https://github.com/jordansissel/xdotool.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/jordansissel/xdotool> ;
     doap:location <https://github.com/jordansissel/xdotool> .
 
-<https://github.com/justinlittman> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/justinlittman> a sioc:User,
         foaf:Agent .
 
 <https://github.com/justinlittman/fbarc.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/justinlittman/fbarc> ;
     doap:location <https://github.com/justinlittman/fbarc> .
 
-<https://github.com/karust> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/karust> a sioc:User,
         foaf:Agent .
 
 <https://github.com/karust/gogetcrawl.svn> a doap:SVNRepository ;
@@ -2496,28 +2497,28 @@
     doap:browse <https://github.com/oduwsdl/ipwb> ;
     doap:location <https://github.com/oduwsdl/ipwb> .
 
-<https://github.com/peterk> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/peterk> a sioc:User,
         foaf:Agent .
 
 <https://github.com/peterk/warcworker.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/peterk/warcworker> ;
     doap:location <https://github.com/peterk/warcworker> .
 
-<https://github.com/recrm> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/recrm> a sioc:User,
         foaf:Agent .
 
 <https://github.com/recrm/ArchiveTools.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/recrm/ArchiveTools> ;
     doap:location <https://github.com/recrm/ArchiveTools> .
 
-<https://github.com/richardlehane> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/richardlehane> a sioc:User,
         foaf:Agent .
 
 <https://github.com/richardlehane/webarchive.svn> a doap:SVNRepository ;
     doap:browse <https://github.com/richardlehane/webarchive> ;
     doap:location <https://github.com/richardlehane/webarchive> .
 
-<https://github.com/steffenfritz> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/steffenfritz> a sioc:User,
         foaf:Agent .
 
 <https://github.com/steffenfritz/html2warc.svn> a doap:SVNRepository ;
@@ -2531,7 +2532,7 @@
     doap:browse <https://github.com/sul-dlss-deprecated/wasapi-downloader> ;
     doap:location <https://github.com/sul-dlss-deprecated/wasapi-downloader> .
 
-<https://github.com/turicas> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/turicas> a sioc:User,
         foaf:Agent .
 
 <https://github.com/turicas/crau.svn> a doap:SVNRepository ;
@@ -2754,7 +2755,7 @@
         <git@github.com:chatnoir-eu/chatnoir-resiliparse.git>,
         <https://github.com/chatnoir-eu/chatnoir-resiliparse.git> .
 
-<https://github.com/chfoo> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/chfoo> a sioc:User,
         foaf:Agent .
 
 <https://github.com/chfoo/warcat-rs.git> a doap:GitRepository ;
@@ -2949,7 +2950,7 @@
         <git@github.com:karust/gogetcrawl.git>,
         <https://github.com/karust/gogetcrawl.git> .
 
-<https://github.com/machawk1> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/machawk1> a sioc:User,
         foaf:Agent .
 
 <https://github.com/machawk1/Mink.git> a doap:GitRepository ;
@@ -3156,7 +3157,7 @@
 
 <https://api.github.com/licenses/cc0-1.0> rdfs:label "Creative Commons Zero v1.0 Universal" .
 
-<https://github.com/N0taN3rd> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/N0taN3rd> a sioc:User,
         foaf:Agent .
 
 <https://github.com/iipc> a foaf:Agent,
@@ -3199,7 +3200,7 @@
 <https://github.com/archivesunleashed> a foaf:Agent,
         foaf:Organization .
 
-<https://github.com/helgeho> a <http://rdfs.org/sioc/ns#User>,
+<https://github.com/helgeho> a sioc:User,
         foaf:Agent .
 
 <https://github.com/oduwsdl> a foaf:Agent,
