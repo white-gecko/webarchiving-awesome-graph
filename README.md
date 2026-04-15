@@ -162,7 +162,7 @@ groups:
 - [Chrome Revolver](http://awesome.org/iipc/Chrome_Revolver) - Browser extension: switches between browser tabs. 💽
 - [Chrome link checker](http://awesome.org/iipc/Chrome_link_checker) - Browser extension: basic link checker. 💽
 - [Chrome link gopher](http://awesome.org/iipc/Chrome_link_gopher) - Browser extension: link harvester on a page. 💽
-- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29695 👀 213
+- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29696 👀 213
 - [PlayOnLinux](http://awesome.org/iipc/PlayOnLinux) - For running Xenu and Notepad++ on Ubuntu. 💽
 - [PlayOnMac](http://awesome.org/iipc/PlayOnMac) - For running Xenu and Notepad++ on macOS. 💽
 - [Windows Snipping Tool](http://awesome.org/iipc/Windows_Snipping_Tool) - Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture). 💽
@@ -235,7 +235,7 @@ groups:
 
 ### Acquisition
 
-- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27237 👀 183
+- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27238 👀 183
 - [ArchiveWeb.Page](http://awesome.org/iipc/ArchiveWeb.Page) - A plugin for Chrome and other Chromium based browsers that lets you interactively archive web pages, replay them, and export them as WARC & WACZ files. Also available as an Electron based desktop application. 💽
 - [Auto Archiver](http://awesome.org/iipc/Auto_Archiver) - Python script to automatically archive social media posts, videos, and images from a Google Sheets document. Read the  💽 ⭐ 1062 👀 22
 - [Browsertrix Crawler](http://awesome.org/iipc/Browsertrix_Crawler) - A Chromium based high-fidelity crawling system, designed to run a complex, customizable browser-based crawl in a single Docker container.  💽 ⭐ 1020 👀 23
@@ -266,19 +266,19 @@ groups:
 - [Web Curator Tool](http://awesome.org/iipc/Web_Curator_Tool) - Open-source workflow management for selective web archiving.  💽
 - [Wget](http://awesome.org/iipc/Wget) - An open source file retrieval utility that of  💽
 - [Wget-lua](http://awesome.org/iipc/Wget-lua) - Wget with Lua extension.  💽 ⭐ 24 👀 3
-- [Wpull](http://awesome.org/iipc/Wpull) - A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler.  💽 ⭐ 605 👀 21
+- [Wpull](http://awesome.org/iipc/Wpull) - A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler.  💽 ⭐ 606 👀 21
 - [archivenow](http://awesome.org/iipc/archivenow) - A  💽 ⭐ 432 👀 19
 - [crau](http://awesome.org/iipc/crau) - crau is the way (most) Brazilians pronounce crawl, it's the easiest command-line tool for archiving the Web and playing archives: you just need a list of URLs.  💽 ⭐ 64 👀 2
 - [crocoite](http://awesome.org/iipc/crocoite) - Crawl websites using headless Google Chrome/Chromium and save resources, static DOM snapshot and page screenshots to WARC files.  💽 ⭐ 45 👀 5
 - [freeze-dry](http://awesome.org/iipc/freeze-dry) - JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions.  💽 ⭐ 302 👀 10
 - [grab-site](http://awesome.org/iipc/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns.  💽 ⭐ 1564 👀 39
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
-- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14996 👀 66
+- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14997 👀 66
 - [twarc](http://awesome.org/iipc/twarc) - A command line tool and Python library for archiving Twitter JSON data.  💽 ⭐ 1392 👀 33
 
 ## In Development
 
-- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27237 👀 183
+- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27238 👀 183
 - [Chronicler](http://awesome.org/iipc/Chronicler) - Web browser with record and replay functionality.  💽 ⭐ 92 👀 3
 - [DiskerNet](http://awesome.org/iipc/DiskerNet) - A non-WARC-based tool which hooks into the Chrome browser and archives everything you browse making it available for offline replay.  💽 ⭐ 3899 👀 38
 - [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
@@ -349,7 +349,7 @@ groups:
 - [Web Data Commons](http://awesome.org/iipc/Web_Data_Commons) - Structured data extracted from Common Crawl.  💽
 - [Wget](http://awesome.org/iipc/Wget) - An open source file retrieval utility that of  💽
 - [Wget-lua](http://awesome.org/iipc/Wget-lua) - Wget with Lua extension.  💽 ⭐ 24 👀 3
-- [Wpull](http://awesome.org/iipc/Wpull) - A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler.  💽 ⭐ 605 👀 21
+- [Wpull](http://awesome.org/iipc/Wpull) - A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler.  💽 ⭐ 606 👀 21
 - [archivenow](http://awesome.org/iipc/archivenow) - A  💽 ⭐ 432 👀 19
 - [cdx-toolkit](http://awesome.org/iipc/cdx-toolkit) - Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure.  💽
 - [crau](http://awesome.org/iipc/crau) - crau is the way (most) Brazilians pronounce crawl, it's the easiest command-line tool for archiving the Web and playing archives: you just need a list of URLs.  💽 ⭐ 64 👀 2
@@ -357,7 +357,7 @@ groups:
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
 - [httpreserve.info](http://awesome.org/iipc/httpreserve.info) - Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang).  💽
 - [hyphe](http://awesome.org/iipc/hyphe) - A webcrawler built for research uses with a graphical user interface in order to build web corpuses made of lists of web actors and maps of links between them.  💽 ⭐ 377 👀 28
-- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14996 👀 66
+- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14997 👀 66
 - [node-cdxj](http://awesome.org/iipc/node-cdxj)  💽 ⭐ 2 👀 2
 - [node-warc](http://awesome.org/iipc/node-warc) - Parse WARC files or create WARC files using either  💽 ⭐ 104 👀 7
 - [py-wasapi-client](http://awesome.org/iipc/py-wasapi-client) - Command line application to download crawls from WASAPI (Python).  💽 ⭐ 16 👀 4

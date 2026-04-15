@@ -45,7 +45,7 @@
 <http://awesome.org/iipc/ArchiveBox> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveBox" ;
-    dct:date "2026-04-15T11:32:24+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T17:09:48+00:00"^^xsd:dateTime ;
     dct:description "A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly " ;
     doap:bug-database <https://github.com/ArchiveBox/ArchiveBox/issues> ;
     doap:category <http://awesome.org/iipc/In_Development>,
@@ -59,7 +59,7 @@
         <https://github.com/ArchiveBox/ArchiveBox.svn> ;
     doap:shortdesc "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..." ;
     owl:sameAs <https://github.com/ArchiveBox/ArchiveBox> ;
-    ns1:num_stars 27237 ;
+    ns1:num_stars 27238 ;
     ns1:num_watchers 183 .
 
 <http://awesome.org/iipc/ArchiveSpark> a sioc:Item,
@@ -512,7 +512,7 @@
 <http://awesome.org/iipc/FlameShot> a sioc:Item,
         doap:Project ;
     rdfs:label "FlameShot" ;
-    dct:date "2026-04-15T13:45:03+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T17:48:58+00:00"^^xsd:dateTime ;
     dct:description "Screen capture and annotation on Ubuntu." ;
     doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
@@ -525,7 +525,7 @@
         <https://github.com/flameshot-org/flameshot.svn> ;
     doap:shortdesc "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
     owl:sameAs <https://github.com/flameshot-org/flameshot> ;
-    ns1:num_stars 29695 ;
+    ns1:num_stars 29696 ;
     ns1:num_watchers 213 .
 
 <http://awesome.org/iipc/Go_Get_Crawl> a sioc:Item,
@@ -1445,7 +1445,7 @@
 <http://awesome.org/iipc/Wpull> a sioc:Item,
         doap:Project ;
     rdfs:label "Wpull" ;
-    dct:date "2026-04-12T11:50:31+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T17:22:29+00:00"^^xsd:dateTime ;
     dct:description "A Wget-compatible (or remake/clone/replacement/alternative) web downloader and crawler. " ;
     doap:bug-database <https://github.com/ArchiveTeam/wpull/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1458,7 +1458,7 @@
         <https://github.com/ArchiveTeam/wpull.svn> ;
     doap:shortdesc "Wget-compatible web downloader and crawler." ;
     owl:sameAs <https://github.com/ArchiveTeam/wpull> ;
-    ns1:num_stars 605 ;
+    ns1:num_stars 606 ;
     ns1:num_watchers 21 .
 
 <http://awesome.org/iipc/Xenu> a sioc:Item,
@@ -1737,7 +1737,7 @@
 <http://awesome.org/iipc/monolith> a sioc:Item,
         doap:Project ;
     rdfs:label "monolith" ;
-    dct:date "2026-04-15T15:25:47+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T17:48:38+00:00"^^xsd:dateTime ;
     dct:description "CLI tool to save a web page as a single HTML file. " ;
     doap:bug-database <https://github.com/Y2Z/monolith/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1751,7 +1751,7 @@
         <https://github.com/Y2Z/monolith.svn> ;
     doap:shortdesc "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
     owl:sameAs <https://github.com/Y2Z/monolith> ;
-    ns1:num_stars 14996 ;
+    ns1:num_stars 14997 ;
     ns1:num_watchers 66 .
 
 <http://awesome.org/iipc/node-cdxj> a sioc:Item,
