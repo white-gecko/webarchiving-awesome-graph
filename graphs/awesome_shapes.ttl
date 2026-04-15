@@ -1,0 +1,190 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix awdoap: <http://www.example.org/awesome-doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix siodc: <https://siodc.example.org/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xmls: <http://www.w3.org/2001/XMLSchema#> .
+
+
+awdoap:doap_Project a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property awdoap:dct_date,
+        awdoap:dct_description,
+        awdoap:doap_bug-database,
+        awdoap:doap_category,
+        awdoap:doap_created,
+        awdoap:doap_description,
+        awdoap:doap_developer,
+        awdoap:doap_homepage,
+        awdoap:doap_license,
+        awdoap:doap_repository,
+        awdoap:doap_shortdesc,
+        awdoap:siodc_num_stars,
+        awdoap:siodc_num_watchers,
+        awdoap:owl_sameAs,
+        awdoap:rdfs_label,
+        awdoap:rdfs_seeAlso ;
+    sh:targetClass doap:Project .
+
+awdoap:doap_Repository a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property awdoap:doap_browse,
+        awdoap:doap_location ;
+    sh:targetClass doap:Repository .
+
+awdoap:foaf_Agent a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:targetClass foaf:Agent .
+
+awdoap:foaf_Organization a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:targetClass foaf:Organization .
+
+awdoap:sioc_Item a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property awdoap:dct_date,
+        awdoap:dct_description,
+        awdoap:doap_category,
+        awdoap:doap_created,
+        awdoap:doap_description,
+        awdoap:doap_developer,
+        awdoap:doap_homepage,
+        awdoap:doap_license,
+        awdoap:doap_shortdesc,
+        awdoap:owl_sameAs,
+        awdoap:rdfs_label,
+        awdoap:rdfs_seeAlso ;
+    sh:targetClass sioc:Item .
+
+awdoap:sioc_User a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:targetClass sioc:User .
+
+awdoap:skos_Concept a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property awdoap:dct_description,
+        awdoap:rdfs_label,
+        awdoap:skos_broader,
+        awdoap:skos_narrower ;
+    sh:targetClass skos:Concept .
+
+awdoap:doap_developer-class-0 sh:class sioc:User .
+
+awdoap:doap_developer-class-1 sh:class foaf:Agent .
+
+awdoap:doap_developer-class-2 sh:class foaf:Organization .
+
+awdoap:doap_developer-classlist-0 rdf:first awdoap:doap_developer-class-0 ;
+    rdf:rest awdoap:doap_developer-classlist-1 .
+
+awdoap:doap_developer-classlist-1 rdf:first awdoap:doap_developer-class-1 ;
+    rdf:rest awdoap:doap_developer-classlist-2 .
+
+awdoap:doap_developer-classlist-2 rdf:first awdoap:doap_developer-class-2 ;
+    rdf:rest () .
+
+doap:SVNRepository rdfs:subClassOf doap:Repository .
+doap:GitRepository rdfs:subClassOf doap:Repository .
+
+awdoap:skos_broader a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:nodeKind sh:IRI ;
+    sh:path skos:broader .
+
+awdoap:skos_narrower a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:nodeKind sh:IRI ;
+    sh:path skos:narrower .
+
+awdoap:dct_date a sh:PropertyShape ;
+    sh:datatype xmls:dateTime ;
+    sh:nodeKind sh:Literal ;
+    sh:path dct:date .
+
+awdoap:doap_browse a sh:PropertyShape ;
+    sh:class doap:Project ;
+    sh:nodeKind sh:IRI ;
+    sh:path doap:browse .
+
+awdoap:doap_bug-database a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path doap:bug-database .
+
+awdoap:doap_created a sh:PropertyShape ;
+    sh:datatype xmls:dateTime ;
+    sh:nodeKind sh:Literal ;
+    sh:path doap:created .
+
+awdoap:doap_description a sh:PropertyShape ;
+    sh:datatype xmls:string ;
+    sh:nodeKind sh:Literal ;
+    sh:path doap:description .
+
+awdoap:doap_developer a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:or awdoap:doap_developer-classlist-0 ;
+    sh:path doap:developer .
+
+awdoap:doap_homepage a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path doap:homepage .
+
+awdoap:doap_license a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path doap:license .
+
+awdoap:doap_location a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path doap:location .
+
+awdoap:doap_repository a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:class doap:Repository ;
+    sh:path doap:repository .
+
+awdoap:doap_shortdesc a sh:PropertyShape ;
+    sh:datatype xmls:string ;
+    sh:nodeKind sh:Literal ;
+    sh:path doap:shortdesc .
+
+awdoap:siodc_num_stars a sh:PropertyShape ;
+    sh:datatype xmls:integer ;
+    sh:nodeKind sh:Literal ;
+    sh:path siodc:num_stars .
+
+awdoap:siodc_num_watchers a sh:PropertyShape ;
+    sh:datatype xmls:integer ;
+    sh:nodeKind sh:Literal ;
+    sh:path siodc:num_watchers .
+
+awdoap:rdfs_seeAlso a sh:PropertyShape ;
+    sh:class doap:Project ;
+    sh:nodeKind sh:IRI ;
+    sh:path rdfs:seeAlso .
+
+awdoap:doap_category a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:nodeKind sh:IRI ;
+    sh:path doap:category .
+
+awdoap:owl_sameAs a sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path owl:sameAs .
+
+awdoap:dct_description a sh:PropertyShape ;
+    sh:datatype xmls:string ;
+    sh:nodeKind sh:Literal ;
+    sh:path dct:description .
+
+awdoap:rdfs_label a sh:PropertyShape ;
+    sh:datatype xmls:string ;
+    sh:nodeKind sh:Literal ;
+    sh:path rdfs:label .
+
+## shape file generated by SHACLGEN
