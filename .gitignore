@@ -1,3 +1,5 @@
 __pycache__
 .ruff_cache
 custom.env
+graphs/any.ttl
+graphs/readme.ttl
