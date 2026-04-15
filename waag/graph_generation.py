@@ -1,4 +1,5 @@
 from rdflib import Graph, URIRef
+from rdflib.namespace import NamespaceManager
 from gitdoap import doapit
 from pathlib import Path
 from .list_parser import ListParser
@@ -16,9 +17,12 @@ def call_and_write(callable, path, prefixes=None):
     """
     path.parent.mkdir(parents=True, exist_ok=True)
     graph = callable()
+    for prefix, namespace in prefixes:
+        graph.bind(prefix, namespace)
+
     with open(path, mode="wb") as file:
         print(f"Write out to: {path}", end="...")
-        graph.serialize(destination=file, format="turtle", namespaces=prefixes)
+        graph.serialize(destination=file, format="turtle")
         print("done")
 
 
