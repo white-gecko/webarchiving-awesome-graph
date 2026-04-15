@@ -235,7 +235,7 @@ groups:
 
 ### Acquisition
 
-- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27238 👀 183
+- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27240 👀 183
 - [ArchiveWeb.Page](http://awesome.org/iipc/ArchiveWeb.Page) - A plugin for Chrome and other Chromium based browsers that lets you interactively archive web pages, replay them, and export them as WARC & WACZ files. Also available as an Electron based desktop application. 💽
 - [Auto Archiver](http://awesome.org/iipc/Auto_Archiver) - Python script to automatically archive social media posts, videos, and images from a Google Sheets document. Read the  💽 ⭐ 1062 👀 22
 - [Browsertrix Crawler](http://awesome.org/iipc/Browsertrix_Crawler) - A Chromium based high-fidelity crawling system, designed to run a complex, customizable browser-based crawl in a single Docker container.  💽 ⭐ 1020 👀 23
@@ -278,7 +278,7 @@ groups:
 
 ## In Development
 
-- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27238 👀 183
+- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27240 👀 183
 - [Chronicler](http://awesome.org/iipc/Chronicler) - Web browser with record and replay functionality.  💽 ⭐ 92 👀 3
 - [DiskerNet](http://awesome.org/iipc/DiskerNet) - A non-WARC-based tool which hooks into the Chrome browser and archives everything you browse making it available for offline replay.  💽 ⭐ 3899 👀 38
 - [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
