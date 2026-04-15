@@ -934,7 +934,7 @@
 <http://awesome.org/iipc/SingleFile> a sioc:Item,
         doap:Project ;
     rdfs:label "SingleFile" ;
-    dct:date "2026-04-15T13:58:01+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T14:51:06+00:00"^^xsd:dateTime ;
     dct:description "Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. " ;
     doap:bug-database <https://github.com/gildas-lormeau/SingleFile/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -948,7 +948,7 @@
         <https://github.com/gildas-lormeau/SingleFile.svn> ;
     doap:shortdesc "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
     owl:sameAs <https://github.com/gildas-lormeau/SingleFile> ;
-    ns1:num_stars 20908 ;
+    ns1:num_stars 20907 ;
     ns1:num_watchers 138 .
 
 <http://awesome.org/iipc/SiteStory> a sioc:Item,
@@ -1302,7 +1302,7 @@
 <http://awesome.org/iipc/Wayback> a sioc:Item,
         doap:Project ;
     rdfs:label "Wayback" ;
-    dct:date "2026-04-15T09:39:01+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T14:51:04+00:00"^^xsd:dateTime ;
     dct:description "A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond. " ;
     doap:bug-database <https://github.com/wabarc/wayback/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1316,7 +1316,7 @@
         <https://github.com/wabarc/wayback.svn> ;
     doap:shortdesc "An archiving tool with an IM-style interface that prioritizes privacy and accessibility, integrated with various archival services including Internet Archive, archive.today, Ghostarchive, IPFS, Telegraph, and file systems." ;
     owl:sameAs <https://github.com/wabarc/wayback> ;
-    ns1:num_stars 2173 ;
+    ns1:num_stars 2174 ;
     ns1:num_watchers 7 .
 
 <http://awesome.org/iipc/Waybackpy> a sioc:Item,
