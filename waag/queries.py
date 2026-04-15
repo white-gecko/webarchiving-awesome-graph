@@ -15,7 +15,16 @@ prefixes = dedent("""
 
 
 def spo(file_path):
-    """This query just passes on all triples from the sparql-anything service to the default graph."""
+    """Get all triples from the markdown file.
+
+    This query passes on all triples from the sparql-anything service to the default graph.
+
+    Args:
+        file_path (str): Path to the markdown file
+
+    Returns:
+        str: SPARQL query string
+    """
     return dedent(f"""
         construct {{
             ?s ?p ?o
@@ -28,7 +37,17 @@ def spo(file_path):
 
 
 def concept_taxonomy(file_path, base_iri):
-    """This query extracts all concepts and their taxonomy from the document."""
+    """Extract concept taxonomy from the markdown file.
+
+    This query extracts all concepts and their taxonomy from the document.
+
+    Args:
+        file_path (str): Path to the markdown file
+        base_iri (str): Base IRI for the generated resources
+
+    Returns:
+        str: SPARQL query string
+    """
     return prefixes + dedent(f"""
         construct {{
             ?concept_iri a skos:Concept ;
@@ -92,7 +111,17 @@ def concept_taxonomy(file_path, base_iri):
 
 
 def concept_description(file_path, base_iri):
-    """This query extracts the concept's descriptions from the document."""
+    """Extract concept descriptions from the markdown file.
+
+    This query extracts the concept's descriptions from the document.
+
+    Args:
+        file_path (str): Path to the markdown file
+        base_iri (str): Base IRI for the generated resources
+
+    Returns:
+        str: SPARQL query string
+    """
     return prefixes + dedent(f"""
         construct {{
             ?concept_iri a skos:Concept ;
@@ -141,7 +170,17 @@ def concept_description(file_path, base_iri):
 
 
 def awesome_items(file_path, base_iri):
-    """Get the actual awesome items from the list."""
+    """Extract awesome items from the markdown file.
+
+    Get the actual awesome items from the list.
+
+    Args:
+        file_path (str): Path to the markdown file
+        base_iri (str): Base IRI for the generated resources
+
+    Returns:
+        str: SPARQL query string
+    """
 
     return prefixes + dedent(f"""
         construct {{
@@ -215,11 +254,16 @@ def awesome_items(file_path, base_iri):
 
 
 def merge_blank_categories():
-    """Assign the named node categories to the projects based on the label.
+    """Merge blank categories with named categories.
+
+    Assign the named node categories to the projects based on the label.
 
     During the item extraction (`awesome_items()`), the projects get blank nodes as categories,
     while the category IRIs are minted in `concept_taxonomy()`.
     In this query the blank nodes are merged with the named nodes.
+
+    Returns:
+        str: SPARQL query string
     """
 
     return prefixes + dedent("""
@@ -242,10 +286,18 @@ def merge_blank_categories():
 
 
 def identify_tools(base_iri):
-    """Make all tools doap projects.
+    """Identify tools as DOAP projects.
 
-    During the item extraction (`awesome_items()`) all items of the awesoe list are treated as doap:Items.
-    In this step all items in the `tools--software` category additinally assigned to the class doap:Project.
+    Make all tools doap projects.
+
+    During the item extraction (`awesome_items()`) all items of the awesome list are treated as doap:Items.
+    In this step all items in the `tools--software` category are additionally assigned to the class doap:Project.
+
+    Args:
+        base_iri (str): Base IRI for the generated resources
+
+    Returns:
+        str: SPARQL query string
     """
 
     return prefixes + dedent(f"""
@@ -263,9 +315,14 @@ def identify_tools(base_iri):
 
 
 def list_projects():
-    """Select all projects and their platform project URLs, i.e., the URL of the respective GitHub project.
+    """List all projects and their platform project URLs.
+
+    Select all projects and their platform project URLs, i.e., the URL of the respective GitHub project.
 
     It is assumed, that the GitHub project is linked as owl:sameAs.
+
+    Returns:
+        str: SPARQL query string
     """
 
     return prefixes + dedent("""
