@@ -512,7 +512,7 @@
 <http://awesome.org/iipc/FlameShot> a sioc:Item,
         doap:Project ;
     rdfs:label "FlameShot" ;
-    dct:date "2026-04-15T11:52:31+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T13:45:03+00:00"^^xsd:dateTime ;
     dct:description "Screen capture and annotation on Ubuntu." ;
     doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
@@ -525,7 +525,7 @@
         <https://github.com/flameshot-org/flameshot.svn> ;
     doap:shortdesc "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
     owl:sameAs <https://github.com/flameshot-org/flameshot> ;
-    ns1:num_stars 29693 ;
+    ns1:num_stars 29695 ;
     ns1:num_watchers 213 .
 
 <http://awesome.org/iipc/Go_Get_Crawl> a sioc:Item,
@@ -934,7 +934,7 @@
 <http://awesome.org/iipc/SingleFile> a sioc:Item,
         doap:Project ;
     rdfs:label "SingleFile" ;
-    dct:date "2026-04-15T09:36:24+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T13:58:01+00:00"^^xsd:dateTime ;
     dct:description "Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. " ;
     doap:bug-database <https://github.com/gildas-lormeau/SingleFile/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -948,7 +948,7 @@
         <https://github.com/gildas-lormeau/SingleFile.svn> ;
     doap:shortdesc "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
     owl:sameAs <https://github.com/gildas-lormeau/SingleFile> ;
-    ns1:num_stars 20906 ;
+    ns1:num_stars 20908 ;
     ns1:num_watchers 138 .
 
 <http://awesome.org/iipc/SiteStory> a sioc:Item,
@@ -1617,7 +1617,7 @@
 <http://awesome.org/iipc/grab-site> a sioc:Item,
         doap:Project ;
     rdfs:label "grab-site" ;
-    dct:date "2026-04-15T11:16:01+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T13:57:52+00:00"^^xsd:dateTime ;
     dct:description "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns. " ;
     doap:bug-database <https://github.com/ArchiveTeam/grab-site/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1629,7 +1629,7 @@
         <https://github.com/ArchiveTeam/grab-site.svn> ;
     doap:shortdesc "The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns" ;
     owl:sameAs <https://github.com/ArchiveTeam/grab-site> ;
-    ns1:num_stars 1563 ;
+    ns1:num_stars 1564 ;
     ns1:num_watchers 39 .
 
 <http://awesome.org/iipc/har2warc> a sioc:Item,
@@ -1737,7 +1737,7 @@
 <http://awesome.org/iipc/monolith> a sioc:Item,
         doap:Project ;
     rdfs:label "monolith" ;
-    dct:date "2026-04-15T11:32:55+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-15T13:39:18+00:00"^^xsd:dateTime ;
     dct:description "CLI tool to save a web page as a single HTML file. " ;
     doap:bug-database <https://github.com/Y2Z/monolith/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1751,7 +1751,7 @@
         <https://github.com/Y2Z/monolith.svn> ;
     doap:shortdesc "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
     owl:sameAs <https://github.com/Y2Z/monolith> ;
-    ns1:num_stars 14996 ;
+    ns1:num_stars 14997 ;
     ns1:num_watchers 66 .
 
 <http://awesome.org/iipc/node-cdxj> a sioc:Item,
