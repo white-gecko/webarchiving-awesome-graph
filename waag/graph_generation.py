@@ -5,7 +5,7 @@ from .list_parser import ListParser
 from . import queries
 
 
-def call_and_write(callable, path):
+def call_and_write(callable, path, prefixes=None):
     """Serialize and write a graph to a file.
 
     This helper function takes a callable that returns a graph and writes it to a specified path.
@@ -18,7 +18,7 @@ def call_and_write(callable, path):
     graph = callable()
     with open(path, mode="wb") as file:
         print(f"Write out to: {path}", end="...")
-        graph.serialize(destination=file, format="turtle")
+        graph.serialize(destination=file, format="turtle", namespaces=prefixes)
         print("done")
 
 
@@ -36,6 +36,8 @@ class GraphGeneration:
             self.graph = Graph()
         self.parser = None
         self.doap_graph = None
+        self.prefixes = None
+
 
     def fetch_doap(self):
         """Fetch DOAP information for all projects.
@@ -100,12 +102,17 @@ class GraphGeneration:
         """
         readme = output_dir / "readme.ttl"
         doap = output_dir / "doap.ttl"
+        prefixes = output_dir / "prefixes.ttl"
         if readme.exists():
             self.graph = Graph()
             self.graph.parse(readme)
         if doap.exists():
             self.doap_graph = Graph()
             self.doap_graph.parse(doap)
+        if prefixes.exists():
+            self.prefixes_graph = Graph()
+            self.prefixes_graph.parse(prefixes)
+            self.prefixes = list(self.prefixes_graph.namespaces())
 
     def get_awesome_graph(self):
         """Merge the main graph with the DOAP graph.
@@ -132,10 +139,10 @@ class GraphGeneration:
         if not self.parser:
             self.parser = ListParser(readme, self.base_iri)
 
-        call_and_write(self.parser.parse, output_dir / "any.ttl")
-        call_and_write(self.parser.get_readme_graph, output_dir / "readme.ttl")
-        call_and_write(self.fetch_doap, output_dir / "doap.ttl")
-        call_and_write(self.get_awesome_graph, output_dir / "awesome.ttl")
+        call_and_write(self.parser.parse, output_dir / "any.ttl", self.prefixes)
+        call_and_write(self.parser.get_readme_graph, output_dir / "readme.ttl", self.prefixes)
+        call_and_write(self.fetch_doap, output_dir / "doap.ttl", self.prefixes)
+        call_and_write(self.get_awesome_graph, output_dir / "awesome.ttl", self.prefixes)
 
     def rename_resource(self, graph: Graph, resource_from: URIRef, resource_to: URIRef):
         """Rename a resource in a graph by moving all triples from one subject to another.
