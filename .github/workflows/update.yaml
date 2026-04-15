@@ -8,10 +8,8 @@ on:
     - cron:  '30 * * * *'
 
 env:
-  # AW_BRANCH: main
-  # AW_REPO: "iipc/awesome-web-archiving"
-  AW_BRANCH: lint-syntax-change
-  AW_REPO: "white-gecko/awesome-web-archiving"
+  AW_BRANCH: main
+  AW_REPO: "iipc/awesome-web-archiving"
   WAAG_BRANCH: main
 
 jobs:
