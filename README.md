@@ -18,11 +18,11 @@
 - [Tools & Software](#tools--software)
   - [Curation](#curation)
   - [Replay](#replay)
-  - [Utilities](#utilities)
   - [Analysis](#analysis)
   - [Quality Assurance](#quality-assurance)
   - [Search & Discovery](#search--discovery)
   - [WARC I/O Libraries](#warc-i/o-libraries)
+  - [Utilities](#utilities)
   - [Acquisition](#acquisition)
 - [In Development](#in-development)
 - [Stable](#stable)
@@ -143,16 +143,6 @@ groups:
 - [ReplayWeb.page](http://awesome.org/iipc/ReplayWeb.page) - A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application.  💽
 - [warc2html](http://awesome.org/iipc/warc2html) - Converts WARC files to static HTML suitable for browsing offline or rehosting. 💽 ⭐ 51 👀 9
 
-### Utilities
-
-- [ArchiveTools](http://awesome.org/iipc/ArchiveTools) - Collection of tools to extract and interact with WARC files (Python). 💽 ⭐ 78 👀 5
-- [Go Get Crawl](http://awesome.org/iipc/Go_Get_Crawl) - Extract web archive data using  💽 ⭐ 175 👀 2
-- [bagnabit2warc](http://awesome.org/iipc/bagnabit2warc) - Convert a  💽
-- [cdx-toolkit](http://awesome.org/iipc/cdx-toolkit) - Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure.  💽
-- [duckdb-web-archive-cdx](http://awesome.org/iipc/duckdb-web-archive-cdx) - DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL.  💽 ⭐ 17
-- [gowarcserver](http://awesome.org/iipc/gowarcserver)  💽 ⭐ 17 👀 5
-- [har2warc](http://awesome.org/iipc/har2warc) - Convert HTTP Archive (HAR) -> Web Archive (WARC) format (Python). 💽 ⭐ 56 👀 6
-
 ### Analysis
 
 - [ArchiveSpark](http://awesome.org/iipc/ArchiveSpark) - An Apache Spark framework (not only) for Web Archives that enables easy data processing, extraction as well as derivation.  💽 ⭐ 158 👀 15
@@ -212,6 +202,37 @@ groups:
 - [warctools](http://awesome.org/iipc/warctools) - Library to work with ARC and WARC files (Python). 💽 ⭐ 171 👀 38
 - [webarchive](http://awesome.org/iipc/webarchive) - Golang readers for ARC and WARC webarchive formats (Golang). 💽 ⭐ 20 👀 6
 
+### Utilities
+
+- [ArchiveTools](http://awesome.org/iipc/ArchiveTools) - Collection of tools to extract and interact with WARC files (Python). 💽 ⭐ 78 👀 5
+- [Go Get Crawl](http://awesome.org/iipc/Go_Get_Crawl) - Extract web archive data using  💽 ⭐ 175 👀 2
+- [HTTPreserve linkstat](http://awesome.org/iipc/HTTPreserve_linkstat) - Command line implementation of  💽 ⭐ 10 👀 1
+- [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1846 👀 54
+- [MemGator](http://awesome.org/iipc/MemGator) - A Memento Aggregator CLI and Server (Golang).  💽 ⭐ 78 👀 10
+- [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
+- [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 38 👀 19
+- [The Unarchiver](http://awesome.org/iipc/The_Unarchiver) - Program to extract the contents of many archive formats, inclusive of WARC, to a file system. Free variant of The Archive Browser (macOS only, Proprietary app). 💽
+- [WarcPartitioner](http://awesome.org/iipc/WarcPartitioner) - Partition (W)ARC Files by MIME Type and Year.  💽 ⭐ 1 👀 1
+- [Warchaeology](http://awesome.org/iipc/Warchaeology) - Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files.  💽
+- [bagnabit2warc](http://awesome.org/iipc/bagnabit2warc) - Convert a  💽
+- [cdx-toolkit](http://awesome.org/iipc/cdx-toolkit) - Library and CLI to consult cdx indexes and create WARC extractions of subsets. Abstracts away Common Crawl's unusual crawl structure.  💽
+- [duckdb-web-archive-cdx](http://awesome.org/iipc/duckdb-web-archive-cdx) - DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL.  💽 ⭐ 17
+- [gowarcserver](http://awesome.org/iipc/gowarcserver)  💽 ⭐ 17 👀 5
+- [har2warc](http://awesome.org/iipc/har2warc) - Convert HTTP Archive (HAR) -> Web Archive (WARC) format (Python). 💽 ⭐ 56 👀 6
+- [httpreserve.info](http://awesome.org/iipc/httpreserve.info) - Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang).  💽
+- [httrack2warc](http://awesome.org/iipc/httrack2warc) - Convert HTTrack archives to WARC format (Java). 💽 ⭐ 34 👀 18
+- [node-cdxj](http://awesome.org/iipc/node-cdxj)  💽 ⭐ 2 👀 2
+- [py-wasapi-client](http://awesome.org/iipc/py-wasapi-client) - Command line application to download crawls from WASAPI (Python).  💽 ⭐ 16 👀 4
+- [tikalinkextract](http://awesome.org/iipc/tikalinkextract) - Extract hyperlinks as a seed for web archiving from folders of document types that can be parsed by Apache Tika (Golang, Apache Tika Server).  💽 ⭐ 11 👀 2
+- [warc-safe](http://awesome.org/iipc/warc-safe) - Automatic detection of viruses and NSFW content in WARC files. 💽 ⭐ 18 👀 4
+- [warcbench](http://awesome.org/iipc/warcbench) - A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files. 💽 ⭐ 9 👀 2
+- [warcdb](http://awesome.org/iipc/warcdb) - A command line utility (Python) for importing WARC files into a SQLite database.  💽 ➡️ moved to https://github.com/Florents-Tselai/WarcDB
+- [warcdedupe](http://awesome.org/iipc/warcdedupe) - WARC deduplication tool (and WARC library) written in Rust.  💽
+- [warcrefs](http://awesome.org/iipc/warcrefs) - Web archive deduplication tools.  💽 ⭐ 10 👀 4
+- [wasapi-downloader](http://awesome.org/iipc/wasapi-downloader) - Java command line application to download crawls from WASAPI.  💽 ➡️ moved to https://github.com/sul-dlss-deprecated/wasapi-downloader
+- [webarchive-indexing](http://awesome.org/iipc/webarchive-indexing) - Tools for bulk indexing of WARC/ARC files on Hadoop, EMR or local file system. 💽 ⭐ 47 👀 8
+- [wikiteam](http://awesome.org/iipc/wikiteam) - Tools for downloading and preserving wikis.  💽 ⭐ 826 👀 37
+
 ### Acquisition
 
 - [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27152 👀 182
@@ -260,6 +281,7 @@ groups:
 - [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27152 👀 182
 - [Chronicler](http://awesome.org/iipc/Chronicler) - Web browser with record and replay functionality.  💽 ⭐ 92 👀 3
 - [DiskerNet](http://awesome.org/iipc/DiskerNet) - A non-WARC-based tool which hooks into the Chrome browser and archives everything you browse making it available for offline replay.  💽 ⭐ 3899 👀 38
+- [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
 - [Squidwarc](http://awesome.org/iipc/Squidwarc) - An  💽 ⭐ 174 👀 9
 - [Tweet Archvies Unleashed Toolkit](http://awesome.org/iipc/Tweet_Archvies_Unleashed_Toolkit) - An open-source toolkit for analyzing line-oriented JSON Twitter archives with Apache Spark.  💽 ⭐ 10 👀 3
 - [Warcat-rs](http://awesome.org/iipc/Warcat-rs) - Command-line tool and Rust library for handling Web ARChive (WARC) files.  💽 ⭐ 29 👀 1
@@ -270,6 +292,8 @@ groups:
 - [duckdb-web-archive-cdx](http://awesome.org/iipc/duckdb-web-archive-cdx) - DuckDB extension to query the Internet Archive and CommonCrawl CDX APIs directly from SQL.  💽 ⭐ 17
 - [freeze-dry](http://awesome.org/iipc/freeze-dry) - JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions.  💽 ⭐ 301 👀 10
 - [playback](http://awesome.org/iipc/playback) - A toolkit for searching archived webpages from  💽 ⭐ 13 👀 2
+- [tikalinkextract](http://awesome.org/iipc/tikalinkextract) - Extract hyperlinks as a seed for web archiving from folders of document types that can be parsed by Apache Tika (Golang, Apache Tika Server).  💽 ⭐ 11 👀 2
+- [warcdedupe](http://awesome.org/iipc/warcdedupe) - WARC deduplication tool (and WARC library) written in Rust.  💽
 
 
 ## Stable
@@ -287,14 +311,18 @@ groups:
 - [Crawl](http://awesome.org/iipc/Crawl) - A simple web crawler in Golang.  💽
 - [F(b)arc](http://awesome.org/iipc/F%28b%29arc) - A commandline tool and Python library for archiving data from  💽 ⭐ 78 👀 15
 - [Go Get Crawl](http://awesome.org/iipc/Go_Get_Crawl) - Extract web archive data using  💽 ⭐ 175 👀 2
+- [HTTPreserve linkstat](http://awesome.org/iipc/HTTPreserve_linkstat) - Command line implementation of  💽 ⭐ 10 👀 1
 - [HTTrack](http://awesome.org/iipc/HTTrack) - An open source website copying utility.  💽
 - [HadoopConcatGz](http://awesome.org/iipc/HadoopConcatGz) - A Splitable Hadoop InputFormat for Concatenated GZIP Files (and  💽 ⭐ 9 👀 2
 - [Heritrix](http://awesome.org/iipc/Heritrix) - An open source, extensible, web-scale, archival quality web crawler.  💽
+- [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1846 👀 54
 - [Jwat](http://awesome.org/iipc/Jwat) - Libraries for reading/writing/validating WARC/ARC/GZIP files (Java).  💽 ⭐ 4 👀 6
 - [Jwat-Tools](http://awesome.org/iipc/Jwat-Tools) - Tools for reading/writing/validating WARC/ARC/GZIP files (Java).  💽 ⭐ 5 👀 5
+- [MemGator](http://awesome.org/iipc/MemGator) - A Memento Aggregator CLI and Server (Golang).  💽 ⭐ 78 👀 10
 - [Mink](http://awesome.org/iipc/Mink) - A  💽 ⭐ 58 👀 3
 - [Obelisk](http://awesome.org/iipc/Obelisk) - Go package and CLI tool for saving web page as single HTML file.  💽 ⭐ 309 👀 8
 - [OpenWayback](http://awesome.org/iipc/OpenWayback) - The open source project aimed to develop Wayback Machine, the key software used by web archives worldwide to play back archived websites in the user's browser.  💽
+- [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 38 👀 19
 - [PANDORÆ](http://awesome.org/iipc/PANDOR%C3%86) - A desktop research software to be plugged on a Solr endpoint to query, retrieve, normalize and visually explore web archives.  💽 ⭐ 16 👀 1
 - [PYWB](http://awesome.org/iipc/PYWB) - A Python 3 implementation of web archival replay tools, sometimes also known as 'Wayback Machine'.  💽 ⭐ 1639 👀 59
 - [ReplayWeb.page](http://awesome.org/iipc/ReplayWeb.page) - A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application.  💽
@@ -309,7 +337,9 @@ groups:
 - [Tempas v2](http://awesome.org/iipc/Tempas_v2) - Temporal web archive search based on links and anchor texts extracted from the German web from 1996 to 2013 (results are not limited to German pages, e.g.,  💽
 - [WAIL](http://awesome.org/iipc/WAIL) - A graphical user interface (GUI) atop multiple web archiving tools intended to be used as an easy way for anyone to preserve and replay web pages;  💽 ⭐ 394 👀 10
 - [WARCreate](http://awesome.org/iipc/WARCreate) - A  💽
+- [WarcPartitioner](http://awesome.org/iipc/WarcPartitioner) - Partition (W)ARC Files by MIME Type and Year.  💽 ⭐ 1 👀 1
 - [Warcat](http://awesome.org/iipc/Warcat) - Tool and library for handling Web ARChive (WARC) files (Python).  💽 ⭐ 165 👀 9
+- [Warchaeology](http://awesome.org/iipc/Warchaeology) - Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files.  💽
 - [Warcprox](http://awesome.org/iipc/Warcprox) - WARC-writing MITM HTTP/S proxy.  💽 ⭐ 447 👀 30
 - [Warcworker](http://awesome.org/iipc/Warcworker) - An open source, dockerized, queued, high fidelity web archiver based on Squidwarc with a simple web GUI.  💽 ⭐ 62 👀 5
 - [Wayback](http://awesome.org/iipc/Wayback) - A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond.  💽 ⭐ 2170 👀 7
@@ -325,11 +355,18 @@ groups:
 - [crau](http://awesome.org/iipc/crau) - crau is the way (most) Brazilians pronounce crawl, it's the easiest command-line tool for archiving the Web and playing archives: you just need a list of URLs.  💽 ⭐ 64 👀 2
 - [grab-site](http://awesome.org/iipc/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns.  💽 ⭐ 1558 👀 39
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
+- [httpreserve.info](http://awesome.org/iipc/httpreserve.info) - Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang).  💽
 - [hyphe](http://awesome.org/iipc/hyphe) - A webcrawler built for research uses with a graphical user interface in order to build web corpuses made of lists of web actors and maps of links between them.  💽 ⭐ 376 👀 28
 - [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 14932 👀 66
+- [node-cdxj](http://awesome.org/iipc/node-cdxj)  💽 ⭐ 2 👀 2
 - [node-warc](http://awesome.org/iipc/node-warc) - Parse WARC files or create WARC files using either  💽 ⭐ 104 👀 7
+- [py-wasapi-client](http://awesome.org/iipc/py-wasapi-client) - Command line application to download crawls from WASAPI (Python).  💽 ⭐ 16 👀 4
 - [twarc](http://awesome.org/iipc/twarc) - A command line tool and Python library for archiving Twitter JSON data.  💽 ⭐ 1393 👀 33
 - [warc](http://awesome.org/iipc/warc) - A Rust library for reading and writing WARC files.  💽 ⭐ 59 👀 2
+- [warcdb](http://awesome.org/iipc/warcdb) - A command line utility (Python) for importing WARC files into a SQLite database.  💽 ➡️ moved to https://github.com/Florents-Tselai/WarcDB
 - [warcio](http://awesome.org/iipc/warcio) - Streaming WARC/ARC library for fast web archive IO (Python).  💽 ⭐ 452 👀 21
+- [warcrefs](http://awesome.org/iipc/warcrefs) - Web archive deduplication tools.  💽 ⭐ 10 👀 4
+- [wasapi-downloader](http://awesome.org/iipc/wasapi-downloader) - Java command line application to download crawls from WASAPI.  💽 ➡️ moved to https://github.com/sul-dlss-deprecated/wasapi-downloader
 - [webarchive-discovery](http://awesome.org/iipc/webarchive-discovery) - WARC and ARC full-text indexing and discovery tools, with a number of associated tools capable of using the index shown below.  💽 ⭐ 132 👀 21
+- [wikiteam](http://awesome.org/iipc/wikiteam) - Tools for downloading and preserving wikis.  💽 ⭐ 826 👀 37
 
