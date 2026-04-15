@@ -250,7 +250,7 @@ groups:
 - [Heritrix](http://awesome.org/iipc/Heritrix) - An open source, extensible, web-scale, archival quality web crawler.  💽
 - [Obelisk](http://awesome.org/iipc/Obelisk) - Go package and CLI tool for saving web page as single HTML file.  💽 ⭐ 311 👀 8
 - [Scoop](http://awesome.org/iipc/Scoop) - High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web.  💽 ⭐ 196 👀 7
-- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20907 👀 138
+- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20908 👀 138
 - [SiteStory](http://awesome.org/iipc/SiteStory) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server.  💽
 - [Social Feed Manager](http://awesome.org/iipc/Social_Feed_Manager) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [Squidwarc](http://awesome.org/iipc/Squidwarc) - An  💽 ⭐ 175 👀 9
@@ -328,7 +328,7 @@ groups:
 - [ReplayWeb.page](http://awesome.org/iipc/ReplayWeb.page) - A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application.  💽
 - [Scoop](http://awesome.org/iipc/Scoop) - High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web.  💽 ⭐ 196 👀 7
 - [Shine](http://awesome.org/iipc/Shine) - A prototype web archives exploration UI, developed with researchers as part of the  💽 ⭐ 43 👀 15
-- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20907 👀 138
+- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20908 👀 138
 - [SiteStory](http://awesome.org/iipc/SiteStory) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server.  💽
 - [Social Feed Manager](http://awesome.org/iipc/Social_Feed_Manager) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [Sparkling](http://awesome.org/iipc/Sparkling) - Internet Archive's Sparkling Data Processing Library.  💽 ⭐ 16 👀 18
