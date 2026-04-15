@@ -1,7 +1,8 @@
 import pysparql_anything as sa
 from pathlib import Path
 from . import queries
-from tempfile import TemporaryFile
+from tempfile import NamedTemporaryFile
+from os import remove
 
 
 class ListParser:
@@ -14,7 +15,8 @@ class ListParser:
             file_path (str): Path to the markdown file
             base_iri (str): Base IRI for the generated resources
         """
-        self.file_path = Path(file_path)
+        self.temp_file = None
+        self.file_path = self.clean_list_file(Path(file_path))
         self.base_iri = base_iri
         self.engine = sa.SparqlAnything()
 
@@ -24,13 +26,13 @@ class ListParser:
         self.awesome_concept_taxonomy = None
         self.awesome_concept_descriptions = None
         self.awesome_items = None
-        self.temp_file = None
 
     def __del__(self):
         """Clean up temporary files when the object is destroyed."""
-        if hasattr(self, 'temp_file'):
+        if self.temp_file:
             try:
                 self.temp_file.close()
+                remove(self.temp_file.name)
             except Exception:
                 pass
 
@@ -44,7 +46,7 @@ class ListParser:
             file_path (Path): Path to the input file
 
         Returns:
-            TemporaryFile: A temporary file with filtered content
+            Path: Path to a temporary file with filtered content
         """
         # Read the content of the file
         with open(file_path, 'r') as f:
@@ -54,13 +56,12 @@ class ListParser:
         filtered_lines = [line for line in lines if not line.strip().startswith('<!--lint')]
 
         # Create a temporary file and write the filtered content
-        self.temp_file = TemporaryFile(mode='w')
+        self.temp_file = NamedTemporaryFile(suffix=".md", mode="w+", delete=False)
         self.temp_file.writelines(filtered_lines)
         self.temp_file.flush()
         self.temp_file.seek(0)
 
-        return self.temp_file
-
+        return Path(self.temp_file.name)
 
     def parse(self):
         """Parse the markdown file into an RDF graph.
