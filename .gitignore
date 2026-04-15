@@ -3,3 +3,4 @@ __pycache__
 custom.env
 graphs/any.ttl
 graphs/readme.ttl
+graphs/doap.ttl
