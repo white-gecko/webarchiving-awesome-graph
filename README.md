@@ -162,7 +162,7 @@ groups:
 - [Chrome Revolver](http://awesome.org/iipc/Chrome_Revolver) - Browser extension: switches between browser tabs. 💽
 - [Chrome link checker](http://awesome.org/iipc/Chrome_link_checker) - Browser extension: basic link checker. 💽
 - [Chrome link gopher](http://awesome.org/iipc/Chrome_link_gopher) - Browser extension: link harvester on a page. 💽
-- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29697 👀 213
+- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29698 👀 213
 - [PlayOnLinux](http://awesome.org/iipc/PlayOnLinux) - For running Xenu and Notepad++ on Ubuntu. 💽
 - [PlayOnMac](http://awesome.org/iipc/PlayOnMac) - For running Xenu and Notepad++ on macOS. 💽
 - [Windows Snipping Tool](http://awesome.org/iipc/Windows_Snipping_Tool) - Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture). 💽
@@ -235,7 +235,7 @@ groups:
 
 ### Acquisition
 
-- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27240 👀 183
+- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27241 👀 183
 - [ArchiveWeb.Page](http://awesome.org/iipc/ArchiveWeb.Page) - A plugin for Chrome and other Chromium based browsers that lets you interactively archive web pages, replay them, and export them as WARC & WACZ files. Also available as an Electron based desktop application. 💽
 - [Auto Archiver](http://awesome.org/iipc/Auto_Archiver) - Python script to automatically archive social media posts, videos, and images from a Google Sheets document. Read the  💽 ⭐ 1062 👀 22
 - [Browsertrix Crawler](http://awesome.org/iipc/Browsertrix_Crawler) - A Chromium based high-fidelity crawling system, designed to run a complex, customizable browser-based crawl in a single Docker container.  💽 ⭐ 1020 👀 23
@@ -278,7 +278,7 @@ groups:
 
 ## In Development
 
-- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27240 👀 183
+- [ArchiveBox](http://awesome.org/iipc/ArchiveBox) - A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly  💽 ⭐ 27241 👀 183
 - [Chronicler](http://awesome.org/iipc/Chronicler) - Web browser with record and replay functionality.  💽 ⭐ 92 👀 3
 - [DiskerNet](http://awesome.org/iipc/DiskerNet) - A non-WARC-based tool which hooks into the Chrome browser and archives everything you browse making it available for offline replay.  💽 ⭐ 3899 👀 38
 - [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
