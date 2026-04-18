@@ -162,13 +162,13 @@ groups:
 - [Chrome Revolver](http://awesome.org/iipc/Chrome_Revolver) - Browser extension: switches between browser tabs. 💽
 - [Chrome link checker](http://awesome.org/iipc/Chrome_link_checker) - Browser extension: basic link checker. 💽
 - [Chrome link gopher](http://awesome.org/iipc/Chrome_link_gopher) - Browser extension: link harvester on a page. 💽
-- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29709 👀 212
+- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29708 👀 212
 - [PlayOnLinux](http://awesome.org/iipc/PlayOnLinux) - For running Xenu and Notepad++ on Ubuntu. 💽
 - [PlayOnMac](http://awesome.org/iipc/PlayOnMac) - For running Xenu and Notepad++ on macOS. 💽
 - [Windows Snipping Tool](http://awesome.org/iipc/Windows_Snipping_Tool) - Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture). 💽
 - [WineBottler](http://awesome.org/iipc/WineBottler) - For running Xenu and Notepad++ on macOS. 💽
 - [Xenu](http://awesome.org/iipc/Xenu) - Desktop link checker for Windows. 💽
-- [xDoTool](http://awesome.org/iipc/xDoTool) - Click automation on Ubuntu. 💽 ⭐ 3776 👀 62
+- [xDoTool](http://awesome.org/iipc/xDoTool) - Click automation on Ubuntu. 💽 ⭐ 3777 👀 62
 
 ### Search & Discovery
 
@@ -207,7 +207,7 @@ groups:
 - [ArchiveTools](http://awesome.org/iipc/ArchiveTools) - Collection of tools to extract and interact with WARC files (Python). 💽 ⭐ 78 👀 5
 - [Go Get Crawl](http://awesome.org/iipc/Go_Get_Crawl) - Extract web archive data using  💽 ⭐ 175 👀 2
 - [HTTPreserve linkstat](http://awesome.org/iipc/HTTPreserve_linkstat) - Command line implementation of  💽 ⭐ 10 👀 1
-- [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1850 👀 54
+- [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1851 👀 54
 - [MemGator](http://awesome.org/iipc/MemGator) - A Memento Aggregator CLI and Server (Golang).  💽 ⭐ 78 👀 10
 - [MementoMap](http://awesome.org/iipc/MementoMap) - A Tool to Summarize Web Archive Holdings (Python).  💽 ⭐ 11 👀 5
 - [OutbackCDX](http://awesome.org/iipc/OutbackCDX) - RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and  💽 ⭐ 41 👀 19
@@ -225,7 +225,7 @@ groups:
 - [py-wasapi-client](http://awesome.org/iipc/py-wasapi-client) - Command line application to download crawls from WASAPI (Python).  💽 ⭐ 16 👀 4
 - [tikalinkextract](http://awesome.org/iipc/tikalinkextract) - Extract hyperlinks as a seed for web archiving from folders of document types that can be parsed by Apache Tika (Golang, Apache Tika Server).  💽 ⭐ 11 👀 2
 - [warc-safe](http://awesome.org/iipc/warc-safe) - Automatic detection of viruses and NSFW content in WARC files. 💽 ⭐ 18 👀 4
-- [warcbench](http://awesome.org/iipc/warcbench) - A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files. 💽 ⭐ 9 👀 2
+- [warcbench](http://awesome.org/iipc/warcbench) - A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files. 💽 ⭐ 10 👀 2
 - [warcdb](http://awesome.org/iipc/warcdb) - A command line utility (Python) for importing WARC files into a SQLite database.  💽 ➡️ moved to https://github.com/Florents-Tselai/WarcDB
 - [warcdedupe](http://awesome.org/iipc/warcdedupe) - WARC deduplication tool (and WARC library) written in Rust.  💽
 - [warcrefs](http://awesome.org/iipc/warcrefs) - Web archive deduplication tools.  💽 ⭐ 10 👀 4
@@ -250,7 +250,7 @@ groups:
 - [Heritrix](http://awesome.org/iipc/Heritrix) - An open source, extensible, web-scale, archival quality web crawler.  💽
 - [Obelisk](http://awesome.org/iipc/Obelisk) - Go package and CLI tool for saving web page as single HTML file.  💽 ⭐ 311 👀 8
 - [Scoop](http://awesome.org/iipc/Scoop) - High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web.  💽 ⭐ 197 👀 7
-- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20917 👀 138
+- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20922 👀 138
 - [SiteStory](http://awesome.org/iipc/SiteStory) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server.  💽
 - [Social Feed Manager](http://awesome.org/iipc/Social_Feed_Manager) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [Squidwarc](http://awesome.org/iipc/Squidwarc) - An  💽 ⭐ 175 👀 9
@@ -259,7 +259,7 @@ groups:
 - [WARCreate](http://awesome.org/iipc/WARCreate) - A  💽
 - [Warcprox](http://awesome.org/iipc/Warcprox) - WARC-writing MITM HTTP/S proxy.  💽 ⭐ 448 👀 30
 - [Warcworker](http://awesome.org/iipc/Warcworker) - An open source, dockerized, queued, high fidelity web archiver based on Squidwarc with a simple web GUI.  💽 ⭐ 62 👀 5
-- [Wayback](http://awesome.org/iipc/Wayback) - A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond.  💽 ⭐ 2176 👀 7
+- [Wayback](http://awesome.org/iipc/Wayback) - A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond.  💽 ⭐ 2177 👀 7
 - [Waybackpy](http://awesome.org/iipc/Waybackpy) -  Wayback Machine Save, CDX and availability API interface in Python and a command-line tool   💽 ⭐ 572 👀 8
 - [Web2Warc](http://awesome.org/iipc/Web2Warc) - An easy-to-use and highly customizable crawler that enables anyone to create their own little Web archives (WARC/CDX).  💽 ⭐ 25 👀 3
 - [WebMemex](http://awesome.org/iipc/WebMemex) - Browser extension for Firefox and Chrome which lets you archive web pages you visit.  💽
@@ -273,7 +273,7 @@ groups:
 - [freeze-dry](http://awesome.org/iipc/freeze-dry) - JavaScript library to turn page into static, self-contained HTML document; useful for browser extensions.  💽 ⭐ 302 👀 10
 - [grab-site](http://awesome.org/iipc/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns.  💽 ⭐ 1564 👀 39
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
-- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 15007 👀 65
+- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 15008 👀 65
 - [twarc](http://awesome.org/iipc/twarc) - A command line tool and Python library for archiving Twitter JSON data.  💽 ⭐ 1392 👀 33
 
 ## In Development
@@ -315,7 +315,7 @@ groups:
 - [HTTrack](http://awesome.org/iipc/HTTrack) - An open source website copying utility.  💽
 - [HadoopConcatGz](http://awesome.org/iipc/HadoopConcatGz) - A Splitable Hadoop InputFormat for Concatenated GZIP Files (and  💽 ⭐ 9 👀 2
 - [Heritrix](http://awesome.org/iipc/Heritrix) - An open source, extensible, web-scale, archival quality web crawler.  💽
-- [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1850 👀 54
+- [Internet Archive Library](http://awesome.org/iipc/Internet_Archive_Library) - A command line tool and Python library for interacting directly with  💽 ⭐ 1851 👀 54
 - [Jwat](http://awesome.org/iipc/Jwat) - Libraries for reading/writing/validating WARC/ARC/GZIP files (Java).  💽 ⭐ 4 👀 6
 - [Jwat-Tools](http://awesome.org/iipc/Jwat-Tools) - Tools for reading/writing/validating WARC/ARC/GZIP files (Java).  💽 ⭐ 5 👀 5
 - [MemGator](http://awesome.org/iipc/MemGator) - A Memento Aggregator CLI and Server (Golang).  💽 ⭐ 78 👀 10
@@ -328,7 +328,7 @@ groups:
 - [ReplayWeb.page](http://awesome.org/iipc/ReplayWeb.page) - A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application.  💽
 - [Scoop](http://awesome.org/iipc/Scoop) - High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web.  💽 ⭐ 197 👀 7
 - [Shine](http://awesome.org/iipc/Shine) - A prototype web archives exploration UI, developed with researchers as part of the  💽 ⭐ 43 👀 15
-- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20917 👀 138
+- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20922 👀 138
 - [SiteStory](http://awesome.org/iipc/SiteStory) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server.  💽
 - [Social Feed Manager](http://awesome.org/iipc/Social_Feed_Manager) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [Sparkling](http://awesome.org/iipc/Sparkling) - Internet Archive's Sparkling Data Processing Library.  💽 ⭐ 16 👀 18
@@ -342,7 +342,7 @@ groups:
 - [Warchaeology](http://awesome.org/iipc/Warchaeology) - Warchaeology is a collection of tools for inspecting, manipulating, deduplicating and validating WARC-files.  💽
 - [Warcprox](http://awesome.org/iipc/Warcprox) - WARC-writing MITM HTTP/S proxy.  💽 ⭐ 448 👀 30
 - [Warcworker](http://awesome.org/iipc/Warcworker) - An open source, dockerized, queued, high fidelity web archiver based on Squidwarc with a simple web GUI.  💽 ⭐ 62 👀 5
-- [Wayback](http://awesome.org/iipc/Wayback) - A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond.  💽 ⭐ 2176 👀 7
+- [Wayback](http://awesome.org/iipc/Wayback) - A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond.  💽 ⭐ 2177 👀 7
 - [Waybackpy](http://awesome.org/iipc/Waybackpy) -  Wayback Machine Save, CDX and availability API interface in Python and a command-line tool   💽 ⭐ 572 👀 8
 - [Web2Warc](http://awesome.org/iipc/Web2Warc) - An easy-to-use and highly customizable crawler that enables anyone to create their own little Web archives (WARC/CDX).  💽 ⭐ 25 👀 3
 - [Web Curator Tool](http://awesome.org/iipc/Web_Curator_Tool) - Open-source workflow management for selective web archiving.  💽
@@ -357,7 +357,7 @@ groups:
 - [html2warc](http://awesome.org/iipc/html2warc) - A simple script to convert offline data into a single WARC file.  💽 ⭐ 23 👀 2
 - [httpreserve.info](http://awesome.org/iipc/httpreserve.info) - Service to return the status of a web page or save it to the Internet Archive. HTTPreserve includes disambiguation of well-known short link services. It returns JSON via the browser or command line via CURL using GET. Describes web sites using earliest and latest dates in the Internet Archive and demonstrates the construction of Robust Links in its output using that range. (Golang).  💽
 - [hyphe](http://awesome.org/iipc/hyphe) - A webcrawler built for research uses with a graphical user interface in order to build web corpuses made of lists of web actors and maps of links between them.  💽 ⭐ 378 👀 28
-- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 15007 👀 65
+- [monolith](http://awesome.org/iipc/monolith) - CLI tool to save a web page as a single HTML file.  💽 ⭐ 15008 👀 65
 - [node-cdxj](http://awesome.org/iipc/node-cdxj)  💽 ⭐ 2 👀 2
 - [node-warc](http://awesome.org/iipc/node-warc) - Parse WARC files or create WARC files using either  💽 ⭐ 104 👀 7
 - [py-wasapi-client](http://awesome.org/iipc/py-wasapi-client) - Command line application to download crawls from WASAPI (Python).  💽 ⭐ 16 👀 4
