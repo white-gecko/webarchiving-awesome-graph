@@ -1,5 +1,9 @@
 # The Web Archive Awesome Graph (WAAG)
 
+The original Awesome List is at: https://github.com/iipc/awesome-web-archiving
+
+The projects can be explored here: https://aksw.github.io/awesome-store/ (very early prototype)
+
 ## Contents
 
 - [Training/Documentation](#training/documentation)
@@ -162,7 +166,7 @@ groups:
 - [Chrome Revolver](http://awesome.org/iipc/Chrome_Revolver) - Browser extension: switches between browser tabs. 💽
 - [Chrome link checker](http://awesome.org/iipc/Chrome_link_checker) - Browser extension: basic link checker. 💽
 - [Chrome link gopher](http://awesome.org/iipc/Chrome_link_gopher) - Browser extension: link harvester on a page. 💽
-- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29732 👀 212
+- [FlameShot](http://awesome.org/iipc/FlameShot) - Screen capture and annotation on Ubuntu. 💽 ⭐ 29733 👀 212
 - [PlayOnLinux](http://awesome.org/iipc/PlayOnLinux) - For running Xenu and Notepad++ on Ubuntu. 💽
 - [PlayOnMac](http://awesome.org/iipc/PlayOnMac) - For running Xenu and Notepad++ on macOS. 💽
 - [Windows Snipping Tool](http://awesome.org/iipc/Windows_Snipping_Tool) - Windows built-in for partial screen capture and annotation. On macOS you can use Command + Shift + 4 (keyboard shortcut for taking partial screen capture). 💽
@@ -250,7 +254,7 @@ groups:
 - [Heritrix](http://awesome.org/iipc/Heritrix) - An open source, extensible, web-scale, archival quality web crawler.  💽
 - [Obelisk](http://awesome.org/iipc/Obelisk) - Go package and CLI tool for saving web page as single HTML file.  💽 ⭐ 311 👀 8
 - [Scoop](http://awesome.org/iipc/Scoop) - High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web.  💽 ⭐ 196 👀 7
-- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20936 👀 138
+- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20937 👀 138
 - [SiteStory](http://awesome.org/iipc/SiteStory) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server.  💽
 - [Social Feed Manager](http://awesome.org/iipc/Social_Feed_Manager) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [Squidwarc](http://awesome.org/iipc/Squidwarc) - An  💽 ⭐ 175 👀 9
@@ -328,7 +332,7 @@ groups:
 - [ReplayWeb.page](http://awesome.org/iipc/ReplayWeb.page) - A browser-based, fully client-side replay engine for both local and remote WARC & WACZ files. Also available as an Electron based desktop application.  💽
 - [Scoop](http://awesome.org/iipc/Scoop) - High-fidelity, browser-based, single-page web archiving library and CLI for witnessing the web.  💽 ⭐ 196 👀 7
 - [Shine](http://awesome.org/iipc/Shine) - A prototype web archives exploration UI, developed with researchers as part of the  💽 ⭐ 43 👀 15
-- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20936 👀 138
+- [SingleFile](http://awesome.org/iipc/SingleFile) - Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file.  💽 ⭐ 20937 👀 138
 - [SiteStory](http://awesome.org/iipc/SiteStory) - A transactional archive that selectively captures and stores transactions that take place between a web client (browser) and a web server.  💽
 - [Social Feed Manager](http://awesome.org/iipc/Social_Feed_Manager) - Open source software that enables users to create social media collections from Twitter, Tumblr, Flickr, and Sina Weibo public APIs.  💽
 - [Sparkling](http://awesome.org/iipc/Sparkling) - Internet Archive's Sparkling Data Processing Library.  💽 ⭐ 16 👀 18
