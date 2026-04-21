@@ -40,9 +40,10 @@ prefix dct: <http://purl.org/dc/terms/>
 prefix doap: <http://usefulinc.com/ns/doap#>
 prefix siodc: <https://siodc.example.org/#>
 
-select ?iri ?title ?description ?class ?stars ?watchers ?moved {
+select ?iri ?link ?title ?description ?class ?stars ?watchers ?moved {
 ?iri doap:category ?resourceIri ;
-  rdfs:label ?title .
+  rdfs:label ?title ;
+  owl:sameAs ?link .
 optional { ?iri dct:description ?description }
 optional { ?iri siodc:num_stars ?stars }
 optional { ?iri siodc:num_watchers ?watchers }
@@ -61,7 +62,7 @@ optional {
 {% endif -%}
 
 {% for item in category_row.iri | query(item_query) -%}
-- [{{item.title}}]({{item.iri}}) {% if item.description %}- {{item.description}}{% endif %}
+- [{{item.title}}]({{item.link}}) {% if item.description %}- {{item.description}}{% endif %}
   {%- if item.class %} 💽{% endif %}
   {%- if item.stars %} ⭐ {{ item.stars }}{% endif %}
   {%- if item.watchers %} 👀 {{ item.watchers }}{% endif %}
