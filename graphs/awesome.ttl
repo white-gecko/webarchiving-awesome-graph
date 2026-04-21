@@ -45,7 +45,7 @@
 <http://awesome.org/iipc/ArchiveBox> a sioc:Item,
         doap:Project ;
     rdfs:label "ArchiveBox" ;
-    dct:date "2026-04-20T21:10:40+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T06:38:00+00:00"^^xsd:dateTime ;
     dct:description "A tool which maintains an additive archive from RSS feeds, bookmarks, and links using wget, Chrome headless, and other methods (formerly " ;
     doap:bug-database <https://github.com/ArchiveBox/ArchiveBox/issues> ;
     doap:category <http://awesome.org/iipc/In_Development>,
@@ -251,7 +251,7 @@
 <http://awesome.org/iipc/Brozzler> a sioc:Item,
         doap:Project ;
     rdfs:label "Brozzler" ;
-    dct:date "2026-04-20T07:47:55+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T08:53:30+00:00"^^xsd:dateTime ;
     dct:description "A distributed web crawler (爬虫) that uses a real browser (Chrome or Chromium) to fetch pages and embedded urls and to extract links. " ;
     doap:bug-database <https://github.com/internetarchive/brozzler/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -264,7 +264,7 @@
         <https://github.com/internetarchive/brozzler.svn> ;
     doap:shortdesc "brozzler - distributed browser-based web crawler" ;
     owl:sameAs <https://github.com/internetarchive/brozzler> ;
-    ns1:num_stars 792 ;
+    ns1:num_stars 793 ;
     ns1:num_watchers 35 .
 
 <http://awesome.org/iipc/Cairn> a sioc:Item,
@@ -512,7 +512,7 @@
 <http://awesome.org/iipc/FlameShot> a sioc:Item,
         doap:Project ;
     rdfs:label "FlameShot" ;
-    dct:date "2026-04-20T22:01:18+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T13:57:49+00:00"^^xsd:dateTime ;
     dct:description "Screen capture and annotation on Ubuntu." ;
     doap:bug-database <https://github.com/flameshot-org/flameshot/issues> ;
     doap:category <http://awesome.org/iipc/quality-assurance> ;
@@ -525,7 +525,7 @@
         <https://github.com/flameshot-org/flameshot.svn> ;
     doap:shortdesc "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:" ;
     owl:sameAs <https://github.com/flameshot-org/flameshot> ;
-    ns1:num_stars 29731 ;
+    ns1:num_stars 29733 ;
     ns1:num_watchers 212 .
 
 <http://awesome.org/iipc/Go_Get_Crawl> a sioc:Item,
@@ -795,7 +795,7 @@
 <http://awesome.org/iipc/OutbackCDX> a sioc:Item,
         doap:Project ;
     rdfs:label "OutbackCDX" ;
-    dct:date "2026-04-15T12:15:02+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T09:25:57+00:00"^^xsd:dateTime ;
     dct:description "RocksDB-based capture index (CDX) server supporting incremental updates and compression. Can be used as backend for OpenWayback, PyWb and " ;
     doap:bug-database <https://github.com/nla/outbackcdx/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -808,7 +808,7 @@
         <https://github.com/nla/outbackcdx.svn> ;
     doap:shortdesc "Web archive index server based on RocksDB" ;
     owl:sameAs <https://github.com/nla/outbackcdx> ;
-    ns1:num_stars 41 ;
+    ns1:num_stars 42 ;
     ns1:num_watchers 19 .
 
 <http://awesome.org/iipc/PANDOR%C3%86> a sioc:Item,
@@ -934,7 +934,7 @@
 <http://awesome.org/iipc/SingleFile> a sioc:Item,
         doap:Project ;
     rdfs:label "SingleFile" ;
-    dct:date "2026-04-21T00:57:19+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T14:12:10+00:00"^^xsd:dateTime ;
     dct:description "Browser extension for Firefox/Chrome and CLI tool to save a faithful copy of a complete page as a single HTML file. " ;
     doap:bug-database <https://github.com/gildas-lormeau/SingleFile/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -948,7 +948,7 @@
         <https://github.com/gildas-lormeau/SingleFile.svn> ;
     doap:shortdesc "Web Extension for saving a faithful copy of a complete web page in a single HTML file" ;
     owl:sameAs <https://github.com/gildas-lormeau/SingleFile> ;
-    ns1:num_stars 20935 ;
+    ns1:num_stars 20937 ;
     ns1:num_watchers 138 .
 
 <http://awesome.org/iipc/SiteStory> a sioc:Item,
@@ -1248,7 +1248,7 @@
 <http://awesome.org/iipc/Warcprox> a sioc:Item,
         doap:Project ;
     rdfs:label "Warcprox" ;
-    dct:date "2026-04-19T20:55:56+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T08:53:00+00:00"^^xsd:dateTime ;
     dct:description "WARC-writing MITM HTTP/S proxy. " ;
     doap:bug-database <https://github.com/internetarchive/warcprox/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1260,7 +1260,7 @@
         <https://github.com/internetarchive/warcprox.svn> ;
     doap:shortdesc "WARC writing MITM HTTP/S proxy" ;
     owl:sameAs <https://github.com/internetarchive/warcprox> ;
-    ns1:num_stars 446 ;
+    ns1:num_stars 447 ;
     ns1:num_watchers 30 .
 
 <http://awesome.org/iipc/Warcworker> a sioc:Item,
@@ -1737,7 +1737,7 @@
 <http://awesome.org/iipc/monolith> a sioc:Item,
         doap:Project ;
     rdfs:label "monolith" ;
-    dct:date "2026-04-20T21:32:51+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T02:57:08+00:00"^^xsd:dateTime ;
     dct:description "CLI tool to save a web page as a single HTML file. " ;
     doap:bug-database <https://github.com/Y2Z/monolith/issues> ;
     doap:category <http://awesome.org/iipc/Stable>,
@@ -1751,7 +1751,7 @@
         <https://github.com/Y2Z/monolith.svn> ;
     doap:shortdesc "⬛️ CLI tool and library for saving complete web pages as a single HTML file" ;
     owl:sameAs <https://github.com/Y2Z/monolith> ;
-    ns1:num_stars 15014 ;
+    ns1:num_stars 15016 ;
     ns1:num_watchers 65 .
 
 <http://awesome.org/iipc/node-cdxj> a sioc:Item,
@@ -1930,7 +1930,7 @@
 <http://awesome.org/iipc/warcbench> a sioc:Item,
         doap:Project ;
     rdfs:label "warcbench" ;
-    dct:date "2026-04-18T00:05:18+00:00"^^xsd:dateTime ;
+    dct:date "2026-04-21T12:40:48+00:00"^^xsd:dateTime ;
     dct:description "A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files." ;
     doap:bug-database <https://github.com/harvard-lil/warcbench/issues> ;
     doap:category <http://awesome.org/iipc/utilities> ;
@@ -1942,7 +1942,7 @@
         <https://github.com/harvard-lil/warcbench.svn> ;
     doap:shortdesc "A tool for exploring, analyzing, transforming, recombining, and extracting data from WARC (Web ARChive) files." ;
     owl:sameAs <https://github.com/harvard-lil/warcbench> ;
-    ns1:num_stars 10 ;
+    ns1:num_stars 12 ;
     ns1:num_watchers 2 .
 
 <http://awesome.org/iipc/warcdb> a sioc:Item,
